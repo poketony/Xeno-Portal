@@ -20,7 +20,7 @@ const sources = [...work.sources, ...(work.image ? [work.image.source] : [])];
     <header class:list={['game-hero', { 'game-hero-gears': isGears }]}>
       <div class="game-copy">
         <p class="eyebrow">{[...new Set(editions.map((edition) => edition.platform))].join(' · ')} / {work.kind}</p>
-        <h1>{isGears ? work.english : work.title}</h1>
+        <h1>{isGears ? <img class="series-logo" src={withBase(parent.logo.src)} alt={work.english} width={parent.logo.width} height={parent.logo.height} fetchpriority="high" /> : work.title}</h1>
         <p class="game-subtitle" lang={isGears ? 'ko' : 'en'}>{isGears ? work.title : work.english}</p>
         <p class="game-intro">{work.summary}</p>
         <ul class="game-highlights" aria-label="게임의 주요 특징">{work.features.map((feature) => <li>{feature}</li>)}</ul>

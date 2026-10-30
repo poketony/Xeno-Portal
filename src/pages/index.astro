@@ -20,7 +20,7 @@ import { seriesUrl, withBase } from '../lib/paths';
       {series.map((item) => <a class={`series-banner ${item.id}`} href={seriesUrl(item.id)}>
         <img class="banner-art" src={withBase(item.artwork?.src ?? `/images/${item.id}.svg`)} alt={item.artwork?.alt ?? ''} width={item.artwork?.width ?? 1000} height={item.artwork?.height ?? 400} loading="lazy" />
         <span class="banner-scan" aria-hidden="true"></span>
-        <div class="banner-content"><span class="banner-topline"><span class="banner-index">{item.number}</span><span>{item.motif}</span></span><h3>{item.name}</h3><p><span class="banner-ko">{item.korean}</span><span class="banner-dash" aria-hidden="true">—</span>{item.id === 'xenoblade' ? '한국닌텐도 공식 홈페이지' : item.tagline}</p></div>
+        <div class="banner-content"><span class="banner-topline"><span class="banner-index">{item.number}</span><span>{item.motif}</span></span><h3><img class="series-logo" src={withBase(item.logo.src)} alt={item.name} width={item.logo.width} height={item.logo.height} loading="lazy" /></h3><p><span class="banner-ko">{item.korean}</span><span class="banner-dash" aria-hidden="true">—</span>{item.id === 'xenoblade' ? '한국닌텐도 공식 홈페이지' : item.tagline}</p></div>
         <span class="banner-arrow" aria-hidden="true">↗</span>
         <span class="sr-only">{item.id === 'xenoblade' ? ' 공식 홈페이지로 이동' : item.id === 'xenogears' ? ' 작품 소개 보기' : ' 시리즈 둘러보기'}</span>
       </a>)}
