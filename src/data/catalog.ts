@@ -3,6 +3,7 @@ export interface Source { title: string; url: string }
 export interface Series {
   id: SeriesId; name: string; korean: string; number: string;
   tagline: string; description: string; motif: string;
+  artwork?: { src: string; alt: string; width: number; height: number };
 }
 export interface Work {
   id: string; series: SeriesId; title: string; english: string; japanese: string;
@@ -23,13 +24,13 @@ const missingYearSource: Source = { title: 'Eiwigkeit: 미싱 이어 공개 당�
 const nintendo = (code: string, title: string): Source => ({ title, url: `https://www.nintendo.com/kr/switch/${code}/index.html` });
 
 export const series: Series[] = [
-  { id: 'xenogears', name: 'Xenogears', korean: '제노기어스', number: '01', tagline: '모든 이야기의 시작', description: '거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치, 관련 기록을 살펴보세요.', motif: 'GEAR / ORIGIN' },
-  { id: 'xenosaga', name: 'Xenosaga', korean: '제노사가', number: '02', tagline: '별의 바다를 건너는 서사', description: '우주를 무대로 펼쳐지는 제노사가. 에피소드와 외전, 그리고 에피소드 II와 III 사이의 미싱 이어를 만나보세요.', motif: 'SPACE / MEMORY' },
-  { id: 'xenoblade', name: 'Xenoblade', korean: '제노블레이드', number: '03', tagline: '새로운 세계를 향한 여정', description: '끝없이 펼쳐지는 대지, 그 위를 살아가는 사람들. 제노블레이드의 본편과 확장 콘텐츠, 여러 판본을 둘러보세요.', motif: 'WORLD / FUTURE' },
+  { id: 'xenogears', name: 'Xenogears', korean: '제노기어스', number: '01', tagline: '모든 이야기의 시작', description: '거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치, 관련 기록을 살펴보세요.', motif: 'GEAR / ORIGIN', artwork: { src: '/images/xenogears-art.webp', alt: '페이와 엘리가 그려진 제노기어스 이미지', width: 600, height: 800 } },
+  { id: 'xenosaga', name: 'Xenosaga', korean: '제노사가', number: '02', tagline: '별의 바다를 건너는 서사', description: '우주를 무대로 펼쳐지는 제노사가. 에피소드와 외전, 그리고 에피소드 II와 III 사이의 미싱 이어를 만나보세요.', motif: 'SPACE / MEMORY', artwork: { src: '/images/xenosaga-art.webp', alt: 'KOS-MOS의 옆모습을 담은 제노사가 이미지', width: 1000, height: 681 } },
+  { id: 'xenoblade', name: 'Xenoblade', korean: '제노블레이드', number: '03', tagline: '새로운 세계를 향한 여정', description: '끝없이 펼쳐지는 대지, 그 위를 살아가는 사람들. 제노블레이드의 본편과 확장 콘텐츠, 여러 판본을 둘러보세요.', motif: 'WORLD / FUTURE', artwork: { src: '/images/xenoblade-art.jpg', alt: '거신과 초원에 꽂힌 모나드를 담은 제노블레이드 이미지', width: 640, height: 839 } },
 ];
 
 export const works: Work[] = [
-  { id: 'xenogears', series: 'xenogears', title: '제노기어스', english: 'Xenogears', japanese: 'ゼノギアス', aliases: ['제노 기어스'], kind: '본편', summary: '소년 페이의 여정과 거대 인간형 병기 기어를 중심으로 펼쳐지는 RPG입니다.', features: ['인물과 기어를 오가는 전투', '기억과 세계의 비밀을 따라가는 이야기'], related: [], sources: [squareArchive] },
+  { id: 'xenogears', series: 'xenogears', title: '제노기어스', english: 'Xenogears', japanese: 'ゼノギアス', aliases: ['제노 기어스'], kind: '본편', summary: '소년 페이와 거대한 인간형 병기 기어의 여정을 그린 RPG입니다. 인물들의 기억과 만남을 따라 세계의 비밀을 마주합니다. 인물과 기어를 오가는 전투가 이야기를 함께 이끌어 갑니다.', features: ['인물과 기어를 오가는 전투', '기억과 세계의 비밀을 따라가는 이야기'], related: [], sources: [squareArchive] },
   { id: 'xenosaga-1', series: 'xenosaga', title: '제노사가 에피소드 I', english: 'Xenosaga Episode I: Der Wille zur Macht', japanese: 'ゼノサーガ エピソードI 力への意志', aliases: ['힘에의 의지', '힘으로의 의지', '제노사가 1', 'KOS-MOS'], kind: '본편', summary: '시온과 KOS-MOS를 중심으로 시작되는 제노사가의 첫 번째 에피소드입니다.', features: ['우주를 배경으로 한 RPG', '에피소드로 이어지는 이야기'], related: ['xenosaga-2', 'xenosaga-1-2'], sources: [monolith] },
   { id: 'xenosaga-freaks', series: 'xenosaga', title: '제노사가 프릭스', english: 'Xenosaga Freaks', japanese: 'ゼノサーガ フリークス', aliases: ['프리크스'], kind: '외전', summary: '제노사가의 세계와 등장인물을 다루는 버라이어티 소프트웨어입니다.', features: ['본편과 별도로 즐기는 외전'], related: ['xenosaga-1'], sources: [monolith] },
   { id: 'xenosaga-2', series: 'xenosaga', title: '제노사가 에피소드 II', english: 'Xenosaga Episode II: Jenseits von Gut und Böse', japanese: 'ゼノサーガ エピソードII 善悪の彼岸', aliases: ['선악의 피안', '제노사가 2'], kind: '본편', summary: '에피소드 I의 이야기를 잇는 두 번째 에피소드입니다.', features: ['이전 에피소드에서 이어지는 서사'], related: ['xenosaga-1', 'missing-year', 'xenosaga-3'], sources: [monolith] },

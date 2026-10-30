@@ -18,7 +18,7 @@ import { seriesUrl, withBase } from '../lib/paths';
     <div class="section-kicker"><h2 id="series-title">EXPLORE THE SERIES</h2><span>세 개의 세계 · 하나의 기록</span></div>
     <div class="series-banners">
       {series.map((item) => <a class={`series-banner ${item.id}`} href={seriesUrl(item.id)}>
-        <img class="banner-art" src={withBase(`/images/${item.id}.svg`)} alt="" width="1000" height="400" loading="lazy" />
+        <img class="banner-art" src={withBase(item.artwork?.src ?? `/images/${item.id}.svg`)} alt={item.artwork?.alt ?? ''} width={item.artwork?.width ?? 1000} height={item.artwork?.height ?? 400} loading="lazy" />
         <span class="banner-scan" aria-hidden="true"></span>
         <div class="banner-content"><span class="banner-topline"><span class="banner-index">{item.number}</span><span>{item.motif}</span></span><h3>{item.name}</h3><p><span class="banner-ko">{item.korean}</span><span class="banner-dash" aria-hidden="true">—</span>{item.id === 'xenoblade' ? '한국닌텐도 공식 홈페이지' : item.tagline}</p></div>
         <span class="banner-arrow" aria-hidden="true">↗</span>

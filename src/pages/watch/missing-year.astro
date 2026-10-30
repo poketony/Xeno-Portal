@@ -1,12 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { chapters, ruffleVersion } from '../../data/missing-year';
-import { withBase, seriesUrl, workUrl } from '../../lib/paths';
+import { withBase, seriesUrl, workUrl, homeUrl } from '../../lib/paths';
 const ordered = [...chapters].sort((a,b) => a.order - b.order);
 ---
 <Layout title="제노사가 미싱 이어 감상" description="에피소드 II와 III 사이를 잇는 A Missing Year의 소개와 장별 감상 페이지입니다." activeSeries="xenosaga">
   <div class="page-shell watch-shell">
-    <nav class="breadcrumbs" aria-label="현재 위치"><a href={withBase('/')}>홈</a><span aria-hidden="true">/</span><a href={seriesUrl('xenosaga')}>제노사가</a><span aria-hidden="true">/</span><a href={workUrl('missing-year')}>미싱 이어</a><span aria-hidden="true">/</span><span aria-current="page">감상</span></nav>
+    <nav class="breadcrumbs" aria-label="현재 위치"><a href={homeUrl}>홈</a><span aria-hidden="true">/</span><a href={seriesUrl('xenosaga')}>제노사가</a><span aria-hidden="true">/</span><a href={workUrl('missing-year')}>미싱 이어</a><span aria-hidden="true">/</span><span aria-current="page">감상</span></nav>
     <header class="page-title watch-title"><p class="eyebrow">XENOSAGA / DIGITAL THEATER</p><h1>A Missing Year<span>미싱 이어</span></h1><p>에피소드 II와 III 사이, 기록되지 않았던 이야기.</p><p class="subtle">에피소드 II의 내용을 포함합니다. 원본 자료의 버튼으로 텍스트와 장면을 진행하세요.</p></header>
     <div data-missing-year data-ruffle-url={withBase('/vendor/ruffle/ruffle.js')} data-ruffle-base={withBase('/vendor/ruffle/')} data-base={withBase('/')}>
       <div class="theater-toolbar"><label for="chapter-select">장 선택</label><select id="chapter-select" disabled={!ordered.length}>{ordered.length ? ordered.map((chapter) => <option value={chapter.id}>{chapter.title}</option>) : <option>등록된 장이 없습니다</option>}</select><button type="button" class="text-button" data-last hidden>마지막으로 연 장 열기 ↗</button></div>

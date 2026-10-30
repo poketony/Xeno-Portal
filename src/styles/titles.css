@@ -1,128 +1,46 @@
-.gears-shell {
-  max-width: none;
-  padding: 26px 0 85px;
+.series-banner .banner-art {
+  left: auto;
+  right: 0;
+  width: 65%;
+  opacity: 1;
+  object-position: center 14%;
+  mask-image: linear-gradient(90deg, transparent, #000 18%);
 }
-.gears-shell > .breadcrumbs,
-.gears-shell > .content-section {
-  width: calc(100% - 2 * var(--space));
-  max-width: 1040px;
-  margin-inline: auto;
+.series-banner::before {
+  background: linear-gradient(90deg, #0b1017 0%, #0b1017ed 35%, #0b101780 54%, #0b101714 75%, transparent);
 }
-.gears-shell > .breadcrumbs { margin-bottom: 24px; }
-.gears-hero {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  min-height: 580px;
-  background: #151414;
-  border-block: 1px solid #78634e45;
+.series-banner.xenosaga .banner-art { left: -12%; right: auto; width: 68%; object-position: center 28%; mask-image: linear-gradient(90deg, #000 72%, transparent); }
+.series-banner.xenosaga::before {
+  background: linear-gradient(270deg, #0b1017 0%, #0b1017ed 34%, #0b101799 47%, #0b10171a 65%, transparent);
 }
-.gears-key-visual {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 65% center;
-  opacity: .8;
-  z-index: -2;
-}
-.gears-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, #0d1016f2 6%, #131316c9 38%, #1611101a 80%);
-  z-index: -1;
-}
-.gears-hero-content {
-  width: 100%;
-  max-width: 1200px;
-  margin-inline: auto;
-  padding: 48px var(--space) 85px;
-}
-.gears-hero .eyebrow { color: #b9a48a; font-size: 11px; }
-.gears-catch {
-  font-size: clamp(23px, 2.8vw, 38px);
-  font-weight: 400;
-  line-height: 1.6;
-  margin: 27px 0 23px;
-  color: #e0d6c7;
-}
-.gears-hero h1 > span:first-child {
-  display: block;
-  font: 500 clamp(72px, 9vw, 120px)/1 var(--display);
-  letter-spacing: -.025em;
-}
-.gears-korean {
-  display: flex;
-  align-items: center;
-  gap: 19px;
-  margin-top: 17px;
-  font-size: 21px;
-  font-weight: 400;
-  color: #c5b8a5;
-}
-.gears-korean > span { font-size: 11px; color: #968e85; }
-.gears-intro {
-  max-width: 470px;
-  margin-top: 25px;
-  font-size: 13px;
-  line-height: 2;
-  color: #b8b8b8;
-  word-break: keep-all;
-}
-.gears-release {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 19px;
-  margin-top: 25px;
-  padding-block: 10px;
-  border-top: 1px solid #bd9d7540;
-  color: #bba88d;
-}
-.gears-release time { font: 500 20px var(--display); letter-spacing: .06em; }
-.gears-release > span { font-size: 10px; }
-.gears-release > span:last-child { color: var(--red); font-size: 18px; }
-.gears-art-caption { position: absolute; right: var(--space); bottom: 16px; font-size: 9px; color: #8e8172; }
-.gears-explore {
-  position: relative;
+.series-banner.xenosaga .banner-content { padding-left: 47%; }
+.series-banner.xenoblade .banner-art { object-position: center 78%; }
+.series-banner h3, .banner-arrow { text-shadow: 0 2px 18px #0009; }
+.series-hero.has-artwork > img { transform: none; object-position: center 30%; }
+.game-hero {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 13px;
-  width: calc(100% - 2 * var(--space));
-  max-width: 1040px;
-  margin: -30px auto 10px;
-}
-.gears-explore > a {
-  display: flex;
-  flex-direction: column;
-  padding: 24px;
-  background: #171c24;
-  border: 1px solid #4c443c;
-  clip-path: polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
-  transition: background .2s, transform .2s;
-}
-.gears-explore > a:hover { background: #242830; transform: translateY(-4px); }
-.gears-explore > a:focus-visible { outline: 0; box-shadow: inset 0 0 0 3px #ff7279; }
-.gears-explore .eyebrow { color: #cf7777; font-size: 10px; }
-.gears-explore strong { font-size: 19px; font-weight: 500; margin: 10px 0 8px; word-break: keep-all; }
-.gears-explore > a > span:last-child { color: #a3a8b0; font-size: 11px; }
-.gears-explore > a > span:last-child > span { float: right; color: var(--red); font-size: 18px; }
-.gears-story .section-heading h2 { font-size: clamp(26px, 3.6vw, 39px); font-weight: 400; }
-.gears-story-copy { color: #b9bfc7; font-size: 16px; line-height: 2.2; margin-bottom: 30px; }
-.gears-battle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-.gears-battle-grid > article {
-  display: flex;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
   align-items: center;
-  gap: 25px;
-  padding: 30px;
-  background: linear-gradient(120deg, #1f1b19, #11161c);
-  border: 1px solid #544638;
+  gap: 55px;
+  margin: 18px 0 35px;
 }
-.gears-battle-grid > article > span { font: 400 58px var(--display); color: #8d755b; }
-.gears-battle-grid h3 { font-size: 20px; font-weight: 400; margin: 6px 0 12px; }
-.gears-battle-grid p:not(.eyebrow) { color: #a6abb4; font-size: 12px; }
+.game-copy { min-width: 0; }
+.game-copy > .eyebrow { font-family: var(--font); font-size: 10px; letter-spacing: .07em; color: #9daaba; }
+.game-copy h1 { font-size: clamp(27px, 3vw, 40px); font-weight: 500; margin: 14px 0 8px; }
+.game-hero-gears h1 { font: 500 clamp(52px, 7vw, 88px)/1.1 var(--display); letter-spacing: -.025em; }
+.game-subtitle { font-family: var(--display); font-size: 17px; color: #b0bac6; line-height: 1.7; }
+.game-hero-gears .game-subtitle { font-family: var(--font); font-size: 18px; color: #c5b49d; }
+.game-intro { font-size: 15px; line-height: 2; color: #c2c9d1; margin-top: 25px; max-width: 34em; word-break: keep-all; }
+.game-highlights { list-style: none; padding: 0; margin: 20px 0 28px; display: flex; flex-wrap: wrap; gap: 8px 19px; }
+.game-highlights li { position: relative; margin: 0; padding-left: 13px; font-size: 11px; color: #a5b2c3; }
+.game-highlights li::before { content: '+'; position: absolute; left: 0; color: var(--red); }
+.game-copy .button-group { align-items: center; gap: 18px; }
+.game-artwork { position: relative; display: grid; place-items: center; min-width: 0; aspect-ratio: 1.2; overflow: hidden; border: 1px solid var(--line); background: #111722; }
+.game-artwork img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.game-artwork.has-game-image img { object-fit: contain; }
+.game-artwork > span { position: relative; font: 500 45px var(--display); color: #ccd6e4; text-shadow: 0 2px 16px #000; }
+.game-hero-gears .game-artwork { width: min(100%, 360px); aspect-ratio: 3 / 4; justify-self: end; border: 0; background: transparent; }
+.game-shell > .content-section { padding-top: 42px; }
 
 .catalog-showcase .saga-lineup { display: block; }
 .saga-chapter + .saga-chapter { margin-top: 62px; }
@@ -162,35 +80,26 @@
 .catalog-showcase .saga-side .work-summary { font-size: 11px; margin-top: 13px; line-height: 1.9; }
 .catalog-showcase .saga-side .tags { margin-top: 16px; }
 
+
 @media (max-width: 800px) {
-  .gears-battle-grid { gap: 14px; }
-  .gears-battle-grid > article { padding: 22px; gap: 18px; }
-  .gears-battle-grid > article > span { font-size: 43px; }
-  .gears-battle-grid h3 { font-size: 17px; }
+  .game-hero { gap: 30px; }
   .catalog-showcase .saga-side .work-card-body { padding: 17px; }
 }
 @media (max-width: 640px) {
-  .gears-shell { padding-top: 22px; padding-bottom: 55px; }
-  .gears-hero { min-height: 520px; }
-  .gears-key-visual { object-position: 74% center; opacity: .55; }
-  .gears-hero-content { padding: 35px 26px 65px; }
-  .gears-hero .eyebrow { font-size: 9px; }
-  .gears-catch { font-size: 25px; margin: 25px 0; }
-  .gears-hero h1 > span:first-child { font-size: clamp(56px, 15vw, 92px); }
-  .gears-korean { font-size: 18px; gap: 16px; }
-  .gears-intro { max-width: 290px; font-size: 12px; }
-  .gears-release { gap: 13px; }
-  .gears-release time { font-size: 18px; }
-  .gears-art-caption { font-size: 8px; bottom: 18px; }
-  .gears-explore { grid-template-columns: 1fr; gap: 10px; margin-top: -20px; }
-  .gears-explore > a { padding: 16px 21px; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 15px; align-items: center; }
-  .gears-explore .eyebrow { grid-column: 1 / -1; font-size: 8px; }
-  .gears-explore strong { font-size: 14px; margin: 3px 0; }
-  .gears-explore > a > span:last-child { font-size: 9px; }
-  .gears-story-copy { font-size: 13px; line-height: 2.1; margin-bottom: 20px; }
-  .gears-battle-grid { grid-template-columns: 1fr; }
-  .gears-battle-grid > article { padding: 23px; }
-  .gears-battle-grid > article > span { min-width: 55px; }
+  .series-banner.xenosaga .banner-art { left: -42%; width: 90%; }
+  .series-banner.xenosaga .banner-content { padding-left: 32%; }
+  .series-banner.xenogears .banner-art { width: 82%; right: -18%; }
+  .series-banner.xenoblade .banner-art { width: 82%; right: -18%; }
+  .game-hero { grid-template-columns: 1fr; gap: 25px; margin-top: 10px; }
+  .game-artwork { order: -1; width: 100%; aspect-ratio: 1.5; max-height: 260px; }
+  .game-hero-gears .game-artwork { width: min(100%, 240px); max-height: 320px; justify-self: center; }
+  .game-copy h1 { font-size: 27px; }
+  .game-hero-gears h1 { font-size: clamp(48px, 13vw, 68px); }
+  .game-subtitle { font-size: 15px; }
+  .game-intro { font-size: 14px; line-height: 1.95; margin-top: 18px; }
+  .game-highlights { gap: 7px 15px; margin: 16px 0 22px; }
+  .game-highlights li { font-size: 10px; }
+  .game-shell > .content-section { padding-top: 32px; }
   .saga-chapter + .saga-chapter { margin-top: 42px; }
   .catalog-showcase .saga-main .work-art { height: 230px; }
   .episode-mark { font-size: 94px; bottom: 22px; }
@@ -203,7 +112,4 @@
   .side-work-grid { grid-template-columns: 1fr; gap: 13px; }
   .side-work-grid > :only-child { grid-column: auto; }
   .catalog-showcase .saga-side .work-card-body { padding: 18px; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .gears-explore > a:hover { transform: none; }
 }
