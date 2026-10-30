@@ -21,26 +21,27 @@
   overflow: hidden;
 }
 .game-stage.xenosaga { --stage-accent: #818cf8; }
-.game-stage.has-lineup { grid-template-rows: 1fr auto; }
+.game-stage.has-lineup { grid-template-rows: auto auto; align-content: center; }
 .stage-backdrop { position: absolute; inset: 0; z-index: -2; background: #101722; }
-.stage-slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 75% 22%; opacity: 0; transition: opacity 1.1s ease; }
+.stage-slide { position: absolute; top: 50%; right: 0; width: min(82%, var(--slide-width)); height: min(100%, var(--slide-height)); transform: translateY(-50%); object-fit: cover; object-position: 75% 22%; mask-image: linear-gradient(90deg, transparent, #000 18%), linear-gradient(180deg, transparent, #000 5%, #000 95%, transparent); mask-composite: intersect; opacity: 0; transition: opacity 1.1s ease; }
 .stage-slide.is-current { opacity: 1; }
-.xenogears .stage-slide { object-position: 70% 14%; }
+.xenogears .stage-slide { left: 0; right: auto; object-position: 70% 14%; mask-image: linear-gradient(270deg, transparent, #000 18%), linear-gradient(180deg, transparent, #000 5%, #000 95%, transparent); }
 .game-stage::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); pointer-events: none; }
 .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); }
 .stage-copy { width: min(100%, 560px); padding-block: 8px; }
 .xenogears .stage-copy { justify-self: end; text-align: right; }
-.xenogears .stage-title-logo img { margin-left: auto; margin-right: 32px; }
+.xenogears .stage-title-logo img { margin-left: auto; margin-right: clamp(64px, 8vw, 120px); }
 .xenogears .stage-features, .xenogears .stage-actions { justify-content: flex-end; }
-.stage-copy h1 { font-size: clamp(25px, 3.5vw, 43px); font-weight: 500; line-height: 1.4; margin: 0 0 12px; text-wrap: balance; }
+.stage-copy h1 { font-size: clamp(25px, 3.5vw, 43px); font-weight: 700; line-height: 1.4; margin: 0 0 8px; text-wrap: balance; }
 .stage-title-logo img { width: min(100%, 420px); height: auto; }
-.xenogears .stage-title-logo img { width: auto; max-width: 100%; height: clamp(190px, 40svh, 330px); object-fit: contain; object-position: left center; }
+.xenogears .stage-title-logo img { width: auto; max-width: 100%; height: clamp(220px, 46svh, 380px); object-fit: contain; object-position: left center; }
 .stage-subtitle { color: #d0d5de; font-size: 15px; margin: 0 0 15px; }
+.stage-subtitle[lang="ko"] { font-size: 22px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; }
 .stage-intro { max-width: 37em; color: #e1e5eb; font-size: 14px; line-height: 1.95; margin: 0; word-break: keep-all; text-shadow: 0 1px 10px #0008; }
-.stage-features { display: flex; flex-wrap: wrap; list-style: none; gap: 5px 20px; padding: 0; margin: 15px 0 0; }
+.stage-features { display: flex; flex-wrap: wrap; list-style: none; gap: 5px 20px; padding: 0; margin: 10px 0 0; }
 .stage-features li { color: #c0c9d6; font-size: 11px; margin: 0; }
 .stage-features li::before { content: '+'; color: var(--stage-accent); margin-right: 7px; }
-.stage-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 24px; }
+.stage-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 18px; }
 .stage-patch-link { display: inline-flex; align-items: center; gap: 30px; min-height: 44px; padding: 9px 19px; border: 1px solid #d2dae678; background: #0b1119ad; font-size: 12px; color: #f5f6f8; }
 .stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage-accent); }
 .stage-actions .text-link { font-size: 11px; }
@@ -48,18 +49,23 @@
 .has-lineup .stage-slide-controls { bottom: auto; top: 24px; }
 .stage-slide-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; color: #e9edf5; border: 1px solid #ffffff4d; background: #0b1119bf; }
 .stage-slide-count { font: 12px var(--display); color: #e9edf5; }
-.stage-lineup { padding-top: 17px; border-top: 1px solid #c0cdeb40; }
-.stage-lineup-label { margin: 0 0 12px; color: #d1d9e4; font-size: 10px; letter-spacing: .12em; }
-.saga-stage-lineup { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 25px; }
+.stage-lineup { padding: 0; }
+.saga-stage-lineup { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .saga-stage-chapter { min-width: 0; }
-.saga-stage-main { display: flex; align-items: center; gap: 15px; padding: 4px 0 10px; border-bottom: 1px solid #ccd9ed40; }
-.saga-stage-main > span { font: 42px/1 Georgia, serif; color: #c4ccff; }
-.saga-stage-main small { display: block; font: 9px var(--display); color: #acb9d0; letter-spacing: .16em; }
-.saga-stage-main strong { display: block; font-size: 14px; font-weight: 500; line-height: 1.6; }
-.saga-stage-main:hover strong, .saga-stage-side a:hover { color: #a4adff; }
-.saga-stage-side { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 11px; }
-.saga-stage-side a { color: #c3cddc; font-size: 10px; }
-.saga-stage-side a::before { content: '↳'; color: #929fea; margin-right: 4px; }
+/* 로고 원본의 I / II / III 색을 위에서 아래로 샘플링. 출처는 사이트 안내에 기록. */
+.saga-stage-chapter[data-episode="I"] { --episode-fill: linear-gradient(180deg, #ed2e4f 0%, #c62946 15%, #761528 35%, #190913 55%, #0e050a 75%, #10060e 100%); }
+.saga-stage-chapter[data-episode="II"] { --episode-fill: linear-gradient(180deg, #6d75a6 0%, #514d7f 15%, #2c2342 35%, #08050c 55%, #22162c 75%, #ab6d82 100%); }
+.saga-stage-chapter[data-episode="III"] { --episode-fill: linear-gradient(180deg, #a2d6c6 0%, #6da9ac 15%, #2d7b8d 35%, #00566f 55%, #206282 75%, #aba0c8 100%); }
+.saga-stage-main { display: flex; align-items: center; gap: 16px; min-height: 132px; padding: 16px 18px; border: 1px solid #ffffff78; background: var(--episode-fill); color: #fff; text-shadow: 0 1px 4px #000; transition: filter .2s, border-color .2s; }
+.saga-stage-main > span { font: 64px/1 Georgia, serif; color: #fff; flex-shrink: 0; }
+.saga-stage-main > div { min-width: 0; }
+.saga-stage-main small { display: block; font: 9px var(--display); color: #e6eaf3; letter-spacing: .16em; }
+.saga-stage-main strong { display: block; font-size: 17px; font-weight: 700; line-height: 1.45; margin-top: 4px; word-break: keep-all; }
+.saga-stage-subtitle { display: block; font-size: 12px; font-weight: 600; line-height: 1.5; margin-top: 5px; word-break: keep-all; }
+.saga-stage-main:hover { filter: brightness(1.15); border-color: #fff; }
+.saga-stage-side { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+.saga-stage-side a { display: inline-flex; align-items: center; justify-content: center; min-height: 29px; padding: 4px 10px; border: 1px solid #9daac280; background: #0a111be6; color: #e0e6f0; font-size: 10px; line-height: 1.5; }
+.saga-stage-side a:hover { border-color: #a4adff; color: #a4adff; }
 
 @media (max-width: 900px) { .immersive-page { --portal-header-height: 74px; } }
 @media (max-width: 640px) {
@@ -67,24 +73,26 @@
   .game-stage { padding: 18px 22px 23px; gap: 22px; }
   .game-stage::before { background: linear-gradient(90deg, #070c13df, #070c1366), linear-gradient(0deg, #070c13d9, transparent 70%); }
   .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13df, #070c1399), linear-gradient(0deg, #070c13d9, transparent 70%); }
-  .stage-slide { object-position: 65% center; }
+  .stage-slide { width: min(100%, var(--slide-width)); height: min(84%, var(--slide-height)); object-position: 65% center; }
   .xenogears .stage-slide { object-position: 62% 18%; }
   .stage-title-logo img { width: min(100%, 310px); }
-  .xenogears .stage-title-logo img { height: clamp(170px, 33svh, 250px); }
+  .xenogears .stage-title-logo img { height: clamp(190px, 35svh, 260px); margin-right: 40px; }
   .stage-copy h1 { font-size: 26px; }
   .stage-subtitle { font-size: 12px; margin-bottom: 12px; }
+  .stage-subtitle[lang="ko"] { font-size: 20px; margin-bottom: 8px; }
   .stage-intro { font-size: 12px; line-height: 1.95; }
   .stage-features { gap: 4px 12px; margin-top: 12px; }
   .stage-features li { font-size: 10px; }
   .stage-actions { gap: 11px 17px; margin-top: 19px; }
   .stage-patch-link { font-size: 11px; gap: 20px; }
   .saga-stage-lineup { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
-  .saga-stage-main { gap: 8px; align-items: flex-start; }
-  .saga-stage-main > span { font-size: 29px; }
+  .saga-stage-main { flex-direction: column; justify-content: center; gap: 4px; min-height: 136px; padding: 10px; text-align: center; }
+  .saga-stage-main > span { font-size: 27px; }
   .saga-stage-main strong { font-size: 10px; }
-  .saga-stage-main small { font-size: 8px; letter-spacing: .03em; }
+  .saga-stage-main small { font-size: 7px; letter-spacing: .03em; }
+  .saga-stage-subtitle { font-size: 9px; line-height: 1.4; margin-top: 4px; }
   .saga-stage-side { flex-direction: column; gap: 7px; }
-  .saga-stage-side a { font-size: 9px; line-height: 1.6; }
+  .saga-stage-side a { font-size: 9px; line-height: 1.5; min-height: 26px; padding: 4px; }
   .stage-slide-controls { right: 22px; bottom: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { .stage-slide { transition: none; } }

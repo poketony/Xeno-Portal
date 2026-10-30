@@ -49,9 +49,9 @@ export const works: Work[] = [
 
 // 본편 사이의 배치는 운영자 지정. 각 외전 묶음은 최초 발매·공개 순입니다.
 export const xenosagaLineup = [
-  { mainId: 'xenosaga-1', episode: 'I', sideIds: ['xenosaga-freaks'], between: '에피소드 I과 II 사이' },
-  { mainId: 'xenosaga-2', episode: 'II', sideIds: ['xenosaga-pied-piper', 'xenosaga-1-2', 'missing-year'], between: '에피소드 II와 III 사이' },
-  { mainId: 'xenosaga-3', episode: 'III', sideIds: [], between: '' },
+  { mainId: 'xenosaga-1', episode: 'I', subtitle: '힘에의 의지', sideIds: ['xenosaga-freaks'], between: '에피소드 I과 II 사이' },
+  { mainId: 'xenosaga-2', episode: 'II', subtitle: '선악의 저편', sideIds: ['xenosaga-pied-piper', 'xenosaga-1-2', 'missing-year'], between: '에피소드 II와 III 사이' },
+  { mainId: 'xenosaga-3', episode: 'III', subtitle: '차라투스트라는 이렇게 말했다', sideIds: [], between: '' },
 ];
 
 // 발매일은 아래 출처의 지역 기준입니다. 확인하지 못한 값은 null / unverified로 남깁니다.

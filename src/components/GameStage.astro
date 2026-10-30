@@ -6,21 +6,22 @@ interface Props {
   seriesId: string;
   title: string;
   subtitle?: string;
+  subtitleLang?: 'ko' | 'en';
   description: string;
   features?: string[];
   logo?: { src: string; width: number; height: number };
   slides: ShowcaseImage[];
   patchUrl?: string;
 }
-const { seriesId, title, subtitle, description, features = [], logo, slides, patchUrl } = Astro.props;
+const { seriesId, title, subtitle, subtitleLang = 'ko', description, features = [], logo, slides, patchUrl } = Astro.props;
 ---
 <section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup') }]} aria-label={title} data-game-stage>
   <div class="stage-backdrop" aria-hidden="true">
-    {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={withBase(slide.src)} alt="" width={slide.width} height={slide.height} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
+    {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={withBase(slide.src)} alt="" width={slide.width} height={slide.height} style={`--slide-width: ${slide.width}px; --slide-height: ${slide.height}px`} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
   </div>
   <div class="stage-copy">
     <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : title}</h1>
-    {subtitle && <p class="stage-subtitle">{subtitle}</p>}
+    {subtitle && <p class="stage-subtitle" lang={subtitleLang}>{subtitle}</p>}
     <p class="stage-intro">{description}</p>
     {features.length > 0 && <ul class="stage-features" aria-label="게임의 주요 특징">{features.map((feature) => <li>{feature}</li>)}</ul>}
     {(patchUrl || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl && <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">한글패치 바로가기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 창)</span></a>}<slot name="actions" /></div>}
