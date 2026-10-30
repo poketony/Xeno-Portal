@@ -25,9 +25,9 @@ const missingYearSource: Source = { title: 'Eiwigkeit: 미싱 이어 공개 당�
 const nintendo = (code: string, title: string): Source => ({ title, url: `https://www.nintendo.com/kr/switch/${code}/index.html` });
 
 export const series: Series[] = [
-  { id: 'xenogears', logo: { src: '/images/xenogears-logo.png', width: 1251, height: 452 }, name: 'Xenogears', korean: '제노기어스', number: '01', tagline: '모든 이야기의 시작', description: '거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치, 관련 기록을 살펴보세요.', motif: 'GEAR / ORIGIN', artwork: { src: '/images/xenogears-art.png', alt: '페이와 엘리, 기어를 담은 제노기어스 이미지', width: 1086, height: 1448 } },
-  { id: 'xenosaga', logo: { src: '/images/xenosaga-logo.png', width: 1877, height: 424 }, name: 'Xenosaga', korean: '제노사가', number: '02', tagline: '별의 바다를 건너는 서사', description: '우주를 무대로 펼쳐지는 제노사가. 에피소드와 외전, 그리고 에피소드 II와 III 사이의 미싱 이어를 만나보세요.', motif: 'SPACE / MEMORY', artwork: { src: '/images/xenosaga-art.webp', alt: 'KOS-MOS의 옆모습을 담은 제노사가 이미지', width: 1000, height: 681 } },
-  { id: 'xenoblade', logo: { src: '/images/xenoblade-logo.png', width: 591, height: 147 }, name: 'Xenoblade', korean: '제노블레이드', number: '03', tagline: '새로운 세계를 향한 여정', description: '끝없이 펼쳐지는 대지, 그 위를 살아가는 사람들. 제노블레이드의 본편과 확장 콘텐츠, 여러 판본을 둘러보세요.', motif: 'WORLD / FUTURE', artwork: { src: '/images/xenoblade-art.jpg', alt: '거신과 초원에 꽂힌 모나드를 담은 제노블레이드 이미지', width: 640, height: 839 } },
+  { id: 'xenogears', logo: { src: '/images/xenogears-logo-v2.png', width: 1500, height: 452 }, name: 'Xenogears', korean: '제노기어스', number: '01', tagline: '모든 이야기의 시작', description: '거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치, 관련 기록을 살펴보세요.', motif: 'GEAR / ORIGIN', artwork: { src: '/images/xenogears-art.png', alt: '페이와 엘리, 기어를 담은 제노기어스 이미지', width: 1086, height: 1448 } },
+  { id: 'xenosaga', logo: { src: '/images/xenosaga-logo-v2.png', width: 1500, height: 452 }, name: 'Xenosaga', korean: '제노사가', number: '02', tagline: '별의 바다를 건너는 서사', description: '우주를 무대로 펼쳐지는 제노사가. 에피소드와 외전, 그리고 에피소드 II와 III 사이의 미싱 이어를 만나보세요.', motif: 'SPACE / MEMORY', artwork: { src: '/images/xenosaga-art.webp', alt: 'KOS-MOS의 옆모습을 담은 제노사가 이미지', width: 1000, height: 681 } },
+  { id: 'xenoblade', logo: { src: '/images/xenoblade-logo-v2.png', width: 1500, height: 452 }, name: 'Xenoblade', korean: '제노블레이드', number: '03', tagline: '새로운 세계를 향한 여정', description: '끝없이 펼쳐지는 대지, 그 위를 살아가는 사람들. 제노블레이드의 본편과 확장 콘텐츠, 여러 판본을 둘러보세요.', motif: 'WORLD / FUTURE', artwork: { src: '/images/xenoblade-art.jpg', alt: '거신과 초원에 꽂힌 모나드를 담은 제노블레이드 이미지', width: 640, height: 839 } },
 ];
 
 export const works: Work[] = [

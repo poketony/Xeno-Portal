@@ -92,7 +92,6 @@
 }
 @media (max-width: 640px) {
   .series-banner h3 { width: clamp(200px, 58vw, 290px); margin: 12px 0; }
-  .series-banner.xenosaga h3 { width: clamp(180px, 54vw, 270px); }
   .series-banner.xenosaga .banner-art { left: -42%; width: 90%; }
   .series-banner.xenosaga .banner-content { padding-left: 32%; }
   .series-banner.xenogears .banner-art { width: 82%; right: -18%; }
