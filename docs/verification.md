@@ -58,10 +58,12 @@ Chromium 기반 앱 내 브라우저와 실제 정적 빌드 결과물로 확인
 
 ## 배포 상태
 
-- GitHub Pages용 워크플로와 설정·콘텐츠 유지보수 문서를 준비했습니다.
-- 사용자의 선택에 따라 커밋·푸시하지 않았습니다.
-- 저장소 설정 변경, GitHub Actions 실행, 실제 배포는 수행하지 않았습니다.
-- 예정 주소 `https://poketony.github.io/Xeno-Portal/`는 설정값이며 실제 배포 성공을 확인한 주소가 아닙니다.
+- 최초 로컬 구현을 마친 뒤 사용자가 `96a7817` (`초기 빌드`) 커밋을 `main`에 푸시했습니다.
+- [초기 GitHub Actions 실행](https://github.com/poketony/Xeno-Portal/actions/runs/41012758951)의 빌드·배포 작업이 모두 성공했습니다. 잠금 파일 설치, 타입 검사, 테스트, 정적 빌드, 아티팩트 업로드, Pages 배포의 개별 성공을 확인했습니다.
+- 접속 실패의 원인은 코드나 빌드가 아닌 사용자 지정 도메인 `poketony.xeno.portal`이었습니다. 기본 주소가 해당 HTTP 주소로 301 이동했으며 DNS 조회는 이름 없음으로 응답했습니다.
+- 사용자가 기본 주소 복구를 승인한 뒤 Pages의 사용자 지정 도메인 한 항목만 제거했습니다. API 재조회에서 `cname: null`, `build_type: workflow`, `https_enforced: true`와 `https://poketony.github.io/Xeno-Portal/` 주소를 확인했습니다. 저장소 권한·공개 범위·브랜치 보호·원격 주소는 변경하지 않았습니다.
+- 실제 공개 메인 화면과 시리즈·작품·감상 페이지, 로고가 HTTPS로 응답하는 것을 확인했습니다. 실제 SWF가 없는 상태의 감상 화면과 구분합니다.
+- 운영 주소: **https://poketony.github.io/Xeno-Portal/**. 이후 `main` 푸시에도 같은 워크플로가 배포를 갱신합니다.
 
 ## 남은 자료
 

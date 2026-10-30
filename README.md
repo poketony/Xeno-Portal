@@ -3,9 +3,9 @@
 제노 시리즈 소개·한글패치·자료를 연결하는 한국어 팬 포털입니다. Astro + TypeScript + CSS로 모든 주요 내용을 정적 HTML로 생성합니다.
 
 - 저장소: https://github.com/poketony/Xeno-Portal
-- 현재 작업 및 배포 브랜치: `main` (빈 저장소의 실제 기본 브랜치 확인)
-- 배포 예정 주소: https://poketony.github.io/Xeno-Portal/
-- **현재는 로컬 구현입니다. 커밋·푸시, GitHub 설정 변경, Actions 실행 및 실제 배포는 수행하지 않았습니다.**
+- 현재 작업 및 배포 브랜치: `main`
+- 실제 사이트: https://poketony.github.io/Xeno-Portal/
+- **GitHub Actions 빌드·Pages 배포 완료.** 초기 빌드 `96a7817`의 설치·타입 검사·테스트·정적 빌드·배포 성공을 확인했습니다. 실제 한글패치와 미싱 이어 원본 SWF는 아직 등록되지 않았습니다.
 - 최신 요청에 따라 제노블레이드 메인 배너와 공통 메뉴는 [한국닌텐도 공식 시리즈 홈페이지](https://www.nintendo.com/kr/xenoblade/index.html)로 바로 연결합니다. 제노기어스·제노사가는 해당 페이지의 큰 작품 소개·발매 정보·상세 이동 구성을 참고했습니다. 메인은 제공된 스케치의 사선 배너 구도를 따릅니다.
 
 ## 1. 프로젝트 구성
@@ -73,6 +73,8 @@ pnpm build
 실제 원격 저장소 `poketony/Xeno-Portal`을 확인해 `src/data/site.mjs`에 `origin: https://poketony.github.io`, `base: /Xeno-Portal`을 설정했습니다. Astro 설정과 내부 링크·이미지·Ruffle·SWF는 같은 설정을 참조합니다. 저장소나 도메인을 바꾸면 이 파일을 수정하세요. 모든 내부 페이지는 디렉터리별 `index.html`로 생성하므로 직접 접속·새로고침이 가능합니다. 서버 렌더링이나 별도의 백엔드는 사용하지 않습니다.
 
 워크플로 참고: [Astro 공식 배포 안내](https://docs.astro.build/en/guides/deploy/github/), [GitHub 공식 사용자 지정 워크플로 안내](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). 저장소 관리·권한·브랜치 보호 설정은 이 작업에서 변경하지 않았습니다.
+
+사용자 지정 도메인이 없다면 **Settings → Pages → Custom domain은 비워 두세요.** 이 칸에 주소를 입력하는 것만으로 도메인이 생성되지는 않습니다. 2026-10-30에 DNS에서 조회되지 않는 `poketony.xeno.portal` 설정을 사용자 승인으로 제거하고, 기본 Pages 주소와 HTTPS 강제 적용을 확인했습니다. 향후 실제 보유한 도메인을 연결할 때는 DNS와 Astro의 `origin`·`base`를 함께 맞춰야 합니다.
 
 ## 5. 콘텐츠 갱신
 
@@ -157,6 +159,6 @@ Ruffle 자체 파일은 `/Xeno-Portal/vendor/ruffle/`의 `publicPath`, 원본 �
 - 미싱 이어 원본 SWF와 모든 부속 파일, 실제 장 구성·원본 화면 크기·배포 허용 범위.
 - 작품별 공식 이미지와 사용 출처. 미확인 판본별 한국어 지원 정보.
 - 실제 기기에서의 미싱 이어 호환성·폰트·음성·전체 화면·외부 자원 CORS.
-- GitHub Pages Source 설정과 실제 Actions·배포 성공 여부.
+- 실제 미싱 이어 원본을 등록한 뒤 GitHub Pages 환경에서 각 장을 재생하는 검증.
 
 실제 배포 여부는 로컬 빌드 성공과 구분해 기록하세요. 빌드 성공만으로 배포 성공을 보고하면 안 됩니다.
