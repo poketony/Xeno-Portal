@@ -17,7 +17,7 @@
 .series-banner.xenoblade .banner-art { object-position: center 78%; }
 .series-banner h3, .banner-arrow { text-shadow: 0 2px 18px #0009; }
 .series-logo { display: block; max-width: 100%; height: auto; }
-.xenogears .series-logo, .xenosaga .series-logo, .game-hero-gears .series-logo { background: #eef1f5ed; padding: 10px 14px; }
+.xenogears .series-logo, .xenosaga .series-logo, .game-hero-gears .series-logo { filter: brightness(0) invert(1); }
 .series-banner h3 { width: clamp(245px, 27vw, 340px); line-height: 0; margin: 13px 0; }
 .series-banner .series-logo { width: 100%; }
 .game-hero-gears h1 .series-logo { width: 480px; }
@@ -94,7 +94,6 @@
 @media (max-width: 640px) {
   .series-banner h3 { width: clamp(200px, 58vw, 290px); margin: 12px 0; }
   .series-banner.xenosaga h3 { width: clamp(180px, 54vw, 270px); }
-  .xenogears .series-logo, .xenosaga .series-logo, .game-hero-gears .series-logo { padding: 7px 10px; }
   .series-banner.xenosaga .banner-art { left: -42%; width: 90%; }
   .series-banner.xenosaga .banner-content { padding-left: 32%; }
   .series-banner.xenogears .banner-art { width: 82%; right: -18%; }
