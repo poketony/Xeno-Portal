@@ -4,8 +4,9 @@ import { series } from '../data/catalog';
 import { withBase, seriesUrl, homeUrl } from '../lib/paths';
 import '../styles/global.css';
 import '../styles/titles.css';
-interface Props { title?: string; description?: string; activeSeries?: string; home?: boolean; canonicalPath?: string }
-const { title, description = siteConfig.description, activeSeries, home = false, canonicalPath } = Astro.props;
+import '../styles/showcase.css';
+interface Props { title?: string; description?: string; activeSeries?: string; home?: boolean; canonicalPath?: string; immersive?: boolean }
+const { title, description = siteConfig.description, activeSeries, home = false, canonicalPath, immersive = false } = Astro.props;
 const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/') ? withBase('/404.html') : Astro.url.pathname), siteConfig.origin).href;
 ---
 <!doctype html>
@@ -22,15 +23,15 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:image" content={new URL(withBase('/images/xeno-series-logo.webp'), siteConfig.origin).href} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <link rel="icon" type="image/png" href={withBase('/favicon.png')} />
   </head>
-  <body>
+  <body class:list={{ 'immersive-page': immersive }}>
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
     <header class="site-header">
-      <a class="wordmark" href={homeUrl} aria-label="Xeno Series 홈"><span class="brand-x" aria-hidden="true">X</span> XENO<span class="wordmark-divider">/</span><span class="wordmark-small">SERIES</span></a>
+      {!home && <a class="wordmark" href={homeUrl} aria-label="Xeno Series 홈">{activeSeries === 'xenogears' || activeSeries === 'xenosaga' ? <img src={withBase('/favicon.png')} alt="" width="48" height="48" /> : <><span class="brand-x" aria-hidden="true">X</span> XENO<span class="wordmark-divider">/</span><span class="wordmark-small">SERIES</span></>}</a>}
       <nav aria-label="주요 메뉴">
         {home ? <><a href="#series">시리즈 둘러보기 <span aria-hidden="true">↗</span></a><a href={withBase('/about/')}>사이트 안내</a></> : <>
-          {series.map((item) => <a href={seriesUrl(item.id)} aria-current={activeSeries === item.id ? 'page' : undefined}>{item.korean}</a>)}
+          {series.map((item) => <a href={seriesUrl(item.id)} data-series={item.id} aria-current={activeSeries === item.id ? 'page' : undefined}>{item.korean}</a>)}
         </>}
       </nav>
       <span class="header-note">한국어 팬 포털<span class="status-dot" aria-hidden="true"></span></span>

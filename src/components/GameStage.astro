@@ -1,0 +1,68 @@
+---
+import type { ShowcaseImage } from '../data/showcase';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  seriesId: string;
+  title: string;
+  subtitle?: string;
+  description: string;
+  features?: string[];
+  logo?: { src: string; width: number; height: number };
+  slides: ShowcaseImage[];
+  patchUrl?: string;
+}
+const { seriesId, title, subtitle, description, features = [], logo, slides, patchUrl } = Astro.props;
+---
+<section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup') }]} aria-label={title} data-game-stage>
+  <div class="stage-backdrop" aria-hidden="true">
+    {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={withBase(slide.src)} alt="" width={slide.width} height={slide.height} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
+  </div>
+  <div class="stage-copy">
+    <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : title}</h1>
+    {subtitle && <p class="stage-subtitle">{subtitle}</p>}
+    <p class="stage-intro">{description}</p>
+    {features.length > 0 && <ul class="stage-features" aria-label="게임의 주요 특징">{features.map((feature) => <li>{feature}</li>)}</ul>}
+    {(patchUrl || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl && <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">한글패치 바로가기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 창)</span></a>}<slot name="actions" /></div>}
+  </div>
+  {Astro.slots.has('lineup') && <div class="stage-lineup"><slot name="lineup" /></div>}
+  {slides.length > 1 && <div class="stage-slide-controls" aria-label="배경 슬라이드쇼">
+    <button type="button" data-slide-previous aria-label="이전 배경 이미지">←</button>
+    <span class="stage-slide-count" data-slide-count>01 / {String(slides.length).padStart(2, '0')}</span>
+    <button type="button" data-slide-next aria-label="다음 배경 이미지">→</button>
+    <button type="button" data-slide-pause aria-label="배경 자동 전환 일시정지" aria-pressed="false">Ⅱ</button>
+  </div>}
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-game-stage]').forEach((root) => {
+    const images = [...root.querySelectorAll<HTMLImageElement>('[data-stage-slide]')];
+    if (images.length < 2) return;
+    const pauseButton = root.querySelector<HTMLButtonElement>('[data-slide-pause]')!;
+    const counter = root.querySelector<HTMLElement>('[data-slide-count]')!;
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let current = 0;
+    let paused = motion.matches;
+    let timer: ReturnType<typeof setInterval> | undefined;
+    function show(index: number) {
+      const next = (index + images.length) % images.length;
+      if (!images[next].complete || images[next].naturalWidth === 0) return;
+      images[current].classList.remove('is-current');
+      images[next].classList.add('is-current');
+      current = next;
+      counter.textContent = `${String(current + 1).padStart(2, '0')} / ${String(images.length).padStart(2, '0')}`;
+    }
+    function schedule() {
+      clearInterval(timer);
+      if (!paused && !document.hidden) timer = setInterval(() => show(current + 1), 6000);
+      pauseButton.textContent = paused ? '▶' : 'Ⅱ';
+      pauseButton.setAttribute('aria-pressed', String(paused));
+      pauseButton.setAttribute('aria-label', paused ? '배경 자동 전환 재생' : '배경 자동 전환 일시정지');
+    }
+    root.querySelector('[data-slide-previous]')!.addEventListener('click', () => { show(current - 1); schedule(); });
+    root.querySelector('[data-slide-next]')!.addEventListener('click', () => { show(current + 1); schedule(); });
+    pauseButton.addEventListener('click', () => { paused = !paused; schedule(); });
+    motion.addEventListener('change', () => { paused = motion.matches; schedule(); });
+    document.addEventListener('visibilitychange', schedule);
+    schedule();
+  });
+</script>

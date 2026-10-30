@@ -1,8 +1,10 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import GameStage from '../../components/GameStage.astro';
+import { showcases } from '../../data/showcase';
 import Catalog from '../../components/Catalog.astro';
 import WorkDetail from '../../components/WorkDetail.astro';
-import { series, works } from '../../data/catalog';
+import { series, works, xenosagaLineup } from '../../data/catalog';
 import { patches } from '../../data/patches';
 import { resources } from '../../data/resources';
 import { withBase, workUrl, homeUrl } from '../../lib/paths';
@@ -12,10 +14,22 @@ const ids = works.filter((work) => work.series === item.id).map((work) => work.i
 const relatedResources = resources.filter((resource) => resource.workIds.some((id) => ids.includes(id)));
 const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
 ---
-{item.id === 'xenogears' ? <WorkDetail work={works.find((work) => work.id === 'xenogears')!} /> : <Layout title={item.korean} description={item.description} activeSeries={item.id}>
+{item.id === 'xenogears' ? <WorkDetail work={works.find((work) => work.id === 'xenogears')!} /> : item.id === 'xenosaga' ? <Layout title={item.korean} description={item.description} activeSeries={item.id} immersive>
+  <GameStage seriesId={item.id} title={item.name} subtitle={item.korean} description={item.description} logo={showcases.xenosaga.logo} slides={showcases.xenosaga.slides}>
+    <div slot="lineup">
+      <p class="stage-lineup-label">본편과 외전</p>
+      <div class="saga-stage-lineup" aria-label="제노사가 본편과 외전">
+        {xenosagaLineup.map((group) => <section class="saga-stage-chapter" aria-label={'에피소드 ' + group.episode}>
+          <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span aria-hidden="true">{group.episode}</span><div><small>EPISODE {group.episode}</small><strong>{works.find((work) => work.id === group.mainId)!.title}</strong></div></a>
+          {group.sideIds.length > 0 && <div class="saga-stage-side" aria-label={group.between}>{group.sideIds.map((id) => <a href={workUrl(id)} data-work-id={id}>{works.find((work) => work.id === id)!.title.replace('제노사가 ', '')}</a>)}</div>}
+        </section>)}
+      </div>
+    </div>
+  </GameStage>
+</Layout> : <Layout title={item.korean} description={item.description} activeSeries={item.id}>
   <div class="page-shell">
     <nav class="breadcrumbs" aria-label="현재 위치"><a href={homeUrl}>홈</a><span aria-hidden="true">/</span><span aria-current="page">{item.korean}</span></nav>
-    <header class:list={['series-hero', item.id, { 'has-artwork': !!item.artwork }]}><img src={withBase(item.artwork?.src ?? `/images/${item.id}.svg`)} alt={item.artwork?.alt ?? ''} width={item.artwork?.width ?? 1000} height={item.artwork?.height ?? 400} /><div><p class="eyebrow">SERIES {item.number} / {item.motif}</p><h1>{item.id === 'xenosaga' ? <img class="series-logo" src={withBase(item.logo.src)} alt={item.name} width={item.logo.width} height={item.logo.height} fetchpriority="high" /> : item.name}</h1><p class="series-korean">{item.korean}<span>— {item.tagline}</span></p><p>{item.description}</p></div></header>
+    <header class:list={['series-hero', item.id, { 'has-artwork': !!item.artwork }]}><img src={withBase(item.artwork?.src ?? `/images/${item.id}.svg`)} alt={item.artwork?.alt ?? ''} width={item.artwork?.width ?? 1000} height={item.artwork?.height ?? 400} /><div><p class="eyebrow">SERIES {item.number} / {item.motif}</p><h1>{item.name}</h1><p class="series-korean">{item.korean}<span>— {item.tagline}</span></p><p>{item.description}</p></div></header>
     <nav class="section-nav" aria-label="시리즈 안에서 찾기"><a href="#patches">한글패치</a><a href="#resources">자료실</a><a href="#updates">업데이트</a></nav>
     <section id="works" class="content-section" aria-label={`${item.korean} 본편과 외전`}><Catalog seriesId={item.id} showFilters={false} /></section>
     <section id="patches" class="content-section"><div class="section-heading"><div><p class="eyebrow">KOREAN TRANSLATION</p><h2>한글패치</h2></div></div>{relatedPatches.length ? <div class="resource-list">{relatedPatches.map((patch) => <a class="resource-row" href={`${workUrl(patch.workId)}#patch-${patch.id}`}><div><span class="tag">한글패치</span><h3>{patch.name}</h3><p>{patch.author}{patch.version ? ` · ${patch.version}` : ''}</p></div><span aria-hidden="true">↗</span></a>)}</div> : <div class="empty-inline"><span aria-hidden="true">＋</span><div><h3>아직 등록된 한글패치가 없습니다</h3><p>배포 정보가 등록되면 대상 작품·기종·판본과 함께 안내합니다. 이 표시는 패치의 제작 여부나 진행 상태를 뜻하지 않습니다.</p></div></div>}</section>

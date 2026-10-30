@@ -1,0 +1,90 @@
+.site-header nav a[data-series="xenosaga"]:hover,
+.site-header nav a[data-series="xenosaga"]:focus-visible,
+.site-header nav a[data-series="xenosaga"][aria-current] { color: #818cf8; }
+.site-header nav a[data-series="xenosaga"]:focus-visible { outline-color: #818cf8; }
+
+.immersive-page { --portal-header-height: 86px; }
+.immersive-page::before { display: none; }
+.immersive-page .site-header { height: var(--portal-header-height); }
+.immersive-page .header-note { display: none; }
+.immersive-page .site-footer { display: none; }
+.game-stage {
+  --stage-accent: #ef3b43;
+  position: relative;
+  isolation: isolate;
+  min-height: calc(100svh - var(--portal-header-height));
+  padding: 24px var(--space) 28px;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: center;
+  gap: 24px;
+  overflow: hidden;
+}
+.game-stage.xenosaga { --stage-accent: #818cf8; }
+.game-stage.has-lineup { grid-template-rows: 1fr auto; }
+.stage-backdrop { position: absolute; inset: 0; z-index: -2; background: #101722; }
+.stage-slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 75% 22%; opacity: 0; transition: opacity 1.1s ease; }
+.stage-slide.is-current { opacity: 1; }
+.xenogears .stage-slide { object-position: 70% 14%; }
+.game-stage::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); pointer-events: none; }
+.game-stage.xenogears::before { background: linear-gradient(270deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); }
+.stage-copy { width: min(100%, 560px); padding-block: 8px; }
+.xenogears .stage-copy { justify-self: end; text-align: right; }
+.xenogears .stage-title-logo img { margin-left: auto; margin-right: 32px; }
+.xenogears .stage-features, .xenogears .stage-actions { justify-content: flex-end; }
+.stage-copy h1 { font-size: clamp(25px, 3.5vw, 43px); font-weight: 500; line-height: 1.4; margin: 0 0 12px; text-wrap: balance; }
+.stage-title-logo img { width: min(100%, 420px); height: auto; }
+.xenogears .stage-title-logo img { width: auto; max-width: 100%; height: clamp(190px, 40svh, 330px); object-fit: contain; object-position: left center; }
+.stage-subtitle { color: #d0d5de; font-size: 15px; margin: 0 0 15px; }
+.stage-intro { max-width: 37em; color: #e1e5eb; font-size: 14px; line-height: 1.95; margin: 0; word-break: keep-all; text-shadow: 0 1px 10px #0008; }
+.stage-features { display: flex; flex-wrap: wrap; list-style: none; gap: 5px 20px; padding: 0; margin: 15px 0 0; }
+.stage-features li { color: #c0c9d6; font-size: 11px; margin: 0; }
+.stage-features li::before { content: '+'; color: var(--stage-accent); margin-right: 7px; }
+.stage-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 24px; }
+.stage-patch-link { display: inline-flex; align-items: center; gap: 30px; min-height: 44px; padding: 9px 19px; border: 1px solid #d2dae678; background: #0b1119ad; font-size: 12px; color: #f5f6f8; }
+.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage-accent); }
+.stage-actions .text-link { font-size: 11px; }
+.stage-slide-controls { position: absolute; right: var(--space); bottom: 24px; display: flex; align-items: center; gap: 12px; }
+.has-lineup .stage-slide-controls { bottom: auto; top: 24px; }
+.stage-slide-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; color: #e9edf5; border: 1px solid #ffffff4d; background: #0b1119bf; }
+.stage-slide-count { font: 12px var(--display); color: #e9edf5; }
+.stage-lineup { padding-top: 17px; border-top: 1px solid #c0cdeb40; }
+.stage-lineup-label { margin: 0 0 12px; color: #d1d9e4; font-size: 10px; letter-spacing: .12em; }
+.saga-stage-lineup { display: grid; grid-template-columns: 1fr 1.3fr 1fr; gap: 25px; }
+.saga-stage-chapter { min-width: 0; }
+.saga-stage-main { display: flex; align-items: center; gap: 15px; padding: 4px 0 10px; border-bottom: 1px solid #ccd9ed40; }
+.saga-stage-main > span { font: 42px/1 Georgia, serif; color: #c4ccff; }
+.saga-stage-main small { display: block; font: 9px var(--display); color: #acb9d0; letter-spacing: .16em; }
+.saga-stage-main strong { display: block; font-size: 14px; font-weight: 500; line-height: 1.6; }
+.saga-stage-main:hover strong, .saga-stage-side a:hover { color: #a4adff; }
+.saga-stage-side { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 11px; }
+.saga-stage-side a { color: #c3cddc; font-size: 10px; }
+.saga-stage-side a::before { content: '↳'; color: #929fea; margin-right: 4px; }
+
+@media (max-width: 900px) { .immersive-page { --portal-header-height: 74px; } }
+@media (max-width: 640px) {
+  .immersive-page { --portal-header-height: 69px; }
+  .game-stage { padding: 18px 22px 23px; gap: 22px; }
+  .game-stage::before { background: linear-gradient(90deg, #070c13df, #070c1366), linear-gradient(0deg, #070c13d9, transparent 70%); }
+  .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13df, #070c1399), linear-gradient(0deg, #070c13d9, transparent 70%); }
+  .stage-slide { object-position: 65% center; }
+  .xenogears .stage-slide { object-position: 62% 18%; }
+  .stage-title-logo img { width: min(100%, 310px); }
+  .xenogears .stage-title-logo img { height: clamp(170px, 33svh, 250px); }
+  .stage-copy h1 { font-size: 26px; }
+  .stage-subtitle { font-size: 12px; margin-bottom: 12px; }
+  .stage-intro { font-size: 12px; line-height: 1.95; }
+  .stage-features { gap: 4px 12px; margin-top: 12px; }
+  .stage-features li { font-size: 10px; }
+  .stage-actions { gap: 11px 17px; margin-top: 19px; }
+  .stage-patch-link { font-size: 11px; gap: 20px; }
+  .saga-stage-lineup { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  .saga-stage-main { gap: 8px; align-items: flex-start; }
+  .saga-stage-main > span { font-size: 29px; }
+  .saga-stage-main strong { font-size: 10px; }
+  .saga-stage-main small { font-size: 8px; letter-spacing: .03em; }
+  .saga-stage-side { flex-direction: column; gap: 7px; }
+  .saga-stage-side a { font-size: 9px; line-height: 1.6; }
+  .stage-slide-controls { right: 22px; bottom: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .stage-slide { transition: none; } }
