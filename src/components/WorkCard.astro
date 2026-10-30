@@ -1,0 +1,28 @@
+---
+import { series, koreanLabels, type Work } from '../data/catalog';
+import { workUrl, withBase } from '../lib/paths';
+interface Props {
+  entry: Work & { platforms: string[]; date: string; korean: boolean; patchCount: number };
+  compact?: boolean;
+  episode?: string;
+}
+const { entry, compact = false, episode } = Astro.props;
+const parent = series.find((item) => item.id === entry.series)!;
+---
+<article class:list={['work-card', { 'saga-side': compact, 'saga-main': !!episode }]} data-work-id={entry.id}>
+  <a href={workUrl(entry.id)}>
+    {!compact && <div class={`work-art ${entry.series}${entry.image ? ' has-image' : ''}`}>
+      <img src={withBase(entry.image?.src ?? `/images/${entry.series}.svg`)} alt={entry.image?.alt ?? `${parent.korean} 포털 그래픽`} width="1000" height="400" loading="lazy" />
+      <span class="art-label">{episode ? 'PlayStation 2 / 본편' : entry.kind}</span>
+      {episode ? <span class="episode-mark" aria-hidden="true"><span>EPISODE</span>{episode}</span> : !entry.image && <span class="art-monogram" aria-hidden="true">{entry.series === 'xenogears' ? 'GEARS' : entry.series === 'xenosaga' ? 'SAGA' : 'BLADE'}</span>}
+    </div>}
+    <div class="work-card-body">
+      {compact && <span class="side-work-type">{entry.kind === '재구성' ? 'DS / 재구성' : entry.kind === '영상' ? 'WEB / 미싱 이어' : '외전'}</span>}
+      <p class="eyebrow"><time datetime={entry.date || undefined}>{entry.date || '발매일 미확인'}</time><span aria-hidden="true"> / </span>{entry.platforms.join(' · ')}</p>
+      <h3>{entry.title}<span aria-hidden="true">↗</span></h3>
+      <p class="english-title" lang="en">{entry.english}</p>
+      <p class="work-summary">{entry.summary}</p>
+      <div class="tags">{entry.korean && <span class="tag official">{koreanLabels.supported} 판본 있음</span>}<span class="tag">{entry.patchCount ? `등록 패치 ${entry.patchCount}개` : '등록된 팬 패치 없음'}</span></div>
+    </div>
+  </a>
+</article>

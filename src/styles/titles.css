@@ -1,0 +1,209 @@
+.gears-shell {
+  max-width: none;
+  padding: 26px 0 85px;
+}
+.gears-shell > .breadcrumbs,
+.gears-shell > .content-section {
+  width: calc(100% - 2 * var(--space));
+  max-width: 1040px;
+  margin-inline: auto;
+}
+.gears-shell > .breadcrumbs { margin-bottom: 24px; }
+.gears-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 580px;
+  background: #151414;
+  border-block: 1px solid #78634e45;
+}
+.gears-key-visual {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 65% center;
+  opacity: .8;
+  z-index: -2;
+}
+.gears-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #0d1016f2 6%, #131316c9 38%, #1611101a 80%);
+  z-index: -1;
+}
+.gears-hero-content {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 48px var(--space) 85px;
+}
+.gears-hero .eyebrow { color: #b9a48a; font-size: 11px; }
+.gears-catch {
+  font-size: clamp(23px, 2.8vw, 38px);
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 27px 0 23px;
+  color: #e0d6c7;
+}
+.gears-hero h1 > span:first-child {
+  display: block;
+  font: 500 clamp(72px, 9vw, 120px)/1 var(--display);
+  letter-spacing: -.025em;
+}
+.gears-korean {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 17px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #c5b8a5;
+}
+.gears-korean > span { font-size: 11px; color: #968e85; }
+.gears-intro {
+  max-width: 470px;
+  margin-top: 25px;
+  font-size: 13px;
+  line-height: 2;
+  color: #b8b8b8;
+  word-break: keep-all;
+}
+.gears-release {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 19px;
+  margin-top: 25px;
+  padding-block: 10px;
+  border-top: 1px solid #bd9d7540;
+  color: #bba88d;
+}
+.gears-release time { font: 500 20px var(--display); letter-spacing: .06em; }
+.gears-release > span { font-size: 10px; }
+.gears-release > span:last-child { color: var(--red); font-size: 18px; }
+.gears-art-caption { position: absolute; right: var(--space); bottom: 16px; font-size: 9px; color: #8e8172; }
+.gears-explore {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 13px;
+  width: calc(100% - 2 * var(--space));
+  max-width: 1040px;
+  margin: -30px auto 10px;
+}
+.gears-explore > a {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: #171c24;
+  border: 1px solid #4c443c;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 16px) 100%, 0 100%);
+  transition: background .2s, transform .2s;
+}
+.gears-explore > a:hover { background: #242830; transform: translateY(-4px); }
+.gears-explore > a:focus-visible { outline: 0; box-shadow: inset 0 0 0 3px #ff7279; }
+.gears-explore .eyebrow { color: #cf7777; font-size: 10px; }
+.gears-explore strong { font-size: 19px; font-weight: 500; margin: 10px 0 8px; word-break: keep-all; }
+.gears-explore > a > span:last-child { color: #a3a8b0; font-size: 11px; }
+.gears-explore > a > span:last-child > span { float: right; color: var(--red); font-size: 18px; }
+.gears-story .section-heading h2 { font-size: clamp(26px, 3.6vw, 39px); font-weight: 400; }
+.gears-story-copy { color: #b9bfc7; font-size: 16px; line-height: 2.2; margin-bottom: 30px; }
+.gears-battle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.gears-battle-grid > article {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+  background: linear-gradient(120deg, #1f1b19, #11161c);
+  border: 1px solid #544638;
+}
+.gears-battle-grid > article > span { font: 400 58px var(--display); color: #8d755b; }
+.gears-battle-grid h3 { font-size: 20px; font-weight: 400; margin: 6px 0 12px; }
+.gears-battle-grid p:not(.eyebrow) { color: #a6abb4; font-size: 12px; }
+
+.catalog-showcase .saga-lineup { display: block; }
+.saga-chapter + .saga-chapter { margin-top: 62px; }
+.catalog-showcase .saga-main .work-art { height: clamp(230px, 28vw, 350px); }
+.episode-mark {
+  position: absolute;
+  left: 7%;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  font: 400 135px/1.05 Georgia, serif;
+  color: #d7e2ecdc;
+  text-shadow: 0 2px 30px #0006;
+}
+.episode-mark > span { font: 500 11px var(--display); letter-spacing: .32em; margin-bottom: 8px; }
+.catalog-showcase .saga-main .work-card-body h3 { font-size: 30px; }
+.saga-interlude { margin-top: 27px; padding-left: 28px; border-left: 1px solid #354353; }
+.interlude-heading { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; }
+.interlude-line { width: 15px; height: 1px; background: #8d5963; }
+.interlude-heading p { color: #b4c0d0; font-size: 12px; }
+.interlude-heading p > span { color: #8794a6; font-size: 10px; margin-left: 15px; }
+.side-work-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.side-work-grid > :only-child { grid-column: span 2; }
+.catalog-showcase .saga-side {
+  border: 1px solid #334052;
+  background: #111721;
+  padding: 0;
+  margin: 0;
+}
+.catalog-showcase .saga-side + .saga-side { padding-top: 0; border-top: 1px solid #334052; }
+.catalog-showcase .saga-side:hover { border-color: #8e4c55; }
+.catalog-showcase .saga-side .work-card-body { border: 0; margin: 0; padding: 22px; }
+.side-work-type { display: block; font-size: 9px; letter-spacing: .12em; color: #aa7e88; margin-bottom: 17px; }
+.catalog-showcase .saga-side .work-card-body .eyebrow { font-size: 9px; color: #98a7b9; }
+.catalog-showcase .saga-side .work-card-body h3 { font-size: 17px; line-height: 1.65; margin: 9px 0 6px; }
+.catalog-showcase .saga-side .english-title { font-size: 13px; color: #8fa0b5; }
+.catalog-showcase .saga-side .work-summary { font-size: 11px; margin-top: 13px; line-height: 1.9; }
+.catalog-showcase .saga-side .tags { margin-top: 16px; }
+
+@media (max-width: 800px) {
+  .gears-battle-grid { gap: 14px; }
+  .gears-battle-grid > article { padding: 22px; gap: 18px; }
+  .gears-battle-grid > article > span { font-size: 43px; }
+  .gears-battle-grid h3 { font-size: 17px; }
+  .catalog-showcase .saga-side .work-card-body { padding: 17px; }
+}
+@media (max-width: 640px) {
+  .gears-shell { padding-top: 22px; padding-bottom: 55px; }
+  .gears-hero { min-height: 520px; }
+  .gears-key-visual { object-position: 74% center; opacity: .55; }
+  .gears-hero-content { padding: 35px 26px 65px; }
+  .gears-hero .eyebrow { font-size: 9px; }
+  .gears-catch { font-size: 25px; margin: 25px 0; }
+  .gears-hero h1 > span:first-child { font-size: clamp(56px, 15vw, 92px); }
+  .gears-korean { font-size: 18px; gap: 16px; }
+  .gears-intro { max-width: 290px; font-size: 12px; }
+  .gears-release { gap: 13px; }
+  .gears-release time { font-size: 18px; }
+  .gears-art-caption { font-size: 8px; bottom: 18px; }
+  .gears-explore { grid-template-columns: 1fr; gap: 10px; margin-top: -20px; }
+  .gears-explore > a { padding: 16px 21px; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 15px; align-items: center; }
+  .gears-explore .eyebrow { grid-column: 1 / -1; font-size: 8px; }
+  .gears-explore strong { font-size: 14px; margin: 3px 0; }
+  .gears-explore > a > span:last-child { font-size: 9px; }
+  .gears-story-copy { font-size: 13px; line-height: 2.1; margin-bottom: 20px; }
+  .gears-battle-grid { grid-template-columns: 1fr; }
+  .gears-battle-grid > article { padding: 23px; }
+  .gears-battle-grid > article > span { min-width: 55px; }
+  .saga-chapter + .saga-chapter { margin-top: 42px; }
+  .catalog-showcase .saga-main .work-art { height: 230px; }
+  .episode-mark { font-size: 94px; bottom: 22px; }
+  .episode-mark > span { font-size: 9px; }
+  .catalog-showcase .saga-main .work-card-body h3 { font-size: 23px; }
+  .saga-interlude { padding-left: 17px; margin-top: 22px; }
+  .interlude-heading { gap: 9px; }
+  .interlude-heading p { font-size: 11px; }
+  .interlude-heading p > span { display: block; margin: 3px 0 0; font-size: 9px; }
+  .side-work-grid { grid-template-columns: 1fr; gap: 13px; }
+  .side-work-grid > :only-child { grid-column: auto; }
+  .catalog-showcase .saga-side .work-card-body { padding: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gears-explore > a:hover { transform: none; }
+}

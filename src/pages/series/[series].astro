@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Catalog from '../../components/Catalog.astro';
+import WorkDetail from '../../components/WorkDetail.astro';
 import { series, works } from '../../data/catalog';
 import { patches } from '../../data/patches';
 import { resources } from '../../data/resources';
@@ -11,7 +12,7 @@ const ids = works.filter((work) => work.series === item.id).map((work) => work.i
 const relatedResources = resources.filter((resource) => resource.workIds.some((id) => ids.includes(id)));
 const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
 ---
-<Layout title={item.korean} description={item.description} activeSeries={item.id}>
+{item.id === 'xenogears' ? <WorkDetail work={works.find((work) => work.id === 'xenogears')!} /> : <Layout title={item.korean} description={item.description} activeSeries={item.id}>
   <div class="page-shell">
     <nav class="breadcrumbs" aria-label="현재 위치"><a href={withBase('/')}>홈</a><span aria-hidden="true">/</span><span aria-current="page">{item.korean}</span></nav>
     <header class={`series-hero ${item.id}`}><img src={withBase(`/images/${item.id}.svg`)} alt="" width="1000" height="400" /><div><p class="eyebrow">SERIES {item.number} / {item.motif}</p><h1>{item.name}</h1><p class="series-korean">{item.korean}<span>— {item.tagline}</span></p><p>{item.description}</p></div></header>
@@ -21,4 +22,4 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
     <section id="resources" class="content-section"><div class="section-heading"><div><p class="eyebrow">BEYOND THE GAME</p><h2>자료실</h2></div></div>{relatedResources.length ? <div class="resource-list">{relatedResources.map((resource) => <a class="resource-row" href={withBase(`/resources/${resource.id}/`)}><div><span class="tag">{resource.type}</span><h3>{resource.title}</h3><p>{resource.description}</p></div><span aria-hidden="true">↗</span></a>)}</div> : <p class="empty-inline">등록된 관련 자료가 없습니다.</p>}</section>
     <section id="updates" class="content-section"><div class="section-heading"><div><p class="eyebrow">ARCHIVE LOG</p><h2>업데이트</h2></div></div>{relatedPatches.length ? relatedPatches.map((patch) => <a class="resource-row" href={`${workUrl(patch.workId)}#patch-${patch.id}`}><div><span class="eyebrow">{patch.releaseDate ?? '배포일 미등록'}{patch.version ? ` / ${patch.version}` : ''}</span><h3>{patch.name}</h3><p>{patch.changes[0] ?? '작품 페이지에서 배포 정보와 변경 사항을 확인하세요.'}</p></div><span aria-hidden="true">↗</span></a>) : <p class="empty-inline">등록된 패치 배포·자료 업데이트 기록이 없습니다.</p>}</section>
   </div>
-</Layout>
+</Layout>}

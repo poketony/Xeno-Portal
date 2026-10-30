@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { filterCatalog } from '../src/lib/catalog.mjs';
-import { works, series, editions } from '../src/data/catalog.ts';
+import { works, series, editions, xenosagaLineup } from '../src/data/catalog.ts';
 import { patches } from '../src/data/patches.ts';
 import { resources } from '../src/data/resources.ts';
 import { chapters } from '../src/data/missing-year.ts';
@@ -33,7 +33,7 @@ test('작품·판본·패치·자료의 ID와 연결 관계가 유효하다', ()
   }
   for (const edition of editions) {
     assert.ok(works.some((work) => work.id === edition.workId), edition.id);
-    if (edition.releaseDate) assert.match(edition.releaseDate, /^\d{4}-\d{2}-\d{2}$/);
+    if (edition.releaseDate) assert.match(edition.releaseDate, /^\d{4}-\d{2}(?:-\d{2})?$/);
     if (edition.korean !== 'unverified') assert.ok(edition.sources.length, `${edition.id}: 한국어 지원 판단 출처 필요`);
   }
   for (const patch of patches) {
@@ -43,6 +43,20 @@ test('작품·판본·패치·자료의 ID와 연결 관계가 유효하다', ()
     for (const url of [patch.downloadUrl, patch.distributionUrl, ...(patch.mirrors ?? []).map((mirror) => mirror.url)].filter(Boolean)) assert.equal(new URL(url).protocol, 'https:');
   }
   for (const resource of resources) for (const id of resource.workIds) assert.ok(works.some((work) => work.id === id));
+});
+test('제노사가 본편 위계와 본편 사이 외전의 발매 순서를 유지한다', () => {
+  assert.deepEqual(xenosagaLineup.map((group) => group.mainId), ['xenosaga-1', 'xenosaga-2', 'xenosaga-3']);
+  assert.deepEqual(xenosagaLineup[0].sideIds, ['xenosaga-freaks']);
+  assert.deepEqual(xenosagaLineup[1].sideIds, ['xenosaga-pied-piper', 'xenosaga-1-2', 'missing-year']);
+  const ids = xenosagaLineup.flatMap((group) => [group.mainId, ...group.sideIds]);
+  assert.equal(new Set(ids).size, ids.length);
+  assert.deepEqual([...ids].sort(), works.filter((work) => work.series === 'xenosaga').map((work) => work.id).sort());
+  for (const group of xenosagaLineup) {
+    assert.ok(editions.some((edition) => edition.workId === group.mainId && edition.platform === 'PlayStation 2'));
+    const dates = group.sideIds.map((id) => editions.filter((edition) => edition.workId === id).map((edition) => edition.releaseDate).filter(Boolean).sort()[0]);
+    assert.ok(dates.every(Boolean), '외전 순서의 근거가 되는 발매·공개 정보가 필요합니다.');
+    assert.deepEqual(dates, [...dates].sort());
+  }
 });
 test('SWF 장 데이터는 고유 순서·양수 화면비와 기준 폴더를 갖는다', () => {
   assert.equal(new Set(chapters.map((chapter) => chapter.order)).size, chapters.length);

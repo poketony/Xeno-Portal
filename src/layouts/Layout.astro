@@ -3,9 +3,10 @@ import { siteConfig } from '../data/site.mjs';
 import { series } from '../data/catalog';
 import { withBase, seriesUrl } from '../lib/paths';
 import '../styles/global.css';
-interface Props { title?: string; description?: string; activeSeries?: string; home?: boolean }
-const { title, description = siteConfig.description, activeSeries, home = false } = Astro.props;
-const canonical = new URL(Astro.url.pathname.endsWith('/404/') ? withBase('/404.html') : Astro.url.pathname, siteConfig.origin).href;
+import '../styles/titles.css';
+interface Props { title?: string; description?: string; activeSeries?: string; home?: boolean; canonicalPath?: string }
+const { title, description = siteConfig.description, activeSeries, home = false, canonicalPath } = Astro.props;
+const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/') ? withBase('/404.html') : Astro.url.pathname), siteConfig.origin).href;
 ---
 <!doctype html>
 <html lang="ko">

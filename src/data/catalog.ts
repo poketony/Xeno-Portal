@@ -12,11 +12,14 @@ export interface Work {
 }
 export interface Edition {
   id: string; workId: string; name: string; platform: string; region: string;
+  // YYYY-MM-DD, 공개월만 확인한 경우 YYYY-MM. 미확인은 null.
   releaseDate: string | null; korean: 'supported' | 'unsupported' | 'unverified';
   note?: string; sources: Source[];
 }
 export const monolith: Source = { title: 'MONOLITHSOFT 공식 작품 목록 (일본 발매 정보)', url: 'https://www.monolithsoft.co.jp/games/' };
 const squareArchive: Source = { title: 'SQUARE ENIX 제노기어스 아카이브 (일본 발매 정보)', url: 'https://www.jp.square-enix.com/archive/xenogears/' };
+const piedPiperSource: Source = { title: 'GAME Watch: 파이드 파이퍼 최초 배포 보도 (2004-07-14)', url: 'https://game.watch.impress.co.jp/docs/20040714/xeno.htm' };
+const missingYearSource: Source = { title: 'Eiwigkeit: 미싱 이어 공개 당시 기록 (2006년 5월)', url: 'https://xenoonline.com/archives/1878' };
 const nintendo = (code: string, title: string): Source => ({ title, url: `https://www.nintendo.com/kr/switch/${code}/index.html` });
 
 export const series: Series[] = [
@@ -31,7 +34,8 @@ export const works: Work[] = [
   { id: 'xenosaga-freaks', series: 'xenosaga', title: '제노사가 프릭스', english: 'Xenosaga Freaks', japanese: 'ゼノサーガ フリークス', aliases: ['프리크스'], kind: '외전', summary: '제노사가의 세계와 등장인물을 다루는 버라이어티 소프트웨어입니다.', features: ['본편과 별도로 즐기는 외전'], related: ['xenosaga-1'], sources: [monolith] },
   { id: 'xenosaga-2', series: 'xenosaga', title: '제노사가 에피소드 II', english: 'Xenosaga Episode II: Jenseits von Gut und Böse', japanese: 'ゼノサーガ エピソードII 善悪の彼岸', aliases: ['선악의 피안', '제노사가 2'], kind: '본편', summary: '에피소드 I의 이야기를 잇는 두 번째 에피소드입니다.', features: ['이전 에피소드에서 이어지는 서사'], related: ['xenosaga-1', 'missing-year', 'xenosaga-3'], sources: [monolith] },
   { id: 'xenosaga-1-2', series: 'xenosaga', title: '제노사가 I·II', english: 'Xenosaga I & II', japanese: 'ゼノサーガI・II', aliases: ['제노사가 DS', 'Xenosaga 1 2'], kind: '재구성', summary: '에피소드 I과 II를 Nintendo DS에서 만날 수 있는 별도 작품입니다.', features: ['Nintendo DS용 작품', '에피소드 I·II와 구분되는 판본 정보'], related: ['xenosaga-1', 'xenosaga-2'], sources: [monolith] },
-  { id: 'missing-year', series: 'xenosaga', title: '제노사가 미싱 이어', english: 'Xenosaga Episode II to III: A Missing Year', japanese: '', aliases: ['미싱이어', 'A Missing Year', '미씽 이어'], kind: '영상', summary: '에피소드 II와 III 사이를 잇는 이야기입니다. 전용 감상 페이지에서 장별로 감상할 수 있도록 준비했습니다.', features: ['에피소드 II 이후의 내용을 다룹니다', 'Flash 원본 자료를 위한 전용 감상 화면'], related: ['xenosaga-2', 'xenosaga-3'], sources: [] },
+  { id: 'xenosaga-pied-piper', series: 'xenosaga', title: '제노사가 파이드 파이퍼', english: 'Xenosaga Pied Piper', japanese: 'ゼノサーガ パイド パイパー', aliases: ['파이드파이퍼', '파이드 파이퍼', 'Pied Piper'], kind: '외전', summary: '본편보다 100년 앞선 시대를 배경으로 지기의 과거를 다루는 휴대전화용 RPG입니다.', features: ['본편의 과거를 다루는 외전', '휴대전화용으로 처음 배포된 RPG'], related: ['xenosaga-2', 'xenosaga-3'], sources: [piedPiperSource] },
+  { id: 'missing-year', series: 'xenosaga', title: '제노사가 미싱 이어', english: 'Xenosaga Episode II to III: A Missing Year', japanese: '', aliases: ['미싱이어', 'A Missing Year', '미씽 이어'], kind: '영상', summary: '에피소드 II와 III 사이를 잇는 이야기입니다. 전용 감상 페이지에서 장별로 감상할 수 있도록 준비했습니다.', features: ['에피소드 II 이후의 내용을 다룹니다', 'Flash 원본 자료를 위한 전용 감상 화면'], related: ['xenosaga-2', 'xenosaga-3'], sources: [missingYearSource] },
   { id: 'xenosaga-3', series: 'xenosaga', title: '제노사가 에피소드 III', english: 'Xenosaga Episode III: Also sprach Zarathustra', japanese: 'ゼノサーガ エピソードIII ツァラトゥストラはかく語りき', aliases: ['차라투스트라는 이렇게 말했다', '제노사가 3'], kind: '본편', summary: '에피소드 I과 II에서 이어진 이야기를 마무리하는 세 번째 에피소드입니다.', features: ['제노사가 세 에피소드의 마지막 작품'], related: ['xenosaga-2', 'missing-year'], sources: [monolith] },
   { id: 'xenoblade', series: 'xenoblade', title: '제노블레이드 크로니클스', english: 'Xenoblade Chronicles', japanese: 'ゼノブレイド', aliases: ['제노블레이드 1', '제노블레이드 DE', '이어지는 미래', '디피니티브 에디션', '모나드'], kind: '본편', summary: '신의 검 모나드를 손에 든 슈르크가 거신과 기신의 세계를 여행합니다. 디피니티브 에디션에는 추가 이야기 「이어지는 미래」가 수록되어 있습니다.', features: ['거신과 기신 위에 펼쳐진 세계', '디피니티브 에디션의 추가 이야기'], related: [], sources: [monolith, nintendo('aubqa', '한국닌텐도: 디피니티브 에디션')] },
   { id: 'xenoblade-x', series: 'xenoblade', title: '제노블레이드 크로니클스 크로스', english: 'Xenoblade Chronicles X', japanese: 'ゼノブレイドクロス', aliases: ['제노블레이드 X', '제노블레이드 크로스', '미라'], kind: '본편', summary: '미지의 행성 미라에 도착한 인류가 새로운 삶의 터전을 개척합니다.', features: ['미지의 행성 탐색', '인간형 병기 돌을 활용한 모험'], related: [], sources: [monolith, nintendo('bas6a', '한국닌텐도: 크로스 디피니티브 에디션')] },
@@ -39,6 +43,13 @@ export const works: Work[] = [
   { id: 'torna', series: 'xenoblade', title: '황금의 나라 이라', english: 'Xenoblade Chronicles 2: Torna – The Golden Country', japanese: 'ゼノブレイド2 黄金の国イーラ', aliases: ['황금의 나라 이라', '토르나', '이ー라'], kind: '확장 콘텐츠', summary: '제노블레이드 크로니클스 2의 세계를 다루는 추가 이야기입니다. 다운로드 콘텐츠와 패키지 판본이 있습니다.', features: ['제노블레이드 2의 추가 이야기', '별도의 패키지 판본'], related: ['xenoblade-2'], sources: [monolith] },
   { id: 'xenoblade-3', series: 'xenoblade', title: '제노블레이드 크로니클스 3', english: 'Xenoblade Chronicles 3', japanese: 'ゼノブレイド3', aliases: ['제노블레이드3', '노아', '미오'], kind: '본편', summary: '광대한 세계에서 동료들과 함께 여행하는 제노블레이드의 세 번째 넘버링 작품입니다.', features: ['동료와 연계하는 전투', '광대한 세계의 탐색'], related: ['future-redeemed'], sources: [monolith, nintendo('az3ha', '한국닌텐도: 제노블레이드 크로니클스 3')] },
   { id: 'future-redeemed', series: 'xenoblade', title: '새로운 미래', english: 'Xenoblade Chronicles 3: Future Redeemed', japanese: 'ゼノブレイド3 新たなる未来', aliases: ['제노블레이드 3 DLC', '새미래'], kind: '확장 콘텐츠', summary: '제노블레이드 크로니클스 3의 유료 추가 콘텐츠로 제공되는 이야기입니다.', features: ['제노블레이드 3의 추가 이야기'], related: ['xenoblade-3'], sources: [monolith] },
+];
+
+// 본편 사이의 배치는 운영자 지정. 각 외전 묶음은 최초 발매·공개 순입니다.
+export const xenosagaLineup = [
+  { mainId: 'xenosaga-1', episode: 'I', sideIds: ['xenosaga-freaks'], between: '에피소드 I과 II 사이' },
+  { mainId: 'xenosaga-2', episode: 'II', sideIds: ['xenosaga-pied-piper', 'xenosaga-1-2', 'missing-year'], between: '에피소드 II와 III 사이' },
+  { mainId: 'xenosaga-3', episode: 'III', sideIds: [], between: '' },
 ];
 
 // 발매일은 아래 출처의 지역 기준입니다. 확인하지 못한 값은 null / unverified로 남깁니다.
@@ -52,7 +63,8 @@ export const editions: Edition[] = [
     ['saga3-jp', 'xenosaga-3', '일본판', '2006-07-06'],
   ].map(([id, workId, name, releaseDate]): Edition => ({ id, workId, name, platform: 'PlayStation 2', region: '일본', releaseDate, korean: 'unverified', sources: [monolith] })),
   { id: 'saga12-ds', workId: 'xenosaga-1-2', name: 'Nintendo DS판', platform: 'Nintendo DS', region: '일본', releaseDate: '2006-03-30', korean: 'unverified', sources: [monolith] },
-  { id: 'missing-year-web', workId: 'missing-year', name: 'Flash 웹 공개본', platform: '웹 / Flash', region: '미확인', releaseDate: null, korean: 'unverified', sources: [] },
+  { id: 'pied-piper-vodafone', workId: 'xenosaga-pied-piper', name: 'Vodafone live! 최초 배포판', platform: '휴대전화', region: '일본', releaseDate: '2004-07-14', korean: 'unverified', sources: [piedPiperSource] },
+  { id: 'missing-year-web', workId: 'missing-year', name: 'Flash 웹 공개본', platform: '웹 / Flash', region: '일본', releaseDate: '2006-05', korean: 'unverified', sources: [missingYearSource], note: '당시 공개 기록을 근거로 공개월만 표시합니다. 정확한 최초 공개일과 원본 파일 구성은 추가 확인이 필요합니다.' },
   ...[
     ['blade-wii', 'xenoblade', 'Wii 원작', 'Wii', '2010-06-10'],
     ['blade-3ds', 'xenoblade', 'New Nintendo 3DS 이식판', 'New Nintendo 3DS', '2015-04-02'],

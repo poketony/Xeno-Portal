@@ -1,9 +1,10 @@
 ---
-import { series, works, workEditions, koreanLabels } from '../data/catalog';
+import { series, works, workEditions, xenosagaLineup } from '../data/catalog';
+import WorkCard from './WorkCard.astro';
 import { patches } from '../data/patches';
-import { workUrl, withBase } from '../lib/paths';
 interface Props { seriesId?: string }
 const { seriesId } = Astro.props;
+const isSaga = seriesId === 'xenosaga';
 const entries = works.filter((work) => !seriesId || work.series === seriesId).map((work) => {
   const editions = workEditions(work.id);
   return { ...work, platforms: [...new Set(editions.map((edition) => edition.platform))], date: editions.map((edition) => edition.releaseDate).filter(Boolean).sort()[0] ?? '', search: [work.title, work.english, work.japanese, ...work.aliases, ...editions.map((edition) => edition.name)].join(' '), korean: editions.some((edition) => edition.korean === 'supported'), patchCount: patches.filter((patch) => patch.workId === work.id).length };
@@ -11,23 +12,24 @@ const entries = works.filter((work) => !seriesId || work.series === seriesId).ma
 const platforms = [...new Set(entries.flatMap((entry) => entry.platforms))];
 const kinds = [...new Set(entries.map((entry) => entry.kind))];
 ---
-<div class:list={['catalog', { 'catalog-showcase': !!seriesId }]} data-catalog>
+<div class:list={['catalog', { 'catalog-showcase': !!seriesId }]} data-catalog data-fixed-order={isSaga ? 'true' : undefined}>
   <form class="catalog-filters" role="search" aria-label="작품 검색과 필터">
     <div class="search-field"><label for="work-search">작품 검색</label><div><span aria-hidden="true">⌕</span><input id="work-search" type="search" name="q" placeholder="한국어·일본어·영어 제목으로 검색" autocomplete="off" /></div></div>
     {!seriesId && <div><label for="series-filter">시리즈</label><select id="series-filter" name="series"><option value="">모든 시리즈</option>{series.map((item) => <option value={item.id}>{item.korean}</option>)}</select></div>}
     <div><label for="platform-filter">기종</label><select id="platform-filter" name="platform"><option value="">모든 기종</option>{platforms.map((platform) => <option>{platform}</option>)}</select></div>
     <div><label for="kind-filter">분류</label><select id="kind-filter" name="kind"><option value="">모든 작품</option>{kinds.map((kind) => <option>{kind}</option>)}</select></div>
-    <div><label for="sort-order">정렬</label><select id="sort-order" name="sort"><option value="oldest">발매일 오래된 순</option><option value="newest">발매일 최신순</option></select></div>
+    {!isSaga && <div><label for="sort-order">정렬</label><select id="sort-order" name="sort"><option value="oldest">발매일 오래된 순</option><option value="newest">발매일 최신순</option></select></div>}
     <button class="filter-reset" type="reset">초기화</button>
   </form>
-  <div class="catalog-meta"><p data-result-count role="status" aria-live="polite">작품 {entries.length}개</p><span>판본별 최초 확인 발매일 기준 · 날짜 미확인은 마지막에 표시</span></div>
-  <div class="work-grid" data-work-list>
-    {entries.map((entry) => <article class="work-card" data-work-id={entry.id}>
-      <a href={workUrl(entry.id)}>
-        <div class={`work-art ${entry.series}${entry.image ? ' has-image' : ''}`}><img src={withBase(entry.image?.src ?? `/images/${entry.series}.svg`)} alt={entry.image?.alt ?? `${series.find((item) => item.id === entry.series)?.korean} 포털 그래픽`} width="1000" height="400" loading="lazy" /><span class="art-label">{entry.kind}</span>{!entry.image && <span class="art-monogram" aria-hidden="true">{entry.series === 'xenogears' ? 'GEARS' : entry.series === 'xenosaga' ? 'SAGA' : 'BLADE'}</span>}</div>
-        <div class="work-card-body"><p class="eyebrow">{entry.date ? entry.date.slice(0, 4) : '발매일 미확인'}<span aria-hidden="true"> / </span>{entry.platforms.join(' · ')}</p><h3>{entry.title}<span aria-hidden="true">↗</span></h3><p class="english-title" lang="en">{entry.english}</p><p class="work-summary">{entry.summary}</p><div class="tags">{entry.korean && <span class="tag official">{koreanLabels.supported} 판본 있음</span>}<span class="tag">{entry.patchCount ? `등록 패치 ${entry.patchCount}개` : '등록된 팬 패치 없음'}</span></div></div>
-      </a>
-    </article>)}
+  <div class="catalog-meta"><p data-result-count role="status" aria-live="polite">작품 {entries.length}개</p><span>{isSaga ? '본편 I → II → III · 사이의 외전은 최초 발매·공개 순' : '판본별 최초 확인 발매일 기준 · 날짜 미확인은 마지막에 표시'}</span></div>
+  <div class:list={['work-grid', { 'saga-lineup': isSaga }]} data-work-list>
+    {isSaga ? xenosagaLineup.map((group) => <section class="saga-chapter" data-chapter-group aria-label={`에피소드 ${group.episode} · 관련 외전`}>
+      <WorkCard entry={entries.find((entry) => entry.id === group.mainId)!} episode={group.episode} />
+      {group.sideIds.length > 0 && <div class="saga-interlude" data-interlude>
+        <div class="interlude-heading"><span class="interlude-line" aria-hidden="true"></span><p>{group.between}<span>외전 · 최초 발매·공개 순</span></p></div>
+        <div class="side-work-grid">{group.sideIds.map((id) => <WorkCard entry={entries.find((entry) => entry.id === id)!} compact />)}</div>
+      </div>}
+    </section>) : entries.map((entry) => <WorkCard entry={entry} />)}
   </div>
   <div class="empty-state" data-no-results hidden><span aria-hidden="true">∅</span><h3>검색 결과가 없습니다</h3><p>다른 제목이나 별칭으로 검색하거나 필터를 초기화해 주세요.</p><button class="button secondary" type="button" data-clear>검색·필터 초기화</button></div>
   <noscript><p class="notice">검색과 필터를 사용하려면 JavaScript를 켜 주세요. 모든 작품은 위 목록에서 볼 수 있습니다.</p></noscript>
@@ -44,7 +46,14 @@ const kinds = [...new Set(entries.map((entry) => entry.kind))];
       const values = Object.fromEntries(new FormData(form).entries());
       const matches = filterCatalog(entries, { ...values, query: String(values.q ?? '') });
       cards.forEach((card) => { card.hidden = true; });
-      matches.forEach((entry: { id: string }) => { const card = cards.get(entry.id)!; card.hidden = false; list.append(card); });
+      matches.forEach((entry: { id: string }) => {
+        const card = cards.get(entry.id)!;
+        card.hidden = false;
+        if (root.dataset.fixedOrder !== 'true') list.append(card);
+      });
+      for (const group of list.querySelectorAll<HTMLElement>('[data-chapter-group], [data-interlude]')) {
+        group.hidden = !group.querySelector('[data-work-id]:not([hidden])');
+      }
       root.querySelector('[data-result-count]')!.textContent = `작품 ${matches.length}개`;
       root.querySelector<HTMLElement>('[data-no-results]')!.hidden = matches.length > 0;
       const params = new URLSearchParams();
