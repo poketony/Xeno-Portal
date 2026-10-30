@@ -1,0 +1,21 @@
+{
+  "name": "xeno-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": { "node": ">=24.0.0 <25" },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "check": "astro check",
+    "build": "node scripts/copy-ruffle.mjs && astro build && node scripts/verify-build.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": { "astro": "7.4.4" },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@ruffle-rs/ruffle": "0.7.1",
+    "typescript": "5.9.3"
+  }
+}
