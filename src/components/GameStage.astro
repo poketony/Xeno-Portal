@@ -14,19 +14,21 @@ interface Props {
   logo?: { src: string; width: number; height: number };
   slides: ShowcaseImage[];
   patchUrl?: string;
+  patchPending?: boolean;
 }
-const { seriesId, workId, title, subtitle, subtitleLang = 'ko', description, features = [], logo, slides, patchUrl } = Astro.props;
+const { seriesId, workId, title, subtitle, subtitleLang = 'ko', description, features = [], logo, slides, patchUrl, patchPending = false } = Astro.props;
+const titleBracket = seriesId === 'xenosaga' && !logo ? title.indexOf('[') : -1;
 ---
 <section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup'), 'has-slideshow': slides.length > 1 }]} aria-label={title} data-game-stage data-work-id={workId}>
   <div class="stage-backdrop" aria-hidden="true">
     {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={slide.src} alt="" width={slide.width} height={slide.height} style={`--slide-width: ${slide.width}px; --slide-height: ${slide.height}px`} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
   </div>
   <div class="stage-copy">
-    <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : title}</h1>
+    <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : titleBracket > 0 ? <>{title.slice(0, titleBracket)}<span class="stage-title-bracket">{title.slice(titleBracket)}</span></> : title}</h1>
     {subtitle && <p class="stage-subtitle" lang={subtitleLang}>{subtitle}</p>}
     <p class="stage-intro">{description}</p>
     {features.length > 0 && <ul class="stage-features" aria-label={commonText.features}>{features.map((feature) => <li>{feature}</li>)}</ul>}
-    {(patchUrl || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl && <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">{commonText.patch} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a>}<slot name="actions" /></div>}
+    {(patchUrl || patchPending || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl ? <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">{commonText.patch} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a> : patchPending && <button class="stage-patch-link" type="button" disabled>{commonText.patchPending}<svg class="patch-progress-mark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12M6 21h12M7 3v4c0 2 2 3.5 5 5-3 1.5-5 3-5 5v4M17 3v4c0 2-2 3.5-5 5 3 1.5 5 3 5 5v4" /></svg></button>}<slot name="actions" /></div>}
   </div>
   {Astro.slots.has('lineup') && <div class="stage-lineup"><slot name="lineup" /></div>}
   {slides.length > 1 && <div class="stage-slide-controls" aria-label={slideshowText.controls}>

@@ -45,6 +45,7 @@ export const commonText = {
   "newWindow": "(새 창)",
   "copyright": "비공식 팬 사이트입니다. 작품명·이미지의 권리는 각 권리자에게 있습니다.",
   "patch": "한글패치 바로가기",
+  "patchPending": "한글패치 제작 중",
   "features": "게임의 주요 특징",
   "watchMissingYear": "미싱 이어 감상",
   "backToSaga": "제노사가 작품 선택",
@@ -84,7 +85,7 @@ export const seriesText = {
     "korean": "제노사가",
     "number": "02",
     "tagline": "우주 속 인류의 존속을 둘러싸고 펼쳐지는 대서사시",
-    "description": "우주를 무대로 펼쳐지는 제노사가. 3개의 본편과 외전작들, 그리고 한글패치 등의 관련 정보를 살펴보세요.",
+    "description": "우주를 무대로 인류의 존속을 둘러싼 이야기가 펼쳐집니다. 본편 3부작과 외전으로 이어지며, 각 본편의 부제는 니체의 저서에서 따왔습니다.",
     "motif": "SPACE / MEMORY",
     "artworkAlt": "KOS-MOS의 옆모습을 담은 제노사가 이미지"
   },
@@ -95,7 +96,7 @@ export const seriesText = {
     "tagline": "새로운 세계를 향한 여정",
     "description": "끝없이 펼쳐지는 대지, 그 위를 살아가는 사람들. 제노블레이드의 본편과 확장 콘텐츠, 여러 판본을 둘러보세요.",
     "motif": "WORLD / FUTURE",
-    "artworkAlt": "거신과 초원에 꽂힌 모나드를 담은 제노블레이드 이미지"
+    "artworkAlt": "거신과 초원에 꽂힌 모나드를 담은 제노블레이드 크로니클스 이미지"
   }
 };
 
@@ -123,7 +124,7 @@ export const workText = {
       "제노사가 1",
       "KOS-MOS"
     ],
-    "summary": "시온과 KOS-MOS를 중심으로 시작되는 제노사가의 첫 번째 에피소드입니다. 시온과 KOS-MOS가 수수께끼의 적 \"그노시스\"와 관련된 사건에 휘말리며 벌어지는 이야기를 그리고 있습니다. 새롭게 이야기를 시작한 모노리스 소프트의 야심이 돋보이는 작품.",
+    "summary": "시온과 KOS-MOS를 중심으로 시작되는 제노사가의 첫 번째 에피소드입니다. \n시온과 KOS-MOS가 수수께끼의 적 \"그노시스\"와 관련된 사건에 휘말리며 \n벌어지는 이야기를 그리고 있습니다. \n새롭게 이야기를 시작한 모노리스 소프트의 야심이 돋보이는 작품.",
     "features": [
       "고도의 전략적인 계산을 요구하는 턴제 RPG",
       "압도적인 영상미를 자랑하는 시네마틱 컷신"
@@ -162,7 +163,7 @@ export const workText = {
       "제노사가 DS",
       "Xenosaga 1 2"
     ],
-    "summary": "에피소드 I과 II를 Nintendo DS에서 만날 수 있는 색다른 작품입니다. 제작 여건상의 이유로 생략된 제노사가 2의 여러 에피소드가 타카하시 테츠야의 감수 아래 재정비되었습니다. 제노사가 에피소드 III를 즐기고자 하는 유저들을 위한 친절한 가이드 같은 작품.",
+    "summary": "에피소드 I과 II를 Nintendo DS에서 만날 수 있는 색다른 작품입니다. \n제작 여건상의 이유로 생략된 제노사가 2의 여러 에피소드가 \n타카하시 테츠야의 감수 아래 재정비되었습니다. \n제노사가 에피소드 III를 즐기려는 유저들을 위한 친절한 가이드 같은 작품.",
     "features": [
       "타카하시 감독에 의해 재정비된 스토리",
       "비교적 가벼우면서도 깊이를 더한 전투"
@@ -192,7 +193,7 @@ export const workText = {
       "A Missing Year",
       "미씽 이어"
     ],
-    "summary": "정확한 제목은 \n제노사가 에피소드 II to III a missing year ~U.M.N.에 봉인된 진실의 단편~. 에피소드 II와 III 사이를 잇는 플래시 기반의 웹 콘텐츠입니다. 전용 감상 페이지에서 챕터별로 감상할 수 있도록 준비했습니다.",
+    "summary": "정확한 제목은 \n제노사가 에피소드 II to III a missing year ~U.M.N.에 봉인된 진실의 단편~. \n에피소드 II와 III 사이를 잇는 플래시 기반의 웹 콘텐츠입니다. \n전용 감상 페이지에서 챕터별로 감상할 수 있도록 준비했습니다.",
     "features": [
       "에피소드 II 이후의 내용을 다룹니다",
       "Flash 원본 자료를 위한 전용 감상 화면"
@@ -206,7 +207,7 @@ export const workText = {
       "차라투스트라는 이렇게 말했다",
       "제노사가 3"
     ],
-    "summary": "에피소드 I과 II, 그리고 여러 외전에서 이어진 이야기를 마무리하는 제노사가 시리즈의 마지막 작품입니다. 기종의 한계를 뛰어넘은 화려한 그래픽과 몰입도 있는 게임플레이를 겸비한 제노사가 시리즈 최고의 작품.",
+    "summary": "에피소드 I과 II, 그리고 여러 외전에서 이어진 이야기를 마무리하는 \n제노사가 시리즈의 마지막 작품입니다. 기종의 한계를 뛰어넘은 \n화려한 그래픽과 몰입도 있는 게임플레이를 겸비한 \n제노사가 시리즈 최고의 작품.",
     "features": [
       "제노사가 시리즈의 피날레이자 최고의 작품"
     ]
@@ -268,7 +269,7 @@ export const workText = {
     ],
     "summary": "제노블레이드 크로니클스 2의 세계를 다루는 추가 이야기입니다. 다운로드 콘텐츠와 패키지 판본이 있습니다.",
     "features": [
-      "제노블레이드 2의 추가 이야기",
+      "제노블레이드 크로니클스 2의 추가 이야기",
       "별도의 패키지 판본"
     ]
   },
@@ -297,7 +298,7 @@ export const workText = {
     ],
     "summary": "제노블레이드 크로니클스 3의 유료 추가 콘텐츠로 제공되는 이야기입니다.",
     "features": [
-      "제노블레이드 3의 추가 이야기"
+      "제노블레이드 크로니클스 3의 추가 이야기"
     ]
   }
 };
@@ -380,7 +381,7 @@ export const historyText = {
       "name": "타카하시 테츠야",
       "roman": "Tetsuya Takahashi",
       "role": "기획 · 각본 · 총감독",
-      "description": "『제노기어스』의 감독·각본을 맡았고, 『제노블레이드』에서는 총감독으로 기획과 이야기, 게임 전반의 방향을 잡아 왔다. 이질적인 존재들이 맺는 관계는 그가 제노라는 이름 아래 계속 다뤄 온 주제다.",
+      "description": "『제노기어스』의 감독·각본을 맡았고, 『제노블레이드 크로니클스』에서는 총감독으로 기획과 이야기, 게임 전반의 방향을 잡아 왔다. 이질적인 존재들이 맺는 관계는 그가 제노라는 이름 아래 계속 다뤄 온 주제다.",
       "photo": {
         "src": "/images/people/tetsuya-takahashi.jpg",
         "width": 435,
@@ -435,7 +436,7 @@ export const historyText = {
     {
       "name": "타나카 쿠니히코 · CHOCO",
       "role": "캐릭터 디자인",
-      "text": "제노사가 초기의 KOS-MOS는 두 디자이너의 아이디어를 거쳐 완성됐다. 타나카는 제노블레이드 2의 KOS-MOS Re:를 통해 다시 이 캐릭터를 그렸다.",
+      "text": "제노사가 초기의 KOS-MOS는 두 디자이너의 아이디어를 거쳐 완성됐다. 타나카는 제노블레이드 크로니클스 2의 KOS-MOS Re:를 통해 다시 이 캐릭터를 그렸다.",
       "refs": [
         "tanaka"
       ]
@@ -443,7 +444,7 @@ export const historyText = {
     {
       "name": "코지마 코",
       "role": "게임 디렉션 · 프로듀스",
-      "text": "제노블레이드 초기 개발에서 전투 시스템을 포함한 디렉션을 맡았다. 이후에도 타카하시의 구상과 개발 현장을 연결하는 역할을 해 왔다.",
+      "text": "제노블레이드 크로니클스 초기 개발에서 전투 시스템을 포함한 디렉션을 맡았다. 이후에도 타카하시의 구상과 개발 현장을 연결하는 역할을 해 왔다.",
       "refs": [
         "development",
         "blade3"
@@ -525,7 +526,7 @@ export const historyText = {
     },
     {
       "id": "development",
-      "title": "Iwata Asks — 제노블레이드 개발 과정",
+      "title": "Iwata Asks — 제노블레이드 크로니클스 개발 과정",
       "publisher": "Nintendo",
       "url": "https://www.nintendo.com/en-gb/Iwata-Asks/Iwata-Asks-Xenoblade-Chronicles/Vol-3-The-Development-Process/1-Seeing-it-Through-to-the-End/1-Seeing-it-Through-to-the-End-839492.html"
     },
@@ -549,7 +550,7 @@ export const historyText = {
     },
     {
       "id": "music",
-      "title": "사장이 묻는다 — 제노블레이드 음악 제작진",
+      "title": "사장이 묻는다 — 제노블레이드 크로니클스 음악 제작진",
       "publisher": "Nintendo · 2010",
       "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html"
     },
@@ -967,5 +968,7 @@ export const koreanSupportText = {
 export const slideAltText = {
   "gears": "제노기어스 게임 화면 {number}",
   "saga": "제노사가 에피소드 I 게임 화면 {number}",
+  "saga2": "제노사가 에피소드 II 게임 화면 {number}",
+  "saga3": "제노사가 에피소드 III 게임 화면 {number}",
   "piper": "제노사가 파이드 파이퍼 제공 이미지 {number}"
 };

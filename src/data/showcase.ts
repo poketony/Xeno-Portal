@@ -19,6 +19,12 @@ const gearsSlides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetada
 const saga1Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가1/*.{png,gif}', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
+const saga2Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가2/*.png', { eager: true, import: 'default' }))
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga2.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
+const saga3Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가3/*.png', { eager: true, import: 'default' }))
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga3.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 const piperSlides: ShowcaseImage[] = [piperPromo, piperTitle, piperIntro, piperStory, piperCharacters, piperBattle]
   .map((image, index) => ({ src: image.src, alt: slideAltText.piper.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 
@@ -36,6 +42,12 @@ export const showcases = {
   'xenosaga-1': {
     logo: saga.logo,
     slides: saga1Slides,
+  },
+  'xenosaga-2': {
+    slides: saga2Slides,
+  },
+  'xenosaga-3': {
+    slides: saga3Slides,
   },
   'xenosaga-pied-piper': {
     slides: piperSlides,
