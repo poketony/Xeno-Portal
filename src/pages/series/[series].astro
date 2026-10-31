@@ -20,7 +20,7 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
       <div class="saga-stage-lineup" aria-label="제노사가 본편과 외전">
         {xenosagaLineup.map((group) => <section class="saga-stage-chapter" aria-label={'에피소드 ' + group.episode} data-episode={group.episode}>
           <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span aria-hidden="true">{group.episode}</span><div><small>EPISODE {group.episode}</small><strong>{works.find((work) => work.id === group.mainId)!.title}</strong><span class="saga-stage-subtitle">{group.subtitle}</span></div></a>
-          {group.sideIds.length > 0 && <div class="saga-stage-side" aria-label={group.between}>{group.sideIds.map((id) => <a href={workUrl(id)} data-work-id={id}>{id === 'xenosaga-1-2' ? 'DS I·II' : works.find((work) => work.id === id)!.title.replace('제노사가 ', '')}</a>)}</div>}
+          {group.sideIds.length > 0 && <div class="saga-stage-side" aria-label={group.between}>{group.sideIds.map((id) => <a href={workUrl(id)} data-work-id={id}>{id === 'xenosaga-1-2' ? 'I·II DS' : works.find((work) => work.id === id)!.title.replace('제노사가 ', '')}</a>)}</div>}
         </section>)}
       </div>
     </div>
