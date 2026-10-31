@@ -27,6 +27,8 @@
 .stage-slide { position: absolute; top: 50%; right: 0; width: min(82%, var(--slide-width)); height: min(100%, var(--slide-height)); transform: translateY(-50%); object-fit: cover; object-position: 75% 22%; mask-image: linear-gradient(90deg, transparent, #000 18%), linear-gradient(180deg, transparent, #000 5%, #000 95%, transparent); mask-composite: intersect; opacity: 0; transition: opacity 1.1s ease; }
 .stage-slide.is-current { opacity: 1; }
 .xenogears .stage-slide { left: 0; right: auto; object-position: 70% 14%; mask-image: linear-gradient(270deg, transparent, #000 18%), linear-gradient(180deg, transparent, #000 5%, #000 95%, transparent); }
+.has-slideshow .stage-slide { width: 100%; height: 100%; object-fit: contain; object-position: right center; mask-image: none; }
+.has-slideshow.xenogears .stage-slide { object-position: left center; }
 .game-stage::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); pointer-events: none; }
 .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); }
 .stage-copy { width: min(100%, 560px); padding-block: 8px; }
