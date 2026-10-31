@@ -60,7 +60,7 @@
 .saga-stage-main { --label-tip: 38px; --label-shape: polygon(0 0, calc(100% - var(--label-tip)) 0, 100% 50%, calc(100% - var(--label-tip)) 100%, 0 100%); position: relative; isolation: isolate; display: flex; align-items: center; gap: 12px; width: 94%; min-height: 116px; padding: 14px 48px 14px 20px; color: #fff; text-shadow: 0 1px 2px #0008; filter: drop-shadow(0 4px 8px #0004); transition: filter .2s; }
 .saga-stage-main::before, .saga-stage-main::after { content: ''; position: absolute; inset: 0; z-index: -1; clip-path: var(--label-shape); pointer-events: none; }
 .saga-stage-main::before { background: #f5f7fc; }
-.saga-stage-main::after { inset: 6px; background: var(--episode-fill); }
+.saga-stage-main::after { inset: 5px; background: var(--episode-fill); }
 .saga-stage-main > span { font: 56px/1 Georgia, serif; color: #fff; flex-shrink: 0; }
 .saga-stage-main > div { min-width: 0; }
 .saga-stage-main small { display: block; font: 600 10px var(--display); color: #e6eaf3; letter-spacing: .12em; }
