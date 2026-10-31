@@ -57,21 +57,23 @@
 .saga-stage-chapter[data-episode="I"] { --episode-fill: linear-gradient(180deg, #ed2e4f 0%, #c62946 15%, #761528 35%, #190913 55%, #0e050a 75%, #10060e 100%); }
 .saga-stage-chapter[data-episode="II"] { --episode-fill: linear-gradient(180deg, #6d75a6 0%, #514d7f 15%, #2c2342 35%, #08050c 55%, #22162c 75%, #ab6d82 100%); }
 .saga-stage-chapter[data-episode="III"] { --episode-fill: linear-gradient(180deg, #a2d6c6 0%, #6da9ac 15%, #2d7b8d 35%, #00566f 55%, #206282 75%, #aba0c8 100%); }
-.saga-stage-main { position: relative; isolation: isolate; display: flex; align-items: center; gap: 12px; width: 94%; min-height: 116px; padding: 14px 34px 14px 16px; color: #fff; text-shadow: 0 1px 4px #000; transition: filter .2s; }
-.saga-stage-main::before { content: ''; position: absolute; inset: 0; z-index: -1; border: 1px solid #ffffff78; background: var(--episode-fill); clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 50%, calc(100% - 24px) 100%, 0 100%); }
+.saga-stage-main { --label-tip: 38px; --label-shape: polygon(0 0, calc(100% - var(--label-tip)) 0, 100% 50%, calc(100% - var(--label-tip)) 100%, 0 100%); position: relative; isolation: isolate; display: flex; align-items: center; gap: 12px; width: 94%; min-height: 116px; padding: 14px 48px 14px 16px; color: #fff; text-shadow: 0 1px 4px #000; filter: drop-shadow(0 4px 8px #0004); transition: filter .2s; }
+.saga-stage-main::before, .saga-stage-main::after { content: ''; position: absolute; inset: 0; z-index: -1; clip-path: var(--label-shape); pointer-events: none; }
+.saga-stage-main::before { background: linear-gradient(135deg, #fffffff0, #ffffff80 58%, #ffffffc7); }
+.saga-stage-main::after { inset: 1px; background: var(--episode-fill); }
 .saga-stage-main > span { font: 56px/1 Georgia, serif; color: #fff; flex-shrink: 0; }
 .saga-stage-main > div { min-width: 0; }
 .saga-stage-main small { display: block; font: 9px var(--display); color: #e6eaf3; letter-spacing: .16em; }
 .saga-stage-main strong { display: block; font-size: 16px; font-weight: 700; line-height: 1.45; margin-top: 4px; word-break: keep-all; }
 .saga-stage-subtitle { display: block; font-size: 12px; font-weight: 600; line-height: 1.5; margin-top: 5px; word-break: keep-all; }
-.saga-stage-main:hover { filter: brightness(1.15); }
-.saga-stage-main:hover::before { border-color: #fff; }
+.saga-stage-main:hover { filter: brightness(1.08) drop-shadow(0 5px 10px #0005); }
+.saga-stage-main:hover::before { background: #fff; }
 .saga-stage-side { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
 .saga-stage-side a { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 6px 12px; border: 1px solid #9daac280; background: #0a111be6; color: #e0e6f0; font-size: 11px; line-height: 1.5; }
 .saga-stage-side a:hover { border-color: #a4adff; color: #a4adff; }
 
 @media (max-width: 1100px) {
-  .saga-stage-main { flex-direction: column; justify-content: center; gap: 4px; min-height: 128px; padding: 8px 28px 8px 10px; text-align: center; }
+  .saga-stage-main { flex-direction: column; justify-content: center; gap: 4px; min-height: 128px; padding: 8px 42px 8px 10px; text-align: center; }
   .saga-stage-main > span { font-size: 30px; }
   .saga-stage-main small { font-size: 8px; }
   .saga-stage-main strong { font-size: 13px; }
@@ -97,8 +99,7 @@
   .stage-actions { gap: 11px 17px; margin-top: 19px; }
   .stage-patch-link { font-size: 11px; gap: 20px; }
   .saga-stage-lineup { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
-  .saga-stage-main { flex-direction: column; justify-content: center; gap: 4px; width: 100%; min-height: 128px; padding: 8px 14px 8px 6px; text-align: center; }
-  .saga-stage-main::before { clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%); }
+  .saga-stage-main { --label-tip: 18px; flex-direction: column; justify-content: center; gap: 4px; width: 100%; min-height: 128px; padding: 8px 14px 8px 6px; text-align: center; }
   .saga-stage-main > span { font-size: 27px; }
   .saga-stage-main strong { font-size: 10px; }
   .saga-stage-main small { font-size: 7px; letter-spacing: .03em; }
