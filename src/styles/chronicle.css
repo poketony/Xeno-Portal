@@ -1,0 +1,70 @@
+.chronicle{max-width:var(--max);margin:35px auto 100px;padding:64px 20px 0;border-top:1px solid #40464d;scroll-margin-top:32px}
+.chronicle-heading{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end}
+.chronicle .eyebrow{color:#b4a48d;font-size:10px;letter-spacing:.2em}
+.chronicle-heading h2{white-space:pre-line;font-size:clamp(32px,3.8vw,49px);line-height:1.4;letter-spacing:-.055em;font-weight:700;margin:17px 0 0}
+.chronicle-lead p:first-child{font-size:19px;line-height:1.9;color:#ece8e0;font-weight:500;word-break:keep-all}
+.chronicle-lead p+p{font-size:13px;line-height:2;color:#a2aab3;margin-top:17px}
+.chronicle-nav{display:flex;gap:30px;margin:38px 0 64px;border-bottom:1px solid #343a42;padding-bottom:17px}
+.chronicle-nav a{display:flex;align-items:center;gap:11px;font-size:11px;color:#c1c5cb}
+.chronicle-nav a span:first-child{font:12px Rajdhani,sans-serif;color:#a7957e;letter-spacing:.1em}
+.chronicle-nav a span:last-child{margin-left:10px;color:#79838d}
+.chronicle-nav a:hover,.chronicle-interview:hover{color:#fff}
+.chronicle-section-heading h3{font-size:28px;font-weight:600;letter-spacing:-.04em;line-height:1.5;margin:10px 0 15px;word-break:keep-all}
+.chronicle-section-heading>p:not(.eyebrow){color:#a2aab3;font-size:13px;line-height:1.95;max-width:640px}
+.chronicle-origins{display:grid;grid-template-columns:280px 1fr;gap:60px;scroll-margin-top:35px}
+.chronicle-era{display:block;font:94px/.95 Rajdhani,sans-serif;letter-spacing:-.06em;color:#c4b293;margin-top:45px}
+.chronicle-era>span{display:block;font:10px Rajdhani,sans-serif;letter-spacing:.35em;color:#8c8172;margin-top:14px}
+.chronicle-timeline{list-style:none;margin:0;padding:0 0 0 20px;border-left:1px solid #5b5144}
+.chronicle-timeline>li{display:grid;grid-template-columns:100px 1fr;gap:24px;position:relative;padding:0 0 34px}
+.chronicle-timeline>li:last-child{padding-bottom:0}
+.chronicle-timeline>li::before{content:'';position:absolute;left:-24px;top:10px;width:7px;height:7px;background:#c4b293;border:2px solid #090b0e;box-sizing:content-box}
+.chronicle-date>span{font:26px/1.1 Rajdhani,sans-serif;color:#eee6d8;letter-spacing:-.02em;white-space:nowrap}
+.chronicle-date>small{display:block;font:9px Rajdhani,sans-serif;letter-spacing:.12em;color:#96928b;margin-top:7px}
+.chronicle-event h4{font-size:16px;font-weight:600;line-height:1.7;margin:0 0 9px;word-break:keep-all}
+.chronicle-event p,.chronicle-bio,.chronicle-collaborators article>p:last-child,.chronicle-quality-grid p{font-size:13px;line-height:1.95;color:#aeb5bd;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.chronicle-refs{display:inline-flex;gap:4px;margin-left:7px;vertical-align:baseline;white-space:nowrap}
+.chronicle-refs a{font:11px Rajdhani,sans-serif;color:#b8a587;padding:2px 0}
+.chronicle-refs a:hover{color:#fff;text-decoration:underline}
+.chronicle-people,.chronicle-qualities{margin-top:85px;scroll-margin-top:35px}
+.chronicle-portraits{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-top:30px}
+.chronicle-person{position:relative;min-width:0;border-bottom:1px solid #434850;display:flex;flex-direction:column}
+.chronicle-portrait{aspect-ratio:1.62;position:relative;overflow:hidden;background:#171b21}
+.chronicle-portrait>img{width:100%;height:100%;object-fit:cover}
+.chronicle-person-index{position:absolute;left:12px;top:12px;font:11px Rajdhani,sans-serif;background:#090b0ecc;border:1px solid #c3c7ce77;color:#eee;padding:3px 7px}
+.chronicle-photo-credit{font:8px Rajdhani,sans-serif;letter-spacing:.1em;color:#8b949f;margin-top:8px;align-self:flex-end}
+.chronicle-photo-credit:hover{color:#ddd}
+.chronicle-name-art{height:100%;display:flex;align-items:center;justify-content:center;position:relative;background:radial-gradient(ellipse at 75% 30%,#4c3432 0%,transparent 70%),#1e181b;border:1px solid #6f5552}
+.chronicle-name-art>span{white-space:pre-line;font-family:serif;font-size:55px;line-height:1.08;letter-spacing:.24em;color:#dfc8ba;text-shadow:30px 0 60px #e99b7933}
+.chronicle-name-art>small{position:absolute;right:12px;bottom:11px;font:8px Rajdhani,sans-serif;letter-spacing:.18em;color:#b99a8d}
+.person-saga .chronicle-person-copy{padding-top:12px}
+.chronicle-person-copy{display:flex;flex-direction:column;flex:1;padding:12px 0 22px}
+.chronicle-role{font-size:10px;color:#baa98e;letter-spacing:.04em;margin:0 0 9px}
+.chronicle-person h4{font-size:23px;line-height:1.5;font-weight:600;letter-spacing:-.04em;margin:0}
+.chronicle-roman{font:12px Rajdhani,sans-serif;letter-spacing:.06em;color:#8b949f;margin:3px 0 18px}
+.chronicle-bio{margin-bottom:23px}
+.chronicle-interview{display:flex;justify-content:space-between;font-size:10px;color:#c4c9d0;margin-top:auto;padding-top:12px;border-top:1px solid #2a3038}
+.chronicle-interview span{font-size:16px;line-height:1}
+.chronicle-collaborators{margin-top:35px}
+.chronicle-collaborators>h4{font-size:12px;font-weight:500;color:#c8ced5;margin:0 0 22px}
+.chronicle-collaborators>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.chronicle-collaborators article{border-left:1px solid #655b4e;padding-left:16px}
+.chronicle-collaborators h5{font-size:14px;line-height:1.7;font-weight:600;margin:0 0 10px;word-break:keep-all}
+.chronicle-collaborators article>p:last-child{font-size:12px}
+.chronicle-quality-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;margin-top:30px;border-top:1px solid #434850}
+.chronicle-quality-grid article{display:flex;gap:23px;padding:26px 0;border-bottom:1px solid #30363e}
+.chronicle-quality-number{font:42px/1 Rajdhani,sans-serif;color:#a9987e;letter-spacing:-.03em}
+.chronicle-quality-grid h4{font-size:17px;font-weight:600;letter-spacing:-.03em;margin:0 0 10px;word-break:keep-all}
+.chronicle-sources{margin-top:38px;border-block:1px solid #30363e;padding:18px 0}
+.chronicle-sources summary{cursor:pointer;font-size:11px;color:#c2c8d0;display:flex;align-items:center;justify-content:space-between;list-style:none}
+.chronicle-sources summary::-webkit-details-marker{display:none}
+.chronicle-sources summary>span{font:22px/1 Rajdhani,sans-serif}
+.chronicle-sources[open] summary>span{transform:rotate(45deg)}
+.chronicle-sources>p{font-size:12px;line-height:1.9;color:#949da8;margin:20px 0}
+.chronicle-sources ol{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:15px 35px;margin:0 0 8px;padding:0}
+.chronicle-sources li{display:flex;gap:13px;font-size:11px}
+.chronicle-sources li>span{font:12px Rajdhani,sans-serif;color:#b8a587}
+.chronicle-sources small{display:block;font:10px Rajdhani,sans-serif;color:#8d97a2;margin-top:4px}
+.chronicle-sources a:hover{color:#e0cfb5}
+@media(max-width:1100px){.chronicle{margin-inline:var(--space);padding-inline:0}.chronicle-origins{grid-template-columns:220px 1fr;gap:35px}.chronicle-heading{gap:35px}.chronicle-portraits,.chronicle-collaborators>div{gap:20px}.chronicle-person h4{font-size:20px}}
+@media(max-width:760px){.chronicle{margin-top:10px;padding-top:40px;margin-bottom:55px}.chronicle-heading{grid-template-columns:1fr;gap:25px}.chronicle-heading h2{font-size:35px}.chronicle-lead p:first-child{font-size:17px;max-width:520px}.chronicle-lead p+p{font-size:12px}.chronicle-nav{gap:22px;flex-wrap:wrap;margin:30px 0 40px}.chronicle-nav a{font-size:10px;gap:7px}.chronicle-nav a span:last-child{display:none}.chronicle-origins{grid-template-columns:1fr;gap:30px}.chronicle-era{display:none}.chronicle-section-heading h3{font-size:25px}.chronicle-section-heading>p:not(.eyebrow){font-size:12px}.chronicle-timeline>li{grid-template-columns:87px 1fr;gap:16px}.chronicle-date>span{font-size:24px}.chronicle-event h4{font-size:15px}.chronicle-event p{font-size:12px}.chronicle-people,.chronicle-qualities{margin-top:55px}.chronicle-portraits{grid-template-columns:1fr;gap:28px}.chronicle-person{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:0 22px;padding-bottom:24px}.chronicle-portrait{aspect-ratio:1;grid-column:1;grid-row:1}.chronicle-photo-credit{grid-column:1;grid-row:2;font-size:7px;text-align:right;margin-top:8px}.chronicle-person-copy,.person-saga .chronicle-person-copy{grid-column:2;grid-row:1/3;padding:0}.chronicle-person h4{font-size:20px}.chronicle-roman{font-size:10px;margin-bottom:12px}.chronicle-bio{font-size:12px;margin-bottom:16px;word-break:normal}.chronicle-name-art>span{font-size:54px}.chronicle-name-art>small{font-size:7px;letter-spacing:0}.chronicle-role{font-size:9px}.chronicle-collaborators>div{grid-template-columns:1fr;gap:24px}.chronicle-quality-grid{gap:0 25px}.chronicle-quality-grid article{gap:15px}.chronicle-quality-grid h4{font-size:16px}.chronicle-quality-grid p{font-size:12px}.chronicle-quality-number{font-size:34px}}
+@media(max-width:460px){.chronicle-nav{gap:16px}.chronicle-nav a{font-size:9px}.chronicle-timeline>li{grid-template-columns:1fr;gap:12px;padding-bottom:30px}.chronicle-date{display:flex;align-items:center;gap:15px}.chronicle-date>small{margin:0}.chronicle-person{display:flex;gap:0}.chronicle-portrait{aspect-ratio:1.7;width:100%}.chronicle-photo-credit{font-size:8px}.chronicle-person-copy,.person-saga .chronicle-person-copy{padding-top:15px}.chronicle-person h4{font-size:23px}.chronicle-bio{font-size:13px;word-break:keep-all}.chronicle-name-art>span{font-size:52px}.chronicle-quality-grid,.chronicle-sources ol{grid-template-columns:1fr}.chronicle-quality-grid article{gap:20px}.chronicle-quality-grid p{font-size:13px}.chronicle-sources li{font-size:11px;line-height:1.8}}

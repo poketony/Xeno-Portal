@@ -13,6 +13,7 @@
 ```text
 src/
   data/
+    content.mjs       화면 문구 편집: 메인·역사·시리즈·작품·안내·버튼
     site.mjs          이름·소개·실제 Pages 주소·저장소·공식 홈페이지
     catalog.ts        시리즈·작품·판본·출처
     showcase.ts       배경 슬라이드·타이틀 로고·작품별 패치 바로가기
@@ -86,9 +87,25 @@ pnpm build
 
 ## 5. 콘텐츠 갱신
 
+### 화면 문구는 한 파일에서 편집
+
+**`src/data/content.mjs`가 화면 문구의 편집 원본입니다.** 이 파일의 값을 바꾸면 해당 화면에 바로 반영됩니다. 별도로 페이지 파일의 같은 문장을 찾아 수정할 필요가 없습니다.
+
+- `homeText`, `siteText`: 메인 제목·소개·배너 주변 문구와 사이트 설명
+- `historyText`: 탄생 연표·제작진·특징·인터뷰/사진 출처
+- `seriesText`, `workText`, `lineupText`: 시리즈 소개·작품명·줄거리·주요 특징·제노사가 부제와 DS 라벨
+- `aboutText`, `resourceText`, `searchText`, `notFoundText`: 안내·자료·검색·404 화면
+- `commonText`, `navigationText`, `catalogText`, `workPageText`, `resourcePageText`: 메뉴·버튼·보조 설명
+- `watchText`, `playerText`, `slideshowText`: 미싱 이어 감상과 슬라이드쇼 조작 문구
+- `koreanSupportText`, `slideAltText`: 지원 상태 표시와 이미지 대체 설명
+
+따옴표 안의 문장을 수정하고, 왼쪽 키·작품 ID는 유지하세요. `\n`은 제목 줄바꿈이며 `{count}`, `{version}`, `{status}`, `{number}`는 실제 값이 들어갈 자리입니다. 일반 문구에는 HTML을 넣지 않습니다. 출처 링크와 사진 정보도 `historyText` 안에서 함께 관리합니다. 작품 연결·기종·발매일·판본 등 사실 데이터는 계속 `catalog.ts`, 배경 이미지와 패치 주소는 `showcase.ts`에서 관리합니다.
+
+수정 후 `pnpm check`, `pnpm test`, `pnpm build`로 확인합니다. 메인의 역사 구역은 세 시리즈 배너 바로 아래, ABOUT THIS ARCHIVE 바로 위에 있습니다. 공식 인터뷰와 직접 인터뷰 10개를 근거로 작성했으며, 해석에 해당하는 특징 소개는 감상 관점으로 표시했습니다. 인물 사진은 MONOLITHSOFT와 PROCYON STUDIO의 공개 페이지에서 가져왔고 사진 아래 원문을 연결했습니다. 사가 소라야는 신원을 확인할 사진을 찾지 못해 이름 패널을 사용합니다.
+
 ### 작품과 판본
 
-`src/data/catalog.ts`의 `works`에 고유 ID와 한국어·영어·일본어 제목, `aliases`, 분류, 소개, 주요 특징, 관련 작품 ID와 공식 출처를 추가합니다. 해당 시리즈와 전체 검색 및 상세 페이지에 자동 반영됩니다.
+새 작품의 문구는 `src/data/content.mjs`의 `workText`에 추가하고, `src/data/catalog.ts`의 `works`에서 같은 ID로 연결합니다. 분류, 관련 작품 ID와 공식 출처는 `catalog.ts`에 추가합니다. 해당 시리즈와 전체 검색 및 상세 페이지에 자동 반영됩니다.
 
 같은 작품의 이식·리마스터는 `editions`에 별도의 ID로 등록합니다. 독립적인 재구성 작품은 별도 작품으로 등록하고 `related`로 연결합니다. 판본마다 `workId`, 기종, 지역, ISO 날짜, 공식 한국어 지원과 출처를 기록합니다. 발매일 미확인은 `null`, 한국어 지원 미확인은 `unverified`로 유지하세요. 한국어 제목이 있다는 이유로 모든 지역·판본에 한국어 지원을 일괄 적용하면 안 됩니다. 출시 정보가 추가 확인된 작품만 등록하며 현재 목록의 완전성을 보장하지 않습니다.
 

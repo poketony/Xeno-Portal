@@ -1,4 +1,5 @@
 ---
+import { commonText, navigationText } from '../data/content.mjs';
 import { siteConfig } from '../data/site.mjs';
 import { series } from '../data/catalog';
 import { withBase, seriesUrl, homeUrl } from '../lib/paths';
@@ -14,7 +15,7 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title ? `${title} | ${siteConfig.name}` : `${siteConfig.name} — 제노 시리즈 한국어 포털`}</title>
+    <title>{title ? `${title} | ${siteConfig.name}` : `${siteConfig.name} — ${navigationText.portalSubtitle}`}</title>
     <meta name="description" content={description} />
     <meta name="theme-color" content="#090b0e" />
     <meta property="og:title" content={title ?? siteConfig.name} />
@@ -26,21 +27,21 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
     <link rel="icon" type="image/png" href={withBase('/favicon.png')} />
   </head>
   <body class:list={{ 'immersive-page': immersive }}>
-    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <a class="skip-link" href="#main">{commonText.skip}</a>
     <header class="site-header">
-      {!home && <a class="wordmark" href={homeUrl} aria-label="Xeno Series 홈"><img src={withBase('/images/xeno-series-logo.webp')} alt="" width="1100" height="619" /></a>}
-      <nav aria-label="주요 메뉴">
-        {home ? <><a href="#series">시리즈 둘러보기 <span aria-hidden="true">↗</span></a><a href={withBase('/about/')}>사이트 안내</a></> : <>
+      {!home && <a class="wordmark" href={homeUrl} aria-label={commonText.homeLink}><img src={withBase('/images/xeno-series-logo.webp')} alt="" width="1100" height="619" /></a>}
+      <nav aria-label={commonText.menu}>
+        {home ? <><a href="#series">{commonText.seriesMenu} <span aria-hidden="true">↗</span></a><a href="#history">{commonText.history}</a><a href={withBase('/about/')}>{commonText.aboutMenu}</a></> : <>
           {series.map((item) => <a href={seriesUrl(item.id)} data-series={item.id} aria-current={activeSeries === item.id ? 'page' : undefined}>{item.korean}</a>)}
         </>}
       </nav>
-      <span class="header-note">한국어 팬 포털<span class="status-dot" aria-hidden="true"></span></span>
+      <span class="header-note">{commonText.fanPortal}<span class="status-dot" aria-hidden="true"></span></span>
     </header>
     <main id="main"><slot /></main>
     <footer class="site-footer">
-      <div><a class="footer-brand" href={homeUrl}>XENO SERIES<span aria-hidden="true"> / </span></a><p>세계를 잇고, 이야기를 기록합니다.</p></div>
-      <div class="footer-links"><a href={withBase('/about/')}>사이트 안내 · 출처</a><a href={siteConfig.repository} target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (새 창)</span></a></div>
-      <p class="copyright">비공식 팬 사이트입니다. 작품명·이미지의 권리는 각 권리자에게 있습니다.</p>
+      <div><a class="footer-brand" href={homeUrl}>{commonText.footerTitle}<span aria-hidden="true"> / </span></a><p>{commonText.footerDescription}</p></div>
+      <div class="footer-links"><a href={withBase('/about/')}>{commonText.sources}</a><a href={siteConfig.repository} target="_blank" rel="noopener noreferrer">{commonText.repository} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a></div>
+      <p class="copyright">{commonText.copyright}</p>
     </footer>
   </body>
 </html>

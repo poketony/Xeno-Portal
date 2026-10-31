@@ -1,0 +1,44 @@
+---
+import { historyText as text } from '../data/content.mjs';
+import { withBase } from '../lib/paths';
+import '../styles/chronicle.css';
+
+const sources = new Map(text.sources.map((source, index) => [source.id, { ...source, number: String(index + 1).padStart(2, '0') }]));
+---
+<section class="chronicle" id="history" aria-labelledby="history-title">
+  <header class="chronicle-heading">
+    <div><p class="eyebrow">{text.eyebrow}</p><h2 id="history-title">{text.title}</h2></div>
+    <div class="chronicle-lead"><p>{text.lead}</p><p>{text.introduction}</p></div>
+  </header>
+  <nav class="chronicle-nav" aria-label={text.title.replace('\n', ' ')}>
+    {Object.entries(text.navigation).map(([id, label], index) => <a href={`#${id}`}><span>{String(index + 1).padStart(2, '0')}</span>{label}<span aria-hidden="true">↓</span></a>)}
+  </nav>
+
+  <section class="chronicle-origins" id="origins" aria-labelledby="origins-title">
+    <header class="chronicle-section-heading"><p class="eyebrow">{text.originsEyebrow}</p><h3 id="origins-title">{text.originsTitle}</h3><p>{text.originsIntroduction}</p><span class="chronicle-era" aria-hidden="true">{text.timeline[0].year}<span>{text.eraNote}</span></span></header>
+    <ol class="chronicle-timeline">
+      {text.timeline.map((item) => <li><div class="chronicle-date"><span>{item.year}</span><small>{item.label}</small></div><div class="chronicle-event"><h4>{item.title}</h4><p>{item.text}<span class="chronicle-refs">{item.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p></div></li>)}
+    </ol>
+  </section>
+
+  <section class="chronicle-people" id="creators" aria-labelledby="creators-title">
+    <header class="chronicle-section-heading"><p class="eyebrow">{text.peopleEyebrow}</p><h3 id="creators-title">{text.peopleTitle}</h3><p>{text.peopleIntroduction}</p></header>
+    <div class="chronicle-portraits">
+      {text.people.map((person, index) => <article class={`chronicle-person person-${person.id}`}>
+        <div class="chronicle-portrait">
+          {person.photo ? <img src={withBase(person.photo.src)} alt={person.name} width={person.photo.width} height={person.photo.height} style={`object-position:${person.photo.position}`} loading="lazy" decoding="async" /> : <div class="chronicle-name-art" aria-hidden="true"><span>{person.portrait}</span><small>{text.nameArtCaption}</small></div>}
+          <span class="chronicle-person-index" aria-hidden="true">0{index + 1}</span>
+        </div>
+        {person.photo && <a class="chronicle-photo-credit" href={person.photo.url} target="_blank" rel="noopener noreferrer">{text.photoCredit} · {person.photo.credit} ↗</a>}{!person.photo && <span class="chronicle-photo-credit" aria-hidden="true">&nbsp;</span>}
+        <div class="chronicle-person-copy"><p class="chronicle-role">{person.role}</p><h4>{person.name}</h4><p class="chronicle-roman" lang="en">{person.roman}</p><p class="chronicle-bio">{person.description}<span class="chronicle-refs">{person.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p><a class="chronicle-interview" href={sources.get(person.interviewId)!.url} target="_blank" rel="noopener noreferrer">{text.readInterview}<span aria-hidden="true">↗</span></a></div>
+      </article>)}
+    </div>
+    <div class="chronicle-collaborators"><h4>{text.collaboratorsTitle}</h4><div>{text.collaborators.map((person) => <article><p class="chronicle-role">{person.role}</p><h5>{person.name}</h5><p>{person.text}<span class="chronicle-refs">{person.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p></article>)}</div></div>
+  </section>
+
+  <section class="chronicle-qualities" id="qualities" aria-labelledby="qualities-title">
+    <header class="chronicle-section-heading"><p class="eyebrow">{text.qualitiesEyebrow}</p><h3 id="qualities-title">{text.qualitiesTitle}</h3><p>{text.qualitiesIntroduction}</p></header>
+    <div class="chronicle-quality-grid">{text.qualities.map((quality) => <article><span class="chronicle-quality-number" aria-hidden="true">{quality.number}</span><div><h4>{quality.title}</h4><p>{quality.text}<span class="chronicle-refs">{quality.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p></div></article>)}</div>
+  </section>
+  <details class="chronicle-sources"><summary>{text.sourcesTitle}<span aria-hidden="true">+</span></summary><p>{text.sourcesIntroduction}</p><ol>{text.sources.map((source, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<small>{source.publisher} ↗</small></a></li>)}</ol></details>
+</section>

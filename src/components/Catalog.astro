@@ -1,4 +1,5 @@
 ---
+import { catalogText, navigationText } from '../data/content.mjs';
 import { series, works, workEditions, xenosagaLineup } from '../data/catalog';
 import WorkCard from './WorkCard.astro';
 import { patches } from '../data/patches';
@@ -13,29 +14,30 @@ const platforms = [...new Set(entries.flatMap((entry) => entry.platforms))];
 const kinds = [...new Set(entries.map((entry) => entry.kind))];
 ---
 <div class:list={['catalog', { 'catalog-showcase': !!seriesId }]} data-catalog data-fixed-order={isSaga ? 'true' : undefined}>
-  {showFilters && <><form class="catalog-filters" role="search" aria-label="작품 검색과 필터">
-    <div class="search-field"><label for="work-search">작품 검색</label><div><span aria-hidden="true">⌕</span><input id="work-search" type="search" name="q" placeholder="한국어·일본어·영어 제목으로 검색" autocomplete="off" /></div></div>
-    {!seriesId && <div><label for="series-filter">시리즈</label><select id="series-filter" name="series"><option value="">모든 시리즈</option>{series.map((item) => <option value={item.id}>{item.korean}</option>)}</select></div>}
-    <div><label for="platform-filter">기종</label><select id="platform-filter" name="platform"><option value="">모든 기종</option>{platforms.map((platform) => <option>{platform}</option>)}</select></div>
-    <div><label for="kind-filter">분류</label><select id="kind-filter" name="kind"><option value="">모든 작품</option>{kinds.map((kind) => <option>{kind}</option>)}</select></div>
-    {!isSaga && <div><label for="sort-order">정렬</label><select id="sort-order" name="sort"><option value="oldest">발매일 오래된 순</option><option value="newest">발매일 최신순</option></select></div>}
-    <button class="filter-reset" type="reset">초기화</button>
+  {showFilters && <><form class="catalog-filters" role="search" aria-label={catalogText.searchLabel}>
+    <div class="search-field"><label for="work-search">{catalogText.search}</label><div><span aria-hidden="true">⌕</span><input id="work-search" type="search" name="q" placeholder={catalogText.placeholder} autocomplete="off" /></div></div>
+    {!seriesId && <div><label for="series-filter">{catalogText.series}</label><select id="series-filter" name="series"><option value="">{catalogText.allSeries}</option>{series.map((item) => <option value={item.id}>{item.korean}</option>)}</select></div>}
+    <div><label for="platform-filter">{catalogText.platform}</label><select id="platform-filter" name="platform"><option value="">{catalogText.allPlatforms}</option>{platforms.map((platform) => <option>{platform}</option>)}</select></div>
+    <div><label for="kind-filter">{catalogText.kind}</label><select id="kind-filter" name="kind"><option value="">{catalogText.allWorks}</option>{kinds.map((kind) => <option>{kind}</option>)}</select></div>
+    {!isSaga && <div><label for="sort-order">{catalogText.sort}</label><select id="sort-order" name="sort"><option value="oldest">{catalogText.oldest}</option><option value="newest">{catalogText.newest}</option></select></div>}
+    <button class="filter-reset" type="reset">{catalogText.reset}</button>
   </form>
-  <div class="catalog-meta"><p data-result-count role="status" aria-live="polite">작품 {entries.length}개</p><span>{isSaga ? '본편 I → II → III · 사이의 외전은 최초 발매·공개 순' : '판본별 최초 확인 발매일 기준 · 날짜 미확인은 마지막에 표시'}</span></div></>}
+  <div class="catalog-meta"><p data-result-count role="status" aria-live="polite">{catalogText.count.replace('{count}', String(entries.length))}</p><span>{isSaga ? catalogText.sagaOrder : catalogText.dateOrder}</span></div></>}
   <div class:list={['work-grid', { 'saga-lineup': isSaga }]} data-work-list>
-    {isSaga ? xenosagaLineup.map((group) => <section class="saga-chapter" data-chapter-group aria-label={`에피소드 ${group.episode} · 관련 외전`}>
+    {isSaga ? xenosagaLineup.map((group) => <section class="saga-chapter" data-chapter-group aria-label={`${navigationText.episode} ${group.episode} · ${catalogText.sideKind}`}>
       <WorkCard entry={entries.find((entry) => entry.id === group.mainId)!} episode={group.episode} />
       {group.sideIds.length > 0 && <div class="saga-interlude" data-interlude>
-        <div class="interlude-heading"><span class="interlude-line" aria-hidden="true"></span><p>{group.between}<span>외전 · 최초 발매·공개 순</span></p></div>
+        <div class="interlude-heading"><span class="interlude-line" aria-hidden="true"></span><p>{group.between}<span>{catalogText.sideOrder}</span></p></div>
         <div class="side-work-grid">{group.sideIds.map((id) => <WorkCard entry={entries.find((entry) => entry.id === id)!} compact />)}</div>
       </div>}
     </section>) : entries.map((entry) => <WorkCard entry={entry} />)}
   </div>
-  <div class="empty-state" data-no-results hidden><span aria-hidden="true">∅</span><h3>검색 결과가 없습니다</h3><p>다른 제목이나 별칭으로 검색하거나 필터를 초기화해 주세요.</p><button class="button secondary" type="button" data-clear>검색·필터 초기화</button></div>
-  {showFilters && <noscript><p class="notice">검색과 필터를 사용하려면 JavaScript를 켜 주세요. 모든 작품은 위 목록에서 볼 수 있습니다.</p></noscript>}
+  <div class="empty-state" data-no-results hidden><span aria-hidden="true">∅</span><h3>{catalogText.emptyTitle}</h3><p>{catalogText.emptyDescription}</p><button class="button secondary" type="button" data-clear>{catalogText.clear}</button></div>
+  {showFilters && <noscript><p class="notice">{catalogText.noScript}</p></noscript>}
   <script type="application/json" data-catalog-data set:html={JSON.stringify(entries.map(({ id, title, search, series, platforms, kind, date }) => ({ id, title, search, series, platforms, kind, date }))).replace(/</g, '\\u003c')} />
 </div>
 <script>
+  import { catalogText } from '../data/content.mjs';
   import { filterCatalog } from '../lib/catalog.mjs';
   document.querySelectorAll<HTMLElement>('[data-catalog]').forEach((root) => {
     const form = root.querySelector<HTMLFormElement>('form');
@@ -55,7 +57,7 @@ const kinds = [...new Set(entries.map((entry) => entry.kind))];
       for (const group of list.querySelectorAll<HTMLElement>('[data-chapter-group], [data-interlude]')) {
         group.hidden = !group.querySelector('[data-work-id]:not([hidden])');
       }
-      root.querySelector('[data-result-count]')!.textContent = `작품 ${matches.length}개`;
+      root.querySelector('[data-result-count]')!.textContent = catalogText.count.replace('{count}', String(matches.length));
       root.querySelector<HTMLElement>('[data-no-results]')!.hidden = matches.length > 0;
       const params = new URLSearchParams();
       for (const [key, value] of Object.entries(values)) if (value && !(key === 'sort' && value === 'oldest')) params.set(key, String(value));

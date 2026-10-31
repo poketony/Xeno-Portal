@@ -1,8 +1,9 @@
 ---
+import { searchText, commonText } from '../../data/content.mjs';
 import Layout from '../../layouts/Layout.astro';
 import Catalog from '../../components/Catalog.astro';
 import { homeUrl } from '../../lib/paths';
 ---
-<Layout title="전체 작품 검색" description="제노기어스·제노사가·제노블레이드의 작품을 시리즈와 기종별로 찾아보세요.">
-  <div class="page-shell"><nav class="breadcrumbs" aria-label="현재 위치"><a href={homeUrl}>홈</a><span aria-hidden="true">/</span><span aria-current="page">전체 작품</span></nav><header class="page-title"><p class="eyebrow">XENO ARCHIVE / ALL WORKS</p><h1>모든 이야기를 한곳에서</h1><p>제목과 별칭으로 검색하고, 시리즈·기종·분류로 좁혀 보세요.</p></header><Catalog /></div>
+<Layout title={searchText.title} description={searchText.description}>
+  <div class="page-shell"><nav class="breadcrumbs" aria-label={commonText.location}><a href={homeUrl}>{commonText.home}</a><span aria-hidden="true">/</span><span aria-current="page">{searchText.breadcrumb}</span></nav><header class="page-title"><p class="eyebrow">{searchText.eyebrow}</p><h1>{searchText.heading}</h1><p>{searchText.intro}</p></header><Catalog /></div>
 </Layout>

@@ -1,4 +1,6 @@
 ---
+import HomeChronicle from '../components/HomeChronicle.astro';
+import { homeText } from '../data/content.mjs';
 import Layout from '../layouts/Layout.astro';
 import { siteConfig } from '../data/site.mjs';
 import { series } from '../data/catalog';
@@ -6,25 +8,26 @@ import { seriesUrl, withBase } from '../lib/paths';
 ---
 <Layout home>
   <section class="home-hero" aria-labelledby="hero-title">
-    <div class="hero-coordinate" aria-hidden="true">ARCHIVE / XENO UNIVERSE<span>JP → KR</span></div>
-    <img class="hero-logo" src={withBase('/images/xeno-series-logo.webp')} alt="붉은 붓글씨 X와 흰색 eno로 이루어진 Xeno 로고" width="1100" height="619" fetchpriority="high" />
-    <p class="eyebrow hero-eyebrow">세계를 넘어, 한국어로</p>
+    <div class="hero-coordinate" aria-hidden="true">{homeText.coordinate}<span>{homeText.locale}</span></div>
+    <img class="hero-logo" src={withBase('/images/xeno-series-logo.webp')} alt={homeText.logoAlt} width="1100" height="619" fetchpriority="high" />
+    <p class="eyebrow hero-eyebrow">{homeText.eyebrow}</p>
     <h1 id="hero-title">{siteConfig.name}</h1>
     <div class="hero-description"><p>{siteConfig.description}</p></div>
-    <a class="hero-scroll" href="#series"><span>당신의 이야기를 선택하세요</span><span aria-hidden="true">↓</span></a>
-    <span class="hero-axis" aria-hidden="true">1998 — BEYOND</span>
+    <a class="hero-scroll" href="#series"><span>{homeText.scroll}</span><span aria-hidden="true">↓</span></a>
+    <span class="hero-axis" aria-hidden="true">{homeText.axis}</span>
   </section>
   <section class="series-section" id="series" aria-labelledby="series-title">
-    <div class="section-kicker"><h2 id="series-title">EXPLORE THE SERIES</h2><span>세 개의 세계 · 하나의 기록</span></div>
+    <div class="section-kicker"><h2 id="series-title">{homeText.seriesHeading}</h2><span>{homeText.seriesSubtitle}</span></div>
     <div class="series-banners">
       {series.map((item) => <a class={`series-banner ${item.id}`} href={seriesUrl(item.id)}>
         <img class="banner-art" src={withBase(item.artwork?.src ?? `/images/${item.id}.svg`)} alt={item.artwork?.alt ?? ''} width={item.artwork?.width ?? 1000} height={item.artwork?.height ?? 400} loading="lazy" />
         <span class="banner-scan" aria-hidden="true"></span>
-        <div class="banner-content"><span class="banner-topline"><span class="banner-index">{item.number}</span><span>{item.motif}</span></span><h3><img class="series-logo" src={withBase(item.logo.src)} alt={item.name} width={item.logo.width} height={item.logo.height} loading="lazy" /></h3><p><span class="banner-ko">{item.korean}</span><span class="banner-dash" aria-hidden="true">—</span>{item.id === 'xenoblade' ? '한국닌텐도 공식 홈페이지' : item.tagline}</p></div>
+        <div class="banner-content"><span class="banner-topline"><span class="banner-index">{item.number}</span><span>{item.motif}</span></span><h3><img class="series-logo" src={withBase(item.logo.src)} alt={item.name} width={item.logo.width} height={item.logo.height} loading="lazy" /></h3><p><span class="banner-ko">{item.korean}</span><span class="banner-dash" aria-hidden="true">—</span>{item.id === 'xenoblade' ? homeText.officialSite : item.tagline}</p></div>
         <span class="banner-arrow" aria-hidden="true">↗</span>
-        <span class="sr-only">{item.id === 'xenoblade' ? ' 공식 홈페이지로 이동' : item.id === 'xenogears' ? ' 작품 소개 보기' : ' 시리즈 둘러보기'}</span>
+        <span class="sr-only">{item.id === 'xenoblade' ? ' ' + homeText.officialAction : item.id === 'xenogears' ? ' ' + homeText.workAction : ' ' + homeText.seriesAction}</span>
       </a>)}
     </div>
   </section>
-  <aside class="home-note"><span class="note-cross" aria-hidden="true">+</span><div><p class="eyebrow">ABOUT THIS ARCHIVE</p><p>작품을 만나고, 언어를 잇고, 이야기를 남기는 곳.</p><span>작품 소개부터 한글패치와 관련 자료까지, 각 시리즈 안에서 찾아보세요.</span></div><a href={withBase('/about/')} aria-label="사이트 안내 더 알아보기">사이트 안내 <span aria-hidden="true">↗</span></a></aside>
+  <HomeChronicle />
+  <aside class="home-note"><span class="note-cross" aria-hidden="true">+</span><div><p class="eyebrow">{homeText.archive.eyebrow}</p><p>{homeText.archive.title}</p><span>{homeText.archive.description}</span></div><a href={withBase('/about/')} aria-label={homeText.archive.actionLabel}>{homeText.archive.action} <span aria-hidden="true">↗</span></a></aside>
 </Layout>

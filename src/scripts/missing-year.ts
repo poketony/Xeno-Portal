@@ -1,3 +1,4 @@
+import { playerText } from '../data/content.mjs';
 import type { Chapter } from '../data/missing-year';
 
 interface RuffleAPI {
@@ -49,7 +50,7 @@ function init(root: HTMLElement) {
     player = null;
     host.replaceChildren();
     paused = false;
-    pause.textContent = '일시정지';
+    pause.textContent = playerText.pause;
     pause.disabled = restart.disabled = volume.disabled = true;
     fullscreen.disabled = !document.fullscreenEnabled;
     start.disabled = false;
@@ -68,9 +69,9 @@ function init(root: HTMLElement) {
     if (chapter.allowDownload) download.href = asset(chapter.file);
     overlay.hidden = false;
     title.textContent = chapter.title;
-    status.textContent = '감상 시작을 누르면 원본 자료를 불러옵니다.';
+    status.textContent = playerText.ready;
     start.hidden = false;
-    start.textContent = '감상 시작 →';
+    start.textContent = playerText.start;
     try { localStorage.setItem(storageKey, chapter.id); } catch { /* 저장이 막혀 있어도 감상할 수 있습니다. */ }
     if (updateUrl) {
       const url = new URL(location.href);
@@ -91,7 +92,7 @@ function init(root: HTMLElement) {
         clearTimeout(timeout);
         script.remove();
         rufflePromise = null;
-        reject(new Error('Ruffle 실행 파일을 불러오지 못했습니다. 연결 상태를 확인하고 다시 시도해 주세요.'));
+        reject(new Error(playerText.ruffleError));
       }
       script.onload = () => { clearTimeout(timeout); window.RufflePlayer?.newest ? resolve() : fail(); };
       script.onerror = fail;
@@ -107,8 +108,8 @@ function init(root: HTMLElement) {
     request = new AbortController();
     const signal = request.signal;
     const file = asset(chapter.file);
-    title.textContent = '자료를 불러오는 중입니다';
-    status.textContent = '원본 파일과 플레이어를 확인하고 있습니다.';
+    title.textContent = playerText.loadingTitle;
+    status.textContent = playerText.loadingStatus;
     overlay.hidden = false;
     start.disabled = true;
     let timer = 0;
@@ -117,9 +118,9 @@ function init(root: HTMLElement) {
         (async () => {
           // GitHub Pages의 HTML 404 응답도 구분하기 위해 SWF 서명을 확인합니다.
           const response = await fetch(file, { signal, headers: { Range: 'bytes=0-2' } });
-          if (!response.ok) throw new Error(response.status === 404 ? 'SWF 파일을 찾을 수 없습니다. 파일이 등록되었는지 확인해 주세요.' : `자료를 불러오지 못했습니다 (HTTP ${response.status}).`);
+          if (!response.ok) throw new Error(response.status === 404 ? playerText.missingFile : playerText.httpError.replace('{status}', String(response.status)));
           const reader = response.body?.getReader();
-          if (!reader) throw new Error('이 브라우저에서 원본 파일을 확인할 수 없습니다.');
+          if (!reader) throw new Error(playerText.noReader);
           let signature = '';
           try {
             while (signature.length < 3) {
@@ -128,7 +129,7 @@ function init(root: HTMLElement) {
               signature += new TextDecoder('ascii').decode(value.slice(0, 3 - signature.length));
             }
           } finally { await reader.cancel(); }
-          if (!['FWS', 'CWS', 'ZWS'].includes(signature)) throw new Error('등록된 주소가 SWF 파일이 아닙니다. 파일 경로를 확인해 주세요.');
+          if (!['FWS', 'CWS', 'ZWS'].includes(signature)) throw new Error(playerText.invalidFile);
           await loadRuffle();
           if (token !== generation) return;
           player = window.RufflePlayer!.newest!().createPlayer();
@@ -148,20 +149,20 @@ function init(root: HTMLElement) {
           if (token !== generation || !player) return;
           player.ruffle().volume = Number(volume.value);
         })(),
-        new Promise<never>((_, reject) => { timer = window.setTimeout(() => reject(new Error('불러오기에 시간이 오래 걸립니다. 연결 상태를 확인하고 다시 시도해 주세요.')), 45000); }),
+        new Promise<never>((_, reject) => { timer = window.setTimeout(() => reject(new Error(playerText.timeout)), 45000); }),
       ]);
       if (token !== generation) return;
       overlay.hidden = true;
       pause.disabled = restart.disabled = volume.disabled = false;
-      status.textContent = '자료를 불러왔습니다.';
+      status.textContent = playerText.loaded;
     } catch (error) {
       if (token !== generation) return;
       dispose();
       overlay.hidden = false;
-      title.textContent = '자료를 불러오지 못했습니다';
-      status.textContent = error instanceof Error ? error.message : '알 수 없는 오류가 발생했습니다.';
+      title.textContent = playerText.errorTitle;
+      status.textContent = error instanceof Error ? error.message : playerText.unknownError;
       start.hidden = false;
-      start.textContent = '다시 시도 →';
+      start.textContent = playerText.retry;
     } finally { clearTimeout(timer); }
   }
 
@@ -171,7 +172,7 @@ function init(root: HTMLElement) {
   const requested = new URLSearchParams(location.search).get('chapter');
   const requestedIndex = chapters.findIndex((chapter) => chapter.id === requested);
   choose(requestedIndex >= 0 ? requestedIndex : 0, false);
-  if (requested && requestedIndex < 0) status.textContent = '요청한 장을 찾을 수 없습니다. 아래 장 선택에서 다시 골라 주세요.';
+  if (requested && requestedIndex < 0) status.textContent = playerText.unknownChapter;
   select.addEventListener('change', () => choose(chapters.findIndex((chapter) => chapter.id === select.value)));
   start.addEventListener('click', () => void play());
   restart.addEventListener('click', () => void play());
@@ -182,12 +183,12 @@ function init(root: HTMLElement) {
     if (!player) return;
     if (paused) player.ruffle().resume(); else player.ruffle().suspend();
     paused = !paused;
-    pause.textContent = paused ? '재개' : '일시정지';
+    pause.textContent = paused ? playerText.resume : playerText.pause;
   });
   volume.addEventListener('input', () => { if (player) player.ruffle().volume = Number(volume.value); });
   fullscreen.addEventListener('click', () => {
     const action = document.fullscreenElement ? document.exitFullscreen() : theater.requestFullscreen();
-    void action.catch(() => { find('[data-selected-chapter]').textContent = '이 브라우저에서는 전체 화면을 사용할 수 없습니다.'; });
+    void action.catch(() => { find('[data-selected-chapter]').textContent = playerText.noFullscreen; });
   });
   window.addEventListener('pagehide', dispose);
   window.addEventListener('pageshow', (event) => { if (event.persisted) choose(index, false); });

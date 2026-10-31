@@ -1,4 +1,5 @@
 import type { ImageMetadata } from 'astro';
+import { slideAltText } from './content.mjs';
 import { series } from './catalog';
 import { withBase } from '../lib/paths';
 
@@ -8,10 +9,10 @@ export interface ShowcaseImage { src: string; alt: string; width: number; height
 const saga = series.find((item) => item.id === 'xenosaga')!;
 const gearsSlides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노기어스/*.png', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, image], index) => ({ src: image.src, alt: `제노기어스 게임 화면 ${index + 1}`, width: image.width, height: image.height }));
+  .map(([, image], index) => ({ src: image.src, alt: slideAltText.gears.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 const saga1Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가1/*.png', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, image], index) => ({ src: image.src, alt: `제노사가 에피소드 I 게임 화면 ${index + 1}`, width: image.width, height: image.height }));
+  .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 
 // 게임 폴더의 PNG를 파일명 순서로 불러와 6초 간격으로 자동 전환합니다.
 export const showcases = {

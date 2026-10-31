@@ -1,4 +1,5 @@
 ---
+import { commonText, slideshowText } from '../data/content.mjs';
 import type { ShowcaseImage } from '../data/showcase';
 import { withBase } from '../lib/paths';
 
@@ -23,18 +24,19 @@ const { seriesId, title, subtitle, subtitleLang = 'ko', description, features = 
     <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : title}</h1>
     {subtitle && <p class="stage-subtitle" lang={subtitleLang}>{subtitle}</p>}
     <p class="stage-intro">{description}</p>
-    {features.length > 0 && <ul class="stage-features" aria-label="게임의 주요 특징">{features.map((feature) => <li>{feature}</li>)}</ul>}
-    {(patchUrl || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl && <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">한글패치 바로가기 <span aria-hidden="true">↗</span><span class="sr-only"> (새 창)</span></a>}<slot name="actions" /></div>}
+    {features.length > 0 && <ul class="stage-features" aria-label={commonText.features}>{features.map((feature) => <li>{feature}</li>)}</ul>}
+    {(patchUrl || Astro.slots.has('actions')) && <div class="stage-actions">{patchUrl && <a class="stage-patch-link" href={patchUrl} target="_blank" rel="noopener noreferrer">{commonText.patch} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a>}<slot name="actions" /></div>}
   </div>
   {Astro.slots.has('lineup') && <div class="stage-lineup"><slot name="lineup" /></div>}
-  {slides.length > 1 && <div class="stage-slide-controls" aria-label="배경 슬라이드쇼">
-    <button type="button" data-slide-previous aria-label="이전 배경 이미지">←</button>
+  {slides.length > 1 && <div class="stage-slide-controls" aria-label={slideshowText.controls}>
+    <button type="button" data-slide-previous aria-label={slideshowText.previous}>←</button>
     <span class="stage-slide-count" data-slide-count>01 / {String(slides.length).padStart(2, '0')}</span>
-    <button type="button" data-slide-next aria-label="다음 배경 이미지">→</button>
-    <button type="button" data-slide-pause aria-label="배경 자동 전환 일시정지" aria-pressed="false">Ⅱ</button>
+    <button type="button" data-slide-next aria-label={slideshowText.next}>→</button>
+    <button type="button" data-slide-pause aria-label={slideshowText.pause} aria-pressed="false">Ⅱ</button>
   </div>}
 </section>
 <script>
+  import { slideshowText } from '../data/content.mjs';
   document.querySelectorAll<HTMLElement>('[data-game-stage]').forEach((root) => {
     const images = [...root.querySelectorAll<HTMLImageElement>('[data-stage-slide]')];
     if (images.length < 2) return;
@@ -57,7 +59,7 @@ const { seriesId, title, subtitle, subtitleLang = 'ko', description, features = 
       if (!paused && !document.hidden) timer = setInterval(() => show(current + 1), 6000);
       pauseButton.textContent = paused ? '▶' : 'Ⅱ';
       pauseButton.setAttribute('aria-pressed', String(paused));
-      pauseButton.setAttribute('aria-label', paused ? '배경 자동 전환 재생' : '배경 자동 전환 일시정지');
+      pauseButton.setAttribute('aria-label', paused ? slideshowText.resume : slideshowText.pause);
     }
     root.querySelector('[data-slide-previous]')!.addEventListener('click', () => { show(current - 1); schedule(); });
     root.querySelector('[data-slide-next]')!.addEventListener('click', () => { show(current + 1); schedule(); });
