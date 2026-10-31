@@ -10,11 +10,11 @@ const saga = series.find((item) => item.id === 'xenosaga')!;
 const gearsSlides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노기어스/*.png', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, image], index) => ({ src: image.src, alt: slideAltText.gears.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
-const saga1Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가1/*.png', { eager: true, import: 'default' }))
+const saga1Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가1/*.{png,gif}', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 
-// 게임 폴더의 PNG를 파일명 순서로 불러와 6초 간격으로 자동 전환합니다.
+// 게임 이미지를 파일명 순서로 불러와 6초 간격으로 전환합니다. GIF는 원본 애니메이션을 유지합니다.
 export const showcases = {
   xenogears: {
     logo: { src: '/images/xenogears-title-logo.png', width: 1260, height: 1500 },
