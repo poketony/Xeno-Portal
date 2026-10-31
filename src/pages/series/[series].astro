@@ -19,10 +19,13 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
   <GameStage seriesId={item.id} title={item.name} subtitle={item.korean} description={item.description} logo={showcases.xenosaga.logo} slides={showcases.xenosaga.slides}>
     <div slot="lineup">
       <div class="saga-stage-lineup" aria-label={lineupText.label}>
-        {xenosagaLineup.map((group) => <section class="saga-stage-chapter" aria-label={navigationText.episode + ' ' + group.episode} data-episode={group.episode}>
-          <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span aria-hidden="true">{group.episode}</span><div><small>{navigationText.episodeMark} {group.episode}</small><strong>{works.find((work) => work.id === group.mainId)!.title}</strong><span class="saga-stage-subtitle">{group.subtitle}</span></div></a>
+        {xenosagaLineup.map((group) => {
+          const title = works.find((work) => work.id === group.mainId)!.title;
+          const labelTitle = title.endsWith(group.subtitle) ? title.slice(0, -group.subtitle.length).trimEnd() : title;
+          return <section class="saga-stage-chapter" aria-label={navigationText.episode + ' ' + group.episode} data-episode={group.episode}>
+          <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span aria-hidden="true">{group.episode}</span><div><small>{navigationText.episodeMark} {group.episode}</small><strong>{labelTitle}</strong><span class="saga-stage-subtitle">{group.subtitle}</span></div></a>
           {group.sideIds.length > 0 && <div class="saga-stage-side" aria-label={group.between}>{group.sideIds.map((id) => <a href={workUrl(id)} data-work-id={id}>{id === 'xenosaga-1-2' ? lineupText.ds : works.find((work) => work.id === id)!.title.replace('제노사가 ', '')}</a>)}</div>}
-        </section>)}
+        </section>; })}
       </div>
     </div>
   </GameStage>

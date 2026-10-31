@@ -19,6 +19,7 @@
 .series-logo { display: block; max-width: 100%; height: auto; }
 .series-banner h3 { width: clamp(245px, 27vw, 340px); line-height: 0; margin: 13px 0; }
 .series-banner .series-logo { width: 100%; }
+.series-banner .banner-official { margin-top: 6px; }
 .game-hero-gears h1 .series-logo { width: 480px; }
 .series-hero h1 .series-logo { width: min(100%, 450px); }
 .series-hero.has-artwork > img { transform: none; object-position: center 30%; }

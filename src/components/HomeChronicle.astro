@@ -15,7 +15,7 @@ const sources = new Map(text.sources.map((source, index) => [source.id, { ...sou
   </nav>
 
   <section class="chronicle-origins" id="origins" aria-labelledby="origins-title">
-    <header class="chronicle-section-heading"><p class="eyebrow">{text.originsEyebrow}</p><h3 id="origins-title">{text.originsTitle}</h3><p>{text.originsIntroduction}</p><span class="chronicle-era" aria-hidden="true">{text.timeline[0].year}<span>{text.eraNote}</span></span></header>
+    <header class="chronicle-section-heading"><p class="eyebrow">{text.originsEyebrow}</p><h3 id="origins-title">{text.originsTitle}</h3><p>{text.originsIntroduction}</p><span class="chronicle-era" aria-hidden="true">{text.timeline[0].year}<span>{text.eraNote}</span></span><img class="chronicle-origins-image" src={withBase('/images/FR_radio.webp')} alt={text.originsImageAlt} width="800" height="464" loading="lazy" decoding="async" /></header>
     <ol class="chronicle-timeline">
       {text.timeline.map((item) => <li><div class="chronicle-date"><span>{item.year}</span><small>{item.label}</small></div><div class="chronicle-event"><h4>{item.title}</h4><p>{item.text}<span class="chronicle-refs">{item.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p></div></li>)}
     </ol>

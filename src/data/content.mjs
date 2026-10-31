@@ -4,25 +4,25 @@
 
 export const siteText = {
   "name": "Xeno Series",
-  "description": "세 개의 세계, 끝없이 이어지는 이야기. 제노 시리즈의 작품과 한글패치, 그 너머의 기록을 만납니다."
+  "description": "이질적인 존재들의 통합을 다루는, 끝없이 이어지는 이야기. 제노 시리즈의 역사 및 한국어 지원 자료를 정리한 사이트입니다."
 };
 
 export const homeText = {
   "coordinate": "ARCHIVE / XENO UNIVERSE",
   "locale": "JP → KR",
   "logoAlt": "붉은 붓글씨 X와 흰색 eno로 이루어진 Xeno 로고",
-  "eyebrow": "세계를 넘어, 한국어로",
-  "scroll": "당신의 이야기를 선택하세요",
+  "eyebrow": "제노 시리즈 한국어 지원",
+  "scroll": "알아보고 싶은 이야기를 선택하세요",
   "axis": "1998 — BEYOND",
   "seriesHeading": "EXPLORE THE SERIES",
-  "seriesSubtitle": "세 개의 세계 · 하나의 기록",
-  "officialSite": "한국닌텐도 공식 홈페이지",
+  "seriesSubtitle": "3개의 시리즈",
+  "officialSite": "(한국닌텐도 공식 홈페이지)",
   "officialAction": "공식 홈페이지로 이동",
   "workAction": "작품 소개 보기",
   "seriesAction": "시리즈 둘러보기",
   "archive": {
     "eyebrow": "ABOUT THIS ARCHIVE",
-    "title": "작품을 만나고, 언어를 잇고, 이야기를 남기는 곳.",
+    "title": "제노 시리즈 구작 및 한글패치 자료를 간략히 소개하기 위해 만든 페이지입니다.",
     "description": "작품 소개부터 한글패치와 관련 자료까지, 각 시리즈 안에서 찾아보세요.",
     "action": "사이트 안내",
     "actionLabel": "사이트 안내 더 알아보기"
@@ -37,9 +37,9 @@ export const commonText = {
   "history": "제노의 역사",
   "seriesMenu": "시리즈 둘러보기",
   "aboutMenu": "사이트 안내",
-  "fanPortal": "한국어 팬 포털",
+  "fanPortal": "비공식 한국어 사이트",
   "footerTitle": "XENO SERIES",
-  "footerDescription": "세계를 잇고, 이야기를 기록합니다.",
+  "footerDescription": "세계를 잇고, 이야기를 소개합니다.",
   "sources": "사이트 안내 · 출처",
   "repository": "GitHub",
   "newWindow": "(새 창)",
@@ -56,7 +56,7 @@ export const commonText = {
   "updates": "업데이트",
   "releaseUnknown": "발매일 미확인",
   "noPatchesTitle": "아직 등록된 한글패치가 없습니다",
-  "noPatchesDescription": "배포 정보가 등록되면 대상 작품·기종·판본과 함께 안내합니다. 이 표시는 패치의 제작 여부나 진행 상태를 뜻하지 않습니다.",
+  "noPatchesDescription": "배포 정보가 등록되면 대상 작품·기종·판본과 함께 안내합니다.",
   "noResources": "등록된 관련 자료가 없습니다.",
   "noUpdates": "등록된 패치 배포·자료 업데이트 기록이 없습니다."
 };
@@ -74,8 +74,8 @@ export const seriesText = {
     "name": "Xenogears",
     "korean": "제노기어스",
     "number": "01",
-    "tagline": "모든 이야기의 시작",
-    "description": "거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치, 관련 기록을 살펴보세요.",
+    "tagline": "모든 이야기의 원점",
+    "description": "거대한 기어와 인간의 기억이 교차하는 세계. 제노기어스의 작품 정보와 한글패치 등의 관련 정보를 살펴보세요.",
     "motif": "GEAR / ORIGIN",
     "artworkAlt": "페이와 엘리, 기어를 담은 제노기어스 이미지"
   },
@@ -83,8 +83,8 @@ export const seriesText = {
     "name": "Xenosaga",
     "korean": "제노사가",
     "number": "02",
-    "tagline": "별의 바다를 건너는 서사",
-    "description": "우주를 무대로 펼쳐지는 제노사가. 에피소드와 외전, 그리고 에피소드 II와 III 사이의 미싱 이어를 만나보세요.",
+    "tagline": "우주 속 인류의 존속을 둘러싸고 펼쳐지는 대서사시",
+    "description": "우주를 무대로 펼쳐지는 제노사가. 3개의 본편과 외전작들, 그리고 한글패치 등의 관련 정보를 살펴보세요.",
     "motif": "SPACE / MEMORY",
     "artworkAlt": "KOS-MOS의 옆모습을 담은 제노사가 이미지"
   },
@@ -107,14 +107,14 @@ export const workText = {
     "aliases": [
       "제노 기어스"
     ],
-    "summary": "소년 페이와 거대한 인간형 병기 기어의 여정을 그린 RPG입니다. 인물들의 기억과 만남을 따라 세계의 비밀을 마주합니다. 인물과 기어를 오가는 전투가 이야기를 함께 이끌어 갑니다.",
+    "summary": "기억을 잃은 소년 \"페이\"가 거대한 인간형 병기 기어 \"벨토르\"에 타게 되며 벌어지는 이야기를 그린 RPG입니다. 다양한 인물들과 만나고 그들의 시선을 배워 가며 세계의 비밀을 마주합니다. 인물과 기어를 오가는 전투가 이야기를 함께 이끌어 갑니다. 센세이셔널한 스토리로 화제가 된 기념비적인 작품.",
     "features": [
       "인물과 기어를 오가는 전투",
       "기억과 세계의 비밀을 따라가는 이야기"
     ]
   },
   "xenosaga-1": {
-    "title": "제노사가 에피소드 I",
+    "title": "제노사가 에피소드 I [힘에의 의지]",
     "english": "Xenosaga Episode I: Der Wille zur Macht",
     "japanese": "ゼノサーガ エピソードI 力への意志",
     "aliases": [
@@ -123,10 +123,10 @@ export const workText = {
       "제노사가 1",
       "KOS-MOS"
     ],
-    "summary": "시온과 KOS-MOS를 중심으로 시작되는 제노사가의 첫 번째 에피소드입니다.",
+    "summary": "시온과 KOS-MOS를 중심으로 시작되는 제노사가의 첫 번째 에피소드입니다. 시온과 KOS-MOS가 수수께끼의 적 \"그노시스\"와 관련된 사건에 휘말리며 벌어지는 이야기를 그리고 있습니다. 새롭게 이야기를 시작한 모노리스 소프트의 야심이 돋보이는 작품.",
     "features": [
-      "우주를 배경으로 한 RPG",
-      "에피소드로 이어지는 이야기"
+      "고도의 전략적인 계산을 요구하는 턴제 RPG",
+      "압도적인 영상미를 자랑하는 시네마틱 컷신"
     ]
   },
   "xenosaga-freaks": {
@@ -136,13 +136,13 @@ export const workText = {
     "aliases": [
       "프리크스"
     ],
-    "summary": "제노사가의 세계와 등장인물을 다루는 버라이어티 소프트웨어입니다.",
+    "summary": "제노사가의 세계와 등장인물을 다루는 팬디스크 겸 버라이어티 소프트웨어입니다.",
     "features": [
       "본편과 별도로 즐기는 외전"
     ]
   },
   "xenosaga-2": {
-    "title": "제노사가 에피소드 II",
+    "title": "제노사가 에피소드 II [선악의 저편]",
     "english": "Xenosaga Episode II: Jenseits von Gut und Böse",
     "japanese": "ゼノサーガ エピソードII 善悪の彼岸",
     "aliases": [
@@ -162,10 +162,10 @@ export const workText = {
       "제노사가 DS",
       "Xenosaga 1 2"
     ],
-    "summary": "에피소드 I과 II를 Nintendo DS에서 만날 수 있는 별도 작품입니다.",
+    "summary": "에피소드 I과 II를 Nintendo DS에서 만날 수 있는 색다른 작품입니다. 제작 여건상의 이유로 생략된 제노사가 2의 여러 에피소드가 타카하시 테츠야의 감수 아래 재정비되었습니다. 제노사가 에피소드 III를 즐기고자 하는 유저들을 위한 친절한 가이드 같은 작품.",
     "features": [
-      "Nintendo DS용 작품",
-      "에피소드 I·II와 구분되는 판본 정보"
+      "타카하시 감독에 의해 재정비된 스토리",
+      "비교적 가벼우면서도 깊이를 더한 전투"
     ]
   },
   "xenosaga-pied-piper": {
@@ -177,7 +177,7 @@ export const workText = {
       "파이드 파이퍼",
       "Pied Piper"
     ],
-    "summary": "본편보다 100년 앞선 시대를 배경으로 지기의 과거를 다루는 휴대전화용 RPG입니다.",
+    "summary": "본편보다 100년 앞선 시대, 지기의 과거를 그린 제노사가 외전입니다. 휴대전화용 RPG로 시작된 이야기를 한국어로 만나보세요.",
     "features": [
       "본편의 과거를 다루는 외전",
       "휴대전화용으로 처음 배포된 RPG"
@@ -192,23 +192,23 @@ export const workText = {
       "A Missing Year",
       "미씽 이어"
     ],
-    "summary": "에피소드 II와 III 사이를 잇는 이야기입니다. 전용 감상 페이지에서 장별로 감상할 수 있도록 준비했습니다.",
+    "summary": "정확한 제목은 \n제노사가 에피소드 II to III a missing year ~U.M.N.에 봉인된 진실의 단편~. 에피소드 II와 III 사이를 잇는 플래시 기반의 웹 콘텐츠입니다. 전용 감상 페이지에서 챕터별로 감상할 수 있도록 준비했습니다.",
     "features": [
       "에피소드 II 이후의 내용을 다룹니다",
       "Flash 원본 자료를 위한 전용 감상 화면"
     ]
   },
   "xenosaga-3": {
-    "title": "제노사가 에피소드 III",
+    "title": "제노사가 에피소드 III [차라투스트라는 이렇게 말했다]",
     "english": "Xenosaga Episode III: Also sprach Zarathustra",
     "japanese": "ゼノサーガ エピソードIII ツァラトゥストラはかく語りき",
     "aliases": [
       "차라투스트라는 이렇게 말했다",
       "제노사가 3"
     ],
-    "summary": "에피소드 I과 II에서 이어진 이야기를 마무리하는 세 번째 에피소드입니다.",
+    "summary": "에피소드 I과 II, 그리고 여러 외전에서 이어진 이야기를 마무리하는 제노사가 시리즈의 마지막 작품입니다. 기종의 한계를 뛰어넘은 화려한 그래픽과 몰입도 있는 게임플레이를 겸비한 제노사가 시리즈 최고의 작품.",
     "features": [
-      "제노사가 세 에피소드의 마지막 작품"
+      "제노사가 시리즈의 피날레이자 최고의 작품"
     ]
   },
   "xenoblade": {
@@ -303,9 +303,9 @@ export const workText = {
 };
 
 export const lineupText = {
-  "I": "힘에의 의지",
-  "II": "선악의 저편",
-  "III": "차라투스트라는 이렇게 말했다",
+  "I": "[힘에의 의지]",
+  "II": "[선악의 저편]",
+  "III": "[차라투스트라는 이렇게 말했다]",
   "ds": "I·II DS",
   "beforeII": "에피소드 I과 II 사이",
   "beforeIII": "에피소드 II와 III 사이",
@@ -315,13 +315,14 @@ export const lineupText = {
 export const historyText = {
   "eyebrow": "THE XENO CHRONICLE",
   "title": "제노라는 이름이\n이어져 온 길",
-  "lead": "거대한 기어, 별의 바다, 거신 위의 대지. 무대가 달라질 때마다, 사람과 세계의 관계를 묻는 새로운 모험이 시작됐다.",
-  "introduction": "제노기어스·제노사가·제노블레이드는 주요 창작자와 문제의식을 공유하면서 각자의 세계와 놀이 방식을 만들어 온 작품군이다. 여기서는 제작진의 인터뷰를 따라, 세 이름이 탄생한 과정을 살펴본다.",
+  "lead": "거대한 기어, 별의 바다, 생명 위의 대지. 무대가 달라질 때마다, 사람과 세계의 관계를 묻는 새로운 모험이 시작됐다.",
+  "introduction": "제노기어스·제노사가·제노블레이드는 주요 창작자와 문제의식을 공유하면서 각자의 세계와 플레이 방식을 만들어 온 작품군입니다. 여기서는 제작진의 인터뷰를 따라, 세 이름이 탄생한 과정을 소개합니다.",
   "nameArtCaption": "STORY / WORLDBUILDING",
   "eraNote": "— BEYOND",
   "originsEyebrow": "ORIGINS / 1998 —",
   "originsTitle": "탄생과 변화",
-  "originsIntroduction": "하나의 기획에서 시작해, 서로 다른 세계로 뻗어 간 세 이름의 출발점.",
+  "originsIntroduction": "하나의 기획에서 시작해, 시대와 함께 변화한 세 이름의 출발점.",
+  "originsImageAlt": "주파수 다이얼과 두 개의 조절 손잡이가 있는 라디오",
   "navigation": {
     "origins": "탄생과 변화",
     "creators": "세계를 만든 사람들",
@@ -332,7 +333,7 @@ export const historyText = {
       "year": "1998",
       "label": "XENOGEARS",
       "title": "한 편의 기획서가 독립된 작품으로",
-      "text": "타카하시 테츠야와 사가 소라야가 『파이널 판타지 VII』용으로 제안한 이야기는 새로운 프로젝트로 발전했다. 두 사람의 각본을 바탕으로, 인물의 기억과 거대한 병기가 교차하는 『제노기어스』가 탄생했다.",
+      "text": "스퀘어가 타카하시 테츠야와 사가 소라야 『파이널 판타지 VII』용으로 제안한 이야기는 새로운 프로젝트로 발전했다. 두 사람의 각본을 바탕으로, 인물의 기억과 거대한 병기가 교차하는 『제노기어스』가 탄생했다.",
       "refs": [
         "saga",
         "music"
@@ -342,27 +343,27 @@ export const historyText = {
       "year": "1999",
       "label": "MONOLITHSOFT",
       "title": "오리지널 RPG를 계속 만들기 위해",
-      "text": "타카하시는 스기우라 히로히데·혼네 야스유키와 모노리스소프트를 설립했다. 남코의 지원 아래, 자신들만의 작품을 만들 새로운 개발 거점을 마련했다.",
+      "text": "타카하시는 스기우라 히로히데, 혼네 야스유키와 모노리스 소프트를 설립했다. 남코의 지원 아래, 자신들만의 작품을 만들 새로운 개발 거점을 마련했다.",
       "refs": [
         "founding",
         "company"
       ]
     },
     {
-      "year": "2002—06",
+      "year": "2002~2006",
       "label": "XENOSAGA",
       "title": "우주로 확장된 에피소드형 서사",
-      "text": "모노리스소프트가 개발하고 남코가 발매한 『제노사가』는 PlayStation 2용 에피소드 I·II·III로 이어졌다. 과학 문명과 인간 존재를 다루는 SF 서사를 본편과 외전으로 펼쳐 나갔다.",
+      "text": "모노리스 소프트가 개발하고 남코가 발매한 『제노사가 시리즈』는 PlayStation 2용 에피소드 I·II·III, 세 편의 본편을 중심으로 발매되었다. 과학 문명과 인간 존재를 다루는 SF 서사를 본편과 외전으로 펼쳐 나갔다.",
       "refs": [
         "blade3",
         "saga"
       ]
     },
     {
-      "year": "2010—",
+      "year": "2010~",
       "label": "XENOBLADE",
-      "title": "거인의 몸 위에서, 직접 걸어가는 모험",
-      "text": "두 거대한 신의 몸 위에 사람들이 살아간다는 발상은 실제 모형을 거쳐 하나의 세계가 되었다. 2010년 Wii로 발매된 『제노블레이드』는 그 공간을 직접 탐색하는 경험을 중심에 놓았고, 새로운 인물과 무대를 만나는 작품들로 이어졌다.",
+      "title": "신들의 유해 위에서 세계의 진실을 밝혀내는 모험",
+      "text": "두 거대한 신의 유해 위에 사람들이 살아간다는 발상은 실제 모형을 거쳐 하나의 세계가 되었다. 2010년 Wii로 발매된 『제노블레이드 크로니클스』는 그 공간을 직접 탐색하는 경험을 중심에 놓았고, 새로운 인물과 무대를 만나는 작품들로 이어졌다.",
       "refs": [
         "development",
         "blade3"
@@ -413,7 +414,7 @@ export const historyText = {
       "name": "미츠다 야스노리",
       "roman": "Yasunori Mitsuda",
       "role": "작곡 · 음악 프로듀스",
-      "description": "『제노기어스』와 『제노사가 에피소드 I』의 음악을 담당했다. 『제노블레이드』의 엔딩곡으로 다시 함께했고, 후속 작품에서도 세계와 장면을 기억하게 하는 음악을 만들어 왔다.",
+      "description": "『제노기어스』와 『제노사가 에피소드 I [힘에의 의지]』의 음악을 담당했다. 『제노블레이드 크로니클스』의 엔딩곡으로 다시 함께했고, 후속 작품에서도 세계와 장면을 기억하게 하는 음악을 만들어 왔다.",
       "photo": {
         "src": "/images/people/yasunori-mitsuda.jpg",
         "width": 1920,
@@ -450,8 +451,8 @@ export const historyText = {
     },
     {
       "name": "스기우라 히로히데 · 혼네 야스유키",
-      "role": "모노리스소프트 공동 설립",
-      "text": "타카하시와 함께 1999년 모노리스소프트를 세웠다. 새로운 오리지널 작품을 만들기 위한 조직의 출발점에 함께했다.",
+      "role": "모노리스 소프트 공동 설립",
+      "text": "타카하시와 함께 1999년 모노리스 소프트를 세웠다. 새로운 오리지널 작품을 만들기 위한 조직의 출발점에 함께했다.",
       "refs": [
         "founding",
         "company"
@@ -459,8 +460,8 @@ export const historyText = {
     }
   ],
   "qualitiesEyebrow": "WAYS INTO XENO",
-  "qualitiesTitle": "제노를 즐기는 네 가지 시선",
-  "qualitiesIntroduction": "작품마다 표현 방식과 전투는 달라진다. 아래는 제작진의 설명과 작품을 바탕으로 정리한, 이 포털의 감상 관점이다.",
+  "qualitiesTitle": "제노를 즐기는 4가지 시선",
+  "qualitiesIntroduction": "작품마다 표현 방식과 전투는 달라진다. 아래는 제작진의 설명과 작품을 바탕으로 정리한, 제노 시리즈의 감상 관점이다.",
   "qualities": [
     {
       "number": "01",
@@ -474,7 +475,7 @@ export const historyText = {
     {
       "number": "02",
       "title": "작은 인간과 거대한 존재",
-      "text": "기어를 타는 인물과, 거신·기신 위에서 살아가는 사람들. 인간보다 거대한 존재를 삶의 무대로 삼는 발상은 세계의 규모를 드러내고 그 안의 인물을 돌아보게 한다.",
+      "text": "기어에 타고, 우주를 누비며, 거대한 생명 위에서 살아가는 사람들. 인간보다 거대한 존재를 삶의 무대로 삼는 발상은 세계의 규모를 드러내고 그 안의 인물을 돌아보게 한다.",
       "refs": [
         "saga",
         "development"
@@ -483,7 +484,7 @@ export const historyText = {
     {
       "number": "03",
       "title": "풍경 속을 직접 걷는 경험",
-      "text": "특히 제노블레이드는 거대한 몸이 곧 지형이 되는 세계를 탐험한다. 멀리 보이던 장소에 다가가고, 연결된 공간을 걸어가는 경험이 모험의 일부가 된다.",
+      "text": "특히 제노블레이드 시리즈에서는 거대한 몸이 곧 지형이 되는 세계를 탐험할 수 있다. 멀리 보이던 장소에 다가가고, 연결된 공간을 걸어가는 경험이 모험의 일부가 된다.",
       "refs": [
         "development",
         "blade3"
@@ -492,7 +493,7 @@ export const historyText = {
     {
       "number": "04",
       "title": "장면을 이어 주는 음악",
-      "text": "미츠다를 비롯한 여러 음악가의 곡은 풍경과 인물의 감정을 함께 전한다. 제노블레이드 3의 두 피리처럼, 악기와 선율 자체가 이야기의 관계를 표현하기도 한다.",
+      "text": "미츠다를 비롯한 여러 음악가의 곡은 풍경과 인물의 감정을 함께 전한다. 제노블레이드 크로니클스 3의 두 피리처럼, 악기와 선율 자체가 이야기의 관계를 표현하기도 한다.",
       "refs": [
         "music",
         "blade3music"
@@ -512,13 +513,13 @@ export const historyText = {
     },
     {
       "id": "founding",
-      "title": "스기우라 히로히데 인터뷰 — 모노리스소프트 설립",
+      "title": "스기우라 히로히데 인터뷰 — 모노리스 소프트 설립",
       "publisher": "MONOLITHSOFT · 2017",
       "url": "https://www.monolithsoft.co.jp/interview/vol01.html"
     },
     {
       "id": "company",
-      "title": "모노리스소프트 회사·설립자 소개",
+      "title": "모노리스 소프트 회사·설립자 소개",
       "publisher": "MONOLITHSOFT",
       "url": "https://www.monolithsoft.co.jp/company/"
     },
@@ -965,5 +966,6 @@ export const koreanSupportText = {
 
 export const slideAltText = {
   "gears": "제노기어스 게임 화면 {number}",
-  "saga": "제노사가 에피소드 I 게임 화면 {number}"
+  "saga": "제노사가 에피소드 I 게임 화면 {number}",
+  "piper": "제노사가 파이드 파이퍼 제공 이미지 {number}"
 };

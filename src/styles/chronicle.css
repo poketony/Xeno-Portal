@@ -14,6 +14,7 @@
 .chronicle-origins{display:grid;grid-template-columns:280px 1fr;gap:60px;scroll-margin-top:35px}
 .chronicle-era{display:block;font:94px/.95 Rajdhani,sans-serif;letter-spacing:-.06em;color:#c4b293;margin-top:45px}
 .chronicle-era>span{display:block;font:10px Rajdhani,sans-serif;letter-spacing:.35em;color:#8c8172;margin-top:14px}
+.chronicle-origins-image{display:block;width:100%;max-width:360px;height:auto;margin-top:24px}
 .chronicle-timeline{list-style:none;margin:0;padding:0 0 0 20px;border-left:1px solid #5b5144}
 .chronicle-timeline>li{display:grid;grid-template-columns:100px 1fr;gap:24px;position:relative;padding:0 0 34px}
 .chronicle-timeline>li:last-child{padding-bottom:0}
