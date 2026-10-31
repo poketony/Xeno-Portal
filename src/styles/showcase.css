@@ -2,6 +2,7 @@
 .site-header nav a[data-series="xenosaga"]:focus-visible,
 .site-header nav a[data-series="xenosaga"][aria-current] { color: #818cf8; }
 .site-header nav a[data-series="xenosaga"]:focus-visible { outline-color: #818cf8; }
+.site-header .wordmark img { width: 100px; height: auto; }
 
 .immersive-page { --portal-header-height: 86px; }
 .immersive-page::before { display: none; }
@@ -47,6 +48,7 @@
 .stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage-accent); }
 .stage-actions .text-link { font-size: 11px; }
 .stage-slide-controls { position: absolute; right: var(--space); bottom: 24px; display: flex; align-items: center; gap: 12px; }
+.xenogears .stage-slide-controls { left: var(--space); right: auto; }
 .has-lineup .stage-slide-controls { bottom: auto; top: 24px; }
 .stage-slide-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; color: #e9edf5; border: 1px solid #ffffff4d; background: #0b1119bf; }
 .stage-slide-count { font: 12px var(--display); color: #e9edf5; }
@@ -85,6 +87,8 @@
 @media (max-width: 640px) {
   .immersive-page { --portal-header-height: 69px; }
   .game-stage { padding: 18px 22px 23px; gap: 22px; }
+  .game-stage.has-slideshow { padding-bottom: 56px; }
+  .site-header .wordmark img { width: 72px; }
   .game-stage.has-lineup { row-gap: 32px; }
   .game-stage::before { background: linear-gradient(90deg, #070c13df, #070c1366), linear-gradient(0deg, #070c13d9, transparent 70%); }
   .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13df, #070c1399), linear-gradient(0deg, #070c13d9, transparent 70%); }

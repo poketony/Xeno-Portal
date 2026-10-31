@@ -15,9 +15,9 @@ interface Props {
 }
 const { seriesId, title, subtitle, subtitleLang = 'ko', description, features = [], logo, slides, patchUrl } = Astro.props;
 ---
-<section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup') }]} aria-label={title} data-game-stage>
+<section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup'), 'has-slideshow': slides.length > 1 }]} aria-label={title} data-game-stage>
   <div class="stage-backdrop" aria-hidden="true">
-    {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={withBase(slide.src)} alt="" width={slide.width} height={slide.height} style={`--slide-width: ${slide.width}px; --slide-height: ${slide.height}px`} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
+    {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={slide.src} alt="" width={slide.width} height={slide.height} style={`--slide-width: ${slide.width}px; --slide-height: ${slide.height}px`} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
   </div>
   <div class="stage-copy">
     <h1 class:list={{ 'stage-title-logo': !!logo }}>{logo ? <img src={withBase(logo.src)} alt={title} width={logo.width} height={logo.height} fetchpriority="high" /> : title}</h1>

@@ -10,7 +10,7 @@ interface Props { work: import('../data/catalog').Work }
 const { work } = Astro.props;
 const isGears = work.id === 'xenogears';
 const parent = series.find((item) => item.id === work.series)!;
-const showcase = work.series === 'xenogears' ? showcases.xenogears : work.series === 'xenosaga' ? showcases.xenosaga : undefined;
+const showcase = work.series === 'xenogears' ? showcases.xenogears : work.id === 'xenosaga-1' ? showcases['xenosaga-1'] : work.series === 'xenosaga' ? showcases.xenosaga : undefined;
 const artwork = work.image ?? (isGears ? parent.artwork : undefined);
 const editions = workEditions(work.id);
 const workPatches = patches.filter((patch) => patch.workId === work.id);

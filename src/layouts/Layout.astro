@@ -28,7 +28,7 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
   <body class:list={{ 'immersive-page': immersive }}>
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
     <header class="site-header">
-      {!home && <a class="wordmark" href={homeUrl} aria-label="Xeno Series 홈">{activeSeries === 'xenogears' || activeSeries === 'xenosaga' ? <img src={withBase('/favicon.png')} alt="" width="48" height="48" /> : <><span class="brand-x" aria-hidden="true">X</span> XENO<span class="wordmark-divider">/</span><span class="wordmark-small">SERIES</span></>}</a>}
+      {!home && <a class="wordmark" href={homeUrl} aria-label="Xeno Series 홈"><img src={withBase('/images/xeno-series-logo.webp')} alt="" width="1100" height="619" /></a>}
       <nav aria-label="주요 메뉴">
         {home ? <><a href="#series">시리즈 둘러보기 <span aria-hidden="true">↗</span></a><a href={withBase('/about/')}>사이트 안내</a></> : <>
           {series.map((item) => <a href={seriesUrl(item.id)} data-series={item.id} aria-current={activeSeries === item.id ? 'page' : undefined}>{item.korean}</a>)}
