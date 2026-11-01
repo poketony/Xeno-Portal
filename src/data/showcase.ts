@@ -69,5 +69,6 @@ export const showcases = {
 export const workPatchLinks: Partial<Record<string, string>> = {
   xenogears: showcases.xenogears.patchUrl,
   'xenosaga-1': 'https://blog.naver.com/hyunjun0803jun/224373974665',
+  'xenosaga-1-2': 'https://blog61438.tistory.com/20',
   'xenosaga-pied-piper': 'https://blog.naver.com/hyunjun0803jun/224290122622',
 };

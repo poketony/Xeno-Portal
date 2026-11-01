@@ -19,7 +19,7 @@ const workResources = resources.filter((resource) => resource.workIds.includes(w
 const sources = [...work.sources, ...(work.image ? [work.image.source] : [])];
 ---
 {showcase ? <Layout title={work.title} description={work.summary} activeSeries={work.series} canonicalPath={isGears ? workUrl(work.id) : undefined} immersive>
-  <GameStage seriesId={work.series} workId={work.id} title={isGears ? work.english : work.title} subtitle={isGears ? work.title : work.english} subtitleLang={isGears ? 'ko' : 'en'} description={work.summary} features={work.features} logo={isGears ? showcases.xenogears.logo : undefined} slides={showcase.slides} patchUrl={workPatchLinks[work.id]} patchPending={work.id === 'xenosaga-2' || work.id === 'xenosaga-3'}>
+  <GameStage seriesId={work.series} workId={work.id} title={isGears ? work.english : work.title} subtitle={isGears ? work.title : work.english} subtitleLang={isGears ? 'ko' : 'en'} description={work.summary} features={work.features} logo={isGears ? showcases.xenogears.logo : undefined} slides={showcase.slides} patchUrl={workPatchLinks[work.id]} patchPending={work.id === 'xenosaga-2' || work.id === 'xenosaga-3' || work.id === 'xenosaga-freaks'}>
     <Fragment slot="actions">{work.series === 'xenosaga' && <>{work.id === 'missing-year' && <a class="stage-back-link stage-watch-link" href={withBase('/watch/missing-year/')}>{workPageText.watch}</a>}<a class="stage-back-link" href={seriesUrl(parent.id)}>{workPageText.backToSaga.replace(/^←\s*/, '')}</a></>}</Fragment>
   </GameStage>
 </Layout> : <Layout title={work.title} description={work.summary} activeSeries={work.series} canonicalPath={isGears ? workUrl(work.id) : undefined}>
