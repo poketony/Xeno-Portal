@@ -92,7 +92,9 @@
   .catalog-showcase .saga-side .work-card-body { padding: 17px; }
 }
 @media (max-width: 640px) {
-  .series-banner h3 { width: clamp(200px, 58vw, 290px); margin: 12px 0; }
+  .series-banner h3 { width: clamp(200px, 58vw, 290px); max-width: 100%; margin: 12px 0; }
+  .series-banner .banner-content p { font-size: 11px; gap: 6px 10px; }
+  .series-banner .banner-ko { font-size: 12px; }
   .series-banner.xenosaga .banner-art { left: -42%; width: 90%; }
   .series-banner.xenosaga .banner-content { padding-left: 32%; }
   .series-banner.xenogears .banner-art { width: 82%; right: -18%; }

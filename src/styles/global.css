@@ -13,3 +13,4 @@
 .work-art.has-image img,.work-cover.has-image img{transform:none;opacity:1}
 @media(min-width:641px){.home-hero{min-height:510px;padding-bottom:30px}.hero-logo{width:clamp(280px,28vw,350px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+@media(max-width:760px){.site-header nav a{display:inline-flex;align-items:center;min-height:44px;font-size:11px}.home-note>a,.footer-links a{display:inline-flex;align-items:center;min-height:44px}}
