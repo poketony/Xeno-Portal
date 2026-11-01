@@ -1,5 +1,5 @@
 import type { ImageMetadata } from 'astro';
-import { slideAltText } from './content.mjs';
+import { slideAltText, workText } from './content.mjs';
 import { series } from './catalog';
 import { withBase } from '../lib/paths';
 import piperPromo from '../../파이드파이퍼/XPP_TM.png';
@@ -8,6 +8,9 @@ import piperIntro from '../../파이드파이퍼/xenopp-1.png';
 import piperStory from '../../파이드파이퍼/xenopp-2.png';
 import piperCharacters from '../../파이드파이퍼/xenopp-3.png';
 import piperBattle from '../../파이드파이퍼/xenopp-4.png';
+import freaksArtwork from '../../제노사가프릭스/XenosagaFreaksCast.webp';
+import missingYearArtwork from '../../미싱이어/my06020000.png';
+import sagaDsArtwork from '../../제노사가DS/XenosagaDS.jpg';
 
 // src는 기본 배포 경로를 포함한 URL입니다.
 export interface ShowcaseImage { src: string; alt: string; width: number; height: number }
@@ -51,6 +54,15 @@ export const showcases = {
   },
   'xenosaga-pied-piper': {
     slides: piperSlides,
+  },
+  'xenosaga-freaks': {
+    slides: [{ ...freaksArtwork, alt: workText['xenosaga-freaks'].title }],
+  },
+  'missing-year': {
+    slides: [{ ...missingYearArtwork, alt: workText['missing-year'].title }],
+  },
+  'xenosaga-1-2': {
+    slides: [{ ...sagaDsArtwork, alt: workText['xenosaga-1-2'].title }],
   },
 };
 
