@@ -91,7 +91,9 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
 .saga-stage-side a { display: inline-flex; align-items: center; justify-content: center; min-height: 34px; padding: 6px 12px; border: 1px solid #9daac280; background: #0a111be6; color: #e0e6f0; font-size: 11px; line-height: 1.5; }
 .saga-stage-side a:hover { border-color: #a4adff; color: #a4adff; }
 .game-stage:is([data-work-id="xenosaga-2"], [data-work-id="xenosaga-3"]) .stage-slide { width: 100%; height: 100%; object-fit: contain; object-position: right center; mask-image: none; }
-.game-stage:is([data-work-id="xenosaga-freaks"], [data-work-id="missing-year"], [data-work-id="xenosaga-1-2"]) .stage-slide { width: min(100%, calc(var(--slide-width) * 2)); height: min(100%, calc(var(--slide-height) * 2)); object-fit: contain; object-position: right center; mask-image: none; }
+.game-stage:is([data-work-id="xenosaga-freaks"], [data-work-id="missing-year"]) .stage-slide { width: min(100%, calc(var(--slide-width) * 2)); height: min(100%, calc(var(--slide-height) * 2)); object-fit: contain; object-position: right center; mask-image: none; }
+.game-stage[data-work-id="xenosaga-1-2"] .stage-backdrop { overflow: hidden; }
+.game-stage[data-work-id="xenosaga-1-2"] .stage-slide { top: 0; width: 100%; height: 125%; transform: none; object-fit: contain; object-position: right top; mask-image: none; }
 
 .game-stage[data-work-id="xenosaga-pied-piper"] { --stage-accent: #afd589; }
 .game-stage[data-work-id="xenosaga-pied-piper"] .stage-backdrop { background: radial-gradient(ellipse at 80% 45%, #24372a, #080e0d 75%); }
@@ -126,6 +128,7 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
   .game-stage[data-work-id]::before { background: none; }
   .game-stage[data-work-id] .stage-backdrop { position: relative; inset: auto; grid-row: 1; width: calc(100% + 40px); height: clamp(176px, 60vw, 320px); min-height: 0; justify-self: center; z-index: 0; background: #070c13; }
   .game-stage[data-work-id] .stage-slide { inset: 0; width: 100%; height: 100%; transform: none; object-fit: contain; object-position: center; mask-image: none; }
+  .game-stage[data-work-id="xenosaga-1-2"] .stage-slide { height: 125%; object-position: center top; }
   .game-stage[data-work-id] .stage-copy { grid-row: 2; width: 100%; justify-self: stretch; padding: 18px 0 0; text-align: left; }
   .game-stage[data-work-id].has-slideshow .stage-copy { grid-row: 3; }
   .game-stage[data-work-id] .stage-slide-controls { position: static; grid-row: 2; justify-content: center; gap: 12px; padding-top: 10px; }
