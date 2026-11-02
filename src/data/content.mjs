@@ -336,17 +336,18 @@ export const historyText = {
       "year": "1998",
       "label": "XENOGEARS",
       "title": "한 편의 기획서가 독립된 작품으로",
-      "text": "스퀘어가 타카하시 테츠야와 사가 소라야 『파이널 판타지 VII』용으로 제안한 이야기는 새로운 프로젝트로 발전했다. 두 사람의 각본을 바탕으로, 인물의 기억과 거대한 병기가 교차하는 『제노기어스』가 탄생했다.",
+      "text": "타카하시 테츠야와 사가 소라야가 『파이널 판타지 VII』에 제안했던 이야기는 별도의 기획으로 발전해, 1998년 『제노기어스』로 세상에 나왔다. 두 사람은 인물의 기억과 정체성, 거대한 병기가 교차하는 세계를 그렸다.\n\n2003년 3월 말 집계로 세계 누적 출하 119만 장을 기록했지만, 구상됐던 후속작은 실현되지 않았다. 스기우라 히로히데는 훗날 스퀘어가 영화 사업에 대규모로 투자하던 당시 상황 때문에 후속 기획을 추진하기 어려웠다고 회고했다.",
       "refs": [
         "saga",
-        "music"
+        "gears-sales",
+        "sugiura-2020"
       ]
     },
     {
       "year": "1999",
       "label": "MONOLITHSOFT",
       "title": "오리지널 RPG를 계속 만들기 위해",
-      "text": "타카하시는 스기우라 히로히데, 혼네 야스유키와 모노리스 소프트를 설립했다. 남코의 지원 아래, 자신들만의 작품을 만들 새로운 개발 거점을 마련했다.",
+      "text": "스퀘어에서 새로운 기획을 추진하기 어려워진 타카하시는 스기우라 히로히데, 혼네 야스유키와 1999년 모노리스 소프트를 설립했다. 남코 창업자 나카무라 마사야의 지원 아래, 오리지널 RPG를 계속 만들 개발 거점을 마련한 것이다.\n\n회사는 남코의 출자로 출발했으며, 2007년에는 닌텐도 산하에 들어갔다. 스기우라는 당시 닌텐도의 지원 아래 다른 곳에는 없는 오리지널 게임을 만들 기회를 얻었다고 설명했다.",
       "refs": [
         "founding",
         "company"
@@ -356,19 +357,23 @@ export const historyText = {
       "year": "2002~2006",
       "label": "XENOSAGA",
       "title": "우주로 확장된 에피소드형 서사",
-      "text": "모노리스 소프트가 개발하고 남코가 발매한 『제노사가 시리즈』는 PlayStation 2용 에피소드 I·II·III, 세 편의 본편을 중심으로 발매되었다. 과학 문명과 인간 존재를 다루는 SF 서사를 본편과 외전으로 펼쳐 나갔다.",
+      "text": "2002년 시작된 『제노사가』는 우주 문명과 인간 존재를 다루는 SF 서사를 본편과 외전으로 펼쳤다. 2003년 7월에는 에피소드 I의 세계 판매 100만 장 달성이 발표됐다. 다만 스기우라는 I의 제작비와 수익을 맞추는 데 어려움이 있었고, II에서는 어려운 결정을 내려야 했다고 회고했다.\n\nII는 감독 교체와 이야기 구성의 변화를 거쳤고, 본편 분량 등에 팬들의 비판이 이어졌다. III의 제작진은 앞선 작품의 문제를 고치고 만족스러운 결말을 보여주는 데 집중했으며, 2006년 III에서 시온을 중심으로 한 본편의 이야기를 마무리했다.",
       "refs": [
-        "blade3",
-        "saga"
+        "saga-launch",
+        "sugiura-2020",
+        "saga",
+        "saga-finale",
+        "saga-outlook"
       ]
     },
     {
       "year": "2010~",
       "label": "XENOBLADE",
       "title": "신들의 유해 위에서 세계의 진실을 밝혀내는 모험",
-      "text": "두 거대한 신의 유해 위에 사람들이 살아간다는 발상은 실제 모형을 거쳐 하나의 세계가 되었다. 2010년 Wii로 발매된 『제노블레이드 크로니클스』는 그 공간을 직접 탐색하는 경험을 중심에 놓았고, 새로운 인물과 무대를 만나는 작품들로 이어졌다.",
+      "text": "두 거대한 신의 유해 위에 사람들이 살아간다는 발상은 실제 모형을 거쳐 하나의 세계가 되었다. 이 프로젝트는 2009년 E3에서 『Monado: Beginning of the World』라는 가제로 공개됐다.\n\n2010년 1월, 당시 닌텐도 사장 이와타 사토루는 타카하시가 제노 작품들과 이번 신작에 쏟아온 노력을 기리는 뜻에서 제목을 ‘제노블레이드’로 정했다고 설명했다. 같은 해 Wii로 발매된 『제노블레이드 크로니클스』는 거대한 몸을 직접 걷고 탐험하는 모험으로 그 발상을 구체화했고, 새로운 인물과 무대를 만나는 후속 작품들로 이어졌다.",
       "refs": [
         "development",
+        "iwata-naming",
         "blade3"
       ]
     }
@@ -404,7 +409,7 @@ export const historyText = {
       "name": "사가 소라야",
       "roman": "Soraya Saga",
       "role": "원안 · 각본",
-      "description": "타카하시와 『제노기어스』의 기획과 각본을 함께 썼으며, 『제노사가』 초기의 설정과 이야기에도 참여했다. 니체·프로이트·융에 대한 두 사람의 관심은 인물과 세계의 문제를 구상하는 재료가 되었다.",
+      "description": "타카하시 테츠야의 배우자이자 창작 동료로, 『제노기어스』의 기획과 각본을 함께 썼으며 『제노사가』 초기의 설정과 이야기에도 참여했다. 니체·프로이트·융에 대한 두 사람의 관심은 인물과 세계의 문제를 구상하는 재료가 되었다.",
       "photo": null,
       "portrait": "嵯峨\n空哉",
       "refs": [
@@ -567,6 +572,42 @@ export const historyText = {
       "title": "개발자에게 물어보았습니다 — 두 피리의 소리",
       "publisher": "한국닌텐도 · 2022",
       "url": "https://www.nintendo.com/kr/interview/az3ha/02.html"
+    },
+    {
+      "id": "gears-sales",
+      "title": "스퀘어에닉스 — 세계 누적 출하량 자료 (27쪽)",
+      "publisher": "SQUARE ENIX · 2004 / 2003년 3월 말 집계 · 보존본",
+      "url": "https://web.archive.org/web/20120213144948if_/http://www.square-enix.com/jp/ir/e/explanatory/download/0404-200402090000-01.pdf#page=27"
+    },
+    {
+      "id": "sugiura-2020",
+      "title": "스기우라 히로히데 인터뷰 — 후속작 기획과 초창기 사업",
+      "publisher": "주간 패미통 · 2020 / Frontline Gaming Japan 요약",
+      "url": "https://www.frontlinejp.net/2020/05/28/xenogears-2-didnt-happen-because-of-ff-spirits-within-monolith-soft-president-sugiura/"
+    },
+    {
+      "id": "saga-launch",
+      "title": "모노리스 소프트 신작 발표회 — 에피소드 I 세계 100만 장",
+      "publisher": "전격 온라인 · 2003",
+      "url": "https://dengekionline.com/data/news/2003/7/21/d6702af1cb8c0c4abd4b313c3d711c5b.html"
+    },
+    {
+      "id": "saga-finale",
+      "title": "모노리스 소프트 — 에피소드 II의 비판과 III의 제작 방향",
+      "publisher": "Mainichi Interactive · 2006 / RPGFan 보도",
+      "url": "https://classic.rpgfan.com/news/2006/1346.html"
+    },
+    {
+      "id": "saga-outlook",
+      "title": "남코 반다이 인터뷰 — 에피소드 III와 시온 이야기의 완결",
+      "publisher": "RPGamer · 2006 / IGN 인터뷰 보도",
+      "url": "https://archive.rpgamer.com/news/Q3-2006/081206c.html"
+    },
+    {
+      "id": "iwata-naming",
+      "title": "이와타 사토루 경영 설명회 — 제노블레이드라는 이름",
+      "publisher": "Nintendo · 2010년 1월 29일",
+      "url": "https://www.nintendo.co.jp/ir/en/events/100129/06.html"
     }
   ]
 };
