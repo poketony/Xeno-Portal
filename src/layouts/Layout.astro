@@ -31,7 +31,7 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
     <header class="site-header">
       {!home && <a class="wordmark" href={homeUrl} aria-label={commonText.homeLink}><img src={withBase('/images/xeno-series-logo.webp')} alt="" width="1100" height="619" /></a>}
       <nav aria-label={commonText.menu}>
-        {home ? <><a href="#series">{commonText.seriesMenu} <span aria-hidden="true">↗</span></a><a href="#history">{commonText.history}</a><a href={withBase('/about/')}>{commonText.aboutMenu}</a></> : <>
+        {home ? <><a href="#series">{commonText.seriesMenu} <span aria-hidden="true">↗</span></a><a href="#history">{commonText.history}</a></> : <>
           {series.map((item) => <a href={seriesUrl(item.id)} data-series={item.id} aria-current={activeSeries === item.id ? 'page' : undefined}>{item.korean}</a>)}
         </>}
       </nav>
@@ -40,7 +40,7 @@ const canonical = new URL(canonicalPath ?? (Astro.url.pathname.endsWith('/404/')
     <main id="main"><slot /></main>
     <footer class="site-footer">
       <div><a class="footer-brand" href={homeUrl}>{commonText.footerTitle}<span aria-hidden="true"> / </span></a><p>{commonText.footerDescription}</p></div>
-      <div class="footer-links"><a href={withBase('/about/')}>{commonText.sources}</a><a href={siteConfig.repository} target="_blank" rel="noopener noreferrer">{commonText.repository} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a></div>
+      <div class="footer-links"><a href={siteConfig.repository} target="_blank" rel="noopener noreferrer">{commonText.repository} <span aria-hidden="true">↗</span><span class="sr-only">{' ' + commonText.newWindow}</span></a></div>
       <p class="copyright">{commonText.copyright}</p>
     </footer>
   </body>
