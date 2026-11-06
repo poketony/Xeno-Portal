@@ -11,14 +11,19 @@ import piperBattle from '../../파이드파이퍼/xenopp-4.png';
 import freaksArtwork from '../../제노사가프릭스/XenosagaFreaksCast.webp';
 import missingYearArtwork from '../../미싱이어/my06020000.png';
 import sagaDsArtwork from '../../제노사가DS/XenosagaDS.jpg';
+import gearsStoryBanner from '../../제노기어스/story-banner.png';
 
 // src는 기본 배포 경로를 포함한 URL입니다.
 export interface ShowcaseImage { src: string; alt: string; width: number; height: number }
 
 const saga = series.find((item) => item.id === 'xenosaga')!;
-const gearsSlides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노기어스/*.png', { eager: true, import: 'default' }))
+const gearsImages = Object.entries(import.meta.glob<ImageMetadata>('../../제노기어스/*.png', { eager: true, import: 'default' }))
+  .filter(([path]) => !path.endsWith('/story-banner.png'))
   .sort(([a], [b]) => a.localeCompare(b))
-  .map(([, image], index) => ({ src: image.src, alt: slideAltText.gears.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
+  .map(([, image]) => image);
+// 스토리 배너로 시작하고, 기존 첫 번째 이미지는 마지막에 표시합니다.
+const gearsSlides: ShowcaseImage[] = [gearsStoryBanner, ...gearsImages.slice(1), gearsImages[0]]
+  .map((image, index) => ({ src: image.src, alt: slideAltText.gears.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
 const saga1Slides: ShowcaseImage[] = Object.entries(import.meta.glob<ImageMetadata>('../../제노사가1/*.{png,gif}', { eager: true, import: 'default' }))
   .sort(([a], [b]) => a.localeCompare(b))
   .map(([, image], index) => ({ src: image.src, alt: slideAltText.saga.replace('{number}', String(index + 1)), width: image.width, height: image.height }));
