@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Xenogears Story';
+  src: url('../assets/fonts/korean-hdri-light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 .site-header nav a[data-series="xenosaga"]:hover,
 .site-header nav a[data-series="xenosaga"]:focus-visible,
 .site-header nav a[data-series="xenosaga"][aria-current] { color: #818cf8; }
@@ -33,10 +41,10 @@
 @media (min-width: 1201px) {
   .has-story .stage-slide:first-child { top: 0; width: 55%; height: calc(100% - 240px); transform: none; object-position: left top; }
 }
-.stage-story { position: absolute; left: var(--space); bottom: 84px; width: min(calc(50% - var(--space) - 24px), 700px); text-align: left; color: #f2f1ed; opacity: 0; visibility: hidden; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease, visibility .5s; }
+.stage-story { position: absolute; left: var(--space); bottom: 84px; width: min(calc(50% - var(--space) - 24px), 700px); font-family: 'Xenogears Story', var(--font); font-style: italic; text-align: left; color: #f2f1ed; opacity: 0; visibility: hidden; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease, visibility .5s; }
 .game-stage[data-story-active="true"] .stage-story { opacity: 1; visibility: visible; transform: none; }
-.stage-story h2 { margin: 0 0 9px; font-size: clamp(20px, 1.8vw, 28px); font-weight: 700; line-height: 1.4; letter-spacing: -.045em; word-break: keep-all; }
-.stage-story p { margin: 0; font-size: 13px; font-weight: 500; line-height: 1.65; color: #d0d5dc; word-break: keep-all; overflow-wrap: anywhere; }
+.stage-story h2 { margin: 0 0 9px; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.4; letter-spacing: 0; word-break: keep-all; }
+.stage-story p { margin: 0; font-size: 13px; font-weight: 400; line-height: 1.65; color: #d0d5dc; word-break: keep-all; overflow-wrap: anywhere; }
 .game-stage[data-story-active="true"] .stage-story h2 { animation: story-reveal .6s ease both; }
 .game-stage[data-story-active="true"] .stage-story p { animation: story-reveal .6s .12s ease both; }
 @keyframes story-reveal { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
