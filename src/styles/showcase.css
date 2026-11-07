@@ -5,6 +5,27 @@
   font-weight: 400;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Xenosaga New Gungseo';
+  src: url('../assets/fonts/a-new-gungseo-medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Xenosaga Myeongwol';
+  src: url('../assets/fonts/a-myeongwol-medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Xenosaga Shin Gothic';
+  src: url('../assets/fonts/a-shin-gothic.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
 .site-header nav a[data-series="xenosaga"]:hover,
 .site-header nav a[data-series="xenosaga"]:focus-visible,
@@ -41,10 +62,14 @@
 @media (min-width: 1001px) {
   .has-story .stage-slide:first-child { top: 0; width: 64%; height: auto; max-height: calc(100% - 64px); transform: none; object-position: left top; mask-image: linear-gradient(90deg, #000 62%, transparent 77%), linear-gradient(180deg, #000 50%, transparent 74%); mask-composite: add; }
   .has-story .stage-title-logo { transform: scale(1.18); transform-origin: 50% 0; }
+  .game-stage.xenogears.has-story { padding-bottom: 4px; }
+  .game-stage.has-story .stage-story { margin-top: 0; }
+  .game-stage.has-story .stage-story h2 { margin-bottom: 4px; }
+  .game-stage.has-story .stage-features, .game-stage.has-story .stage-actions { margin-top: 6px; }
 }
 .stage-story { width: 100%; margin-top: 8px; font-family: 'Xenogears Story', var(--font); font-style: italic; text-align: left; color: #f2f1ed; }
 .stage-story h2 { margin: 0 0 9px; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.4; letter-spacing: 0; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6; word-break: keep-all; }
-.stage-story p { margin: 0; font-size: 14px; font-weight: 400; line-height: 1.65; color: #d0d5dc; text-shadow: 0 0 3px #fff7, 0 0 10px #fff4; word-break: keep-all; overflow-wrap: anywhere; }
+.stage-story p { margin: 0; font-size: 14px; font-weight: 400; line-height: 1.65; color: #d0d5dc; text-shadow: 0 0 3px #fff7, 0 0 10px #fff4; word-break: keep-all; overflow-wrap: anywhere; white-space: pre-line; }
 .stage-story h2 { animation: story-reveal .6s .45s ease both; }
 .stage-story p { animation: story-reveal .6s .57s ease both; }
 @keyframes story-reveal { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
@@ -57,6 +82,10 @@
 .xenogears .stage-features, .xenogears .stage-actions { justify-content: flex-end; }
 .stage-copy h1 { font-size: clamp(25px, 3.5vw, 43px); font-weight: 700; line-height: 1.4; margin: 0 0 8px; text-wrap: balance; }
 .stage-copy h1:not(.stage-title-logo) { font-size: clamp(29px, 4.2vw, 50px); line-height: 1.3; }
+.game-stage[data-saga-episode="I"] { --saga-title-font: 'Xenosaga New Gungseo'; }
+.game-stage[data-saga-episode="II"] { --saga-title-font: 'Xenosaga Shin Gothic'; --saga-title-weight: 700; }
+.game-stage[data-saga-episode="III"] { --saga-title-font: 'Xenosaga Myeongwol'; }
+.game-stage[data-saga-episode] .stage-copy h1 { font-family: var(--saga-title-font), var(--font); font-style: italic; font-weight: var(--saga-title-weight, 400); letter-spacing: 0; color: #f2f1ed; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6, 0 2px 7px #000; }
 .stage-title-bracket { display: block; }
 .stage-title-logo img { width: min(100%, 420px); height: auto; }
 .xenogears .stage-title-logo img { width: auto; max-width: 100%; height: clamp(220px, 46svh, 380px); object-fit: contain; object-position: left center; }

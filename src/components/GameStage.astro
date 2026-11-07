@@ -1,5 +1,6 @@
 ---
 import { commonText, slideshowText, workText } from '../data/content.mjs';
+import { xenosagaLineup } from '../data/catalog';
 import type { ShowcaseImage } from '../data/showcase';
 import { withBase } from '../lib/paths';
 
@@ -19,8 +20,9 @@ interface Props {
 const { seriesId, workId, title, subtitle, subtitleLang = 'ko', description, features = [], logo, slides, patchUrl, patchPending = false } = Astro.props;
 const titleBracket = seriesId === 'xenosaga' && !logo ? title.indexOf('[') : -1;
 const story = workId === 'xenogears' ? workText.xenogears.story : undefined;
+const sagaEpisode = seriesId === 'xenosaga' && workId ? xenosagaLineup.find((group) => group.mainId === workId || group.sideIds.includes(workId))?.episode : undefined;
 ---
-<section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup'), 'has-slideshow': slides.length > 1, 'has-story': !!story }]} aria-label={title} data-game-stage data-work-id={workId}>
+<section class:list={['game-stage', seriesId, { 'has-lineup': Astro.slots.has('lineup'), 'has-slideshow': slides.length > 1, 'has-story': !!story }]} aria-label={title} data-game-stage data-work-id={workId} data-saga-episode={sagaEpisode}>
   <div class="stage-backdrop" aria-hidden="true">
     {slides.map((slide, index) => <img class:list={['stage-slide', { 'is-current': index === 0 }]} src={slide.src} alt="" width={slide.width} height={slide.height} style={`--slide-width: ${slide.width}px; --slide-height: ${slide.height}px`} loading={index === 0 ? 'eager' : 'lazy'} fetchpriority={index === 0 ? 'high' : 'auto'} data-stage-slide />)}
   </div>
