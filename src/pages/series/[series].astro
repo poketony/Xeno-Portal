@@ -2,6 +2,7 @@
 import { commonText, lineupText, navigationText } from '../../data/content.mjs';
 import Layout from '../../layouts/Layout.astro';
 import GameStage from '../../components/GameStage.astro';
+import '../../styles/saga-universe.css';
 import { showcases } from '../../data/showcase';
 import Catalog from '../../components/Catalog.astro';
 import WorkDetail from '../../components/WorkDetail.astro';
@@ -16,6 +17,8 @@ const relatedResources = resources.filter((resource) => resource.workIds.some((i
 const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
 ---
 {item.id === 'xenogears' ? <WorkDetail work={works.find((work) => work.id === 'xenogears')!} /> : item.id === 'xenosaga' ? <Layout title={item.korean} description={item.description} activeSeries={item.id} immersive>
+  <div class="saga-universe">
+    <div class="saga-celestial" aria-hidden="true"><span class="saga-orbit"></span><span class="saga-orbit saga-orbit-outer"></span><span class="saga-starlight"></span></div>
   <GameStage seriesId={item.id} title={item.name} subtitle={item.korean} description={item.description} logo={showcases.xenosaga.logo} slides={showcases.xenosaga.slides}>
     <div slot="lineup">
       <div class="saga-stage-lineup" aria-label={lineupText.label}>
@@ -29,6 +32,7 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
       </div>
     </div>
   </GameStage>
+  </div>
 </Layout> : <Layout title={item.korean} description={item.description} activeSeries={item.id}>
   <div class="page-shell">
     <nav class="breadcrumbs" aria-label={commonText.location}><a href={homeUrl}>{commonText.home}</a><span aria-hidden="true">/</span><span aria-current="page">{item.korean}</span></nav>
