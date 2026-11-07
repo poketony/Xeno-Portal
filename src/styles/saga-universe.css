@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'Xenosaga Wide 2';
+  src: url('../assets/fonts/a-wide-2.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Xenosaga New Gungseo';
   src: url('../assets/fonts/a-new-gungseo-medium.woff2') format('woff2');
   font-style: normal;
@@ -43,7 +50,7 @@ body:has(.saga-universe) .site-header { position: relative; z-index: 1; backgrou
 .saga-universe .stage-copy { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); column-gap: clamp(36px, 6vw, 110px); align-items: center; width: min(100%, 1120px); margin-inline: auto; padding: 0; animation: saga-arrive .9s ease both; }
 .saga-universe .stage-copy .stage-title-logo { grid-row: 1 / 3; margin: 0; }
 .saga-universe .stage-title-logo img { width: min(100%, 470px); filter: drop-shadow(0 0 20px #94a8ff26); }
-.saga-universe .stage-subtitle[lang="ko"] { align-self: end; font-family: 'Xenosaga Myeongwol', var(--font); font-size: clamp(30px, 3vw, 42px); font-weight: 400; letter-spacing: .16em; color: #edf3ff; text-shadow: 0 0 16px #b1c9ff66; margin-bottom: 10px; }
+.saga-universe .stage-subtitle[lang="ko"] { align-self: end; font-family: 'Xenosaga Wide 2', var(--font); font-size: clamp(30px, 3vw, 42px); font-style: italic; font-weight: 400; letter-spacing: .16em; color: #edf3ff; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6; margin-bottom: 10px; }
 .saga-universe .stage-intro { align-self: start; max-width: 34em; color: #bdcde4; font-size: 14px; line-height: 1.95; text-shadow: 0 2px 12px #000; }
 .saga-universe .stage-lineup { position: relative; width: min(100%, 1120px); margin-inline: auto; }
 .saga-universe .saga-stage-lineup { position: relative; grid-template-columns: minmax(0, 1fr); padding-left: 24px; gap: clamp(60px, 7vw, 100px); }
@@ -68,15 +75,15 @@ body:has(.saga-universe) .site-header { position: relative; z-index: 1; backgrou
 .saga-episode-quote { position: absolute; z-index: 1; inset: auto 32px 30px; font: italic 400 clamp(24px, 2.8vw, 36px)/1.65 'Xenogears Story', var(--font); color: #f2f1ed; text-align: left; text-wrap: balance; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6, 0 2px 7px #000; word-break: keep-all; overflow-wrap: anywhere; }
 .saga-episode-quote.is-pending { visibility: hidden; }
 .saga-stage-chapter[data-episode="I"] .saga-episode-quote { max-width: 45%; font-family: 'Xenosaga New Gungseo', var(--font); }
-.saga-stage-chapter[data-episode="III"] .saga-episode-quote { font-family: 'Xenosaga Myeongwol', var(--font); }
+.saga-stage-chapter[data-episode="III"] .saga-episode-quote { right: auto; width: max-content; max-width: calc(100% - 64px); font-family: 'Xenosaga Myeongwol', var(--font); }
 .saga-quote-text { display: block; }
 .saga-quote-echo { position: absolute; inset: 0; opacity: 0; pointer-events: none; }
 .saga-stage-chapter[data-episode="I"] .is-revealed .saga-quote-text { animation: saga-quote-memory 1.25s .2s ease both; }
 .saga-stage-chapter[data-episode="I"] .is-revealed .saga-quote-echo { animation: saga-quote-afterimage 1.3s .2s ease both; }
 .saga-stage-chapter[data-episode="II"] .is-revealed .saga-quote-text { animation: saga-quote-join 1.1s .3s ease both; }
 .saga-stage-chapter[data-episode="II"] .is-revealed .saga-quote-echo { clip-path: inset(0 0 50%); animation: saga-quote-split 1.1s .3s ease both; }
-.saga-stage-chapter[data-episode="III"] .is-revealed .saga-quote-text { animation: saga-quote-complete 1.2s .4s ease both; }
-.saga-stage-chapter[data-episode="III"] .is-revealed .saga-quote-echo { width: 30%; color: transparent; text-shadow: none; background: linear-gradient(90deg, transparent, #f1f7ff88, transparent); animation: saga-quote-light 1.2s .4s ease both; }
+.saga-stage-chapter[data-episode="III"] .is-revealed .saga-quote-text { animation: saga-quote-clock 1.9s .35s linear both; }
+.saga-stage-chapter[data-episode="III"] .is-revealed .saga-quote-echo { animation: saga-quote-ghost 1.9s .35s linear both; }
 .saga-stage-chapter[data-episode="I"] .saga-episode-cover img { object-position: 50% 34%; }
 .saga-stage-chapter[data-episode="II"] .saga-episode-cover img { object-position: 40% top; }
 .saga-stage-chapter[data-episode="III"] .saga-episode-cover img { object-position: 50% 52%; }
@@ -103,8 +110,19 @@ body:has(.saga-universe) .site-header { position: relative; z-index: 1; backgrou
 @keyframes saga-quote-afterimage { 0% { opacity: 0; transform: translate(10px, -5px); filter: blur(3px); } 30% { opacity: .65; } 100% { opacity: 0; transform: none; filter: none; } }
 @keyframes saga-quote-join { 0% { opacity: 0; transform: translateX(12px); clip-path: inset(50% 0 0); } 75% { opacity: 1; transform: none; clip-path: inset(50% 0 0); } 100% { opacity: 1; transform: none; clip-path: inset(0); } }
 @keyframes saga-quote-split { 0% { opacity: 0; transform: translateX(-12px); } 30%, 75% { opacity: 1; } 85% { transform: none; } 100% { opacity: 0; transform: none; } }
-@keyframes saga-quote-complete { from { opacity: 0; clip-path: inset(0 100% 0 0); } to { opacity: 1; clip-path: inset(0); } }
-@keyframes saga-quote-light { 0% { opacity: 0; transform: translateX(-100%); } 25% { opacity: .7; } 100% { opacity: 0; transform: translateX(360%); } }
+@keyframes saga-quote-clock {
+  0% { opacity: 0; transform: scale(1.12); filter: blur(.7px); clip-path: polygon(50% 50%, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0); }
+  9% { opacity: 1; clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 0, 100% 0, 100% 0, 100% 0, 100% 0, 100% 0, 100% 0); }
+  18% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 50%, 100% 50%, 100% 50%, 100% 50%, 100% 50%, 100% 50%); }
+  27% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%); }
+  36% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%); }
+  45% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 100%, 0 100%, 0 100%); }
+  54% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 50%, 0 50%); }
+  63% { clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0, 0 0); }
+  72% { transform: scale(1.12); filter: blur(.7px); clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0, 50% 0); }
+  100% { opacity: 1; transform: none; filter: none; clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0, 50% 0); }
+}
+@keyframes saga-quote-ghost { 0%, 68% { opacity: 0; transform: scale(1.55); filter: blur(5px); } 78% { opacity: .65; transform: scale(1.25); filter: blur(2px); } 100% { opacity: 0; transform: scale(1); filter: none; } }
 @media (min-width: 761px) and (max-width: 1100px) {
   .saga-universe .stage-copy { column-gap: 40px; }
 }
@@ -128,6 +146,7 @@ body:has(.saga-universe) .site-header { position: relative; z-index: 1; backgrou
   .saga-episode-cover { height: clamp(160px, 52vw, 240px); }
   .saga-episode-quote { inset: auto 16px 16px; font-size: 20px; }
   .saga-stage-chapter[data-episode="I"] .saga-episode-quote { max-width: none; }
+  .saga-stage-chapter[data-episode="III"] .saga-episode-quote { max-width: calc(100% - 32px); }
   .saga-episode-label { min-height: 106px; padding: 14px 22px 14px 18px; gap: 18px; }
   .saga-episode-label > span { font-size: 48px; min-width: 48px; text-align: center; }
   .saga-universe .saga-stage-main strong { font-size: 15px; }
