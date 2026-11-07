@@ -3,6 +3,8 @@ import { commonText, lineupText, navigationText } from '../../data/content.mjs';
 import Layout from '../../layouts/Layout.astro';
 import GameStage from '../../components/GameStage.astro';
 import '../../styles/saga-universe.css';
+import sagaEpisode2Cover from '../../assets/xenosaga-episode-2-cover.jpg';
+import sagaEpisode3Cover from '../../assets/xenosaga-episode-3-cover.jpg';
 import { showcases } from '../../data/showcase';
 import Catalog from '../../components/Catalog.astro';
 import WorkDetail from '../../components/WorkDetail.astro';
@@ -12,6 +14,7 @@ import { resources } from '../../data/resources';
 import { withBase, workUrl, homeUrl } from '../../lib/paths';
 export function getStaticPaths() { return series.map((item) => ({ params: { series: item.id }, props: { item } })); }
 const { item } = Astro.props;
+const sagaCovers: Record<string, { src: string; width: number; height: number }> = { I: showcases.xenosaga.slides[0], II: sagaEpisode2Cover, III: sagaEpisode3Cover };
 const ids = works.filter((work) => work.series === item.id).map((work) => work.id);
 const relatedResources = resources.filter((resource) => resource.workIds.some((id) => ids.includes(id)));
 const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
@@ -19,14 +22,16 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
 {item.id === 'xenogears' ? <WorkDetail work={works.find((work) => work.id === 'xenogears')!} /> : item.id === 'xenosaga' ? <Layout title={item.korean} description={item.description} activeSeries={item.id} immersive>
   <div class="saga-universe">
     <div class="saga-celestial" aria-hidden="true"><span class="saga-orbit"></span><span class="saga-orbit saga-orbit-outer"></span><span class="saga-starlight"></span></div>
-  <GameStage seriesId={item.id} title={item.name} subtitle={item.korean} description={item.description} logo={showcases.xenosaga.logo} slides={showcases.xenosaga.slides}>
+  <GameStage seriesId={item.id} title={item.name} subtitle={item.korean} description={item.description} logo={showcases.xenosaga.logo} slides={[]}>
     <div slot="lineup">
       <div class="saga-stage-lineup" aria-label={lineupText.label}>
         {xenosagaLineup.map((group) => {
           const title = works.find((work) => work.id === group.mainId)!.title;
           const labelTitle = title.endsWith(group.subtitle) ? title.slice(0, -group.subtitle.length).trimEnd() : title;
+          const cover = sagaCovers[group.episode];
+          const quote = lineupText.quotes[group.episode as keyof typeof lineupText.quotes];
           return <section class="saga-stage-chapter" aria-label={navigationText.episode + ' ' + group.episode} data-episode={group.episode}>
-          <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span aria-hidden="true">{group.episode}</span><div><small>{navigationText.episodeMark} {group.episode}</small><strong>{labelTitle}</strong><span class="saga-stage-subtitle">{group.subtitle}</span></div></a>
+          <a class="saga-stage-main" href={workUrl(group.mainId)} data-work-id={group.mainId}><span class="saga-episode-cover"><img src={cover.src} alt="" width={cover.width} height={cover.height} /><span class="saga-episode-quote" data-saga-quote><span class="saga-quote-text">{quote}</span><span class="saga-quote-echo" aria-hidden="true">{quote}</span></span></span><div class="saga-episode-label"><span aria-hidden="true">{group.episode}</span><div><small>{navigationText.episodeMark} {group.episode}</small><strong>{labelTitle}</strong><span class="saga-stage-subtitle">{group.subtitle}</span></div></div></a>
           {group.sideIds.length > 0 && <div class="saga-stage-side" aria-label={group.between}>{group.sideIds.map((id) => <a href={workUrl(id)} data-work-id={id}>{id === 'xenosaga-1-2' ? lineupText.ds : works.find((work) => work.id === id)!.title.replace('제노사가 ', '')}</a>)}</div>}
         </section>; })}
       </div>
@@ -44,3 +49,19 @@ const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
     <section id="updates" class="content-section"><div class="section-heading"><div><p class="eyebrow">{navigationText.updatesEyebrow}</p><h2>{commonText.updates}</h2></div></div>{relatedPatches.length ? relatedPatches.map((patch) => <a class="resource-row" href={`${workUrl(patch.workId)}#patch-${patch.id}`}><div><span class="eyebrow">{patch.releaseDate ?? navigationText.releaseUnregistered}{patch.version ? ` / ${patch.version}` : ''}</span><h3>{patch.name}</h3><p>{patch.changes[0] ?? navigationText.updateHint}</p></div><span aria-hidden="true">↗</span></a>) : <p class="empty-inline">{commonText.noUpdates}</p>}</section>
   </div>
 </Layout>}
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        entry.target.classList.remove('is-pending');
+        entry.target.classList.add('is-revealed');
+        observer.unobserve(entry.target);
+      }
+    }, { threshold: .3 });
+    document.querySelectorAll('[data-saga-quote]').forEach((quote) => {
+      quote.classList.add('is-pending');
+      observer.observe(quote);
+    });
+  }
+</script>
