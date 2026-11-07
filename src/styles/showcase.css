@@ -38,15 +38,14 @@
 .xenogears .stage-slide { left: 0; right: auto; object-position: 70% 14%; mask-image: linear-gradient(270deg, transparent, #000 18%), linear-gradient(180deg, transparent, #000 5%, #000 95%, transparent); }
 .has-slideshow .stage-slide { width: 100%; height: 100%; object-fit: contain; object-position: right center; mask-image: none; }
 .has-slideshow.xenogears .stage-slide { object-position: left center; }
-@media (min-width: 1201px) {
-  .has-story .stage-slide:first-child { top: 0; width: 55%; height: calc(100% - 240px); transform: none; object-position: left top; }
+@media (min-width: 1001px) {
+  .has-story .stage-slide:first-child { top: 0; width: 64%; height: auto; max-height: calc(100% - 64px); transform: none; object-position: left top; mask-image: linear-gradient(90deg, #000 62%, transparent 77%), linear-gradient(180deg, #000 50%, transparent 74%); mask-composite: add; }
 }
-.stage-story { position: absolute; left: var(--space); bottom: 84px; width: min(calc(50% - var(--space) - 24px), 700px); font-family: 'Xenogears Story', var(--font); font-style: italic; text-align: left; color: #f2f1ed; opacity: 0; visibility: hidden; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease, visibility .5s; }
-.game-stage[data-story-active="true"] .stage-story { opacity: 1; visibility: visible; transform: none; }
+.stage-story { width: 100%; margin-top: 8px; font-family: 'Xenogears Story', var(--font); font-style: italic; text-align: left; color: #f2f1ed; }
 .stage-story h2 { margin: 0 0 9px; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.4; letter-spacing: 0; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6; word-break: keep-all; }
 .stage-story p { margin: 0; font-size: 13px; font-weight: 400; line-height: 1.65; color: #d0d5dc; text-shadow: 0 0 3px #fff7, 0 0 10px #fff4; word-break: keep-all; overflow-wrap: anywhere; }
-.game-stage[data-story-active="true"] .stage-story h2 { animation: story-reveal .6s ease both; }
-.game-stage[data-story-active="true"] .stage-story p { animation: story-reveal .6s .12s ease both; }
+.stage-story h2 { animation: story-reveal .6s .45s ease both; }
+.stage-story p { animation: story-reveal .6s .57s ease both; }
 @keyframes story-reveal { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 .game-stage::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); pointer-events: none; }
 .game-stage.xenogears::before { background: linear-gradient(270deg, #070c13ed 0%, #070c13d9 28%, #070c1366 54%, #070c131a 100%), linear-gradient(0deg, #070c13bd, transparent 40%); }
@@ -86,6 +85,22 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
 .has-lineup .stage-slide-controls { bottom: auto; top: 24px; }
 .stage-slide-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; color: #e9edf5; border: 1px solid #ffffff4d; background: #0b1119bf; }
 .stage-slide-count { font: 12px var(--display); color: #e9edf5; }
+.game-stage.has-story { --gears-logo-height: clamp(280px, 56svh, 500px); padding-block: 0 12px; }
+.game-stage.has-story::before { background: linear-gradient(90deg, transparent 28%, #070c1340 44%, #070c13d9 62%, #070c13f5 80%), linear-gradient(0deg, #070c13bd, transparent 40%); }
+.has-story .stage-copy { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; width: min(46vw, 620px); padding: 0; text-align: left; }
+.has-story .stage-title-logo { grid-column: 1 / -1; height: var(--gears-logo-height); margin: 0; }
+.stage-logo-impact { position: relative; display: block; width: 100%; height: 100%; transform-origin: 50% 45%; }
+.game-stage.has-story .stage-title-logo img { display: block; width: 100%; max-width: none; height: 100%; margin: 0; object-fit: contain; object-position: center; transform: none; }
+.stage-logo-impact::before, .stage-logo-impact::after { content: ''; position: absolute; inset: 0; background: var(--logo-image) center / contain no-repeat; opacity: 0; pointer-events: none; }
+.stage-logo-impact.is-entering { animation: gears-logo-strike 1s cubic-bezier(.16, .75, .24, 1) both; }
+.stage-logo-impact.is-entering::before { animation: gears-logo-echo 1.05s .04s ease-out both; }
+.stage-logo-impact.is-entering::after { animation: gears-logo-echo 1.05s .14s ease-out both; }
+@keyframes gears-logo-strike { 0% { opacity: 0; transform: translate(100px, -64px) scale(1.7); filter: blur(8px); } 58% { opacity: 1; transform: translate(-9px, 5px) scale(.96); filter: blur(0); } 77% { transform: translate(3px, -2px) scale(1.025); } 100% { opacity: 1; transform: none; filter: none; } }
+@keyframes gears-logo-echo { 0% { opacity: 0; transform: translate(70px, -44px) scale(1.45); filter: blur(6px); } 20% { opacity: .35; } 68% { opacity: .12; transform: translate(-14px, 8px) scale(1.03); filter: blur(1px); } 100% { opacity: 0; transform: none; filter: none; } }
+.game-stage.has-story .stage-subtitle { position: absolute; top: calc(var(--gears-logo-height) - 48px); left: 0; margin: 0; font: italic 400 28px/1.4 'Xenogears Story', var(--font); letter-spacing: 0; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6; }
+.has-story .stage-story { grid-column: 1 / -1; }
+.has-story .stage-features { grid-column: 1; display: grid; gap: 4px; margin-top: 14px; align-self: center; justify-content: start; }
+.has-story .stage-actions { grid-column: 2; margin-top: 14px; justify-content: end; }
 .stage-lineup { padding: 0; }
 .saga-stage-lineup { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .saga-stage-chapter { min-width: 0; }
@@ -177,19 +192,19 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
   .saga-stage-side { flex-direction: row; gap: 8px; margin-top: 8px; }
   .saga-stage-side a { min-height: 44px; padding: 8px 12px; font-size: 12px; }
 }
-@media (max-width: 1200px) {
-  .game-stage.has-story { height: auto; padding: 0 20px 24px; align-items: start; align-content: start; gap: 0; }
+@media (max-width: 1000px) {
+  .game-stage.has-story { --gears-logo-height: clamp(220px, 48vw, 340px); height: auto; padding: 0 20px 24px; align-items: start; align-content: start; gap: 0; }
   .game-stage.has-story::before { background: none; }
   .game-stage.has-story .stage-backdrop { position: relative; inset: auto; grid-row: 1; width: calc(100% + 40px); height: clamp(176px, 55vw, 380px); min-height: 0; justify-self: center; z-index: 0; background: #070c13; }
   .game-stage.has-story .stage-slide { inset: 0; width: 100%; height: 100%; transform: none; object-fit: contain; object-position: center; mask-image: none; }
   .game-stage.has-story .stage-slide-controls { position: static; grid-row: 2; justify-content: center; padding-top: 10px; }
-  .game-stage.has-story.has-slideshow .stage-copy { grid-row: 3; width: 100%; justify-self: stretch; padding: 18px 0 0; text-align: left; }
-  .has-story .stage-title-logo img { height: clamp(140px, 25vw, 220px); margin: 0 auto 4px; transform: none; }
-  .has-story .stage-story { position: static; width: 100%; max-width: 720px; margin: 18px 0; opacity: 1; visibility: visible; transform: none; }
+  .game-stage.has-story.has-slideshow .stage-copy { display: block; grid-row: 3; width: 100%; justify-self: stretch; padding: 18px 0 0; text-align: left; }
+  .game-stage.has-story .stage-subtitle { position: static; margin-top: 8px; font-size: 26px; }
+  .has-story .stage-story { width: 100%; max-width: 720px; margin: 14px 0; }
   .has-story .stage-story h2 { font-size: clamp(21px, 4.8vw, 28px); }
   .has-story .stage-story p { font-size: 14px; line-height: 1.85; }
-  .has-story .stage-intro { display: none; }
   .has-story .stage-features, .has-story .stage-actions { justify-content: start; }
+  .has-story .stage-actions { display: flex; }
 }
 @media (max-width: 360px) {
   .immersive-page .site-header nav { gap: 10px; }
@@ -198,7 +213,8 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
 }
 @media (prefers-reduced-motion: reduce) {
   .stage-slide { transition: none; }
-  .stage-story { transition: none; }
   .stage-story h2, .stage-story p { animation: none !important; }
+  .stage-logo-impact.is-entering { animation: none; }
+  .stage-logo-impact::before, .stage-logo-impact::after { display: none; }
   .saga-stage-main:hover, .saga-stage-main:focus-visible { transform: none; }
 }
