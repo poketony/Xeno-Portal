@@ -312,7 +312,7 @@ export const lineupText = {
   "quotes": {
     "I": "시온, 고통은… 저를 채워 줍니까?",
     "II": "선악의 경계가, 무너진다.",
-    "III": "미래가―― 완결된다."
+    "III": "미래가, 완결된다."
   },
   "ds": "I·II DS",
   "beforeII": "에피소드 I과 II 사이",

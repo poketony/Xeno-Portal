@@ -3,6 +3,7 @@ import { commonText, lineupText, navigationText } from '../../data/content.mjs';
 import Layout from '../../layouts/Layout.astro';
 import GameStage from '../../components/GameStage.astro';
 import '../../styles/saga-universe.css';
+import sagaEpisode1Cover from '../../assets/xenosaga-episode-1-cover.png';
 import sagaEpisode2Cover from '../../assets/xenosaga-episode-2-cover.jpg';
 import sagaEpisode3Cover from '../../assets/xenosaga-episode-3-cover.jpg';
 import { showcases } from '../../data/showcase';
@@ -14,7 +15,7 @@ import { resources } from '../../data/resources';
 import { withBase, workUrl, homeUrl } from '../../lib/paths';
 export function getStaticPaths() { return series.map((item) => ({ params: { series: item.id }, props: { item } })); }
 const { item } = Astro.props;
-const sagaCovers: Record<string, { src: string; width: number; height: number }> = { I: showcases.xenosaga.slides[0], II: sagaEpisode2Cover, III: sagaEpisode3Cover };
+const sagaCovers: Record<string, { src: string; width: number; height: number }> = { I: sagaEpisode1Cover, II: sagaEpisode2Cover, III: sagaEpisode3Cover };
 const ids = works.filter((work) => work.series === item.id).map((work) => work.id);
 const relatedResources = resources.filter((resource) => resource.workIds.some((id) => ids.includes(id)));
 const relatedPatches = patches.filter((patch) => ids.includes(patch.workId));
