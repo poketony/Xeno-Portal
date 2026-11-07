@@ -2,6 +2,7 @@
 .chronicle-heading{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end}
 .chronicle .eyebrow{color:#b4a48d;font-size:10px;letter-spacing:.2em}
 .chronicle-heading h2{white-space:pre-line;font-size:clamp(32px,3.8vw,49px);line-height:1.4;letter-spacing:-.055em;font-weight:700;margin:17px 0 0}
+.chronicle-title-punctuation{font-feature-settings:'halt' 1;letter-spacing:0}
 .chronicle-lead p:first-child{font-size:19px;line-height:1.9;color:#ece8e0;font-weight:500;word-break:keep-all}
 .chronicle-lead p+p{font-size:13px;line-height:2;color:#a2aab3;margin-top:17px}
 .chronicle-nav{display:flex;gap:30px;margin:38px 0 64px;border-bottom:1px solid #343a42;padding-bottom:17px}

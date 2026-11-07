@@ -7,7 +7,7 @@ const sources = new Map(text.sources.map((source, index) => [source.id, { ...sou
 ---
 <section class="chronicle" id="history" aria-labelledby="history-title">
   <header class="chronicle-heading">
-    <div><p class="eyebrow">{text.eyebrow}</p><h2 id="history-title">{text.title}</h2></div>
+    <div><p class="eyebrow">{text.eyebrow}</p><h2 id="history-title">{text.title.split(/([『』])/).map((part) => part === '『' || part === '』' ? <span class="chronicle-title-punctuation">{part}</span> : part)}</h2></div>
     <div class="chronicle-lead"><p>{text.lead}</p><p>{text.introduction}</p></div>
   </header>
   <nav class="chronicle-nav" aria-label={text.title.replace('\n', ' ')}>
