@@ -19,7 +19,7 @@ export interface ShowcaseImage { src: string; alt: string; width: number; height
 const saga = series.find((item) => item.id === 'xenosaga')!;
 const gearsImages = Object.entries(import.meta.glob<ImageMetadata>('../../제노기어스/*.png', { eager: true, import: 'default' }))
   .filter(([path]) => !path.endsWith('/story-banner.png'))
-  .sort(([a], [b]) => a.localeCompare(b))
+  .sort(([a], [b]) => a.localeCompare(b, 'en'))
   .map(([, image]) => image);
 // 스토리 배너로 시작하고, 기존 첫 번째 이미지는 마지막에 표시합니다.
 const gearsSlides: ShowcaseImage[] = [gearsStoryBanner, ...gearsImages.slice(1), gearsImages[0]]

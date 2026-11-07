@@ -44,7 +44,7 @@
 }
 .stage-story { width: 100%; margin-top: 8px; font-family: 'Xenogears Story', var(--font); font-style: italic; text-align: left; color: #f2f1ed; }
 .stage-story h2 { margin: 0 0 9px; font-size: clamp(20px, 1.8vw, 28px); font-weight: 400; line-height: 1.4; letter-spacing: 0; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6; word-break: keep-all; }
-.stage-story p { margin: 0; font-size: 13px; font-weight: 400; line-height: 1.65; color: #d0d5dc; text-shadow: 0 0 3px #fff7, 0 0 10px #fff4; word-break: keep-all; overflow-wrap: anywhere; }
+.stage-story p { margin: 0; font-size: 14px; font-weight: 400; line-height: 1.65; color: #d0d5dc; text-shadow: 0 0 3px #fff7, 0 0 10px #fff4; word-break: keep-all; overflow-wrap: anywhere; }
 .stage-story h2 { animation: story-reveal .6s .45s ease both; }
 .stage-story p { animation: story-reveal .6s .57s ease both; }
 @keyframes story-reveal { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
@@ -86,7 +86,7 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
 .has-lineup .stage-slide-controls { bottom: auto; top: 24px; }
 .stage-slide-controls button { min-width: 36px; min-height: 36px; padding: 5px 9px; color: #e9edf5; border: 1px solid #ffffff4d; background: #0b1119bf; }
 .stage-slide-count { font: 12px var(--display); color: #e9edf5; }
-.game-stage.has-story { --gears-logo-height: clamp(280px, 56svh, 500px); padding-block: 0 12px; }
+.game-stage.has-story { --gears-logo-height: clamp(280px, 56svh, 500px); padding-block: 0 6px; }
 .game-stage.has-story::before { background: linear-gradient(90deg, transparent 28%, #070c1340 44%, #070c13d9 62%, #070c13f5 80%), linear-gradient(0deg, #070c13bd, transparent 40%); }
 .has-story .stage-copy { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; width: min(46vw, 620px); padding: 0; text-align: left; }
 .has-story .stage-title-logo { grid-column: 1 / -1; height: var(--gears-logo-height); margin: 0; }
@@ -203,7 +203,7 @@ a.stage-patch-link:hover { border-color: var(--stage-accent); color: var(--stage
   .game-stage.has-story .stage-subtitle { position: static; margin-top: 8px; font-size: 26px; }
   .has-story .stage-story { width: 100%; max-width: 720px; margin: 14px 0; }
   .has-story .stage-story h2 { font-size: clamp(21px, 4.8vw, 28px); }
-  .has-story .stage-story p { font-size: 14px; line-height: 1.85; }
+  .has-story .stage-story p { font-size: 15px; line-height: 1.85; }
   .has-story .stage-features, .has-story .stage-actions { justify-content: start; }
   .has-story .stage-actions { display: flex; }
 }
