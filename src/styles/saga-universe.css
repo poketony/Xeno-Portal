@@ -60,7 +60,7 @@ body:has(.saga-universe) .site-header { position: relative; z-index: 1; backgrou
 .saga-episode-cover::after { content: ''; position: absolute; inset: 35% 0 0; background: linear-gradient(transparent, #030916c9); pointer-events: none; }
 .saga-episode-quote { position: absolute; z-index: 1; inset: auto 32px 30px; font: italic 400 clamp(24px, 2.8vw, 36px)/1.65 'Xenogears Story', var(--font); color: #f2f1ed; text-align: left; text-wrap: balance; text-shadow: 0 0 5px #fff9, 0 0 18px #fff6, 0 2px 7px #000; word-break: keep-all; overflow-wrap: anywhere; }
 .saga-episode-quote.is-pending { visibility: hidden; }
-.saga-stage-chapter[data-episode="I"] .saga-episode-quote { max-width: 45%; font-family: 'Xenosaga New Gungseo', var(--font); }
+.saga-stage-chapter[data-episode="I"] .saga-episode-quote { max-width: 45%; font-family: 'Xenosaga New Gungseo', var(--font); white-space: pre-line; }
 .saga-stage-chapter[data-episode="II"] .saga-episode-quote { font-family: 'Xenosaga Shin Gothic', var(--font); font-weight: 700; }
 .saga-stage-chapter[data-episode="III"] .saga-episode-quote { right: auto; width: max-content; max-width: calc(100% - 64px); font-family: 'Xenosaga Myeongwol', var(--font); }
 .saga-quote-text { display: block; }
