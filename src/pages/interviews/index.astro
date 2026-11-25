@@ -8,7 +8,7 @@ import { homeUrl, withBase } from '../../lib/paths';
 import '../../styles/interviews.css';
 
 const entries = filterInterviews(interviews);
-const readings = new Map(interviewReadings.map(reading=>[reading.id,reading]));
+const readings = new Map(interviewReadings.filter(reading=>reading.sections.length).map(reading=>[reading.id,reading]));
 const featured = [
   {id:'xenogears-staff-1998',image:'/images/xenogears-art.webp'},
   {id:'xenosaga-gamespot-japan-takahashi-2001',image:'/images/xenosaga-art.webp'},
@@ -37,7 +37,7 @@ const featured = [
       {entries.map((item) => <article class="interview-entry" id={item.id} data-interview-id={item.id}>
         <div class="interview-date">{item.date ? <time datetime={item.date}>{formatInterviewDate(item.date)}</time> : <span>{text.undated}</span>}{item.dateContext && <span class="interview-date-context">{item.dateContext}</span>}<span class={`interview-source-tag source-${item.sourceType}`}>{text.sourceTypes[item.sourceType as keyof typeof text.sourceTypes]}</span></div>
         <div class="interview-copy">
-          <div class="interview-tags"><span>{item.publisher}</span><span>{text.kinds[item.kind as keyof typeof text.kinds]}</span>{item.series.map((id) => <span data-series={id}>{text.seriesNames[id as keyof typeof text.seriesNames]}</span>)}{readings.has(item.id) && <span class="interview-reading-badge">{text.readingBadge}</span>}{item.koreanUrl && <span class="interview-korean-badge">{text.koreanBadge}</span>}</div>
+          <div class="interview-tags"><span>{item.publisher}</span><span>{text.kinds[item.kind as keyof typeof text.kinds]}</span>{item.series.map((id) => <span data-series={id}>{text.seriesNames[id as keyof typeof text.seriesNames]}</span>)}{readings.has(item.id) && <span class="interview-reading-badge">{readings.get(item.id)!.complete ? text.readingBadge : text.partialTranslation}</span>}{item.koreanUrl && <span class="interview-korean-badge">{text.koreanBadge}</span>}</div>
           <h2>{readings.has(item.id) ? <a href={withBase(`/interviews/${item.id}/`)}>{item.title}</a> : item.title}</h2>{item.originalTitle && <p class="interview-original-title">{item.originalTitle}</p>}
           <p class="interview-participants"><span>{text.participants}</span>{item.participants.join(' · ')}</p>
           {item.summary && <p class="interview-summary"><span class="sr-only">{text.summary}: </span>{item.summary}</p>}
