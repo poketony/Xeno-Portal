@@ -36,6 +36,10 @@
 .reader-figure-small img{max-width:340px;padding:22px;max-height:370px;image-rendering:auto}
 .reader-figure figcaption{display:flex;align-items:start;justify-content:space-between;gap:12px;padding:13px 16px;color:#94a4b6;font-size:.813rem;line-height:1.8}
 .reader-figure figcaption a{flex-shrink:0;color:#b8c6d8;text-decoration:underline;text-underline-offset:4px}
+.reader-inline-figures{display:flex;flex-wrap:wrap;justify-content:center;align-items:flex-start;gap:14px;margin:24px 0 30px}
+.reader-inline-figures .reader-figure{min-width:0;max-width:100%;margin:0}
+.reader-inline-figures .reader-figure img{width:auto;max-width:100%;max-height:560px}
+.reader-inline-figures .reader-figure figcaption{flex-wrap:wrap}
 .reader-sources{margin-top:65px;padding:28px;border:1px solid var(--reader-line);background:linear-gradient(140deg,#16213288,#11171f77);scroll-margin-top:30px}
 .reader-source-eyebrow{font:600 .875rem var(--display);letter-spacing:.12em;color:var(--reader-accent);margin-bottom:10px}
 .reader-sources>h2{font-size:1.5rem;line-height:1.6;letter-spacing:-.025em}

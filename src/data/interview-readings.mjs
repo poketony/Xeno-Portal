@@ -16,7 +16,35 @@ export const interviewReadings = [
         "alt": "나란히 배치된 타카하시 테츠야와 타나카 히로미치의 사진",
         "caption": "발매 전 패미통 인터뷰에 실린 타카하시 테츠야와 타나카 히로미치.",
         "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenogears-weekly-famitsu-preview.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-preview-1997/01-famitsu-nov11-1997-screenshot.jpg",
+        "width": 300,
+        "height": 229,
+        "alt": "대화창이 표시된 제노기어스 게임 화면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenogears-weekly-famitsu-preview.html",
+        "sectionId": "page-1",
+        "afterLine": 21
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-preview-1997/01-famitsu-nov11-1997-tt-and-ht.jpg",
+        "width": 300,
+        "height": 196,
+        "alt": "제노기어스를 소개하는 타카하시 테츠야와 타나카 히로미치",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenogears-weekly-famitsu-preview.html",
+        "sectionId": "page-1",
+        "afterLine": 42
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-preview-1997/01-famitsu-nov11-1997-background1.jpg",
+        "width": 400,
+        "height": 225,
+        "alt": "발매 전 기사에 실린 제노기어스 배경 자료",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenogears-weekly-famitsu-preview.html",
+        "sectionId": "page-1",
+        "afterLine": 52
       }
     ],
     "sources": [
@@ -445,7 +473,8 @@ export const interviewReadings = [
         "alt": "제노기어스 제작진 여섯 명이 나란히 선 사진",
         "caption": "1998년 제작진 인터뷰에 실린 제노기어스 스태프 단체 사진.",
         "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/interview-with-xenogears-staff-1998.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 7
       }
     ],
     "sources": [
@@ -1136,7 +1165,98 @@ export const interviewReadings = [
         "alt": "테이블 앞에서 이야기하는 제노기어스 제작진의 흑백 사진",
         "caption": "1998년 패미통 PS 인터뷰에 실린 제작진 사진.",
         "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 16
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-03.jpg",
+        "width": 310,
+        "height": 215,
+        "alt": "기어와 대사가 보이는 제노기어스 장면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 27
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-04.jpg",
+        "width": 310,
+        "height": 229,
+        "alt": "입체 배경 위로 대화창이 표시된 장면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 33
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-05.jpg",
+        "width": 320,
+        "height": 210,
+        "alt": "제노기어스 제작진의 흑백 단체 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 42
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-06.jpg",
+        "width": 310,
+        "height": 216,
+        "alt": "마을에서 인물들이 대화하는 제노기어스 장면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 52
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-07.jpg",
+        "width": 360,
+        "height": 272,
+        "alt": "제노기어스 전투 정보와 설정 화면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 56
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-08-hiromichi-tanaka.jpg",
+        "width": 167,
+        "height": 210,
+        "alt": "타나카 히로미치의 흑백 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 61
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-09-katsuhisa-higuchi.jpg",
+        "width": 167,
+        "height": 210,
+        "alt": "히구치 카츠히사의 흑백 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 63
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-10-tsutomu-terada.jpg",
+        "width": 167,
+        "height": 167,
+        "alt": "테라다 츠토무의 흑백 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 68
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-11-keita-eto.jpg",
+        "width": 167,
+        "height": 167,
+        "alt": "에토 케이타의 흑백 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 70
+      },
+      {
+        "src": "/images/interviews/xenogears-famitsu-ps-1998/01-famitsu-ps-march-1998-12-koh-arai.jpg",
+        "width": 167,
+        "height": 167,
+        "alt": "아라이 코우의 흑백 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/march-1998-famitsu-ps-interview.html",
+        "sectionId": "page-1",
+        "afterLine": 72
       }
     ],
     "sources": [
@@ -1655,13 +1775,59 @@ export const interviewReadings = [
     ],
     "figures": [
       {
+        "src": "/images/interviews/monolith-the-playstation-1999/01-photo8.jpg",
+        "width": 300,
+        "height": 200,
+        "alt": "설립 초기 모노리스 소프트 인터뷰 자료 사진",
+        "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
+        "sectionId": "page-1",
+        "afterLine": 4
+      },
+      {
         "src": "/images/interviews/monolith-the-playstation-1999-1.jpg",
         "width": 200,
         "height": 150,
         "alt": "푸른 칸막이와 작업용 책상이 늘어선 초기 모노리스 소프트 사무실",
         "caption": "창립 직후 특별 인터뷰에 실린 모노리스 소프트의 사내 풍경.",
         "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 7
+      },
+      {
+        "src": "/images/interviews/monolith-the-playstation-1999/01-photo6.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "설립 초기 모노리스 소프트 인터뷰 자료 사진",
+        "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
+        "sectionId": "page-1",
+        "afterLine": 12
+      },
+      {
+        "src": "/images/interviews/monolith-the-playstation-1999/01-photo4.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "설립 초기 모노리스 소프트 인터뷰 자료 사진",
+        "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
+        "sectionId": "page-1",
+        "afterLine": 29
+      },
+      {
+        "src": "/images/interviews/monolith-the-playstation-1999/01-photo1.jpg",
+        "width": 256,
+        "height": 192,
+        "alt": "설립 초기 모노리스 소프트 인터뷰 자료 사진",
+        "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
+        "sectionId": "page-1",
+        "afterLine": 39
+      },
+      {
+        "src": "/images/interviews/monolith-the-playstation-1999/01-photo2.jpg",
+        "width": 256,
+        "height": 192,
+        "alt": "설립 초기 모노리스 소프트 인터뷰 자료 사진",
+        "sourceUrl": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
+        "sectionId": "page-1",
+        "afterLine": 40
       }
     ],
     "sources": [
@@ -3276,7 +3442,17 @@ export const interviewReadings = [
         "alt": "책상 앞에 앉아 두 손을 모으고 인터뷰하는 타카하시 테츠야",
         "caption": "전격 온라인의 제노사가 I 인터뷰에 실린 타카하시 테츠야.",
         "sourceUrl": "https://web.archive.org/web/20080108123815/http://www.dengekionline.com:80/soft/recommend/xenosaga/index.htm",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/xenosaga-dengeki-2001/01-01.jpg",
+        "width": 200,
+        "height": 158,
+        "alt": "원문에 실린 제노 시리즈 관련 이미지",
+        "sourceUrl": "https://web.archive.org/web/20080108123815/http://www.dengekionline.com:80/soft/recommend/xenosaga/index.htm",
+        "sectionId": "page-1",
+        "afterLine": 25
       }
     ],
     "sources": [
@@ -3506,7 +3682,107 @@ export const interviewReadings = [
         "alt": "회색 스웨터 차림으로 책상에 앉아 이야기하는 타카하시 테츠야",
         "caption": "Sony Creators Talk에서 인터뷰 중인 타카하시 테츠야.",
         "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/01.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 4
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/01-g1.jpg",
+        "width": 150,
+        "height": 248,
+        "alt": "일러스트와 장면으로 구성된 제노사가 에피소드 I 소개 이미지",
+        "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/01.html",
+        "sectionId": "page-1",
+        "afterLine": 4
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/02-p7.jpg",
+        "width": 150,
+        "height": 123,
+        "alt": "KOS-MOS 일러스트가 띄워진 제작용 모니터",
+        "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/02.html",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/02-p4.jpg",
+        "width": 150,
+        "height": 190,
+        "alt": "Sony Creators Talk에 실린 타카하시 테츠야 사진",
+        "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/02.html",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/02-p8.jpg",
+        "width": 110,
+        "height": 104,
+        "alt": "책과 모니터가 놓인 작업 자리",
+        "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/02.html",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/02-p5.jpg",
+        "width": 150,
+        "height": 226,
+        "alt": "Sony Creators Talk에 실린 타카하시 테츠야 사진",
+        "sourceUrl": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/02.html",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-p10.jpg",
+        "width": 150,
+        "height": 121,
+        "alt": "책과 잡지가 꽂힌 책장",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-g3.jpg",
+        "width": 150,
+        "height": 119,
+        "alt": "우주선이 등장하는 제노사가 에피소드 I 장면",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-g4.jpg",
+        "width": 150,
+        "height": 113,
+        "alt": "눈을 감은 KOS-MOS의 얼굴",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-g5.jpg",
+        "width": 150,
+        "height": 119,
+        "alt": "캐릭터와 인터페이스가 보이는 제노사가 에피소드 I 전투 화면",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-g8.jpg",
+        "width": 150,
+        "height": 118,
+        "alt": "제노사가 에피소드 I에 등장하는 케이오스",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/sony-creators-talk-takahashi/03-p9.jpg",
+        "width": 200,
+        "height": 180,
+        "alt": "자료가 붙은 컴퓨터 자리에서 작업 중인 제작진",
+        "sourceUrl": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
+        "sectionId": "page-3",
+        "afterLine": 32
       }
     ],
     "sources": [
@@ -4062,7 +4338,98 @@ export const interviewReadings = [
         "alt": "테이블에 둘러앉아 이야기를 나누는 제노사가 제작진",
         "caption": "Weekly Xenosaga Episode I Vol.II 좌담 현장.",
         "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 3
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-inukai.jpg",
+        "width": 124,
+        "height": 160,
+        "alt": "이누카이 타이조의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 7
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-takami.jpg",
+        "width": 124,
+        "height": 160,
+        "alt": "타카미 노리히로의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-takahashi.jpg",
+        "width": 147,
+        "height": 190,
+        "alt": "타카하시 테츠야의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 17
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-matsuyama.jpg",
+        "width": 95,
+        "height": 130,
+        "alt": "마츠야마 히로시의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 34
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-monitor4.jpg",
+        "width": 130,
+        "height": 100,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 43
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-monitor2.jpg",
+        "width": 130,
+        "height": 100,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 43
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-monitor3.jpg",
+        "width": 130,
+        "height": 100,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 44
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-monitor1.jpg",
+        "width": 130,
+        "height": 100,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 44
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-cleavage.jpg",
+        "width": 200,
+        "height": 154,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 54
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-1-vol2-2002/01-interview-ep1-weekly-vol2-controller.jpg",
+        "width": 200,
+        "height": 151,
+        "alt": "제노사가 에피소드 I 제작진 좌담에 실린 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-i-weekly-volii.html",
+        "sectionId": "page-1",
+        "afterLine": 55
       }
     ],
     "sources": [
@@ -4974,7 +5341,26 @@ export const interviewReadings = [
         "alt": "팔짱을 낀 스기우라 히로히데의 상반신 사진",
         "caption": "2003년 인터뷰에 실린 스기우라 히로히데.",
         "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/a-word-with-xenosaga-developers-2003.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/xenosaga-famitsu-2003/01-interview-2003-famitsu-takahashi.jpg",
+        "width": 129,
+        "height": 150,
+        "alt": "타카하시 테츠야의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/a-word-with-xenosaga-developers-2003.html",
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/xenosaga-famitsu-2003/01-interview-2003-unknown-takahashi.jpg",
+        "width": 140,
+        "height": 154,
+        "alt": "타카하시 테츠야의 인터뷰 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/a-word-with-xenosaga-developers-2003.html",
+        "sectionId": "page-1",
+        "afterLine": 60
       }
     ],
     "sources": [
@@ -7097,7 +7483,71 @@ export const interviewReadings = [
     "id": "xenosaga-weekly-2-vol3-2004",
     "lead": "Xenosaga Episode II Weekly Vol. III",
     "notes": [],
-    "figures": [],
+    "figures": [
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/01-interview-ep2-weekly-vol3-act1-team1.jpg",
+        "width": 600,
+        "height": 191,
+        "alt": "하기와라, 아라이, 요네사카를 소개하는 인터뷰 지면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii.html",
+        "sectionId": "page-1",
+        "afterLine": 10
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/01-interview-ep2-weekly-vol3-act1-team2.jpg",
+        "width": 216,
+        "height": 295,
+        "alt": "나란히 앉아 있는 에피소드 II 제작진 세 사람",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii.html",
+        "sectionId": "page-1",
+        "afterLine": 29
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/01-interview-ep2-weekly-vol3-act1-box.jpg",
+        "width": 680,
+        "height": 332,
+        "alt": "에피소드 II의 주요 캐릭터를 소개하는 지면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii.html",
+        "sectionId": "page-1",
+        "afterLine": 53
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/02-interview-ep2-weekly-vol3-act4-hashi.jpg",
+        "width": 178,
+        "height": 320,
+        "alt": "타카하시 테츠야를 소개하는 인터뷰 지면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii_2.html",
+        "sectionId": "page-2",
+        "afterLine": 6
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/02-interview-ep2-weekly-vol3-act4-pp.jpg",
+        "width": 250,
+        "height": 320,
+        "alt": "제노사가 파이드 파이퍼의 장면과 소개가 실린 지면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii_2.html",
+        "sectionId": "page-2",
+        "afterLine": 21
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/03-interview-ep2-weekly-vol3-act5-sugiura.jpg",
+        "width": 196,
+        "height": 320,
+        "alt": "스기우라 히로히데를 소개하는 인터뷰 지면",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-voliii-act-5.html",
+        "sectionId": "page-3",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/03-interview-ep2-weekly-vol3-act5-msi.jpg",
+        "width": 213,
+        "height": 176,
+        "alt": "모노리스 소프트 인터뷰의 스기우라 히로히데 사진",
+        "sourceUrl": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-voliii-act-5.html",
+        "sectionId": "page-3",
+        "afterLine": 18
+      }
+    ],
     "sources": [
       {
         "page": 1,
@@ -7901,7 +8351,116 @@ export const interviewReadings = [
         "alt": "나란히 서 있는 타카하시 테츠야와 타케다 유이치로",
         "caption": "제노사가 I·II DS 특별 대담의 타카하시 테츠야(왼쪽)와 타케다 유이치로(오른쪽).",
         "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img02.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "두 인물이 마주 보고 대화하는 제노사가 I·II DS 화면",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 11
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img03.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "계단과 초록색 로봇이 보이는 제노사가 I·II DS 화면",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 15
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img08.jpg",
+        "width": 250,
+        "height": 170,
+        "alt": "책상에서 대화하는 타카하시와 타케다",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 17
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img05.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "인물들과 말풍선이 보이는 제노사가 I·II DS의 대화 장면",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img06.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "인물들이 조형물 주변을 이동하는 제노사가 I·II DS 화면",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/01-img07.jpg",
+        "width": 200,
+        "height": 300,
+        "alt": "두 화면에 표시된 제노사가 I·II DS의 텍스트와 메뉴",
+        "sourceUrl": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
+        "sectionId": "page-1",
+        "afterLine": 34
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img15.jpg",
+        "width": 250,
+        "height": 201,
+        "alt": "자료를 앞에 두고 대담 중인 타카하시와 타케다",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 1
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img10.jpg",
+        "width": 200,
+        "height": 151,
+        "alt": "제노사가 I·II DS의 대화 장면",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 6
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img11.jpg",
+        "width": 200,
+        "height": 151,
+        "alt": "제노사가 I·II DS의 대화 장면",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 21
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img12.jpg",
+        "width": 200,
+        "height": 151,
+        "alt": "제노사가 I·II DS의 대화 장면",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img13.jpg",
+        "width": 200,
+        "height": 150,
+        "alt": "제노사가 I·II DS의 대화 장면",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 27
+      },
+      {
+        "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive/02-img14.jpg",
+        "width": 250,
+        "height": 203,
+        "alt": "제노사가 I·II DS의 등장인물 일러스트",
+        "sourceUrl": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
+        "sectionId": "page-2",
+        "afterLine": 29
       }
     ],
     "sources": [
@@ -8734,6 +9293,168 @@ export const interviewReadings = [
         "caption": "서로 다른 제작 방식이 신뢰로 바뀐 과정을 묻는 이와타.",
         "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index2.html",
         "sectionId": "page-2"
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/01-photo001.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index.html",
+        "sectionId": "page-1",
+        "afterLine": 53
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/01-photo002.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index.html",
+        "sectionId": "page-1",
+        "afterLine": 95
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/01-photo003.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index.html",
+        "sectionId": "page-1",
+        "afterLine": 169
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/02-photo004.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 36
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/02-photo005.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 78
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/02-photo006.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 98
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/03-photo008.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 43
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/03-photo009.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 116
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/03-photo01.jpg",
+        "width": 300,
+        "height": 331,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 146
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/04-photo017.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 56
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/04-photo018.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 118
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/04-photo010.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 183
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo011.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo012.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 50
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo013.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 73
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo014.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 104
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo015.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 126
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-development/05-photo016.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 개발 스태프 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 137
       }
     ],
     "sources": [
@@ -9993,7 +10714,26 @@ export const interviewReadings = [
         "alt": "KOS-MOS를 그린 제노사가 에피소드 I 북미판 패키지 표지",
         "caption": "Siliconera 인터뷰에 실린 제노사가 에피소드 I 북미판 표지.",
         "sourceUrl": "https://www.siliconera.com/soraya-saga-on-xenogears-and-xenosaga/",
-        "sectionId": ""
+        "sectionId": "page-2",
+        "afterLine": 7
+      },
+      {
+        "src": "/images/interviews/soraya-saga-siliconera-2010/02-image-thumb184.png",
+        "width": 224,
+        "height": 169,
+        "alt": "사가 소라야 인터뷰에 실린 게임 이미지",
+        "sourceUrl": "https://www.siliconera.com/soraya-saga-on-xenogears-and-xenosaga/",
+        "sectionId": "page-2",
+        "afterLine": 18
+      },
+      {
+        "src": "/images/interviews/soraya-saga-siliconera-2010/02-image-thumb185.png",
+        "width": 244,
+        "height": 197,
+        "alt": "사가 소라야 인터뷰에 실린 게임 이미지",
+        "sourceUrl": "https://www.siliconera.com/soraya-saga-on-xenogears-and-xenosaga/",
+        "sectionId": "page-2",
+        "afterLine": 24
       }
     ],
     "sources": [
@@ -10336,6 +11076,105 @@ export const interviewReadings = [
         "caption": "New 닌텐도 3DS판을 계기로 다시 만난 타카하시와 이와타.",
         "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index.html",
         "sectionId": ""
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/01-photo1.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 37
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/01-photo2.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 106
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/01-photo3.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 169
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/02-photo4.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 93
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/02-photo5.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 223
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/03-photo6.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 66
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/03-photo7.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 139
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/04-photo8.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 77
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/04-photo9.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 179
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/05-photo10.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 110
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-3d/05-photo11.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "이와타와 타카하시의 제노블레이드 크로니클스 3D 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 178
       }
     ],
     "sources": [
@@ -12279,13 +13118,185 @@ export const interviewReadings = [
         "sectionId": ""
       },
       {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo1.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 36
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo2.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 41
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo3.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 47
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo4.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 61
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo5.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 70
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo6.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 150
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/01-photo7.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 251
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/02-photo8.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/02-photo9.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 94
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/03-photo11.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 151
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/04-photo12.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 54
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/04-photo13.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 123
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/05-photo14.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 10
+      },
+      {
         "src": "/images/interviews/iwata-xenoblade-x-2.jpg",
         "width": 380,
         "height": 228,
         "alt": "대담 중인 닌텐도의 요코타",
         "caption": "돌을 선택하고 사용하는 경험을 설명하는 장에 실린 요코타의 사진.",
         "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index5.html",
-        "sectionId": "page-5"
+        "sectionId": "page-5",
+        "afterLine": 71
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/06-photo16.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/06-photo17.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 73
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/06-photo18.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 108
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/06-photo19.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 148
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/07-photo20.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index7.html",
+        "sectionId": "page-7",
+        "afterLine": 84
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-x/07-photo21.jpg",
+        "width": 380,
+        "height": 228,
+        "alt": "제노블레이드 크로니클스 크로스 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index7.html",
+        "sectionId": "page-7",
+        "afterLine": 228
       }
     ],
     "sources": [
@@ -15130,7 +16141,26 @@ export const interviewReadings = [
         "alt": "모노리스 소프트 인터뷰에 참여한 타카하시 테츠야",
         "caption": "2017년 총감독과 CCO의 업무를 설명한 타카하시.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol02.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/monolith-takahashi-2017/01-img02.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "모노리스 소프트에서 인터뷰 중인 타카하시 테츠야",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol02.html",
+        "sectionId": "page-1",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/monolith-takahashi-2017/01-img03.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "모노리스 소프트에서 인터뷰 중인 타카하시 테츠야",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol02.html",
+        "sectionId": "page-1",
+        "afterLine": 31
       }
     ],
     "sources": [
@@ -15315,13 +16345,41 @@ export const interviewReadings = [
     "notes": [],
     "figures": [
       {
+        "src": "/images/interviews/monolith-two-studios-2018/01-img01.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "스튜디오 운영에 관해 이야기하는 모노리스 소프트 제작진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol03.html",
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/monolith-two-studios-2018/01-img02.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "스튜디오 운영에 관해 이야기하는 모노리스 소프트 제작진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol03.html",
+        "sectionId": "page-1",
+        "afterLine": 11
+      },
+      {
         "src": "/images/interviews/monolith-two-studios-2018-1.jpg",
         "width": 435,
         "height": 240,
         "alt": "모노리스 소프트의 혼네와 하기와라가 나란히 앉아 있는 사진",
         "caption": "두 거점의 운영과 개발을 이야기하는 혼네와 하기와라.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol03.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 17
+      },
+      {
+        "src": "/images/interviews/monolith-two-studios-2018/01-img04.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "스튜디오 운영에 관해 이야기하는 모노리스 소프트 제작진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol03.html",
+        "sectionId": "page-1",
+        "afterLine": 37
       }
     ],
     "sources": [
@@ -15618,7 +16676,53 @@ export const interviewReadings = [
         "alt": "테이블에 앉아 대화하는 모노리스 소프트 기획자들",
         "caption": "여러 작품의 개발 경험을 나눈 기획자 인터뷰.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 10
+      },
+      {
+        "src": "/images/interviews/monolith-planners-2018/01-img02.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 기획자들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
+        "sectionId": "page-1",
+        "afterLine": 25
+      },
+      {
+        "src": "/images/interviews/monolith-planners-2018/01-img03.jpg",
+        "width": 435,
+        "height": 241,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 기획자들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
+        "sectionId": "page-1",
+        "afterLine": 39
+      },
+      {
+        "src": "/images/interviews/monolith-planners-2018/01-img04.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 기획자들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
+        "sectionId": "page-1",
+        "afterLine": 51
+      },
+      {
+        "src": "/images/interviews/monolith-planners-2018/01-img05.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 기획자들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
+        "sectionId": "page-1",
+        "afterLine": 69
+      },
+      {
+        "src": "/images/interviews/monolith-planners-2018/01-img06.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 기획자들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol05.html",
+        "sectionId": "page-1",
+        "afterLine": 79
       }
     ],
     "sources": [
@@ -16285,13 +17389,131 @@ export const interviewReadings = [
     "notes": [],
     "figures": [
       {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img01.jpg",
+        "width": 850,
+        "height": 478,
+        "alt": "이라의 넓은 초원과 캐릭터가 보이는 필드 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 8
+      },
+      {
         "src": "/images/interviews/xenoblade2-torna-release-note-1.jpg",
         "width": 850,
         "height": 478,
         "alt": "초록빛 풀이 자라는 이라의 필드를 걷는 캐릭터들",
         "caption": "제작 노트에서 표현의 변화를 설명하며 소개한 이라의 필드 화면.",
         "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 8
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img03.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 12
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img04.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 12
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img05.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 15
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img06.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 15
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img07.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 15
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img08.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 18
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img09.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 18
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img10.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img11.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img12.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img13.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 제작 노트의 게임 화면",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 24
+      },
+      {
+        "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img14.jpg",
+        "width": 900,
+        "height": 649,
+        "alt": "제노블레이드 크로니클스 2 등장인물이 모인 일러스트",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index.html",
+        "sectionId": "page-1",
+        "afterLine": 40
       }
     ],
     "sources": [
@@ -16466,7 +17688,35 @@ export const interviewReadings = [
         "alt": "2019년 프로그래머 인터뷰에 참여한 세 명의 모습",
         "caption": "직종 간 협업과 개발 환경을 이야기한 프로그래머들.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol07.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 12
+      },
+      {
+        "src": "/images/interviews/monolith-programmers-2019/01-img04.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 프로그래머들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol07.html",
+        "sectionId": "page-1",
+        "afterLine": 22
+      },
+      {
+        "src": "/images/interviews/monolith-programmers-2019/01-img03.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 프로그래머들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol07.html",
+        "sectionId": "page-1",
+        "afterLine": 29
+      },
+      {
+        "src": "/images/interviews/monolith-programmers-2019/01-img06.jpg",
+        "width": 435,
+        "height": 240,
+        "alt": "개발에 관해 이야기하는 모노리스 소프트 프로그래머들",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol07.html",
+        "sectionId": "page-1",
+        "afterLine": 43
       }
     ],
     "sources": [
@@ -16871,7 +18121,251 @@ export const interviewReadings = [
     "id": "takahashi-harada-4gamer-2019",
     "lead": "原田が斬る 第7回 高橋哲哉",
     "notes": [],
-    "figures": [],
+    "figures": [
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-001.jpg",
+        "width": 522,
+        "height": 392,
+        "alt": "하라다 카츠히로와 타카하시 테츠야가 나온 4Gamer 대담 표지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 0
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-004.jpg",
+        "width": 230,
+        "height": 345,
+        "alt": "흰 셔츠를 입고 인터뷰하는 타카하시 테츠야",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 10
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-005.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "모노리스 소프트 채용 공고 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 53
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-021.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 68
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-003.jpg",
+        "width": 230,
+        "height": 345,
+        "alt": "검은 선글라스를 쓴 하라다 카츠히로",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 96
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-002.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 129
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-022.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 164
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/01-006.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "테이블을 사이에 두고 마주 앉은 타카하시와 하라다",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/",
+        "sectionId": "page-1",
+        "afterLine": 184
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-007.jpg",
+        "width": 230,
+        "height": 330,
+        "alt": "제노사가 에피소드 I 리로디드의 패키지 표지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 1
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-027.jpg",
+        "width": 254,
+        "height": 200,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-029.jpg",
+        "width": 254,
+        "height": 200,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-028.jpg",
+        "width": 254,
+        "height": 200,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-030.jpg",
+        "width": 254,
+        "height": 200,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-023.jpg",
+        "width": 512,
+        "height": 384,
+        "alt": "제노사가 에피소드 III에서 시온이 등장하는 장면",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 66
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-008.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 93
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-017.jpg",
+        "width": 230,
+        "height": 345,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 128
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/02-009.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
+        "sectionId": "page-2",
+        "afterLine": 209
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-010.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 11
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-013.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 58
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-012.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 72
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-011.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 94
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-025.jpg",
+        "width": 230,
+        "height": 325,
+        "alt": "영화 코만도의 감독판 표지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 114
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-014.jpg",
+        "width": 512,
+        "height": 288,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 157
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-015.jpg",
+        "width": 512,
+        "height": 214,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 192
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-020.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 224
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-031.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "책상과 푸른 칸막이가 보이는 모노리스 소프트 사무실",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 266
+      },
+      {
+        "src": "/images/interviews/takahashi-harada-4gamer-2019/03-018.jpg",
+        "width": 512,
+        "height": 341,
+        "alt": "타카하시와 하라다의 4Gamer 대담에 실린 이미지",
+        "sourceUrl": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
+        "sectionId": "page-3",
+        "afterLine": 288
+      }
+    ],
     "sources": [
       {
         "page": 1,
@@ -19327,7 +20821,17 @@ export const interviewReadings = [
         "alt": "여러 지역의 디자이너들이 연결된 화상회의 화면",
         "caption": "2020년 화상회의로 진행된 2D 디자이너 인터뷰.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol13.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 1
+      },
+      {
+        "src": "/images/interviews/monolith-2d-artists-2020/01-img02.jpg",
+        "width": 435,
+        "height": 245,
+        "alt": "모노리스 소프트 2D 디자이너 화상 인터뷰 자료",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol13.html",
+        "sectionId": "page-1",
+        "afterLine": 53
       }
     ],
     "sources": [
@@ -19755,7 +21259,26 @@ export const interviewReadings = [
         "alt": "화상회의에 참여한 세 명의 맵 모델러",
         "caption": "지형과 배경을 만드는 과정을 이야기한 맵 모델러들.",
         "sourceUrl": "https://www.monolithsoft.co.jp/interview/2207.html",
-        "sectionId": ""
+        "sectionId": "page-1",
+        "afterLine": 2
+      },
+      {
+        "src": "/images/interviews/monolith-map-modelers-2022/01-img-01.jpg",
+        "width": 1080,
+        "height": 1259,
+        "alt": "맵 모델러 인터뷰에 실린 지형과 환경 아트 자료",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2207.html",
+        "sectionId": "page-1",
+        "afterLine": 242
+      },
+      {
+        "src": "/images/interviews/monolith-map-modelers-2022/01-img-02.jpg",
+        "width": 1080,
+        "height": 1207,
+        "alt": "맵 모델러 인터뷰에 실린 지형과 환경 아트 자료",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2207.html",
+        "sectionId": "page-1",
+        "afterLine": 254
       }
     ],
     "sources": [

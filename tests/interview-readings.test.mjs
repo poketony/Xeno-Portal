@@ -58,9 +58,17 @@ test('본문 사진은 로컬 파일·대체 텍스트·출처를 갖고 알맞�
     for(const figure of reading.figures) {
       assert.match(figure.src,/^\/images\/interviews\//);
       assert.ok((await stat(new URL('../public'+figure.src,import.meta.url))).size>0);
-      assert.ok(figure.width>0 && figure.height>0 && figure.alt && figure.caption,figure.src);
+      assert.ok(figure.width>0 && figure.height>0 && figure.alt,figure.src);
       assert.match(figure.sourceUrl,/^https?:\/\//);
-      if(figure.sectionId) assert.ok(reading.sections.some(section=>section.id===figure.sectionId),figure.src);
+      const section=reading.sections.find(section=>section.id===figure.sectionId);
+      if(figure.sectionId) assert.ok(section,figure.src);
+      if(figure.afterLine===undefined) {
+        assert.ok(figure.caption,figure.src);
+      } else {
+        assert.ok(section,figure.src);
+        assert.ok(figure.afterLine===0||section.blocks.some(block=>block.to===figure.afterLine),figure.src);
+        assert.equal(figure.sourceUrl,reading.sources.find(source=>source.page===section.page).url,figure.src);
+      }
     }
   }
 });

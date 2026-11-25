@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import InterviewFigures from '../../components/InterviewFigures.astro';
 import { commonText, interviewText as text } from '../../data/content.mjs';
 import { interviews } from '../../data/interviews.mjs';
 import { interviewReadings } from '../../data/interview-readings.mjs';
@@ -20,6 +21,8 @@ const position = ordered.findIndex(item => item.id === entry.id);
 const adjacent = translated ? [{label:r.previous,entry:ordered[position-1]},{label:r.next,entry:ordered[position+1]}].filter(item=>item.entry) : [];
 const minutes = Math.max(1, Math.ceil(reading.sections.flatMap(section=>section.blocks.map(block=>block.text)).join('').length / 500));
 const firstImage = translated ? reading.figures.find(figure=>!figure.sectionId) : undefined;
+const figuresAt = (sectionId: string, afterLine?: number) =>
+  reading.figures.filter(figure => figure.sectionId === sectionId && figure.afterLine === afterLine);
 const catalogUrl = `${withBase('/interviews/')}#${entry.id}`;
 const sourceLabel = (source: typeof reading.sources[number]) => source.title || r.sourcePage.replace('{page}',String(source.page));
 ---
@@ -45,18 +48,21 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
         </aside>
         <div class="reader-body">
           <p class="reader-notice">{translated ? reading.complete ? r.notice : r.partialNotice.replace('{total}',String(reading.sources.length)).replace('{pages}',reading.translatedPages.join('·')) : r.untranslatedNotice}</p>
-          {firstImage && <figure class:list={['reader-figure',{'reader-figure-small':firstImage.width > 0 && firstImage.width < 420}]}><img src={withBase(firstImage.src)} alt={firstImage.alt} width={firstImage.width || undefined} height={firstImage.height || undefined} loading="eager" /><figcaption>{firstImage.caption}<a href={firstImage.sourceUrl} target="_blank" rel="noopener noreferrer">{r.imageSource}<span class="sr-only">{' '+commonText.newWindow}</span></a></figcaption></figure>}
+          {firstImage && <InterviewFigures figures={[firstImage]} eager />}
           {reading.sections.map(section => <section class="reader-section" id={section.id} data-reader-section>
             <p class="reader-page-label">{r.translatedPage.replace('{page}',String(section.page))}</p>
             <h2>{section.title}</h2>
-            {reading.figures.filter(figure=>figure.sectionId===section.id).map(figure => <figure class:list={['reader-figure',{'reader-figure-small':figure.width > 0 && figure.width < 420}]}>
-              <img src={withBase(figure.src)} alt={figure.alt} width={figure.width || undefined} height={figure.height || undefined} loading="lazy" />
-              <figcaption>{figure.caption}<a href={figure.sourceUrl} target="_blank" rel="noopener noreferrer">{r.imageSource}<span class="sr-only">{' '+commonText.newWindow}</span></a></figcaption>
-            </figure>)}
-            {section.blocks.filter(block=>block.text.trim()).map(block=>block.kind==='heading' ? <h3 class="reader-original-subheading" data-source-range={`${block.from}-${block.to}`}>{block.text}</h3> : <div class:list={['reader-turn',`reader-turn-${block.kind}`,{'reader-turn-named':block.speaker||block.kind==='question'||block.kind==='answer'}]} data-source-range={`${block.from}-${block.to}`}>
-              {(block.speaker||block.kind==='question'||block.kind==='answer')&&<p class="reader-speaker">{block.speaker || (block.kind==='question'?r.question:r.answer)}</p>}
-              <p class="reader-translated-text">{block.text}</p>
-            </div>)}
+            <InterviewFigures figures={figuresAt(section.id)} />
+            <InterviewFigures figures={figuresAt(section.id, 0)} inline />
+            {section.blocks.map(block => <>
+              {block.text.trim() && (block.kind === 'heading'
+                ? <h3 class="reader-original-subheading" data-source-range={`${block.from}-${block.to}`}>{block.text}</h3>
+                : <div class:list={['reader-turn',`reader-turn-${block.kind}`,{'reader-turn-named':block.speaker||block.kind==='question'||block.kind==='answer'}]} data-source-range={`${block.from}-${block.to}`}>
+                  {(block.speaker||block.kind==='question'||block.kind==='answer')&&<p class="reader-speaker">{block.speaker || (block.kind==='question'?r.question:r.answer)}</p>}
+                  <p class="reader-translated-text">{block.text}</p>
+                </div>)}
+              <InterviewFigures figures={figuresAt(section.id, block.to)} inline />
+            </>)}
           </section>)}
           <section class="reader-sources" id="reader-sources" data-reader-section>
             <p class="reader-source-eyebrow">{r.sourceEyebrow}</p><h2>{r.sources}</h2><p class="reader-source-intro">{r.sourcesIntro}</p>

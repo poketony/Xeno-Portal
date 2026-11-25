@@ -1,0 +1,28 @@
+---
+import { commonText, interviewText } from '../data/content.mjs';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  figures: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+    caption?: string;
+    sourceUrl: string;
+  }[];
+  inline?: boolean;
+  eager?: boolean;
+}
+
+const { figures, inline = false, eager = false } = Astro.props;
+---
+{figures.length > 0 && <div class:list={{ 'reader-inline-figures': inline }}>
+  {figures.map(figure => <figure class:list={['reader-figure', { 'reader-figure-small': !inline && figure.width < 420 }]}>
+    <img src={withBase(figure.src)} alt={figure.alt} width={figure.width} height={figure.height} loading={eager ? 'eager' : 'lazy'} />
+    {(!inline || figure.caption) && <figcaption>
+      {figure.caption}
+      <a href={figure.sourceUrl} target="_blank" rel="noopener noreferrer">{interviewText.reader.imageSource}<span class="sr-only">{' ' + commonText.newWindow}</span></a>
+    </figcaption>}
+  </figure>)}
+</div>}
