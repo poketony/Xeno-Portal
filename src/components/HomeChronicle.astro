@@ -44,5 +44,4 @@ const sources = new Map(text.sources.map((source, index) => [source.id, { ...sou
     <header class="chronicle-section-heading"><p class="eyebrow">{text.qualitiesEyebrow}</p><h3 id="qualities-title">{text.qualitiesTitle}</h3><p>{text.qualitiesIntroduction}</p></header>
     <div class="chronicle-quality-grid">{text.qualities.map((quality) => <article><span class="chronicle-quality-number" aria-hidden="true">{quality.number}</span><div><h4>{quality.title}</h4><p>{quality.text}<span class="chronicle-refs">{quality.refs.map((id) => { const source = sources.get(id)!; return <a href={source.url} title={source.title} aria-label={`${text.sourcesTitle}: ${source.title}`} target="_blank" rel="noopener noreferrer">[{source.number}]</a>; })}</span></p></div></article>)}</div>
   </section>
-  <details class="chronicle-sources" open><summary>{text.sourcesTitle}<span aria-hidden="true">+</span></summary><ol>{text.sources.map((source, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<small>{source.publisher} ↗</small></a></li>)}</ol></details>
 </section>

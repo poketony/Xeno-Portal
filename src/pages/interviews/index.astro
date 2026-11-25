@@ -14,9 +14,9 @@ const entries = filterInterviews(interviews);
     <header class="interview-heading">
       <p class="eyebrow">{text.eyebrow}</p><h1>{text.heading}</h1><p class="interview-lead">{text.introduction}</p>
       <div class="interview-heading-meta"><span>{text.collectionCount.replace('{count}', String(entries.length))}</span><span>{text.updated} <time datetime={interviewCheckedAt}>{interviewCheckedAt}</time></span></div>
-      <a class="interview-saga-shortcut" href={`${withBase('/interviews/')}?series=xenosaga&source=original`}>{text.sagaOriginals}</a>
+      <div class="interview-heading-actions"><a class="interview-saga-shortcut" href={`${withBase('/interviews/')}?series=xenosaga&source=original`}>{text.sagaOriginals}</a><button class="interview-search-toggle" type="button" aria-expanded="false" aria-controls="interview-filters" data-interview-toggle hidden>{text.searchToggle}<span aria-hidden="true">+</span></button></div>
     </header>
-    <form class="interview-filters" role="search" aria-label={text.searchLabel} hidden>
+    <form class="interview-filters" id="interview-filters" role="search" aria-label={text.searchLabel} hidden>
       <div class="interview-search-field"><label for="interview-query">{text.search}</label><input id="interview-query" type="search" name="q" placeholder={text.placeholder} autocomplete="off" /></div>
       <div><label for="interview-series">{text.series}</label><select id="interview-series" name="series"><option value="">{text.allSeries}</option>{Object.entries(text.seriesNames).map(([id, name]) => <option value={id}>{name}</option>)}</select></div>
       <div><label for="interview-language">{text.language}</label><select id="interview-language" name="language"><option value="">{text.allLanguages}</option><option value="ko">{text.officialKoreanOnly}</option></select></div>
@@ -37,7 +37,7 @@ const entries = filterInterviews(interviews);
             {item.koreanUrl && <a class="interview-read interview-read-korean" href={item.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}
             <a class="interview-read" href={item.archiveUrl || item.originalUrl} target="_blank" rel="noopener noreferrer">{item.sourceType === 'archive' ? text.archived : item.sourceType === 'reprint' ? text.reprint : text.original}<span class="interview-language">{item.languages.filter((id) => id !== 'ko').map((id) => text.languages[id as keyof typeof text.languages]).join(' · ')}</span><span class="sr-only">{' ' + commonText.newWindow}</span></a>
           </div>
-          {item.chapters.length > 0 && <details class="interview-chapters"><summary>{text.chapters.replace('{count}', String(item.chapters.length))}</summary><ol>{item.chapters.map((chapter) => <li><a href={chapter.url} target="_blank" rel="noopener noreferrer">{chapter.title}<span class="sr-only">{' ' + commonText.newWindow}</span></a>{chapter.date && <time datetime={chapter.date}>{formatInterviewDate(chapter.date)}</time>}{chapter.koreanUrl && <a class="interview-chapter-korean" href={chapter.koreanUrl} target="_blank" rel="noopener noreferrer">{text.chapterKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}</li>)}</ol></details>}
+          {item.chapters.length > 0 && <details class="interview-chapters"><summary>{text.chapters.replace('{count}', String(item.chapters.length))}</summary><ol>{item.chapters.map((chapter) => <li><a href={chapter.url} target="_blank" rel="noopener noreferrer">{chapter.title}<span class="sr-only">{' ' + commonText.newWindow}</span></a>{chapter.date && <time datetime={chapter.date}>{formatInterviewDate(chapter.date)}</time>}{chapter.koreanUrl && <a class="interview-chapter-korean" href={chapter.koreanUrl} target="_blank" rel="noopener noreferrer">{text.chapterKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}{chapter.summary && <p class="interview-chapter-summary"><span class="sr-only">{text.summary}: </span>{chapter.summary}</p>}</li>)}</ol></details>}
           {(item.dateNote || item.accessNote || item.dateSource || item.archiveUrl) && <details class="interview-source-notes"><summary>{text.sourceNotes}</summary>{item.dateNote && <p>{item.dateNote}</p>}{item.accessNote && <p>{item.accessNote}</p>}<div>{item.archiveUrl && <a href={item.originalUrl} target="_blank" rel="noopener noreferrer">{text.oldAddress}</a>}{item.dateSource && <a href={item.dateSource} target="_blank" rel="noopener noreferrer">{text.dateSource}</a>}</div></details>}
         </div>
       </article>)}
@@ -54,6 +54,7 @@ const entries = filterInterviews(interviews);
   const root = document.querySelector<HTMLElement>('[data-interview-archive]');
   if (root) {
     const form = root.querySelector<HTMLFormElement>('form')!;
+    const toggle = root.querySelector<HTMLButtonElement>('[data-interview-toggle]')!;
     const list = root.querySelector<HTMLElement>('[data-interview-list]')!;
     const cards = new Map([...list.querySelectorAll<HTMLElement>('[data-interview-id]')].map((card) => [card.dataset.interviewId!, card]));
     const value = (name: string) => (form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement).value;
@@ -77,7 +78,12 @@ const entries = filterInterviews(interviews);
       const field = form.elements.namedItem(key);
       if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement) field.value = selected;
     }
-    form.hidden = false;
+    toggle.hidden = false;
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      form.hidden = !expanded;
+    });
     form.addEventListener('submit', (event) => { event.preventDefault(); update(); });
     form.addEventListener('input', update);
     form.addEventListener('change', update);

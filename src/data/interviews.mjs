@@ -1,6 +1,6 @@
 // 원문·공식 번역·당시 원문 보존본을 구분합니다. 한국어 제목과 요약은 직접 작성한 안내입니다.
-// date는 확인된 공개 시기(또는 dateContext에 명시한 취재일)이며, 불명확한 월·일은 추정하지 않습니다.
-export const interviewCheckedAt = '2026-11-25';
+// date는 확인된 공개 시기 또는 표시된 추정 시기입니다. dateContext와 dateNote에서 근거·정확도를 구분합니다.
+export const interviewCheckedAt = "2026-11-25";
 export const interviews = [
   {
     "id": "iwata-xenoblade-sound",
@@ -41,31 +41,36 @@ export const interviews = [
         "title": "여섯 음악가의 만남",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "개성을 살리며 같은 방향으로",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "첫 메일을 둘러싼 이야기",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "기존 RPG의 틀을 벗어난 음악",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "음악가들이 바라본 작품",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -106,31 +111,36 @@ export const interviews = [
         "title": "의견을 주고받는 공동 집필",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "매주 이어진 시나리오 회의",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "공감할 수 있는 주인공",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "크고 밀도 있는 세계",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "새로운 출발이라는 주제",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -170,34 +180,39 @@ export const interviews = [
     "accessNote": "",
     "chapters": [
       {
-        "title": "끝까지 완성하도록 지원한 결정",
+        "title": "끝까지 완성할 수 있도록",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "개발 일정 때문에 일부 구성을 포기하려던 때, 닌텐도 측이 끝까지 완성할 수 있도록 지원한 경위를 돌아봅니다. 거대한 두 신의 모형에서 세계와 지형을 구체화한 과정도 소개합니다."
       },
       {
         "title": "경계에서 신뢰로",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "모형에서 출발한 기획에 시스템과 시나리오를 담당할 동료들이 합류한 과정을 살펴봅니다. 서로의 작업 방식을 알아 가며 처음의 거리감이 신뢰로 바뀐 경험을 이야기합니다."
       },
       {
-        "title": "작가와 편집자 같은 관계",
+        "title": "작가와 편집자처럼",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "먼저 한 구역을 완성해 목표 품질을 공유한 과정과 시나리오를 객관적으로 검토한 사례를 소개합니다. 창작자의 개성을 살리면서도 플레이어에게 뜻이 전해지도록 다듬은 협업을 설명합니다."
       },
       {
-        "title": "완수하고 싶다는 마음",
+        "title": "끝까지 만들고 싶다는 마음",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "끊김 없이 이어지는 전투와 미래를 보는 능력, 동료와 주민 사이의 관계를 통해 몰입감을 높인 설계를 살펴봅니다. 타카하시가 직접 플레이와 현장 조정을 거듭하며 완성도를 높인 과정도 소개합니다."
       },
       {
-        "title": "한 작품에 담은 충실한 경험",
+        "title": "한 편에 가득 담은 경험",
         "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol3/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "이야기와 탐험, 퀘스트를 각자의 속도로 즐길 수 있도록 마련한 선택지를 소개합니다. 서로 다른 개발 문화를 가진 두 회사가 협력해 한 작품을 끝까지 채워 낸 소감을 전합니다."
       }
     ]
   },
@@ -239,37 +254,43 @@ export const interviews = [
         "title": "오랜만에 만난 두 제작자",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "타카하시의 독립과 새로운 도전",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "스태프와 나누는 공감",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "RPG가 전하는 낭만",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "작품에 남기는 창작자의 개성",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "세계에 도전하는 일본 RPG",
         "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index6.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -307,34 +328,39 @@ export const interviews = [
     "accessNote": "",
     "chapters": [
       {
-        "title": "JRPG의 대표작을 만들겠다는 목표",
+        "title": "JRPG의 걸작을 향한 목표",
         "url": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "JRPG의 걸작을 만들고자 했던 목표와 발매 후 입소문으로 이어진 반응을 돌아봅니다. 플레이어가 오래 머물고 싶어 하는 세계와 RPG의 미래상에 관해 이야기합니다."
       },
       {
-        "title": "창작에 영향을 준 달의 돌",
+        "title": "달의 돌과 창작의 뿌리",
         "url": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "어린 시절 접한 특촬물과 SF, 만국박람회의 달의 돌을 둘러싼 기억을 따라 창작의 뿌리를 살펴봅니다. 기계와 우주, 미지의 세계에 대한 관심이 어떻게 자라났는지 이야기합니다."
       },
       {
-        "title": "배수의 진에서 시작한 제작",
+        "title": "배수의 진에서",
         "url": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "이야기와 놀이의 균형을 다시 세우려 했던 구상을 설명합니다. 제노사가 제작 당시의 제약과 평가를 돌아보며, 다음 작품에서 플레이어를 만족시키려 했던 팀의 각오를 전합니다."
       },
       {
-        "title": "상식을 넘어선 이식에 도전하다",
+        "title": "함께 만드는 방식으로",
         "url": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "제노기어스 때부터 쌓아 온 맵 제작 경험이 자유로운 탐험을 뒷받침한 과정을 설명합니다. 선배의 작업을 보며 배우던 시절을 돌아보고, 한 사람보다 구성원 모두의 장점을 모으는 제작 방식으로 바뀐 생각을 이야기합니다."
       },
       {
         "title": "그냥 지나치기 아까운 세계",
         "url": "https://www.nintendo.co.jp/3ds/interview/cafj/vol1/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "Monster Games가 Wii의 세계를 휴대용 기기로 옮기며 마주한 기술적 도전을 소개합니다. 입체 화면으로 다시 만나는 세계와 처음 접하는 플레이어에게도 권하고 싶은 RPG의 매력을 이야기합니다."
       }
     ]
   },
@@ -374,46 +400,53 @@ export const interviews = [
     "accessNote": "",
     "chapters": [
       {
-        "title": "행성 하나를 통째로 만들다",
+        "title": "행성 하나를 통째로",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "행성 하나를 만드는 규모의 오픈 월드를 어떻게 구상하고 채워 갔는지 살펴봅니다. 넓은 지형을 구역으로 나누고 탐험과 개척의 목적을 배치해 이동 자체가 놀이가 되도록 한 설계를 설명합니다."
       },
       {
-        "title": "소설처럼 구성한 줄거리",
+        "title": "소설 같은 이야기 구상",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "타카하시가 작성한 방대한 이야기 구상을 두 각본가가 게임의 규모와 구성에 맞춰 정리한 과정을 소개합니다. 퀘스트와 등장인물이 늘어나며 세계가 확장된 공동 집필의 경험도 전합니다."
       },
       {
-        "title": "느슨하게 연결하는 네트워크",
+        "title": "부담 없이 이어지는 연결",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "혼자 탐험할 때의 고립감을 덜기 위해 온라인 요소를 도입한 경위를 설명합니다. 대화를 강요하지 않으면서도 다른 플레이어의 존재를 느낄 수 있도록 설계하고, 아바타에 맞춰 이야기를 고친 과정을 살펴봅니다."
       },
       {
-        "title": "방대한 목소리를 녹음하다",
+        "title": "방대한 목소리를 담다",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index4.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "주인공을 아바타로 바꾸며 생긴 각본과 캐릭터 제작의 어려움을 소개합니다. 다양한 성격의 음성과 전투 중 대화를 통해 플레이어의 선택과 동료 간 호흡을 표현한 과정을 이야기합니다."
       },
       {
-        "title": "차를 고르듯 돌을 선택하다",
+        "title": "차를 고르듯 ドール을",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "오픈 월드와 탑승형 로봇 돌을 함께 설계한 이유를 설명합니다. 손에 넣은 뒤의 이동과 전투의 해방감, 구입 비용과 수리 장치로 기체에 애착을 갖게 하려던 구상을 소개합니다."
       },
       {
-        "title": "작품 이름에 담은 생각",
+        "title": "제목에 담은 만남과 교차",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index6.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "본편의 줄거리 밖에서도 인물과 세계를 발견할 수 있도록 여지를 남긴 각본을 살펴봅니다. 사람과 이성인, 플레이어들이 만나는 교차점이라는 제목의 의미와 음악에서 시도한 새로운 접근도 소개합니다."
       },
       {
-        "title": "풍부한 게임 경험을 향해",
+        "title": "플레이마다 달라지는 풍부함",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index7.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": "온라인과 아바타 도입으로 기존 구성을 다시 만들었던 개발 과정을 돌아봅니다. 정해진 줄거리만 따라가기보다 탐험·육성·퀘스트를 스스로 선택하면서 사람마다 다른 경험과 추억이 생기는 게임을 지향했다고 설명합니다."
       }
     ]
   },
@@ -607,27 +640,30 @@ export const interviews = [
       "ko"
     ],
     "sourceType": "original",
-    "summary": "세 작품이 공유하는 주제와 이번 작품의 출발점을 제작진이 설명한다. 송환자의 피리 소리를 실제 악기로 구현한 과정과 방대한 콘텐츠를 만드는 방식을 다룬다.",
+    "summary": "세 작품이 공유하는 주제와 이번 작품의 출발점을 제작진이 설명한다. 환송자의 피리 소리를 실제 악기로 구현한 과정과 방대한 콘텐츠를 만드는 방식을 다룬다.",
     "kind": "interview",
     "accessNote": "",
     "chapters": [
       {
-        "title": "이질적인 존재들의 관계",
+        "title": "「제노(이질)적인 존재」끼리의 관계",
         "url": "https://www.nintendo.com/jp/interview/az3ha/index.html",
         "koreanUrl": "https://www.nintendo.com/kr/interview/az3ha/index.html",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
-        "title": "새로운 소리를 만들다",
+        "title": "지금껏 없던 소리",
         "url": "https://www.nintendo.com/jp/interview/az3ha/02.html",
         "koreanUrl": "https://www.nintendo.com/kr/interview/az3ha/02.html",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
-        "title": "콘텐츠를 채워 나가는 개발",
+        "title": "물량이 좋다",
         "url": "https://www.nintendo.com/jp/interview/az3ha/03.html",
         "koreanUrl": "https://www.nintendo.com/kr/interview/az3ha/03.html",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1011,7 +1047,8 @@ export const interviews = [
         "title": "설립과 첫 작품의 방향",
         "url": "https://web.archive.org/web/20010421124204/http://www.monolithsoft.co.jp/interview.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1019,11 +1056,11 @@ export const interviews = [
     "id": "sony-creators-talk-takahashi",
     "title": "소니 Creator’s Talk 타카하시 테츠야",
     "originalTitle": "Creators Talk",
-    "date": null,
-    "datePrecision": null,
-    "dateContext": "",
-    "dateNote": "원문 본문에서 공개일은 확인되지 않았다. 2002년이라는 참고문헌 분류와 본문에 적힌 에피소드 I 발매일(2002-02-28)을 인터뷰 공개일로 단정하지 않는다.",
-    "dateSource": "",
+    "date": "2002",
+    "datePrecision": "year",
+    "dateContext": "공개 연도 추정",
+    "dateNote": "에피소드 I 발매 후라는 본문 내용과 2003년 1월 시작된 번역 기록을 근거로 2002년경으로 추정했습니다. 정확한 월·일은 확인되지 않았습니다.",
+    "dateSource": "https://xenogearsxenosagastudyguide.blogspot.com/p/creators-talk-interview-on-sonys.html",
     "publisher": "소니 PlayStation.jp",
     "participants": [
       "타카하시 테츠야"
@@ -1049,9 +1086,11 @@ export const interviews = [
         "title": "게임과 창작을 접한 과정",
         "url": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/01.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
-    ]
+    ],
+    "dateEstimated": true
   },
   {
     "id": "xenosaga-ii-creator-who-2003",
@@ -1094,61 +1133,71 @@ export const interviews = [
         "title": "제1회 프로듀서·디렉터 외",
         "url": "https://web.archive.org/web/20041119224240/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-1.html",
         "koreanUrl": "",
-        "date": "2003-09-06"
+        "date": "2003-09-06",
+        "summary": ""
       },
       {
         "title": "제2회 각본·음악 외",
         "url": "https://web.archive.org/web/20041119223738/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-2.html",
         "koreanUrl": "",
-        "date": "2003-10-17"
+        "date": "2003-10-17",
+        "summary": ""
       },
       {
         "title": "제3회 기획자·디자이너 외",
         "url": "https://web.archive.org/web/20041119224224/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-3.html",
         "koreanUrl": "",
-        "date": "2003-11-21"
+        "date": "2003-11-21",
+        "summary": ""
       },
       {
         "title": "제4회 프로그래머·디자이너 외",
         "url": "https://web.archive.org/web/20041119223011/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-4.html",
         "koreanUrl": "",
-        "date": "2003-12-26"
+        "date": "2003-12-26",
+        "summary": ""
       },
       {
         "title": "제5회 음악 작곡가·디자이너 외",
         "url": "https://web.archive.org/web/20041118215425/http://www.monolithsoft.co.jp:80/left/special/xono_II_who/l-special-xeno2-5.html",
         "koreanUrl": "",
-        "date": "2004-02-04"
+        "date": "2004-02-04",
+        "summary": ""
       },
       {
         "title": "제6회 기획자·디자이너 외",
         "url": "https://web.archive.org/web/20041118220154/http://www.monolithsoft.co.jp:80/left/special/xono_II_who/l-special-xeno2-6.html",
         "koreanUrl": "",
-        "date": "2004-02-27"
+        "date": "2004-02-27",
+        "summary": ""
       },
       {
         "title": "제7회 프로그래머·디자이너 외",
         "url": "https://web.archive.org/web/20041119223453/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-7.html",
         "koreanUrl": "",
-        "date": "2004-04-16"
+        "date": "2004-04-16",
+        "summary": ""
       },
       {
         "title": "제8회 기획자·디자이너 외",
         "url": "https://web.archive.org/web/20050311025450/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-8.html",
         "koreanUrl": "",
-        "date": "2004-05-21"
+        "date": "2004-05-21",
+        "summary": ""
       },
       {
         "title": "제9회 프로그래머·디자이너 외",
         "url": "https://web.archive.org/web/20041119222909/http://www.monolithsoft.co.jp:80/left/special/xono_II_who/l-special-xeno2-9.html",
         "koreanUrl": "",
-        "date": "2004-06-11"
+        "date": "2004-06-11",
+        "summary": ""
       },
       {
         "title": "제10회 프로그래머·디자이너 외",
         "url": "https://web.archive.org/web/20041119223107/http://www.monolithsoft.co.jp/left/special/xono_II_who/l-special-xeno2-10.html",
         "koreanUrl": "",
-        "date": "2004-06-24"
+        "date": "2004-06-24",
+        "summary": ""
       }
     ]
   },
@@ -1187,11 +1236,11 @@ export const interviews = [
     "id": "xenosaga-ds-takahashi-takeda-archive",
     "title": "제노사가 I·II DS 타카하시·타케다 스페셜 대담",
     "originalTitle": "ゼノサーガ I・II 原案・監修高橋氏・脚本竹田氏スペシャル対談！",
-    "date": null,
-    "datePrecision": null,
-    "dateContext": "",
-    "dateNote": "원문에 발행일 미표기. 2015년은 캡처 시점이므로 발행일로 사용하지 않음.",
-    "dateSource": "",
+    "date": "2006-02",
+    "datePrecision": "month",
+    "dateContext": "공개 월 추정",
+    "dateNote": "2006년 2월 21일 대담 소개와 3월 7일 후편 업데이트 기록을 근거로 전편 공개 시기를 2006년 2월로 추정했습니다. 원문에는 정확한 게시일이 기재되지 않았습니다.",
+    "dateSource": "https://xenoonline.com/archives/1887",
     "publisher": "남코·반다이남코 공식 사이트",
     "participants": [
       "타카하시 테츠야",
@@ -1220,15 +1269,18 @@ export const interviews = [
         "title": "전편",
         "url": "https://web.archive.org/web/20151121185218/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/index.php",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "후편",
         "url": "https://web.archive.org/web/20151121185259/http://bandainamcoent.co.jp/cs/list/xenosaga1_2/interview/vol2.php",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
-    ]
+    ],
+    "dateEstimated": true
   },
   {
     "id": "xenogears-famitsu-preview-1997",
@@ -1364,31 +1416,36 @@ export const interviews = [
         "title": "1. 이야기 개요",
         "url": "https://web.archive.org/web/20010816142618/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "2. 감독의 작업",
         "url": "https://web.archive.org/web/20010816142532/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/02.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "3. 게임 개요",
         "url": "https://web.archive.org/web/20010816141550/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/03.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "4. 전투와 미니게임",
         "url": "https://web.archive.org/web/20010816142605/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/04.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "5. 제작진",
         "url": "https://web.archive.org/web/20010816143123/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/05.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1426,13 +1483,15 @@ export const interviews = [
         "title": "1. 프로듀서의 역할",
         "url": "https://web.archive.org/web/20010816141305/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/02/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "2. 새로운 제작 방식",
         "url": "https://web.archive.org/web/20010816142325/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/02/02.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1470,13 +1529,15 @@ export const interviews = [
         "title": "1. 감독과 제작진의 가교",
         "url": "https://web.archive.org/web/20010816141118/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/index.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "2. 제작진의 열정",
         "url": "https://web.archive.org/web/20010816141518/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/02.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1618,19 +1679,22 @@ export const interviews = [
         "title": "하기와라·아라이·요네사카",
         "url": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "타카하시 테츠야",
         "url": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-volume-iii_2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "스기우라 히로히데",
         "url": "https://xenogearsxenosagastudyguide.blogspot.com/p/xenosaga-episode-ii-weekly-voliii-act-5.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1671,13 +1735,15 @@ export const interviews = [
         "title": "전편 창작 과정과 인물 구성",
         "url": "https://www.siliconera.com/reflections-with-soraya-saga-part-1/",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "후편 제노기어스와 제노사가",
         "url": "https://www.siliconera.com/soraya-saga-on-xenogears-and-xenosaga/",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1753,19 +1819,22 @@ export const interviews = [
         "title": "1부",
         "url": "https://www.4gamer.net/games/368/G036837/20190416018/",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "2부",
         "url": "https://www.4gamer.net/games/368/G036837/20190416018/index_2.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       },
       {
         "title": "3부",
         "url": "https://www.4gamer.net/games/368/G036837/20190416018/index_3.html",
         "koreanUrl": "",
-        "date": ""
+        "date": "",
+        "summary": ""
       }
     ]
   },
@@ -1804,11 +1873,11 @@ export const interviews = [
     "id": "pied-piper-hagiwara-gmode-message",
     "title": "파이드 파이퍼 복각에 부친 프로듀서의 메시지",
     "originalTitle": "G-MODEアーカイブスにいただいたコメント 萩原智洋",
-    "date": null,
-    "datePrecision": null,
+    "date": "2026-04-30",
+    "datePrecision": "day",
     "dateContext": "",
-    "dateNote": "복각을 기념한 공식 메시지이지만 페이지에는 개별 메시지의 게시일이 표시되지 않습니다.",
-    "dateSource": "",
+    "dateNote": "공식 공지 목록에 해당 메시지의 게시 안내가 기재된 날짜입니다.",
+    "dateSource": "https://info.gmodecorp.com/gmodearchives/news/",
     "publisher": "G-MODE 아카이브스",
     "participants": [
       "하기와라 토모히로"
@@ -1829,6 +1898,7 @@ export const interviews = [
     "summary": "제노사가 프로듀서가 파이드 파이퍼 복각을 기념하며 원작의 각본과 지기의 이야기가 가진 의미를 소개한다. 질의응답 형식의 인터뷰가 아닌 제작자 메시지다.",
     "kind": "creator-note",
     "accessNote": "페이지 하단 하기와라 토모히로 항목의 일본어 원문을 확인했습니다.",
-    "chapters": []
+    "chapters": [],
+    "dateEstimated": false
   }
 ];

@@ -71,3 +71,28 @@ test('시리즈·공식 한국어·원문 보존과 이름 검색을 함께 적�
   assert.ok(filterInterviews(interviews, { query: 'Ｘｅｎｏｓａｇａ' }).length);
   assert.deepEqual(filterInterviews(interviews, { query: '없는인터뷰-검증-000' }), []);
 });
+
+test('추정 공개 시기는 근거와 표시를 갖고 해당 연대에 배치된다', () => {
+  for (const id of ['sony-creators-talk-takahashi', 'xenosaga-ds-takahashi-takeda-archive']) {
+    const item = interviews.find(entry => entry.id === id);
+    assert.equal(item.dateEstimated, true);
+    assert.ok(item.dateContext.includes('추정') && item.dateNote && item.dateSource);
+  }
+  const ids = filterInterviews(interviews).map(item => item.id);
+  assert.ok(ids.indexOf('xenosaga-dengeki-2001') < ids.indexOf('sony-creators-talk-takahashi'));
+  assert.ok(ids.indexOf('sony-creators-talk-takahashi') < ids.indexOf('xenosaga-ii-creator-who-2003'));
+  assert.ok(ids.indexOf('xenosaga-ds-takahashi-takeda-archive') < ids.indexOf('xenosaga-iii-mainichi-2006'));
+  const piper = interviews.find(item => item.id === 'pied-piper-hagiwara-gmode-message');
+  assert.equal(piper.date, '2026-04-30');
+  assert.equal(piper.dateEstimated, false);
+});
+
+test('공식 명칭과 확인된 한국어 목차를 유지한다', () => {
+  const item = interviews.find(entry => entry.id === 'ask-developer-xenoblade3');
+  assert.ok(item.summary.includes('환송자') && !item.summary.includes('송환자'));
+  assert.deepEqual(item.chapters.map(chapter => chapter.title), ['「제노(이질)적인 존재」끼리의 관계', '지금껏 없던 소리', '물량이 좋다']);
+  const port = interviews.find(entry => entry.id === 'iwata-xenoblade-3d');
+  assert.ok(port.title.includes('제노블레이드 크로니클스 3D'));
+  assert.equal(port.chapters[3].title, '함께 만드는 방식으로');
+  assert.equal(interviews.flatMap(entry => entry.chapters).filter(chapter => chapter.summary).length, 17);
+});
