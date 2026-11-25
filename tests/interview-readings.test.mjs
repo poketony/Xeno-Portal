@@ -4,7 +4,7 @@ import { stat } from 'node:fs/promises';
 import { interviews } from '../src/data/interviews.mjs';
 import { interviewReadings } from '../src/data/interview-readings.mjs';
 
-test('전문 번역은 원문 줄을 중복·누락 없이 대응하고 번역 범위를 표시한다', () => {
+test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없이 대응한다', () => {
   assert.equal(interviewReadings.length,29);
   assert.equal(new Set(interviewReadings.map(item=>item.id)).size,29);
   assert.equal(interviewReadings.reduce((total,item)=>total+item.sources.length,0),67);
@@ -25,7 +25,11 @@ test('전문 번역은 원문 줄을 중복·누락 없이 대응하고 번역 �
       assert.match(section.sourceSha256,/^[a-f0-9]{64}$/);
       const coverage=[];
       for(const block of section.blocks) {
-        assert.ok(block.text.trim()&&!block.text.includes('\ufffd'),reading.id);
+        if(block.omitted) {
+          assert.equal(block.omitted,true,reading.id);
+          assert.ok(['note','credits'].includes(block.kind)&&!block.speaker,reading.id);
+          assert.equal(block.text,'',reading.id);
+        } else assert.ok(block.text.trim()&&!block.text.includes('\ufffd'),reading.id);
         assert.ok(['heading','paragraph','question','answer','note','caption','credits'].includes(block.kind),reading.id);
         assert.ok(Number.isInteger(block.from)&&Number.isInteger(block.to)&&block.to>=block.from,reading.id);
         for(let i=block.from;i<=block.to;i++)coverage.push(i);

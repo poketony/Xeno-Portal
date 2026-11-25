@@ -49,7 +49,7 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
           {reading.sections.map(section => <section class="reader-section" id={section.id} data-reader-section>
             <p class="reader-page-label">{r.translatedPage.replace('{page}',String(section.page))}</p>
             <h2>{section.title}</h2>
-            {section.blocks.map(block=>block.kind==='heading' ? <h3 class="reader-original-subheading" data-source-range={`${block.from}-${block.to}`}>{block.text}</h3> : <div class:list={['reader-turn',`reader-turn-${block.kind}`,{'reader-turn-named':block.speaker||block.kind==='question'||block.kind==='answer'}]} data-source-range={`${block.from}-${block.to}`}>
+            {section.blocks.filter(block=>block.text.trim()).map(block=>block.kind==='heading' ? <h3 class="reader-original-subheading" data-source-range={`${block.from}-${block.to}`}>{block.text}</h3> : <div class:list={['reader-turn',`reader-turn-${block.kind}`,{'reader-turn-named':block.speaker||block.kind==='question'||block.kind==='answer'}]} data-source-range={`${block.from}-${block.to}`}>
               {(block.speaker||block.kind==='question'||block.kind==='answer')&&<p class="reader-speaker">{block.speaker || (block.kind==='question'?r.question:r.answer)}</p>}
               <p class="reader-translated-text">{block.text}</p>
             </div>)}
