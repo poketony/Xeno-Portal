@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { commonText, interviewText as text } from '../../data/content.mjs';
+import { interviews } from '../../data/interviews.mjs';
+import { interviewReadings } from '../../data/interview-readings.mjs';
+import { filterInterviews, formatInterviewDate } from '../../lib/interviews.mjs';
+import { homeUrl, withBase } from '../../lib/paths';
+import '../../styles/interview-reader.css';
+
+export function getStaticPaths() {
+  return interviewReadings.map(reading => ({ params: { id: reading.id }, props: { reading } }));
+}
+const { reading } = Astro.props;
+const entry = interviews.find(item => item.id === reading.id)!;
+const r = text.reader;
+const theme = entry.id.startsWith('iwata-xenoblade') ? 'xenoblade' : entry.series.length === 1 ? entry.series[0] : 'monolith';
+const ordered = filterInterviews(interviews.filter(item => interviewReadings.some(reading => reading.id === item.id)));
+const position = ordered.findIndex(item => item.id === entry.id);
+const adjacent = [{label:r.previous,entry:ordered[position-1]},{label:r.next,entry:ordered[position+1]}].filter(item=>item.entry);
+const minutes = Math.max(1, Math.ceil(reading.sections.flatMap(section=>section.paragraphs).join('').length / 500));
+const firstImage = reading.figures.find(figure=>!figure.sectionId);
+const catalogUrl = `${withBase('/interviews/')}#${entry.id}`;
+const sourceLabel = (source: typeof reading.sources[number]) => source.title || r.sourcePage.replace('{page}',String(source.page));
+---
+<Layout title={entry.title} description={reading.lead} canonicalPath={withBase(`/interviews/${entry.id}/`)}>
+  <article class={`interview-reader reader-${theme}`} id="reader-top">
+    <div class="reader-shell">
+      <nav class="breadcrumbs" aria-label={commonText.location}><a href={homeUrl}>{commonText.home}</a><span aria-hidden="true">/</span><a href={withBase('/interviews/')}>{text.title}</a><span class="reader-current-divider" aria-hidden="true">/</span><span aria-current="page">{entry.title}</span></nav>
+      <header class="reader-heading">
+        <div class="reader-kicker"><span>{r.eyebrow}</span><span>{entry.series.map(id=>text.seriesNames[id as keyof typeof text.seriesNames]).join(' / ')}</span></div>
+        <p class="reader-dateline"><time datetime={entry.date ?? undefined}>{formatInterviewDate(entry.date)}</time>{entry.dateContext && <span>{entry.dateContext}</span>}<span>{r.type}</span></p>
+        <h1>{entry.title}</h1>
+        <p class="reader-lead">{reading.lead}</p>
+        <div class="reader-heading-bottom"><p>{entry.publisher}</p><p><span>{r.pageCount.replace('{count}',String(reading.sources.length))}</span><span>{r.readTime.replace('{minutes}',String(minutes))}</span></p></div>
+      </header>
+      <div class="reader-layout">
+        <aside class="reader-sidebar">
+          <nav class="reader-toc" aria-label={r.contents}>
+            <h2>{r.contents}</h2>
+            <ol>{reading.sections.map(section=><li><a href={`#${section.id}`} data-reader-toc>{section.title}</a></li>)}</ol>
+            <a class="reader-toc-sources" href="#reader-sources" data-reader-toc>{r.sources}</a>
+          </nav>
+          <a class="reader-back" href={catalogUrl}>{r.back}</a>
+        </aside>
+        <div class="reader-body">
+          <p class="reader-notice">{r.notice}</p>
+          {firstImage && <figure class:list={['reader-figure',{'reader-figure-small':firstImage.width > 0 && firstImage.width < 420}]}><img src={withBase(firstImage.src)} alt={firstImage.alt} width={firstImage.width || undefined} height={firstImage.height || undefined} loading="eager" /><figcaption>{firstImage.caption}<a href={firstImage.sourceUrl} target="_blank" rel="noopener noreferrer">{r.imageSource}<span class="sr-only">{' '+commonText.newWindow}</span></a></figcaption></figure>}
+          {reading.sections.map(section => <section class="reader-section" id={section.id} data-reader-section>
+            <h2>{section.title}</h2>
+            {section.paragraphs.map(paragraph=><p>{paragraph}</p>)}
+            {reading.figures.filter(figure=>figure.sectionId===section.id).map(figure=><figure class:list={['reader-figure',{'reader-figure-small':figure.width > 0 && figure.width < 420}]}><img src={withBase(figure.src)} alt={figure.alt} width={figure.width || undefined} height={figure.height || undefined} loading="lazy" /><figcaption>{figure.caption}<a href={figure.sourceUrl} target="_blank" rel="noopener noreferrer">{r.imageSource}<span class="sr-only">{' '+commonText.newWindow}</span></a></figcaption></figure>)}
+          </section>)}
+          <section class="reader-sources" id="reader-sources" data-reader-section>
+            <p class="reader-source-eyebrow">{r.sourceEyebrow}</p><h2>{r.sources}</h2><p class="reader-source-intro">{r.sourcesIntro}</p>
+            <dl class="reader-facts"><dt>{r.publisher}</dt><dd>{entry.publisher}</dd><dt>{r.date}</dt><dd>{formatInterviewDate(entry.date)}{entry.dateContext && ` · ${entry.dateContext}`}</dd>{reading.recordedAt && <><dt>{r.recordedAt}</dt><dd>{formatInterviewDate(reading.recordedAt)}</dd></>}<dt>{r.participants}</dt><dd>{entry.participants.join(' · ')}</dd></dl>
+            {reading.notes.length > 0 && <div class="reader-context"><h3>{r.context}</h3>{reading.notes.map(note=><p>{note}</p>)}</div>}
+            {entry.koreanUrl && <a class="reader-official" href={entry.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' '+commonText.newWindow}</span></a>}
+            <h3 class="reader-original-heading">{r.originalChapter}</h3>
+            <ol class="reader-source-list">{reading.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{sourceLabel(source)}<span>{source.url.includes('web.archive.org') ? text.sourceTypes.archive : entry.sourceType==='reprint' ? text.sourceTypes.reprint : text.sourceTypes.original}</span><span class="sr-only">{' '+commonText.newWindow}</span></a></li>)}</ol>
+          </section>
+          <div class="reader-end"><a href={catalogUrl}>{r.back}</a><a href="#reader-top">{r.top}</a></div>
+        </div>
+      </div>
+      <nav class="reader-adjacent" aria-label={r.related}>{adjacent.map(({label,entry:item})=><a href={withBase(`/interviews/${item.id}/`)}><span>{label}</span><h2>{item.title}</h2><p>{formatInterviewDate(item.date)}</p></a>)}</nav>
+    </div>
+  </article>
+</Layout>
+<script>
+  const headings=[...document.querySelectorAll<HTMLElement>('[data-reader-section]')];
+  const links=[...document.querySelectorAll<HTMLAnchorElement>('[data-reader-toc]')];
+  if (headings.length && 'IntersectionObserver' in window) {
+    const observer=new IntersectionObserver(entries=>{
+      const current=entries.filter(entry=>entry.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];
+      if (!current) return;
+      links.forEach(link=>{if(link.hash===`#${current.target.id}`)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});
+    },{rootMargin:'-10% 0px -65% 0px'});
+    headings.forEach(heading=>observer.observe(heading));
+  }
+</script>

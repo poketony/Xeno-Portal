@@ -2,24 +2,32 @@
 import Layout from '../../layouts/Layout.astro';
 import { commonText, interviewText as text } from '../../data/content.mjs';
 import { interviews, interviewCheckedAt } from '../../data/interviews.mjs';
+import { interviewReadings } from '../../data/interview-readings.mjs';
 import { filterInterviews, formatInterviewDate } from '../../lib/interviews.mjs';
 import { homeUrl, withBase } from '../../lib/paths';
 import '../../styles/interviews.css';
 
 const entries = filterInterviews(interviews);
+const readings = new Map(interviewReadings.map(reading=>[reading.id,reading]));
+const featured = [
+  {id:'xenogears-staff-1998',image:'/images/xenogears-art.webp'},
+  {id:'xenosaga-gamespot-japan-takahashi-2001',image:'/images/xenosaga-art.webp'},
+  {id:'iwata-xenoblade-development',image:'/images/xenoblade-art.jpg'}
+].map(feature=>({...feature,entry:interviews.find(item=>item.id===feature.id)!}));
 ---
 <Layout title={text.title} description={text.description}>
   <div class="interview-archive" data-interview-archive>
     <nav class="breadcrumbs" aria-label={commonText.location}><a href={homeUrl}>{commonText.home}</a><span aria-hidden="true">/</span><span aria-current="page">{text.title}</span></nav>
     <header class="interview-heading">
       <p class="eyebrow">{text.eyebrow}</p><h1>{text.heading}</h1><p class="interview-lead">{text.introduction}</p>
-      <div class="interview-heading-meta"><span>{text.collectionCount.replace('{count}', String(entries.length))}</span><span>{text.updated} <time datetime={interviewCheckedAt}>{interviewCheckedAt}</time></span></div>
+      <div class="interview-heading-meta"><span>{text.collectionCount.replace('{count}', String(entries.length))}</span><span class="interview-reading-count">{text.readingCount.replace('{count}',String(readings.size))}</span><span>{text.updated} <time datetime={interviewCheckedAt}>{interviewCheckedAt}</time></span></div>
       <div class="interview-heading-actions"><a class="interview-saga-shortcut" href={`${withBase('/interviews/')}?series=xenosaga&source=original`}>{text.sagaOriginals}</a><button class="interview-search-toggle" type="button" aria-expanded="false" aria-controls="interview-filters" data-interview-toggle hidden>{text.searchToggle}<span aria-hidden="true">+</span></button></div>
     </header>
+    <section class="interview-featured" aria-labelledby="featured-heading" data-interview-featured><h2 id="featured-heading">{text.featured}</h2><div class="interview-featured-grid">{featured.map(({entry,image})=><a class={`interview-featured-card featured-${entry.series[0]}`} href={withBase(`/interviews/${entry.id}/`)}><div class="interview-featured-image"><img src={withBase(image)} alt="" width="800" height="450" loading="lazy" /><span>{text.seriesNames[entry.series[0] as keyof typeof text.seriesNames]}</span></div><div class="interview-featured-copy"><p>{formatInterviewDate(entry.date)}</p><h3>{entry.title}</h3><span>{text.reading}</span></div></a>)}</div></section>
     <form class="interview-filters" id="interview-filters" role="search" aria-label={text.searchLabel} hidden>
       <div class="interview-search-field"><label for="interview-query">{text.search}</label><input id="interview-query" type="search" name="q" placeholder={text.placeholder} autocomplete="off" /></div>
       <div><label for="interview-series">{text.series}</label><select id="interview-series" name="series"><option value="">{text.allSeries}</option>{Object.entries(text.seriesNames).map(([id, name]) => <option value={id}>{name}</option>)}</select></div>
-      <div><label for="interview-language">{text.language}</label><select id="interview-language" name="language"><option value="">{text.allLanguages}</option><option value="ko">{text.officialKoreanOnly}</option></select></div>
+      <div><label for="interview-language">{text.language}</label><select id="interview-language" name="language"><option value="">{text.allLanguages}</option><option value="reading">{text.readingsOnly}</option><option value="ko">{text.officialKoreanOnly}</option></select></div>
       <div><label for="interview-source">{text.source}</label><select id="interview-source" name="source"><option value="">{text.allSources}</option><option value="original">{text.originalOnly}</option><option value="archive">{text.archivedOnly}</option><option value="reprint">{text.reprintOnly}</option></select></div>
       <div><label for="interview-sort">{text.sort}</label><select id="interview-sort" name="sort"><option value="oldest">{text.oldest}</option><option value="newest">{text.newest}</option></select></div>
       <button type="reset">{text.reset}</button>
@@ -29,11 +37,12 @@ const entries = filterInterviews(interviews);
       {entries.map((item) => <article class="interview-entry" id={item.id} data-interview-id={item.id}>
         <div class="interview-date">{item.date ? <time datetime={item.date}>{formatInterviewDate(item.date)}</time> : <span>{text.undated}</span>}{item.dateContext && <span class="interview-date-context">{item.dateContext}</span>}<span class={`interview-source-tag source-${item.sourceType}`}>{text.sourceTypes[item.sourceType as keyof typeof text.sourceTypes]}</span></div>
         <div class="interview-copy">
-          <div class="interview-tags"><span>{item.publisher}</span><span>{text.kinds[item.kind as keyof typeof text.kinds]}</span>{item.series.map((id) => <span data-series={id}>{text.seriesNames[id as keyof typeof text.seriesNames]}</span>)}{item.koreanUrl && <span class="interview-korean-badge">{text.koreanBadge}</span>}</div>
-          <h2>{item.title}</h2>{item.originalTitle && <p class="interview-original-title">{item.originalTitle}</p>}
+          <div class="interview-tags"><span>{item.publisher}</span><span>{text.kinds[item.kind as keyof typeof text.kinds]}</span>{item.series.map((id) => <span data-series={id}>{text.seriesNames[id as keyof typeof text.seriesNames]}</span>)}{readings.has(item.id) && <span class="interview-reading-badge">{text.readingBadge}</span>}{item.koreanUrl && <span class="interview-korean-badge">{text.koreanBadge}</span>}</div>
+          <h2>{readings.has(item.id) ? <a href={withBase(`/interviews/${item.id}/`)}>{item.title}</a> : item.title}</h2>{item.originalTitle && <p class="interview-original-title">{item.originalTitle}</p>}
           <p class="interview-participants"><span>{text.participants}</span>{item.participants.join(' · ')}</p>
           {item.summary && <p class="interview-summary"><span class="sr-only">{text.summary}: </span>{item.summary}</p>}
           <div class="interview-links">
+            {readings.has(item.id) && <a class="interview-read interview-read-local" href={withBase(`/interviews/${item.id}/`)}>{text.reading}</a>}
             {item.koreanUrl && <a class="interview-read interview-read-korean" href={item.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}
             <a class="interview-read" href={item.archiveUrl || item.originalUrl} target="_blank" rel="noopener noreferrer">{item.sourceType === 'archive' ? text.archived : item.sourceType === 'reprint' ? text.reprint : text.original}<span class="interview-language">{item.languages.filter((id) => id !== 'ko').map((id) => text.languages[id as keyof typeof text.languages]).join(' · ')}</span><span class="sr-only">{' ' + commonText.newWindow}</span></a>
           </div>
@@ -57,10 +66,12 @@ const entries = filterInterviews(interviews);
     const toggle = root.querySelector<HTMLButtonElement>('[data-interview-toggle]')!;
     const list = root.querySelector<HTMLElement>('[data-interview-list]')!;
     const cards = new Map([...list.querySelectorAll<HTMLElement>('[data-interview-id]')].map((card) => [card.dataset.interviewId!, card]));
+    const readable = new Set([...cards.entries()].filter(([,card])=>card.querySelector('.interview-read-local')).map(([id])=>id));
     const value = (name: string) => (form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement).value;
     const update = () => {
       const filters = { query: value('q'), series: value('series'), language: value('language'), source: value('source'), sort: value('sort') };
-      const matching = filterInterviews(interviews, filters);
+      const matching = filterInterviews(interviews, {...filters,language:filters.language==='reading'?'':filters.language}).filter(item=>filters.language!=='reading'||readable.has(item.id));
+      root.querySelector<HTMLElement>('[data-interview-featured]')!.hidden = !!(filters.query || filters.series || filters.language || filters.source);
       const ids = new Set(matching.map((item) => item.id));
       cards.forEach((card, id) => { card.hidden = !ids.has(id); });
       matching.forEach((item) => list.append(cards.get(item.id)!));

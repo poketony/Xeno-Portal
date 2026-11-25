@@ -428,7 +428,7 @@ export const interviews = [
         "summary": "주인공을 아바타로 바꾸며 생긴 각본과 캐릭터 제작의 어려움을 소개합니다. 다양한 성격의 음성과 전투 중 대화를 통해 플레이어의 선택과 동료 간 호흡을 표현한 과정을 이야기합니다."
       },
       {
-        "title": "차를 고르듯 ドール을",
+        "title": "차를 고르듯 돌을",
         "url": "https://www.nintendo.co.jp/wiiu/interview/ax5j/vol1/index5.html",
         "koreanUrl": "",
         "date": "",
@@ -1059,8 +1059,8 @@ export const interviews = [
     "date": "2002",
     "datePrecision": "year",
     "dateContext": "공개 연도 추정",
-    "dateNote": "에피소드 I 발매 후라는 본문 내용과 2003년 1월 시작된 번역 기록을 근거로 2002년경으로 추정했습니다. 정확한 월·일은 확인되지 않았습니다.",
-    "dateSource": "https://xenogearsxenosagastudyguide.blogspot.com/p/creators-talk-interview-on-sonys.html",
+    "dateNote": "원문 3쪽에 취재일이 2002년 2월 26일로 명시되어 있습니다. 정확한 웹 공개일은 확인되지 않아 공개 연도를 2002년으로 추정 표시했습니다.",
+    "dateSource": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
     "publisher": "소니 PlayStation.jp",
     "participants": [
       "타카하시 테츠야"
@@ -1080,11 +1080,25 @@ export const interviews = [
     "sourceType": "archive",
     "summary": "타카하시가 어린 시절의 게임 경험과 독서 취향, 팔콤에서 일을 시작한 계기를 이야기한다. 작은 제작팀에서 에피소드 I의 대규모 제작으로 이어진 경력도 돌아본다.",
     "kind": "interview",
-    "accessNote": "첫 페이지의 일본어 원문을 확인했습니다. 이어지는 두 번째 페이지의 보존 상태는 추가 확인이 필요합니다.",
+    "accessNote": "대담 본문 3쪽을 모두 확인했습니다. 일부 제목·사진 이미지의 보존본은 남아 있지 않습니다.",
     "chapters": [
       {
-        "title": "게임과 창작을 접한 과정",
+        "title": "게임 제작의 시작",
         "url": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/01.html",
+        "koreanUrl": "",
+        "date": "",
+        "summary": ""
+      },
+      {
+        "title": "제노기어스의 기획과 표현",
+        "url": "https://web.archive.org/web/20050205173819/http://www.playstation.jp/psstyle/talk/02/02.html",
+        "koreanUrl": "",
+        "date": "",
+        "summary": ""
+      },
+      {
+        "title": "제노사가와 창작의 관심사",
+        "url": "https://web.archive.org/web/20050205174026/http://www.playstation.jp/psstyle/talk/02/03.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
@@ -1410,7 +1424,7 @@ export const interviews = [
     "sourceType": "archive",
     "summary": "제노사가의 이야기 구상부터 감독의 역할, 게임과 전투 설계, 제작진의 협업을 폭넓게 묻는 발매 전 인터뷰다. 당시 일본어 원문이 여러 쪽으로 남아 있다.",
     "kind": "interview",
-    "accessNote": "목차는 6쪽이지만 현재 1~5쪽의 일본어 본문을 확인했습니다. 마지막 6쪽의 원문 보존본은 찾지 못했습니다.",
+    "accessNote": "일본어 인터뷰 6쪽의 원문 보존본을 모두 연결했습니다.",
     "chapters": [
       {
         "title": "1. 이야기 개요",
@@ -1443,6 +1457,13 @@ export const interviews = [
       {
         "title": "5. 제작진",
         "url": "https://web.archive.org/web/20010816143123/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/05.html",
+        "koreanUrl": "",
+        "date": "",
+        "summary": ""
+      },
+      {
+        "title": "팬들의 지지와 다음 작품",
+        "url": "https://web.archive.org/web/20010816143123/http://www.zdnet.co.jp/gamespot/ps2/xeno/staff/01/06.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
