@@ -23,6 +23,23 @@
 | ミオ | 미오 | `Xenoblade_3_JPN_KOR.txt` | 66870 / 66872 |
 | アイオニオン | 아이오니온 | `Xenoblade_3_JPN_KOR.txt` | 275 / 278 |
 | ウロボロス | 우로보로스 | `Xenoblade_3_JPN_KOR.txt` | 130916 / 130918 |
+| シュルク | 슈르크 | `Xenoblade_1_DE_JPN_KOR.txt` | 10642 / 10644 |
+| つながる未来 | 이어지는 미래 | `Xenoblade_1_DE_JPN_KOR.txt` | 47946 / 47948 |
+| 未来視 | 비전 | `Xenoblade_1_DE_JPN_KOR.txt` | 712 / 714 |
+| レックス | 렉스 | `Xenoblade_2_JPN_KOR.txt` | 479 / 483 |
+| 新たなる未来 | 새로운 미래 | `Xenoblade_3_JPN_KOR.txt` | 428057 / 428060 |
+
+## 제노사가 데이터베이스 표기
+
+사용자가 제공한 『제노사가 에피소드 III』의 `DBC_KOR.txt`를 기준으로 삼습니다. 번호는 데이터베이스 항목의 오프셋입니다.
+
+| 원문 | 적용 표기 | 오프셋 |
+| --- | --- | --- |
+| ミルチア / Miltia | 미르치아 | `0x31fb2` |
+| 第二ミルチア / Second Miltia | 제2 미르치아 | `0x3046b` |
+| 天の車 / Proto Merkabah | 하늘의 바퀴 | `0x4d56a` |
+| chaos | 케이오스 | `0xc60b` |
+| 星団連邦 / Galactic Federation | 성단 연방 | `0x40bc7` |
 
 ## 공식 웹 자료와 사용자 확정 표기
 
