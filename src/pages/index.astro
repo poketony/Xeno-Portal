@@ -1,6 +1,7 @@
 ---
 import HomeChronicle from '../components/HomeChronicle.astro';
-import { homeText } from '../data/content.mjs';
+import { homeText, interviewText } from '../data/content.mjs';
+import '../styles/interviews.css';
 import Layout from '../layouts/Layout.astro';
 import { siteConfig } from '../data/site.mjs';
 import { series } from '../data/catalog';
@@ -29,5 +30,6 @@ import { seriesUrl, withBase } from '../lib/paths';
     </div>
   </section>
   <HomeChronicle />
+  <section class="interview-home-entry" id="interviews" aria-labelledby="interview-home-title"><div><p class="eyebrow">{interviewText.eyebrow}</p><h2 id="interview-home-title">{interviewText.title}</h2><p>{interviewText.homeDescription}</p></div><a href={withBase('/interviews/')}>{interviewText.browse}</a></section>
   <aside class="home-note"><span class="note-cross" aria-hidden="true">+</span><div><p class="eyebrow">{homeText.archive.eyebrow}</p><p>{homeText.archive.title}</p><span>{homeText.archive.description}</span></div></aside>
 </Layout>

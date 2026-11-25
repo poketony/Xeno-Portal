@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { commonText, interviewText as text } from '../../data/content.mjs';
+import { interviews, interviewCheckedAt } from '../../data/interviews.mjs';
+import { filterInterviews, formatInterviewDate } from '../../lib/interviews.mjs';
+import { homeUrl, withBase } from '../../lib/paths';
+import '../../styles/interviews.css';
+
+const entries = filterInterviews(interviews);
+---
+<Layout title={text.title} description={text.description}>
+  <div class="interview-archive" data-interview-archive>
+    <nav class="breadcrumbs" aria-label={commonText.location}><a href={homeUrl}>{commonText.home}</a><span aria-hidden="true">/</span><span aria-current="page">{text.title}</span></nav>
+    <header class="interview-heading">
+      <p class="eyebrow">{text.eyebrow}</p><h1>{text.heading}</h1><p class="interview-lead">{text.introduction}</p>
+      <div class="interview-heading-meta"><span>{text.collectionCount.replace('{count}', String(entries.length))}</span><span>{text.updated} <time datetime={interviewCheckedAt}>{interviewCheckedAt}</time></span></div>
+      <a class="interview-saga-shortcut" href={`${withBase('/interviews/')}?series=xenosaga&source=original`}>{text.sagaOriginals}</a>
+    </header>
+    <form class="interview-filters" role="search" aria-label={text.searchLabel} hidden>
+      <div class="interview-search-field"><label for="interview-query">{text.search}</label><input id="interview-query" type="search" name="q" placeholder={text.placeholder} autocomplete="off" /></div>
+      <div><label for="interview-series">{text.series}</label><select id="interview-series" name="series"><option value="">{text.allSeries}</option>{Object.entries(text.seriesNames).map(([id, name]) => <option value={id}>{name}</option>)}</select></div>
+      <div><label for="interview-language">{text.language}</label><select id="interview-language" name="language"><option value="">{text.allLanguages}</option><option value="ko">{text.officialKoreanOnly}</option></select></div>
+      <div><label for="interview-source">{text.source}</label><select id="interview-source" name="source"><option value="">{text.allSources}</option><option value="original">{text.originalOnly}</option><option value="archive">{text.archivedOnly}</option><option value="reprint">{text.reprintOnly}</option></select></div>
+      <div><label for="interview-sort">{text.sort}</label><select id="interview-sort" name="sort"><option value="oldest">{text.oldest}</option><option value="newest">{text.newest}</option></select></div>
+      <button type="reset">{text.reset}</button>
+    </form>
+    <div class="interview-results"><p role="status" aria-live="polite" data-interview-count>{text.count.replace('{count}', String(entries.length))}</p><p>{text.dateOrder}</p></div>
+    <div class="interview-list" data-interview-list>
+      {entries.map((item) => <article class="interview-entry" id={item.id} data-interview-id={item.id}>
+        <div class="interview-date">{item.date ? <time datetime={item.date}>{formatInterviewDate(item.date)}</time> : <span>{text.undated}</span>}{item.dateContext && <span class="interview-date-context">{item.dateContext}</span>}<span class={`interview-source-tag source-${item.sourceType}`}>{text.sourceTypes[item.sourceType as keyof typeof text.sourceTypes]}</span></div>
+        <div class="interview-copy">
+          <div class="interview-tags"><span>{item.publisher}</span><span>{text.kinds[item.kind as keyof typeof text.kinds]}</span>{item.series.map((id) => <span data-series={id}>{text.seriesNames[id as keyof typeof text.seriesNames]}</span>)}{item.koreanUrl && <span class="interview-korean-badge">{text.koreanBadge}</span>}</div>
+          <h2>{item.title}</h2>{item.originalTitle && <p class="interview-original-title">{item.originalTitle}</p>}
+          <p class="interview-participants"><span>{text.participants}</span>{item.participants.join(' · ')}</p>
+          {item.summary && <p class="interview-summary"><span class="sr-only">{text.summary}: </span>{item.summary}</p>}
+          <div class="interview-links">
+            {item.koreanUrl && <a class="interview-read interview-read-korean" href={item.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}
+            <a class="interview-read" href={item.archiveUrl || item.originalUrl} target="_blank" rel="noopener noreferrer">{item.sourceType === 'archive' ? text.archived : item.sourceType === 'reprint' ? text.reprint : text.original}<span class="interview-language">{item.languages.filter((id) => id !== 'ko').map((id) => text.languages[id as keyof typeof text.languages]).join(' · ')}</span><span class="sr-only">{' ' + commonText.newWindow}</span></a>
+          </div>
+          {item.chapters.length > 0 && <details class="interview-chapters"><summary>{text.chapters.replace('{count}', String(item.chapters.length))}</summary><ol>{item.chapters.map((chapter) => <li><a href={chapter.url} target="_blank" rel="noopener noreferrer">{chapter.title}<span class="sr-only">{' ' + commonText.newWindow}</span></a>{chapter.date && <time datetime={chapter.date}>{formatInterviewDate(chapter.date)}</time>}{chapter.koreanUrl && <a class="interview-chapter-korean" href={chapter.koreanUrl} target="_blank" rel="noopener noreferrer">{text.chapterKorean}<span class="sr-only">{' ' + commonText.newWindow}</span></a>}</li>)}</ol></details>}
+          {(item.dateNote || item.accessNote || item.dateSource || item.archiveUrl) && <details class="interview-source-notes"><summary>{text.sourceNotes}</summary>{item.dateNote && <p>{item.dateNote}</p>}{item.accessNote && <p>{item.accessNote}</p>}<div>{item.archiveUrl && <a href={item.originalUrl} target="_blank" rel="noopener noreferrer">{text.oldAddress}</a>}{item.dateSource && <a href={item.dateSource} target="_blank" rel="noopener noreferrer">{text.dateSource}</a>}</div></details>}
+        </div>
+      </article>)}
+    </div>
+    <div class="interview-empty" data-interview-empty hidden><h2>{text.empty}</h2><p>{text.emptyDescription}</p></div>
+    <aside class="interview-coverage"><p>{text.coverage}</p><p>{text.readingNote}</p></aside>
+  </div>
+</Layout>
+<script>
+  import { interviews } from '../../data/interviews.mjs';
+  import { interviewText } from '../../data/content.mjs';
+  import { filterInterviews } from '../../lib/interviews.mjs';
+
+  const root = document.querySelector<HTMLElement>('[data-interview-archive]');
+  if (root) {
+    const form = root.querySelector<HTMLFormElement>('form')!;
+    const list = root.querySelector<HTMLElement>('[data-interview-list]')!;
+    const cards = new Map([...list.querySelectorAll<HTMLElement>('[data-interview-id]')].map((card) => [card.dataset.interviewId!, card]));
+    const value = (name: string) => (form.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement).value;
+    const update = () => {
+      const filters = { query: value('q'), series: value('series'), language: value('language'), source: value('source'), sort: value('sort') };
+      const matching = filterInterviews(interviews, filters);
+      const ids = new Set(matching.map((item) => item.id));
+      cards.forEach((card, id) => { card.hidden = !ids.has(id); });
+      matching.forEach((item) => list.append(cards.get(item.id)!));
+      root.querySelector('[data-interview-count]')!.textContent = interviewText.count.replace('{count}', String(matching.length));
+      root.querySelector<HTMLElement>('[data-interview-empty]')!.hidden = matching.length > 0;
+      const url = new URL(location.href);
+      for (const [name, field] of [['q', 'query'], ['series', 'series'], ['language', 'language'], ['source', 'source'], ['sort', 'sort']] as const) {
+        const selected = filters[field];
+        if (selected && !(name === 'sort' && selected === 'oldest')) url.searchParams.set(name, selected);
+        else url.searchParams.delete(name);
+      }
+      history.replaceState(null, '', url);
+    };
+    for (const [key, selected] of new URLSearchParams(location.search)) {
+      const field = form.elements.namedItem(key);
+      if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement) field.value = selected;
+    }
+    form.hidden = false;
+    form.addEventListener('submit', (event) => { event.preventDefault(); update(); });
+    form.addEventListener('input', update);
+    form.addEventListener('change', update);
+    form.addEventListener('reset', () => requestAnimationFrame(update));
+    update();
+  }
+</script>
