@@ -8,15 +8,12 @@ test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없�
   assert.equal(interviewReadings.length,29);
   assert.equal(new Set(interviewReadings.map(item=>item.id)).size,29);
   assert.equal(interviewReadings.reduce((total,item)=>total+item.sources.length,0),67);
-  const translated=interviewReadings.filter(reading=>reading.sections.length);
-  assert.equal(translated.length,18);
-  assert.equal(translated.filter(reading=>reading.complete).length,13);
-  assert.equal(translated.reduce((n,reading)=>n+reading.sections.length,0),22);
-  assert.equal(translated.reduce((n,reading)=>n+reading.sections.reduce((m,section)=>m+section.sourceLineCount,0),0),1910);
+  assert.equal(interviewReadings.reduce((total,item)=>total+item.sections.length,0),67);
   for(const reading of interviewReadings) {
     assert.ok(interviews.some(item=>item.id===reading.id),reading.id);
     assert.ok(reading.sources.length,reading.id);
-    assert.equal(reading.complete,reading.sections.length===reading.sources.length);
+    assert.equal(reading.complete,true,reading.id);
+    assert.deepEqual(reading.translatedPages,reading.sources.map(source=>source.page),reading.id);
     assert.deepEqual(reading.translatedPages,reading.sections.map(section=>section.page));
     assert.equal(new Set(reading.sections.map(section=>section.id)).size,reading.sections.length);
     for(const section of reading.sections) {
@@ -43,7 +40,7 @@ test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없�
   }
 });
 
-test('원문 목차를 유지하고 일부 번역을 전체 완역으로 표시하지 않는다',()=>{
+test('여러 쪽으로 된 연재의 원문 목차와 취재일을 유지한다',()=>{
   for(const [id,count] of [['iwata-xenoblade-development',5],['iwata-xenoblade-3d',5],['iwata-xenoblade-x',7]]) {
     const reading=interviewReadings.find(item=>item.id===id);
     assert.deepEqual(reading.sources.map(source=>source.page),Array.from({length:count},(_,i)=>i+1));
@@ -53,11 +50,6 @@ test('원문 목차를 유지하고 일부 번역을 전체 완역으로 표시�
     assert.equal(interviews.find(item=>item.id===id).chapters.length,count);
   }
   assert.equal(interviewReadings.find(item=>item.id==='sony-creators-talk-takahashi').recordedAt,'2002-02-26');
-  for(const [id,pages] of [['xenosaga-gamespot-japan-takahashi-2001',[3,4]],['xenosaga-gamespot-japan-sugiura-2001',[2]],['xenosaga-ii-creator-who-2003',[1,2,3,4]],['iwata-xenoblade-development',[1]],['soraya-saga-siliconera-2010',[2]]]) {
-    const reading=interviewReadings.find(item=>item.id===id);
-    assert.deepEqual(reading.translatedPages,pages);
-    assert.equal(reading.complete,false);
-  }
 });
 
 test('본문 사진은 로컬 파일·대체 텍스트·출처를 갖고 알맞은 절에 들어간다',async()=>{

@@ -47,7 +47,7 @@ export const interviewText = {
   "reading": "한국어 번역 읽기",
   "readingBadge": "한국어 번역",
   "partialTranslation": "일부 쪽 번역",
-  "readingCount": "한국어 번역 {count}건 · 일부 쪽 번역 포함",
+  "readingCount": "한국어 번역 {count}건",
   "featured": "먼저 읽어 볼 이야기",
   "reader": {
     "eyebrow": "THE MAKING OF XENO",
