@@ -51,7 +51,7 @@ const pageLabel = (page: number) => r.pageLabel.replace('{page}',String(page));
           {firstImage && <InterviewFigures figures={[firstImage]} eager />}
           {reading.sections.map(section => <section class="reader-section" id={section.id} data-reader-section>
             <p class="reader-page-label">{pageLabel(section.page)}</p>
-            <h2>{section.title}</h2>
+            {(reading.sections.length > 1 || section.title !== entry.title) && <h2>{section.title}</h2>}
             <InterviewFigures figures={figuresAt(section.id)} />
             <InterviewFigures figures={figuresAt(section.id, 0)} inline />
             {section.blocks.map(block => <>

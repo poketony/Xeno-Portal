@@ -4,7 +4,7 @@ import { stat } from 'node:fs/promises';
 import { interviews } from '../src/data/interviews.mjs';
 import { interviewReadings } from '../src/data/interview-readings.mjs';
 
-test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없이 대응한다', () => {
+test('전문 번역은 원문 줄과 표시에서 제외한 범위를 중복·누락 없이 대응한다', () => {
   const expectedIds=interviews.filter(item=>!item.koreanUrl).map(item=>item.id).sort();
   assert.deepEqual(interviewReadings.map(item=>item.id).sort(),expectedIds);
   assert.equal(interviewReadings.reduce((total,item)=>total+item.sources.length,0),92);
@@ -24,7 +24,7 @@ test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없�
       for(const block of section.blocks) {
         if(block.omitted) {
           assert.equal(block.omitted,true,reading.id);
-          assert.ok(['note','credits'].includes(block.kind)&&!block.speaker,reading.id);
+          assert.ok(['heading','note','credits'].includes(block.kind)&&!block.speaker,reading.id);
           assert.equal(block.text,'',reading.id);
         } else assert.ok(block.text.trim()&&!block.text.includes('\ufffd'),reading.id);
         assert.ok(['heading','paragraph','question','answer','note','caption','credits'].includes(block.kind),reading.id);
@@ -37,6 +37,19 @@ test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없�
     assert.equal(new Set(reading.sources.map(source=>source.url)).size,reading.sources.length);
     for(const source of reading.sources) assert.match(source.url,/^https?:\/\//);
     assert.ok(!JSON.stringify(reading).includes('C:\\Users\\'),reading.id);
+  }
+});
+
+test('각 쪽의 제목과 소제목이 본문에서 중복되지 않는다', () => {
+  const normalizeHeading = title => title.normalize('NFKC').toLowerCase()
+    .replace(/^\s*\d+\s*[.)]\s*/u,'').replace(/[^\p{L}\p{N}]/gu,'');
+  for (const reading of interviewReadings) {
+    for (const section of reading.sections) {
+      const headings = [section.title, ...section.blocks
+        .filter(block=>block.kind==='heading' && !block.omitted)
+        .map(block=>block.text)].map(normalizeHeading);
+      assert.equal(new Set(headings).size,headings.length,`${reading.id} ${section.page}쪽`);
+    }
   }
 });
 
