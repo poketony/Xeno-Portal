@@ -65,7 +65,6 @@ export const interviewText = {
     "sources": "원문과 자료 안내",
     "sourceEyebrow": "SOURCE NOTES",
     "sourcesIntro": "원문을 페이지 순서대로 연결했습니다.",
-    "context": "번역·자료 안내",
     "publisher": "매체",
     "date": "공개 시기",
     "recordedAt": "취재일",

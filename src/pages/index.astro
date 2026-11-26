@@ -1,5 +1,6 @@
 ---
 import HomeChronicle from '../components/HomeChronicle.astro';
+import InterviewFeatured from '../components/InterviewFeatured.astro';
 import { homeText, interviewText, historyText } from '../data/content.mjs';
 import '../styles/interviews.css';
 import Layout from '../layouts/Layout.astro';
@@ -30,7 +31,10 @@ import { seriesUrl, withBase } from '../lib/paths';
     </div>
   </section>
   <HomeChronicle />
-  <section class="interview-home-entry" id="interviews" aria-labelledby="interview-home-title"><div><p class="eyebrow">{interviewText.eyebrow}</p><h2 id="interview-home-title">{interviewText.title}</h2><p>{interviewText.homeDescription}</p></div><a href={withBase('/interviews/')}>{interviewText.browse}</a></section>
+  <div class="interview-home">
+    <section class="interview-home-entry" id="interviews" aria-labelledby="interview-home-title"><div><p class="eyebrow">{interviewText.eyebrow}</p><h2 id="interview-home-title">{interviewText.title}</h2><p>{interviewText.homeDescription}</p></div><a href={withBase('/interviews/')}>{interviewText.browse}</a></section>
+    <InterviewFeatured />
+  </div>
   <details class="chronicle-sources home-interview-sources" id="sources" open><summary>{historyText.sourcesTitle}<span aria-hidden="true">+</span></summary><ol>{historyText.sources.map((source, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<small>{source.publisher} ↗</small></a></li>)}</ol></details>
   <aside class="home-note"><span class="note-cross" aria-hidden="true">+</span><div><p class="eyebrow">{homeText.archive.eyebrow}</p><p>{homeText.archive.title}</p><span>{homeText.archive.description}</span></div></aside>
 </Layout>

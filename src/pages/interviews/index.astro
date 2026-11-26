@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import InterviewFeatured from '../../components/InterviewFeatured.astro';
 import { commonText, interviewText as text } from '../../data/content.mjs';
 import { interviews, interviewCheckedAt } from '../../data/interviews.mjs';
 import { interviewReadings } from '../../data/interview-readings.mjs';
@@ -9,11 +10,6 @@ import '../../styles/interviews.css';
 
 const entries = filterInterviews(interviews);
 const readings = new Map(interviewReadings.filter(reading=>reading.sections.length).map(reading=>[reading.id,reading]));
-const featured = [
-  {id:'xenogears-staff-1998',image:'/images/xenogears-art.webp'},
-  {id:'xenosaga-gamespot-japan-takahashi-2001',image:'/images/xenosaga-art.webp'},
-  {id:'iwata-xenoblade-development',image:'/images/xenoblade-art.jpg'}
-].map(feature=>({...feature,entry:interviews.find(item=>item.id===feature.id)!}));
 ---
 <Layout title={text.title} description={text.description}>
   <div class="interview-archive" data-interview-archive>
@@ -23,7 +19,7 @@ const featured = [
       <div class="interview-heading-meta"><span>{text.collectionCount.replace('{count}', String(entries.length))}</span><span class="interview-reading-count">{text.readingCount.replace('{count}',String(readings.size))}</span><span>{text.updated} <time datetime={interviewCheckedAt}>{interviewCheckedAt}</time></span></div>
       <div class="interview-heading-actions"><a class="interview-saga-shortcut" href={`${withBase('/interviews/')}?series=xenosaga&source=original`}>{text.sagaOriginals}</a><button class="interview-search-toggle" type="button" aria-expanded="false" aria-controls="interview-filters" data-interview-toggle hidden>{text.searchToggle}<span aria-hidden="true">+</span></button></div>
     </header>
-    <section class="interview-featured" aria-labelledby="featured-heading" data-interview-featured><h2 id="featured-heading">{text.featured}</h2><div class="interview-featured-grid">{featured.map(({entry,image})=><a class={`interview-featured-card featured-${entry.series[0]}`} href={withBase(`/interviews/${entry.id}/`)}><div class="interview-featured-image"><img src={withBase(image)} alt="" width="800" height="450" loading="lazy" /><span>{text.seriesNames[entry.series[0] as keyof typeof text.seriesNames]}</span></div><div class="interview-featured-copy"><p>{formatInterviewDate(entry.date)}</p><h3>{entry.title}</h3><span>{text.reading}</span></div></a>)}</div></section>
+    <InterviewFeatured />
     <form class="interview-filters" id="interview-filters" role="search" aria-label={text.searchLabel} hidden>
       <div class="interview-search-field"><label for="interview-query">{text.search}</label><input id="interview-query" type="search" name="q" placeholder={text.placeholder} autocomplete="off" /></div>
       <div><label for="interview-series">{text.series}</label><select id="interview-series" name="series"><option value="">{text.allSeries}</option>{Object.entries(text.seriesNames).map(([id, name]) => <option value={id}>{name}</option>)}</select></div>
@@ -71,7 +67,7 @@ const featured = [
     const update = () => {
       const filters = { query: value('q'), series: value('series'), language: value('language'), source: value('source'), sort: value('sort') };
       const matching = filterInterviews(interviews, {...filters,language:filters.language==='reading'?'':filters.language}).filter(item=>filters.language!=='reading'||readable.has(item.id));
-      root.querySelector<HTMLElement>('[data-interview-featured]')!.hidden = !!(filters.query || filters.series || filters.language || filters.source);
+      root.querySelector<HTMLElement>('[data-interview-featured]')!.hidden = !!(filters.query || filters.series || filters.language === 'ko' || filters.source);
       const ids = new Set(matching.map((item) => item.id));
       cards.forEach((card, id) => { card.hidden = !ids.has(id); });
       matching.forEach((item) => list.append(cards.get(item.id)!));

@@ -1,0 +1,28 @@
+---
+import { interviewText as text } from '../data/content.mjs';
+import { interviews } from '../data/interviews.mjs';
+import { formatInterviewDate } from '../lib/interviews.mjs';
+import { withBase } from '../lib/paths';
+
+const featured = [
+  {id:'xenogears-staff-1998',image:'/images/xenogears-art.webp'},
+  {id:'xenosaga-gamespot-japan-takahashi-2001',image:'/images/xenosaga-art.webp'},
+  {id:'iwata-xenoblade-development',image:'/images/xenoblade-art.jpg'}
+].map(feature=>({...feature,entry:interviews.find(item=>item.id===feature.id)!}));
+---
+<section class="interview-featured" aria-labelledby="featured-heading" data-interview-featured>
+  <h2 id="featured-heading">{text.featured}</h2>
+  <div class="interview-featured-grid">
+    {featured.map(({entry,image})=><a class={`interview-featured-card featured-${entry.series[0]}`} href={withBase(`/interviews/${entry.id}/`)}>
+      <div class="interview-featured-image">
+        <img src={withBase(image)} alt="" width="800" height="450" loading="lazy" />
+        <span>{text.seriesNames[entry.series[0] as keyof typeof text.seriesNames]}</span>
+      </div>
+      <div class="interview-featured-copy">
+        <p>{formatInterviewDate(entry.date)}</p>
+        <h3>{entry.title}</h3>
+        <span>{text.reading}</span>
+      </div>
+    </a>)}
+  </div>
+</section>

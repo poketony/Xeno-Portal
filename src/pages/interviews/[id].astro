@@ -23,7 +23,7 @@ const minutes = Math.max(1, Math.ceil(reading.sections.flatMap(section=>section.
 const firstImage = translated ? reading.figures.find(figure=>!figure.sectionId) : undefined;
 const figuresAt = (sectionId: string, afterLine?: number) =>
   reading.figures.filter(figure => figure.sectionId === sectionId && figure.afterLine === afterLine);
-const catalogUrl = `${withBase('/interviews/')}#${entry.id}`;
+const catalogUrl = withBase('/interviews/');
 const sourceLabel = (source: typeof reading.sources[number]) => source.title || r.sourcePage.replace('{page}',String(source.page));
 ---
 <Layout title={entry.title} description={entry.summary} canonicalPath={withBase(`/interviews/${entry.id}/`)}>
@@ -67,7 +67,6 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
           <section class="reader-sources" id="reader-sources" data-reader-section>
             <p class="reader-source-eyebrow">{r.sourceEyebrow}</p><h2>{r.sources}</h2><p class="reader-source-intro">{r.sourcesIntro}</p>
             <dl class="reader-facts"><dt>{r.publisher}</dt><dd>{entry.publisher}</dd><dt>{r.date}</dt><dd>{formatInterviewDate(entry.date)}{entry.dateContext && ` · ${entry.dateContext}`}</dd>{reading.recordedAt && <><dt>{r.recordedAt}</dt><dd>{formatInterviewDate(reading.recordedAt)}</dd></>}<dt>{r.participants}</dt><dd>{entry.participants.join(' · ')}</dd></dl>
-            {reading.notes.length > 0 && <div class="reader-context"><h3>{r.context}</h3>{reading.notes.map(note=><p>{note}</p>)}</div>}
             {entry.koreanUrl && <a class="reader-official" href={entry.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' '+commonText.newWindow}</span></a>}
             <h3 class="reader-original-heading">{r.originalChapter}</h3>
             <ol class="reader-source-list">{reading.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{sourceLabel(source)}<span>{source.url.includes('web.archive.org') ? text.sourceTypes.archive : entry.sourceType==='reprint' ? text.sourceTypes.reprint : text.sourceTypes.original}</span><span class="sr-only">{' '+commonText.newWindow}</span></a></li>)}</ol>

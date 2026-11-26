@@ -3,11 +3,6 @@ export const interviewReadings = [
   {
     "id": "xenogears-famitsu-preview-1997",
     "lead": "Xenogears Weekly Famitsu preview interview",
-    "notes": [
-      "질의응답 뒤의 두 해설은 원문 편집진의 글이며 제작자의 직접 답변과 구분해야 한다.",
-      "크로노 트리거와 성검전설은 공식 한국어명으로 표기했습니다. 영문 재록의 “Secret of Mana 2 and 3”는 본문에서 성검전설 2·3으로 옮겼습니다. Magitek Armor는 원어를 유지했으며, 제작 이력과 제작 시간 비교는 원문 설명대로 옮겼습니다.",
-      "50~60시간과 그래픽 제작비에 관한 발언은 발매 전인 1997년 당시의 예상·견해입니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenogears-famitsu-preview-1997-1.jpg",
@@ -461,10 +456,6 @@ export const interviewReadings = [
   {
     "id": "xenogears-staff-1998",
     "lead": "Interview with Xenogears staff",
-    "notes": [
-      "캐릭터 디자이너 타나카 쿠니히코와 프로듀서 타나카 히로미치를 화자명으로 구분했다. 디자인 작업에 관한 답변 속 ‘타나카 군’은 타나카 쿠니히코를 가리키는 문맥이다.",
-      "크로노 트리거·라이브 어 라이브·반숙영웅은 공식 한국어명으로 표기했습니다. 원문이 일부 가려 놓은 기어·시스템 이름은 그대로 유지했습니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenogears-staff-1998-1.jpg",
@@ -1152,11 +1143,6 @@ export const interviewReadings = [
   {
     "id": "xenogears-famitsu-ps-1998",
     "lead": "March 1998 Famitsu PS interview",
-    "notes": [
-      "인물 이름은 재록의 정정 내용을 반영했습니다.",
-      "30%라는 답변은 담고 싶었던 아이디어에 관한 당시의 표현이며, 게임 전체나 이야기의 완성률로 재계산하지 않았습니다.",
-      "크로노 트리거·성검전설은 공식 한국어명으로 표기했습니다. Sabin·Blitz·E-Circuits·Snowfield Hideout은 고유명사 대조를 위해 원문 표기를 유지했습니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenogears-famitsu-ps-1998-1.jpg",
@@ -1769,10 +1755,6 @@ export const interviewReadings = [
   {
     "id": "monolith-the-playstation-1999",
     "lead": "ザ・プレ特別インタビュー",
-    "notes": [
-      "스기우라의 “재작년 10월”은 원문의 “一昨年の１０月”을 그대로 옮겼다. 연도를 임의로 고치지 않았다.",
-      "소제목의 “風通しの言い”는 문맥상 조직 내 소통이 원활하다는 뜻으로 옮겼다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/monolith-the-playstation-1999/01-photo8.jpg",
@@ -2188,7 +2170,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-gamespot-japan-takahashi-2001",
     "lead": "スタッフインタビュー第一回 高橋哲哉監督",
-    "notes": [],
     "figures": [],
     "sources": [
       {
@@ -3021,9 +3002,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-gamespot-japan-sugiura-2001",
     "lead": "スタッフインタビュー第二回 杉浦博英氏",
-    "notes": [
-      "보존본의 제목은 타카하시 인터뷰 2쪽으로 잘못 표시돼 있으나 실제 본문과 주소는 스기우라 인터뷰 2쪽에 해당한다."
-    ],
     "figures": [],
     "sources": [
       {
@@ -3184,7 +3162,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-gamespot-japan-honne-2001",
     "lead": "スタッフインタビュー第三回 本根康之氏",
-    "notes": [],
     "figures": [],
     "sources": [
       {
@@ -3430,10 +3407,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-dengeki-2001",
     "lead": "インタビュー ゼノサーガ",
-    "notes": [
-      "원문이 회사 설립 시점을 “2000년 10월”로 적은 부분은 그대로 번역했다. 1999년 12월의 설립 초기 인터뷰 및 회사 연혁의 1999년 설립과 충돌하는 표기다.",
-      "괄호 안의 제작 현황과 인물 소개는 원 기사의 편집 설명이다. 가격과 상품 구성도 기사 당시 기준이다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenosaga-dengeki-2001-1.jpg",
@@ -3673,7 +3646,6 @@ export const interviewReadings = [
   {
     "id": "sony-creators-talk-takahashi",
     "lead": "Creators Talk",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/sony-creators-talk-takahashi-1.jpg",
@@ -4327,9 +4299,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-weekly-1-vol2-2002",
     "lead": "Xenosaga Episode I Weekly Vol. II development staff roundtable",
-    "notes": [
-      "Gwendal의 영문 번역본을 한국어로 옮겼다. 일본어 원문을 직접 번역한 자료와 구분한다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenosaga-weekly-1-vol2-2002-1.jpg",
@@ -5329,10 +5298,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-famitsu-2003",
     "lead": "A Word With the Xenosaga Developers",
-    "notes": [
-      "이 자료는 Fennec Fox, Gwendal, Lugalbanda의 영문 재록을 바탕으로 번역했습니다. 출처를 확인하지 못한 두 질문도 포함되어 있어, 한 편의 인터뷰를 그대로 옮긴 자료는 아닙니다.",
-      "2003.05.30이라는 표기와 원문에 나온 10월·7월 21일·내년 등의 시점은 제공 자료 그대로 옮겼습니다. 실제 발매 결과에 맞추어 바꾸지 않았습니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/xenosaga-famitsu-2003-1.jpg",
@@ -5867,12 +5832,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-ii-creator-who-2003",
     "lead": "Xenosaga EPISODE II CREATOR WHO’S WHO?",
-    "notes": [
-      "“불타오른다(燃え)/모에(萌え)”는 일본어 발음이 같은 두 말을 이용한 농담이다.",
-      "사가 소라야의 마지막 인사말은 원문에서 영어로 실린 부분도 빠짐없이 번역했다.",
-      "카베의 글에 나오는 “마크”는 원문의 “マーク”를 그대로 옮긴 것으로, 이 글만으로 구체적인 의미를 확정하기 어렵다.",
-      "코이데의 글에는 “クエストパートパート”라는 중복 표기가 두 차례 있어 “퀘스트 파트 파트”로 보존했다."
-    ],
     "figures": [],
     "sources": [
       {
@@ -7482,7 +7441,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-weekly-2-vol3-2004",
     "lead": "Xenosaga Episode II Weekly Vol. III",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenosaga-weekly-2-vol3-2004/01-interview-ep2-weekly-vol3-act1-team1.jpg",
@@ -8342,7 +8300,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-ds-takahashi-takeda-archive",
     "lead": "ゼノサーガ I・II 原案・監修高橋氏・脚本竹田氏スペシャル対談！",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenosaga-ds-takahashi-takeda-archive-1.jpg",
@@ -9110,10 +9067,6 @@ export const interviewReadings = [
   {
     "id": "xenosaga-iii-mainichi-2006",
     "lead": "開発陣に質問状：ゼノサーガ エピソード3 「数々の謎が一気に解決」",
-    "notes": [
-      "답변자는 기사 말미에 명시된 모노리스 소프트 홍보부다. 특정 감독이나 이름이 확인되지 않은 개발자의 발언으로 바꾸지 않았다.",
-      "로딩 시간 등은 당시 홍보부의 설명이며 별도의 실측 결과가 아니다. 하단 안내와 주소도 원 기사 당시의 내용을 옮겼다."
-    ],
     "figures": [],
     "sources": [
       {
@@ -9270,11 +9223,6 @@ export const interviewReadings = [
   {
     "id": "iwata-xenoblade-development",
     "lead": "社長が訊く『ゼノブレイド』開発スタッフ 篇",
-    "notes": [
-      "크로노 트리거·바텐 카이토스는 공식 한국어명으로 표기했다. 공식 한국어명을 확인하지 못한 국내 미정발 작품은 영문 제목으로 표기했다.",
-      "화자는 원문처럼 성으로 표시했다. 코지마의 전체 이름은 코지마 코우다.",
-      "未来視는 공식 한국어 게임 스크립트의 표기인 ‘비전’으로 옮겼다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/iwata-xenoblade-development-1.jpg",
@@ -10702,10 +10650,6 @@ export const interviewReadings = [
   {
     "id": "soraya-saga-siliconera-2010",
     "lead": "Reflections With Soraya Saga / Soraya Saga On Xenogears And Xenosaga",
-    "notes": [
-      "마지막 문단의 “그녀의 최신작”은 원 매체의 편집 문구를 그대로 옮긴 것이다. 이 문구만으로 사가 소라야의 제노블레이드 참여 업무나 각본 크레디트를 확정할 수는 없다.",
-      "여섯 편 계획에 관한 질문의 전제와 답변자가 직접 설명한 내용은 구분해야 한다. 원문에서 생략하거나 구체화하지 않은 부분을 번역자가 덧붙이지 않았다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/soraya-saga-siliconera-2010-1.png",
@@ -11066,7 +11010,6 @@ export const interviewReadings = [
   {
     "id": "iwata-xenoblade-3d",
     "lead": "社長が訊く Newニンテンドー3DS専用『ゼノブレイド』",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/iwata-xenoblade-3d-1.jpg",
@@ -13106,7 +13049,6 @@ export const interviewReadings = [
   {
     "id": "iwata-xenoblade-x",
     "lead": "社長が訊く『XenobladeX（ゼノブレイドクロス）』",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/iwata-xenoblade-x-1.jpg",
@@ -16035,10 +15977,6 @@ export const interviewReadings = [
   {
     "id": "xenogears-disc2-kotaku-2017",
     "lead": "제노기어스 디스크 2 회고",
-    "notes": [
-      "2017년 6월 15일 제이슨 슈라이어가 E3에서 취재한 기사다. 기사의 “오늘”과 “19년” 등 시간 표현은 당시를 기준으로 옮겼다.",
-      "타카하시의 답변은 원 취재에서 통역을 거쳐 전해졌다. 질문자·기자의 설명과 감독의 직접 답변을 구분했다."
-    ],
     "figures": [],
     "sources": [
       {
@@ -16132,7 +16070,6 @@ export const interviewReadings = [
   {
     "id": "monolith-takahashi-2017",
     "lead": "取締役 高橋哲哉 / CCOが見据える未来",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-takahashi-2017-1.jpg",
@@ -16342,7 +16279,6 @@ export const interviewReadings = [
   {
     "id": "monolith-two-studios-2018",
     "lead": "取締役 本根康之 蘒原智洋 / 二拠点体制がもたらすもの",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-two-studios-2018/01-img01.jpg",
@@ -16667,7 +16603,6 @@ export const interviewReadings = [
   {
     "id": "monolith-planners-2018",
     "lead": "現場フロントライン vol.2 / プランナー編",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-planners-2018-1.jpg",
@@ -17386,7 +17321,6 @@ export const interviewReadings = [
   {
     "id": "xenoblade2-torna-release-note",
     "lead": "『黄金の国イーラ』配信開始！",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenoblade2-torna-release-note/01-note23-img01.jpg",
@@ -17674,12 +17608,6 @@ export const interviewReadings = [
   {
     "id": "monolith-programmers-2019",
     "lead": "現場フロントライン vol.4 / プログラマー編",
-    "notes": [
-      "원문에 성만 나온 참여자는 이름 전체를 추정하지 않았다. 이 문서의 프로그래머 타카하시(高橋)는 총감독 타카하시 테츠야와 구분한다.",
-      "어셈블리 언어에 관한 각주는 원문의 기술을 그대로 번역했다.",
-      "월요일 밤 9시 드라마는 원문의 月9를 풀어 옮긴 표현이다.",
-      "근무 환경과 채용에 관한 설명은 인터뷰가 공개된 2019년 당시의 발언이다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/monolith-programmers-2019-1.jpg",
@@ -18120,7 +18048,6 @@ export const interviewReadings = [
   {
     "id": "takahashi-harada-4gamer-2019",
     "lead": "原田が斬る 第7回 高橋哲哉",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/takahashi-harada-4gamer-2019/01-001.jpg",
@@ -20810,9 +20737,6 @@ export const interviewReadings = [
   {
     "id": "monolith-2d-artists-2020",
     "lead": "現場フロントライン vol.10 / 2Dデザイナー編",
-    "notes": [
-      "참여자의 이름은 원문에 성만 나와 있어 전체 이름을 추정하지 않았으며, 원문 한자를 병기했습니다. 타카하시 감독은 발언 안에서 감독으로 지칭된 인물입니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/monolith-2d-artists-2020-1.jpg",
@@ -21248,9 +21172,6 @@ export const interviewReadings = [
   {
     "id": "monolith-map-modelers-2022",
     "lead": "スタッフインタビュー / マップモデラー編",
-    "notes": [
-      "참여자는 원문에 나온 성만 사용하고 한자를 병기했습니다. 근속 연수와 업무 환경에 관한 발언은 인터뷰 당시의 설명입니다."
-    ],
     "figures": [
       {
         "src": "/images/interviews/monolith-map-modelers-2022-1.jpg",
@@ -21704,10 +21625,6 @@ export const interviewReadings = [
   {
     "id": "monolith-ingame-animators-2023",
     "lead": "スタッフインタビュー / インゲームアニメーター編",
-    "notes": [
-      "참여자의 이름은 원문에 나온 성 또는 표기만 사용했습니다. 읽기를 확인하지 못한 성 生井는 원문 한자로 유지했습니다. 이 문서의 애니메이터 타카하시(高橋)를 총감독 타카하시 테츠야로 확장하지 않았습니다.",
-      "개발 규모, 근속 연수와 근무 환경은 인터뷰 당시의 설명이다. 국내 미정발 작품인 Disaster: Day of Crisis는 영문 제목으로 표기했다."
-    ],
     "figures": [],
     "sources": [
       {
@@ -22155,7 +22072,6 @@ export const interviewReadings = [
   {
     "id": "iwata-xenoblade-sound",
     "lead": "社長が訊く『ゼノブレイド』サウンド 篇",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/iwata-xenoblade-sound/01-photo001.jpg",
@@ -24272,7 +24188,6 @@ export const interviewReadings = [
   {
     "id": "iwata-xenoblade-story",
     "lead": "社長が訊く『ゼノブレイド』シナリオ 篇",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/iwata-xenoblade-story/01-photo001.jpg",
@@ -25827,7 +25742,6 @@ export const interviewReadings = [
   {
     "id": "iwata-sakaguchi-takahashi",
     "lead": "社長が訊く 坂口博信×高橋哲哉",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/iwata-sakaguchi-takahashi/01-photo1.jpg",
@@ -27657,7 +27571,6 @@ export const interviewReadings = [
   {
     "id": "monolith-sugiura-2017",
     "lead": "代表取締役 杉浦博英 / モノリスソフトの目指す未来",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-sugiura-2017/01-img01.png",
@@ -27991,7 +27904,6 @@ export const interviewReadings = [
   {
     "id": "xenoblade2-mitsuda-soundtrack-note",
     "lead": "「オリジナル・サウンドトラック」発売決定！",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img01.jpg",
@@ -28332,7 +28244,6 @@ export const interviewReadings = [
   {
     "id": "xenoblade2-kosmos-design-note",
     "lead": "創り出すものは受け取ってきたもののリフレイン",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img01.jpg",
@@ -28691,7 +28602,6 @@ export const interviewReadings = [
   {
     "id": "xenoblade2-telos-note",
     "lead": "更新データ（Ver. 1.4.0）、4/27に配信！",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenoblade2-telos-note/01-note18-img01.jpg",
@@ -28930,7 +28840,6 @@ export const interviewReadings = [
   {
     "id": "xenoblade2-torna-conception-note",
     "lead": "「ゼノブレイド２ 黄金の国イーラ」について",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/xenoblade2-torna-conception-note/01-note19-img01.jpg",
@@ -29181,7 +29090,6 @@ export const interviewReadings = [
   {
     "id": "monolith-scenario-planners-2023",
     "lead": "スタッフインタビュー / シナリオプランナー編",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-01.jpg",
@@ -29687,7 +29595,6 @@ export const interviewReadings = [
   {
     "id": "monolith-programmers-2024",
     "lead": "スタッフインタビュー / プログラマー編",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-programmers-2024/01-img-kv.jpg",
@@ -30169,7 +30076,6 @@ export const interviewReadings = [
   {
     "id": "monolith-rnd-cgworld-2024",
     "lead": "大規模開発に堪えうるしくみを整え、より独自性の高い表現を追求する〜R&D専門部門を新設したモノリスソフトのねらいと求める人材とは",
-    "notes": [],
     "figures": [
       {
         "src": "/images/interviews/monolith-rnd-cgworld-2024/01-monolithsoft-banner-v2-thumb-1000x563-59362.jpg",
@@ -31014,7 +30920,6 @@ export const interviewReadings = [
   {
     "id": "pied-piper-hagiwara-gmode-message",
     "lead": "G-MODEアーカイブスにいただいたコメント 萩原智洋",
-    "notes": [],
     "figures": [],
     "sources": [
       {
