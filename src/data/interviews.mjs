@@ -1860,37 +1860,6 @@ export const interviews = [
     ]
   },
   {
-    "id": "xenogears-honeywood-timeextension-2026",
-    "title": "리처드 허니우드의 제노기어스 현지화 회고",
-    "originalTitle": "I Did My Best To Make It Work",
-    "date": "2026-02-05",
-    "datePrecision": "day",
-    "dateContext": "",
-    "dateNote": "",
-    "dateSource": "",
-    "publisher": "Time Extension",
-    "participants": [
-      "리처드 허니우드"
-    ],
-    "series": [
-      "xenogears"
-    ],
-    "works": [
-      "xenogears"
-    ],
-    "originalUrl": "https://www.timeextension.com/features/interview-i-did-my-best-to-make-it-work-legendary-localiser-on-final-fantasy-dragon-quest-and-the-total-nightmare-of-xenogears",
-    "archiveUrl": "",
-    "koreanUrl": "",
-    "languages": [
-      "en"
-    ],
-    "sourceType": "original",
-    "summary": "현지화 담당자가 스퀘어에 합류한 과정과 제노기어스 영어판 작업의 어려움을 돌아본다. 복잡한 인문학적 용어를 조사하고 종교적 표현을 조율했던 경험이 포함돼 있다.",
-    "kind": "interview",
-    "accessNote": "",
-    "chapters": []
-  },
-  {
     "id": "pied-piper-hagiwara-gmode-message",
     "title": "파이드 파이퍼 복각에 부친 프로듀서의 메시지",
     "originalTitle": "G-MODEアーカイブスにいただいたコメント 萩原智洋",
