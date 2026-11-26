@@ -63,8 +63,10 @@
 .interview-language{font-size:.813rem;color:#9daec0}
 .interview-chapters{margin-top:19px;border-top:1px solid #263545;padding-top:14px}
 .interview-chapters summary,.interview-source-notes summary{cursor:pointer;font-size:.875rem;color:#c1d4e8;min-height:36px}
-.interview-chapters ol{padding-left:23px;margin:9px 0 0;font-size:.938rem}
+.interview-chapters ol{list-style:none;padding:0;margin:9px 0 0;font-size:.938rem}
 .interview-chapters li{padding:4px 0;line-height:1.8}
+.interview-chapter-link{display:inline-grid;grid-template-columns:2.6rem minmax(0,1fr);gap:8px;max-width:100%;vertical-align:top;overflow-wrap:anywhere}
+.interview-chapter-page{color:#9bb8d4;font-variant-numeric:tabular-nums;white-space:nowrap}
 .interview-chapters time{display:inline-block;margin-left:12px;font-size:.813rem;color:#8da2b9}
 .interview-chapter-summary{margin:8px 0 15px;color:#aebdcc;font-size:1rem;line-height:1.9;word-break:keep-all}
 .interview-chapters a:hover,.interview-source-notes a:hover{color:#9ed1ff;text-decoration:underline}

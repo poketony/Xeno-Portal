@@ -73,7 +73,7 @@ export const interviewText = {
     "pageCount": "원문 {count}쪽",
     "readTime": "약 {minutes}분",
     "imageSource": "이미지 출처",
-    "sourcePage": "원문 {page}쪽",
+    "pageLabel": "{page}쪽",
     "originalChapter": "원문 목차",
     "back": "인터뷰 목록으로",
     "previous": "이전 자료",

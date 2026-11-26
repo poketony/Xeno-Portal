@@ -24,7 +24,7 @@ const firstImage = translated ? reading.figures.find(figure=>!figure.sectionId) 
 const figuresAt = (sectionId: string, afterLine?: number) =>
   reading.figures.filter(figure => figure.sectionId === sectionId && figure.afterLine === afterLine);
 const catalogUrl = withBase('/interviews/');
-const sourceLabel = (source: typeof reading.sources[number]) => source.title || r.sourcePage.replace('{page}',String(source.page));
+const pageLabel = (page: number) => r.pageLabel.replace('{page}',String(page));
 ---
 <Layout title={entry.title} description={entry.summary} canonicalPath={withBase(`/interviews/${entry.id}/`)}>
   <article class={`interview-reader reader-${theme}`} id="reader-top">
@@ -35,13 +35,13 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
         <p class="reader-dateline"><time datetime={entry.date ?? undefined}>{formatInterviewDate(entry.date)}</time>{entry.dateContext && <span>{entry.dateContext}</span>}<span>{translated ? reading.complete ? r.type : r.partial : r.sourceOnly}</span></p>
         <h1>{entry.title}</h1>
         <p class="reader-lead">{translated ? r.translationLanguages[reading.language as keyof typeof r.translationLanguages] : entry.originalTitle}</p>
-        <div class="reader-heading-bottom"><p>{entry.publisher}</p><p><span>{r.pageCount.replace('{count}',String(reading.sources.length))}</span>{translated && <><span>{r.translatedPage.replace('{page}',reading.translatedPages.join('·'))}</span><span>{r.readTime.replace('{minutes}',String(minutes))}</span></>}</p></div>
+        <div class="reader-heading-bottom"><p>{entry.publisher}</p><p><span>{r.pageCount.replace('{count}',String(reading.sources.length))}</span>{translated && <>{!reading.complete && <span>{r.translatedPage.replace('{page}',reading.translatedPages.join('·'))}</span>}<span>{r.readTime.replace('{minutes}',String(minutes))}</span></>}</p></div>
       </header>
       <div class="reader-layout">
         <aside class="reader-sidebar">
           <nav class="reader-toc" aria-label={r.contents}>
             <h2>{r.contents}</h2>
-            <ol>{reading.sections.map(section=><li><a href={`#${section.id}`} data-reader-toc>{section.title}</a></li>)}</ol>
+            <ol>{reading.sections.map(section=><li><a class="reader-page-link" href={`#${section.id}`} data-reader-toc><span class="reader-page-number">{pageLabel(section.page)}</span><span>{section.title}</span></a></li>)}</ol>
             <a class="reader-toc-sources" href="#reader-sources" data-reader-toc>{r.sources}</a>
           </nav>
           <a class="reader-back" href={catalogUrl}>{r.back}</a>
@@ -50,7 +50,7 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
           <p class="reader-notice">{translated ? reading.complete ? r.notice : r.partialNotice.replace('{total}',String(reading.sources.length)).replace('{pages}',reading.translatedPages.join('·')) : r.untranslatedNotice}</p>
           {firstImage && <InterviewFigures figures={[firstImage]} eager />}
           {reading.sections.map(section => <section class="reader-section" id={section.id} data-reader-section>
-            <p class="reader-page-label">{r.translatedPage.replace('{page}',String(section.page))}</p>
+            <p class="reader-page-label">{pageLabel(section.page)}</p>
             <h2>{section.title}</h2>
             <InterviewFigures figures={figuresAt(section.id)} />
             <InterviewFigures figures={figuresAt(section.id, 0)} inline />
@@ -69,7 +69,16 @@ const sourceLabel = (source: typeof reading.sources[number]) => source.title || 
             <dl class="reader-facts"><dt>{r.publisher}</dt><dd>{entry.publisher}</dd><dt>{r.date}</dt><dd>{formatInterviewDate(entry.date)}{entry.dateContext && ` · ${entry.dateContext}`}</dd>{reading.recordedAt && <><dt>{r.recordedAt}</dt><dd>{formatInterviewDate(reading.recordedAt)}</dd></>}<dt>{r.participants}</dt><dd>{entry.participants.join(' · ')}</dd></dl>
             {entry.koreanUrl && <a class="reader-official" href={entry.koreanUrl} target="_blank" rel="noopener noreferrer">{text.officialKorean}<span class="sr-only">{' '+commonText.newWindow}</span></a>}
             <h3 class="reader-original-heading">{r.originalChapter}</h3>
-            <ol class="reader-source-list">{reading.sources.map(source=><li><a href={source.url} target="_blank" rel="noopener noreferrer">{sourceLabel(source)}<span>{source.url.includes('web.archive.org') ? text.sourceTypes.archive : entry.sourceType==='reprint' ? text.sourceTypes.reprint : text.sourceTypes.original}</span><span class="sr-only">{' '+commonText.newWindow}</span></a></li>)}</ol>
+            <ol class="reader-source-list">{reading.sources.map(source => {
+              const title = source.title || entry.chapters[source.page - 1]?.title;
+              return <li>
+                <a href={source.url} target="_blank" rel="noopener noreferrer">
+                  <span class="reader-source-label"><span class="reader-page-number">{pageLabel(source.page)}</span>{title && <span>{title}</span>}</span>
+                  <span class="reader-source-type">{source.url.includes('web.archive.org') ? text.sourceTypes.archive : entry.sourceType==='reprint' ? text.sourceTypes.reprint : text.sourceTypes.original}</span>
+                  <span class="sr-only">{' '+commonText.newWindow}</span>
+                </a>
+              </li>;
+            })}</ol>
           </section>
           <div class="reader-end"><a href={catalogUrl}>{r.back}</a><a href="#reader-top">{r.top}</a></div>
         </div>

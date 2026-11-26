@@ -2174,27 +2174,27 @@ export const interviewReadings = [
     "sources": [
       {
         "page": 1,
-        "title": "1. 이야기 개요",
+        "title": "이야기 개요",
         "url": "https://web.archive.org/web/20010816142618/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/index.html"
       },
       {
         "page": 2,
-        "title": "2. 감독의 작업",
+        "title": "감독의 작업",
         "url": "https://web.archive.org/web/20010816142532/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/02.html"
       },
       {
         "page": 3,
-        "title": "3. 게임 개요",
+        "title": "게임 개요",
         "url": "https://web.archive.org/web/20010816141550/http://www.zdnet.co.jp/gamespot/ps2/xeno/staff/01/03.html"
       },
       {
         "page": 4,
-        "title": "4. 전투와 미니게임",
+        "title": "전투와 미니게임",
         "url": "https://web.archive.org/web/20010816142605/http://www.zdnet.co.jp/gamespot/ps2/xeno/staff/01/04.html"
       },
       {
         "page": 5,
-        "title": "5. 제작진",
+        "title": "제작진",
         "url": "https://web.archive.org/web/20010816143123/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/05.html"
       },
       {
@@ -2384,8 +2384,9 @@ export const interviewReadings = [
           {
             "to": 28,
             "kind": "credits",
-            "text": "1쪽 · 인터뷰 목차",
-            "from": 27
+            "text": "",
+            "from": 27,
+            "omitted": true
           }
         ]
       },
@@ -2406,7 +2407,7 @@ export const interviewReadings = [
           {
             "to": 3,
             "kind": "heading",
-            "text": "타카하시 테츠야 감독 2쪽",
+            "text": "타카하시 테츠야 감독",
             "from": 3
           },
           {
@@ -2497,7 +2498,7 @@ export const interviewReadings = [
       },
       {
         "id": "page-3",
-        "title": "3. 게임 개요",
+        "title": "게임 개요",
         "sourceId": "xenosaga-gamespot-japan-takahashi-2001-03-79c9043f",
         "sourceSha256": "79c9043fb6225d0eca307fca869ff20b10914ce14d918d03aee7c336449cf5ad",
         "sourceLineCount": 19,
@@ -2519,7 +2520,7 @@ export const interviewReadings = [
             "from": 3,
             "to": 3,
             "kind": "heading",
-            "text": "■ 타카하시 테츠야 감독 P.3"
+            "text": "타카하시 테츠야 감독"
           },
           {
             "from": 4,
@@ -2629,7 +2630,7 @@ export const interviewReadings = [
       },
       {
         "id": "page-4",
-        "title": "4. 전투와 미니게임",
+        "title": "전투와 미니게임",
         "sourceId": "xenosaga-gamespot-japan-takahashi-2001-04-8236caba",
         "sourceSha256": "8236caba7e0e1a4d8610f965c7937cfc53058b516081be0805f9973d9af5c4a4",
         "sourceLineCount": 21,
@@ -2651,7 +2652,7 @@ export const interviewReadings = [
             "from": 3,
             "to": 3,
             "kind": "heading",
-            "text": "■ 타카하시 테츠야 감독 P.4"
+            "text": "타카하시 테츠야 감독"
           },
           {
             "from": 4,
@@ -2789,7 +2790,7 @@ export const interviewReadings = [
           {
             "to": 3,
             "kind": "heading",
-            "text": "타카하시 테츠야 감독 5쪽",
+            "text": "타카하시 테츠야 감독",
             "from": 3
           },
           {
@@ -2895,7 +2896,7 @@ export const interviewReadings = [
           {
             "to": 3,
             "kind": "heading",
-            "text": "타카하시 테츠야 감독 6쪽",
+            "text": "타카하시 테츠야 감독",
             "from": 3
           },
           {
@@ -2992,8 +2993,9 @@ export const interviewReadings = [
           {
             "to": 19,
             "kind": "credits",
-            "text": "6쪽 · 이전 쪽 · 인터뷰 목차",
-            "from": 17
+            "text": "",
+            "from": 17,
+            "omitted": true
           }
         ]
       }
@@ -3006,12 +3008,12 @@ export const interviewReadings = [
     "sources": [
       {
         "page": 1,
-        "title": "1. 프로듀서의 역할",
+        "title": "프로듀서의 역할",
         "url": "https://web.archive.org/web/20010816141305/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/02/index.html"
       },
       {
         "page": 2,
-        "title": "2. 새로운 제작 방식",
+        "title": "새로운 제작 방식",
         "url": "https://web.archive.org/web/20010816142325/http://www.zdnet.co.jp/gamespot/ps2/xeno/staff/02/02.html"
       }
     ],
@@ -3086,14 +3088,15 @@ export const interviewReadings = [
           {
             "to": 19,
             "kind": "credits",
-            "text": "1쪽 · 인터뷰 목차",
-            "from": 18
+            "text": "",
+            "from": 18,
+            "omitted": true
           }
         ]
       },
       {
         "id": "page-2",
-        "title": "2. 새로운 제작 방식",
+        "title": "새로운 제작 방식",
         "sourceId": "xenosaga-gamespot-japan-sugiura-2001-02-67008fc7",
         "sourceSha256": "67008fc7af077b1f798de1a0273cfeece3c68c2ad2bb7613d12e630690c0961e",
         "sourceLineCount": 15,
@@ -3115,7 +3118,7 @@ export const interviewReadings = [
             "from": 4,
             "to": 4,
             "kind": "heading",
-            "text": "■ 스기우라 히로히데 씨 P.2"
+            "text": "스기우라 히로히데 씨"
           },
           {
             "from": 5,
@@ -3166,12 +3169,12 @@ export const interviewReadings = [
     "sources": [
       {
         "page": 1,
-        "title": "1. 감독과 제작진의 가교",
+        "title": "감독과 제작진의 가교",
         "url": "https://web.archive.org/web/20010816141118/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/index.html"
       },
       {
         "page": 2,
-        "title": "2. 제작진의 열정",
+        "title": "제작진의 열정",
         "url": "https://web.archive.org/web/20010816141518/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/02.html"
       }
     ],
@@ -3308,8 +3311,9 @@ export const interviewReadings = [
           {
             "to": 23,
             "kind": "credits",
-            "text": "1쪽 · 인터뷰 목차",
-            "from": 22
+            "text": "",
+            "from": 22,
+            "omitted": true
           }
         ]
       },
@@ -3330,7 +3334,7 @@ export const interviewReadings = [
           {
             "to": 4,
             "kind": "heading",
-            "text": "혼네 야스유키 2쪽",
+            "text": "혼네 야스유키",
             "from": 4
           },
           {

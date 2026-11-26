@@ -1427,35 +1427,35 @@ export const interviews = [
     "accessNote": "일본어 인터뷰 6쪽의 원문 보존본을 모두 연결했습니다.",
     "chapters": [
       {
-        "title": "1. 이야기 개요",
+        "title": "이야기 개요",
         "url": "https://web.archive.org/web/20010816142618/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/index.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "2. 감독의 작업",
+        "title": "감독의 작업",
         "url": "https://web.archive.org/web/20010816142532/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/02.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "3. 게임 개요",
+        "title": "게임 개요",
         "url": "https://web.archive.org/web/20010816141550/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/03.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "4. 전투와 미니게임",
+        "title": "전투와 미니게임",
         "url": "https://web.archive.org/web/20010816142605/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/04.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "5. 제작진",
+        "title": "제작진",
         "url": "https://web.archive.org/web/20010816143123/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/01/05.html",
         "koreanUrl": "",
         "date": "",
@@ -1501,14 +1501,14 @@ export const interviews = [
     "accessNote": "일본어 대담 두 쪽을 연결합니다. 두 번째 쪽의 문서 제목에는 타카하시 편으로 잘못 표시돼 있지만 스기우라 대담이 이어집니다.",
     "chapters": [
       {
-        "title": "1. 프로듀서의 역할",
+        "title": "프로듀서의 역할",
         "url": "https://web.archive.org/web/20010816141305/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/02/index.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "2. 새로운 제작 방식",
+        "title": "새로운 제작 방식",
         "url": "https://web.archive.org/web/20010816142325/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/02/02.html",
         "koreanUrl": "",
         "date": "",
@@ -1547,14 +1547,14 @@ export const interviews = [
     "accessNote": "당시 일본어 대담 두 쪽의 본문이 보존돼 있습니다.",
     "chapters": [
       {
-        "title": "1. 감독과 제작진의 가교",
+        "title": "감독과 제작진의 가교",
         "url": "https://web.archive.org/web/20010816141118/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/index.html",
         "koreanUrl": "",
         "date": "",
         "summary": ""
       },
       {
-        "title": "2. 제작진의 열정",
+        "title": "제작진의 열정",
         "url": "https://web.archive.org/web/20010816141518/http://www.zdnet.co.jp:80/gamespot/ps2/xeno/staff/03/02.html",
         "koreanUrl": "",
         "date": "",
