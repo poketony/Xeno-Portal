@@ -22151,5 +22151,8975 @@ export const interviewReadings = [
         ]
       }
     ]
+  },
+  {
+    "id": "iwata-xenoblade-sound",
+    "lead": "社長が訊く『ゼノブレイド』サウンド 篇",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/01-photo001.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 26
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/01-photo002.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 69
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/01-photo003.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 103
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/01-photo004.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 125
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/01-photo005.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 155
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo006.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 25
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo007.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 54
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo008.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 71
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo009.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 98
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo010.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 143
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/02-photo011.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 203
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/03-photo012.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 54
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/03-photo013.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 100
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/03-photo014.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 134
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/04-photo015.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 56
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/04-photo016.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 91
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo017.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo018.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 15
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo019.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 41
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo020.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 56
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo021.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 69
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo022.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 101
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo023.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 119
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo024.jpg",
+        "width": 250,
+        "height": 250,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 130
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-sound/05-photo025.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 음악 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 151
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "여섯 명의 음악가를 모아",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index.html"
+      },
+      {
+        "page": 2,
+        "title": "개성을 살려 한 방향으로",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index2.html"
+      },
+      {
+        "page": 3,
+        "title": "첫 메일의 정체",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index3.html"
+      },
+      {
+        "page": 4,
+        "title": "‘흔히 듣는 RPG 음악처럼 만들지 않는다’",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index4.html"
+      },
+      {
+        "page": 5,
+        "title": "각자의 『제노블레이드 크로니클스』",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol1/index5.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "여섯 명의 음악가를 모아",
+        "sourceId": "iwata-xenoblade-sound-01-352f53f2",
+        "sourceSha256": "352f53f22b714e24feb4d6ad8990894016f77df1346451460df2d1b5198f4a0e",
+        "sourceLineCount": 222,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 6,
+            "kind": "answer",
+            "text": "오늘은 도쿄 나카메구로역 앞에 있는 모노리스 소프트(※1)에 와 있습니다. 사실 나카메구로는 제가 대학 4학년 때부터 직장 생활 첫 4년까지, 모두 5년쯤 집을 빌려 살았던 동네예요.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 8,
+            "kind": "answer",
+            "text": "오, 그렇군요.",
+            "from": 7,
+            "speaker": "일동"
+          },
+          {
+            "to": 14,
+            "kind": "answer",
+            "text": "그때는 이렇게 높은 건물이 없었으니 역 주변이 완전히 달라져서 놀랐는데요. 오늘 이 그리운 나카메구로에 올 수 있다는 것도 아주 기대했어요. 여러분, 잘 부탁드립니다.",
+            "from": 9,
+            "speaker": "이와타"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "잘 부탁드립니다.",
+            "from": 15,
+            "speaker": "일동"
+          },
+          {
+            "to": 18,
+            "kind": "note",
+            "text": "※1 모노리스 소프트 — 1999년에 설립한 게임 개발사. 『제노사가』 시리즈 외에 Disaster: Day of Crisis(Wii), Soma Bringer(DS) 등도 개발했다.",
+            "from": 17
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "타카하시 씨는 지금까지 게임을 많이 만들어 오셨는데요. 이번에는 총감독을 맡으셨죠.",
+            "from": 19,
+            "speaker": "이와타"
+          },
+          {
+            "to": 26,
+            "kind": "answer",
+            "text": "네. 기획을 세우는 일부터 시나리오 집필, 디버깅까지 게임 전반에 관련된 일은 뭐든 했어요.",
+            "from": 23,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 30,
+            "kind": "question",
+            "text": "이번에는 ‘음악가들과 이야기하는 『제노블레이드 크로니클스』’인데요. 먼저 여기 계신 음악가분들과 타카하시 씨가 어떤 인연인지 들려주시겠어요?",
+            "from": 27,
+            "speaker": "이와타"
+          },
+          {
+            "to": 33,
+            "kind": "answer",
+            "text": "네. 이번 사운드는 모두 여섯 명이 팀을 이뤄 만들었어요. 제 옆에 앉아 계신 시모무라 씨와 미츠다 씨는…….",
+            "from": 31,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 35,
+            "kind": "answer",
+            "text": "오래 알고 지내셨지요.",
+            "from": 34,
+            "speaker": "이와타"
+          },
+          {
+            "to": 37,
+            "kind": "answer",
+            "text": "네. 특히 밋짱과는 15년쯤 알고 지냈어요.",
+            "from": 36,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 41,
+            "kind": "question",
+            "text": "밋짱이요?(웃음) 미츠다 씨를 밋짱이라고 부르시는군요. 미츠다 씨는 타카하시 씨를 뭐라고 부르세요?",
+            "from": 38,
+            "speaker": "이와타"
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "타카 씨요.",
+            "from": 42,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 45,
+            "kind": "answer",
+            "text": "밋짱과 타카 씨. 그렇군요(웃음).",
+            "from": 44,
+            "speaker": "이와타"
+          },
+          {
+            "to": 49,
+            "kind": "answer",
+            "text": "네(웃음). 이번에 제목에 ‘제노’(※2)라는 표식을 넣기도 해서, 밋짱에게는 에필로그에 나오는 노래를 맡겼어요.",
+            "from": 46,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 51,
+            "kind": "note",
+            "text": "※2 ‘제노’ — 타카하시 테츠야 씨가 만들어 온 RPG 시리즈. 『제노기어스』(1998년)와 『제노사가』 3부작(2002~2006년) 등이 나왔다. 미츠다 야스노리 씨는 『제노기어스』 외에 『제노사가 에피소드 I [힘에의 의지]』(2002년)의 음악도 맡았다.",
+            "from": 50
+          },
+          {
+            "to": 54,
+            "kind": "answer",
+            "text": "역시 ‘제노’라는 이름을 붙인 만큼 미츠다 씨의 곡으로 마무리하고 싶으셨군요.",
+            "from": 52,
+            "speaker": "이와타"
+          },
+          {
+            "to": 59,
+            "kind": "answer",
+            "text": "그렇죠. 마지막의 중요한 곡을 부탁할 사람은 밋짱뿐이라고요. 지금까지도 밋짱과 일할 기회가 많았고, 거의 매번 ‘음악 덕분에 살았다’고 느꼈어요. 그래서 이번에도 중요한 대목을 부탁했습니다.",
+            "from": 55,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 62,
+            "kind": "question",
+            "text": "‘음악 덕분에 살았다’는 말을 들으니 미츠다 씨는 어떠세요?",
+            "from": 60,
+            "speaker": "이와타"
+          },
+          {
+            "to": 69,
+            "kind": "answer",
+            "text": "……그냥 기쁘죠, 역시. 원래 게임은 눈과 귀, 컨트롤러를 잡는 감각으로 즐기는 것이잖아요. 그 한 요소인 음악이 감동을 더하거나 영상과 이야기를 뒷받침하는 게 얼마나 중요한지 늘 의식하며 일해 왔거든요.",
+            "from": 63,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 72,
+            "kind": "answer",
+            "text": "그리고 시모무라 씨인데요. 직접 같이 일한 건 사실 이번이 처음이에요.",
+            "from": 70,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 74,
+            "kind": "question",
+            "text": "그래도 원래는 안면이 있으셨죠?",
+            "from": 73,
+            "speaker": "이와타"
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "네. 스퀘어(현 스퀘어 에닉스) 시절에 함께 근무했으니 서로 얼굴은 잘 알았죠.",
+            "from": 75,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 79,
+            "kind": "answer",
+            "text": "그래도 함께 일하는 건 처음이군요.",
+            "from": 78,
+            "speaker": "이와타"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "네, 맞아요.",
+            "from": 80,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 88,
+            "kind": "answer",
+            "text": "저는 이번 『제노블레이드 크로니클스』에서 기존 RPG의 개념에 얽매이지 않고 여러 새로운 도전을 하고 싶었어요. 사운드도 마찬가지였죠. 지금까지 만든 것과 분위기를 달리하고 싶어서 시모무라 씨에게 메인 테마와 오프닝 곡 등을 부탁했어요.",
+            "from": 82,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 91,
+            "kind": "question",
+            "text": "시모무라 씨, 타카하시 씨와 처음 같이 일하시고 어떤 생각이 드셨어요?",
+            "from": 89,
+            "speaker": "이와타"
+          },
+          {
+            "to": 103,
+            "kind": "answer",
+            "text": "제가 원래 타카하시 씨에 대해 갖고 있던 이미지는 아주 까다로운 분이라, 엄청나게 어려운 요청을 하시는 게 아닐까 조금 겁먹었어요. 그런데 막상 같이 일하니 그렇지 않더라고요. 또 게임에 대한 그림이 확실하셨고요. 예를 들어 제가 ‘사실 여기는 조금 더 이렇게 하고 싶은데, 시간이 없으니 일단 내고 나중에 고쳐야지’ 하고 조금 약삭빠르게 생각할 때가 있었어요. 그러면 딱 그 부분을 날카롭게 지적하시는 거예요.",
+            "from": 92,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 108,
+            "kind": "answer",
+            "text": "닌텐도 안에서도 같은 이야기를 들어 봤는데요. 자신 없는 곳을 곧장 지적받으면 그 순간은 힘들어도, 한편으로는 ‘알아주시는구나’ 하고 느끼죠.",
+            "from": 104,
+            "speaker": "이와타"
+          },
+          {
+            "to": 113,
+            "kind": "answer",
+            "text": "맞아요. 다 꿰뚫어 보시는 건가, ‘정말 잘 보시네……’ 싶었어요. 그런 면에서 아주 믿을 수 있었으니 이번에는 재미있게 일했습니다.",
+            "from": 109,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 121,
+            "kind": "answer",
+            "text": "그리고 키요타 씨와 3인조 유닛 ACE+(에이스 플러스)도 같이 일하는 건 처음이에요. 이번 음악은 도그 이어 레코즈(※3)에 부탁했는데 “정말 좋은 유닛이 있는데 어떨까요?”라는 얘기가 나왔어요. 키요타 씨에게 이벤트와 필드 음악을, ACE+에는 이벤트와 필드 음악 외에 배틀 음악 등도 맡겼습니다.",
+            "from": 114,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 123,
+            "kind": "note",
+            "text": "※3 도그 이어 레코즈 — 『파이널 판타지』 시리즈 등 게임 음악 작곡으로 알려진 우에마츠 노부오 씨가 2006년에 세운 음악 제작사.",
+            "from": 122
+          },
+          {
+            "to": 125,
+            "kind": "answer",
+            "text": "잘 부탁드립니다.",
+            "from": 124,
+            "speaker": "키요타·ACE+"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "잘 부탁드립니다. 그럼 『제노블레이드 크로니클스』 얘기를 하기 전에 여러분이 어떻게 게임 음악에 몸담게 됐는지부터 들려주실까요? 먼저 시모무라 씨부터요.",
+            "from": 126,
+            "speaker": "이와타"
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "네. 좀 쓰라린 추억인데요. 학생 때 피아노를 공부하던 중 『슈퍼 마리오브라더스』(※4)에 푹 빠져 밤을 새워 지나치게 오래 했어요. 정작 피아노 레슨 때 선생님이 “넌 왜 손이 안 움직이니?”라고 하시더라고요.",
+            "from": 132,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 140,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 139,
+            "speaker": "일동"
+          },
+          {
+            "to": 148,
+            "kind": "answer",
+            "text": "그래서 솔직하게 “죄송합니다. 사실 어젯밤 내내 게임을 했어요”라고 했더니, 선생님이 “너, 게임이 그렇게 좋으면 그쪽으로 가렴” 하셨어요. 그런데 그때는 게임 업계가 머릿속에 전혀 없었거든요. 그런데 학교를 졸업하고 정신을 차려 보니 어쩐지 게임 업계에 들어와 있더라고요(웃음).",
+            "from": 141,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 155,
+            "kind": "answer",
+            "text": "그만큼 게임을 좋아하셨군요(웃음). 시모무라 씨는 『스트리트 파이터 II』(※5)의 작곡을 맡으셨고 그 뒤로도 게임 음악을 많이 만드셨어요. 닌텐도 작품으로는 『대난투 스매시브라더스 X』(※6)의 편곡과 『마리오&루이지 RPG』(※7) 등에도 참여하셨죠.",
+            "from": 149,
+            "speaker": "이와타"
+          },
+          {
+            "to": 161,
+            "kind": "answer",
+            "text": "네. 정말 운이 좋았다고 생각해요. 애초에 작곡을 거의 해 본 적 없는 상태로 이 세계에 들어왔고 사실 3년쯤 지나면 그만두겠지 싶었어요. 그런데 많은 분이 도와주셔서 오랫동안 일을 하고 있습니다.",
+            "from": 156,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 163,
+            "kind": "note",
+            "text": "※4 『슈퍼 마리오브라더스』 — 1985년 9월 패미컴으로 발매된 액션 게임.",
+            "from": 162
+          },
+          {
+            "to": 165,
+            "kind": "note",
+            "text": "※5 『스트리트 파이터 II』 — 캡콤이 만든 대전 격투 게임. 1991년 아케이드에 등장했고 1992년 6월에는 슈퍼 패미컴판도 나왔다.",
+            "from": 164
+          },
+          {
+            "to": 167,
+            "kind": "note",
+            "text": "※6 『대난투 스매시브라더스 X』 — 2008년 1월 Wii용으로 발매된 대전 액션 게임. 시리즈 세 번째 작품.",
+            "from": 166
+          },
+          {
+            "to": 169,
+            "kind": "note",
+            "text": "※7 『마리오&루이지 RPG』 — 2003년 11월 게임보이 어드밴스용으로 발매된 액션 RPG.",
+            "from": 168
+          },
+          {
+            "to": 171,
+            "kind": "answer",
+            "text": "다음은 미츠다 씨, 부탁드릴게요.",
+            "from": 170,
+            "speaker": "이와타"
+          },
+          {
+            "to": 174,
+            "kind": "answer",
+            "text": "학생 때 이야기인데, 저는 연극 음향을 계속 했어요.",
+            "from": 172,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 176,
+            "kind": "question",
+            "text": "미츠다 씨의 출발점은 연극의 음향 효과였나요?",
+            "from": 175,
+            "speaker": "이와타"
+          },
+          {
+            "to": 189,
+            "kind": "answer",
+            "text": "네. 원래 배우로 아는 분이 많아서 연극에 쓸 곡을 만들거나 효과음을 넣는 아르바이트를 학생 때 했어요. 마침 제 스승이 에닉스(현 스퀘어 에닉스) 일에 참여하셔서 제가 음향을 도와드리고 있었는데, “취직은 어떻게 할 거야?” 하시더라고요. “아무것도 생각 안 했어요” 같은 얘기를 하고 우연히 눈앞의 게임 잡지를 휙 넘겼더니 스퀘어 채용 광고가 실려 있었어요. 스승이 “여기 지원해 보면 어때?” 하셔서 정말 지원해 봤더니 붙었죠.",
+            "from": 177,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 191,
+            "kind": "answer",
+            "text": "스퀘어에 들어간 건 우연이군요.",
+            "from": 190,
+            "speaker": "이와타"
+          },
+          {
+            "to": 193,
+            "kind": "answer",
+            "text": "우연이었어요. 원래 게임을 좋아하긴 했지만요.",
+            "from": 192,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 197,
+            "kind": "question",
+            "text": "인연이란 참 신기하네요. 연극 음향을 하실 때부터 컴퓨터로 소리를 만드셨어요?",
+            "from": 194,
+            "speaker": "이와타"
+          },
+          {
+            "to": 206,
+            "kind": "answer",
+            "text": "네. 컴퓨터도 꽤 좋아해서 그걸로 소리를 만들었어요. 그런데 쭉 음향 효과 일을 해 왔으니 스퀘어에 들어가고 처음에는 작곡을 거의 맡겨 주지 않았어요. 그래도 직접 해 보고 싶어서 사카구치 히로노부 씨(※8)에게 부탁드렸고, 처음 맡을 수 있었던 작품이 『크로노 트리거』(※9)였어요.",
+            "from": 198,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 209,
+            "kind": "answer",
+            "text": "『크로노 트리거』 때 저는 그래픽 디렉터를 맡았어요.",
+            "from": 207,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 211,
+            "kind": "question",
+            "text": "밋짱과 타카 씨의 관계가 그때부터였나요?",
+            "from": 210,
+            "speaker": "이와타"
+          },
+          {
+            "to": 218,
+            "kind": "answer",
+            "text": "그렇죠. 그렇게 생각하면 타카 씨와 참 오래 알고 지냈네요. 『크로노 트리거』 이후로 쭉 곡을 쓰는 일을 해 왔고 게임으로도 변함없이 일할 수 있었으니 정말 운이 좋다고 생각해요. 다들 감사하죠.",
+            "from": 212,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 220,
+            "kind": "note",
+            "text": "※8 사카구치 히로노부 — 『파이널 판타지』의 창작자. 미스트워커 대표. 당시 2010년 발매 예정이던 Wii용 RPG The Last Story를 제작 중이었다.",
+            "from": 219
+          },
+          {
+            "to": 222,
+            "kind": "note",
+            "text": "※9 『크로노 트리거』 — 1995년 3월 슈퍼 패미컴용으로 발매된 RPG. 발매원은 스퀘어(현 스퀘어 에닉스). 2008년 11월 DS에도 이식됐다.",
+            "from": 221
+          }
+        ]
+      },
+      {
+        "id": "page-2",
+        "title": "개성을 살려 한 방향으로",
+        "sourceId": "iwata-xenoblade-sound-02-e1abdf03",
+        "sourceSha256": "e1abdf03bfc5a03dc14638d5dfce64b5551025d47028a18cbc43724d07928d02",
+        "sourceLineCount": 245,
+        "page": 2,
+        "blocks": [
+          {
+            "to": 2,
+            "kind": "answer",
+            "text": "키요타 씨는 이번에 소속사 분의 소개로 인연을 맺으셨군요.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 6,
+            "kind": "answer",
+            "text": "네. 지금까지 가령 PokéPark Wii(※10)의 음악을 맡거나 Glory of Heracles(※11)의 오프닝 노래를 부르기도 했어요.",
+            "from": 3,
+            "speaker": "키요타"
+          },
+          {
+            "to": 8,
+            "kind": "answer",
+            "text": "키요타 씨는 곡도 쓰고 노래도 부르시는군요.",
+            "from": 7,
+            "speaker": "이와타"
+          },
+          {
+            "to": 10,
+            "kind": "note",
+            "text": "※10 PokéPark Wii — PokéPark Wii: Pikachu’s Adventure. 2009년 12월 Wii용으로 발매된 액션 어드벤처 게임. 발매원은 주식회사 포켓몬.",
+            "from": 9
+          },
+          {
+            "to": 12,
+            "kind": "note",
+            "text": "※11 Glory of Heracles — 2008년 5월 닌텐도 DS용으로 발매된 RPG. 일본판에는 ‘영혼의 증명’이라는 부제가 붙었다.",
+            "from": 11
+          },
+          {
+            "to": 17,
+            "kind": "answer",
+            "text": "네. 이번에 도그 이어 레코즈에서 “작곡을 맡아 보지 않을래요?” 하셔서, 그 자리에서 “할래요!” 하고 손을 들고 프로젝트에 뛰어들었어요.",
+            "from": 13,
+            "speaker": "키요타"
+          },
+          {
+            "to": 19,
+            "kind": "answer",
+            "text": "정말 기쁘신 듯 말씀하시네요(웃음).",
+            "from": 18,
+            "speaker": "이와타"
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "네, 그럼요(웃음). 저는 어릴 때부터 게임을 정말 좋아했고, 중학생 때 시모무라 씨와 미츠다 씨가 참여하신 게임을 했거든요. 그래서 이번에 함께 일할 수 있어서 정말 기뻐요.",
+            "from": 20,
+            "speaker": "키요타"
+          },
+          {
+            "to": 27,
+            "kind": "answer",
+            "text": "그럼 오늘 같은 자리에 앉을 수 있으니…….",
+            "from": 26,
+            "speaker": "이와타"
+          },
+          {
+            "to": 29,
+            "kind": "answer",
+            "text": "너무 신나요(웃음).",
+            "from": 28,
+            "speaker": "키요타"
+          },
+          {
+            "to": 34,
+            "kind": "question",
+            "text": "(웃음) 어떻게 곡을 만드셨는지는 나중에 자세히 듣기로 하고, 마지막은 ACE+인데요. 먼저 CHiCO(치코) 씨가 세 분으로 된 유닛을 소개해 주시겠어요?",
+            "from": 30,
+            "speaker": "이와타"
+          },
+          {
+            "to": 38,
+            "kind": "answer",
+            "text": "네. 옆에 앉은 토모리 군과 둘이 ACE라는 유닛을 하고 있어요. 거기에 히라마츠 군을 더해서…….",
+            "from": 35,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 40,
+            "kind": "answer",
+            "text": "그래서 ACE+(플러스)군요.",
+            "from": 39,
+            "speaker": "이와타"
+          },
+          {
+            "to": 54,
+            "kind": "answer",
+            "text": "맞아요. 이번에는 세 사람으로 팀을 꾸려 작업했어요. 저는 원래 연극 출신으로 배우 일도 했지만 연극할 때 틀어 줄 곡도 골랐어요. 기존 곡을 골라 트는 것보다 직접 만드는 편이 각본과 대사에 잘 맞고 더 빨라서 작곡을 시작했어요. 그러다 점차 연극에서 음악으로 옮겨 가 음악 기획사에 들어갔죠. 거기 사장님이 “게임 음악을 만들어 보지 않겠어?”라고 하셔서 처음 게임 작곡에 참여한 게 Minna de Tamagotchi World(※12)였어요. 작곡 외에도 최근에는 미츠다 씨가 프로듀싱한 Luminous Arc 3 Eyes(※13)의 주제가를 부르는 등 게임 음악 일을 하고 있습니다.",
+            "from": 41,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 57,
+            "kind": "answer",
+            "text": "Minna de Tamagotchi World는 닌텐도 64로도 나왔으니 벌써 꽤 오래됐군요.",
+            "from": 55,
+            "speaker": "이와타"
+          },
+          {
+            "to": 60,
+            "kind": "answer",
+            "text": "그렇죠. 이제 13년쯤 됐네요. 그때부터 게임 음악을 만들어 온 셈이에요.",
+            "from": 58,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 62,
+            "kind": "note",
+            "text": "※12 Minna de Tamagotchi World — 64 de Hakken!! Tamagotchi: Minna de Tamagotchi World. 1997년 12월 닌텐도 64용으로 발매된 파티 게임. 발매원은 반다이.",
+            "from": 61
+          },
+          {
+            "to": 64,
+            "kind": "note",
+            "text": "※13 Luminous Arc 3 Eyes — 2009년 12월 닌텐도 DS용으로 발매된 시뮬레이션 RPG. 발매원은 마벨러스 엔터테인먼트.",
+            "from": 63
+          },
+          {
+            "to": 66,
+            "kind": "question",
+            "text": "토모리 씨는요?",
+            "from": 65,
+            "speaker": "이와타"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "CHiCO가 말한 것과 거의 같아요. 저는 원래 기타리스트였는데 아까 이야기처럼 Minna de Tamagotchi World에서 곡을 만들게 됐고, 그 뒤로 이 세계에 빠져 있어요.",
+            "from": 67,
+            "speaker": "토모리"
+          },
+          {
+            "to": 73,
+            "kind": "question",
+            "text": "그 뒤로 계속 게임 음악을 하셨어요?",
+            "from": 72,
+            "speaker": "이와타"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "아뇨, 다양한 활동을 하고 싶어요. 어떤 때는 연주하고 또 어떤 때는 작곡하는 식으로 이어 오면서, 지금은 유니버설 뮤직에서 CHiCO와 하는 ACE 활동을 중심으로 게임 외에도 가수에게 곡을 주거나 광고, 영화 음악을 만드는 일을 하고 있습니다.",
+            "from": 74,
+            "speaker": "토모리"
+          },
+          {
+            "to": 84,
+            "kind": "answer",
+            "text": "여러 분야에서 활동하시는군요. 그럼 마지막으로 히라마츠 씨요.",
+            "from": 82,
+            "speaker": "이와타"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "저도 어릴 때부터 게임을 아주 좋아했어요. 초등학생 때 집 컴퓨터로 잡지에 실린 악보를 입력하거나 직접 곡을 만들며 놀았죠. 고등학교에서 밴드를 꾸릴 때쯤부터 음악에 푹 빠져 그대로 이 길로 왔어요. 지금은 광고나 영화의 작곡과 편곡 외에 가수 공연의 객원 키보드나 사운드 프로그래밍 일을 하고 있습니다. 이번 프로젝트에 합류해서는 예전에 정신없이 즐겼던 게임을 떠올리고 지금의 저라면 어떤 식으로 소리로 표현할지 생각하면서 즐겁게 작곡했어요.",
+            "from": 85,
+            "speaker": "히라마츠"
+          },
+          {
+            "to": 100,
+            "kind": "answer",
+            "text": "저기…… 사실 히라마츠 군은 엄청난 닌텐도 팬이에요.",
+            "from": 99,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 102,
+            "kind": "answer",
+            "text": "고맙습니다(웃음).",
+            "from": 101,
+            "speaker": "이와타"
+          },
+          {
+            "to": 108,
+            "kind": "answer",
+            "text": "그것도 ‘초’ 자를 붙일 정도의 게이머예요. 그래서 여러 곡을 만들 때 음악의 관점뿐만 아니라 게임의 세세한 얘기도 “이건 말이지…… 이런 거라고……” 하고 알려 주곤 해요(웃음).",
+            "from": 103,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 110,
+            "kind": "answer",
+            "text": "해박한 지식을 풀어 주는 담당이었군요.",
+            "from": 109,
+            "speaker": "이와타"
+          },
+          {
+            "to": 114,
+            "kind": "answer",
+            "text": "네(웃음). 그러니 저희 ACE에게도 말 그대로 큰 플러스였어요.",
+            "from": 111,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 117,
+            "kind": "question",
+            "text": "그런데 타카하시 씨, 『제노블레이드 크로니클스』에는 대체 몇 곡이나 들어가나요?",
+            "from": 115,
+            "speaker": "이와타"
+          },
+          {
+            "to": 119,
+            "kind": "answer",
+            "text": "90곡쯤 됩니다.",
+            "from": 118,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "90곡이라고 가볍게 말씀하셨지만 엄청난 수인데요. 한 곡 만들기도 힘든데요.",
+            "from": 120,
+            "speaker": "이와타"
+          },
+          {
+            "to": 125,
+            "kind": "answer",
+            "text": "그렇죠. 그래서 음악가 여섯 분이 필요했습니다.",
+            "from": 123,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 131,
+            "kind": "question",
+            "text": "그렇군요. 방금 말씀해 주셨듯 오랫동안 게임 음악만 해 오신 분도, 게임 밖의 음악을 하신 분도 있어서 폭이 넓은데요. 타카하시 씨는 이번에 어떤 식으로 곡을 의뢰하셨나요?",
+            "from": 126,
+            "speaker": "이와타"
+          },
+          {
+            "to": 136,
+            "kind": "answer",
+            "text": "예를 들어 미츠다 군은 어떤 곡을 원하는지 알고, 저도 이렇게 말하면 어떤 곡이 돌아올지 아니까 대체로 분위기만 전하고 나머지는 맡기는 경우가 많아요.",
+            "from": 132,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "오래 아셨으니 맡길 수 있군요.",
+            "from": 137,
+            "speaker": "이와타"
+          },
+          {
+            "to": 143,
+            "kind": "answer",
+            "text": "네. 그런데 이번에는 작곡가 여섯 분에게 저마다 잘하는 분야와 색이 있어요. 그런 개성은 살리되 곡의 분위기가 제각각이 되어선 안 된다고 생각했죠.",
+            "from": 139,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "제가 처음 여쭙고 싶었던 게 바로 그 부분이에요. 함께 일해 본 적 없는 사람들이 모여 저마다의 개성을 잃지 않으면서 통일감 있는 음악으로 묶는 건 말처럼 쉽지 않죠.",
+            "from": 144,
+            "speaker": "이와타"
+          },
+          {
+            "to": 155,
+            "kind": "answer",
+            "text": "네. 그래서 먼저 각 장면의 분위기에 어울리는 곡의 이미지를 제 머릿속에서 만드는 일부터 시작했어요. 여러 분께 조금 실례일지도 모른다고 생각하면서도 “이 장면에는 이런 느낌의 곡을 부탁드리고 싶어요” 하고 여러 곡을 예시로 드렸습니다.",
+            "from": 150,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 158,
+            "kind": "answer",
+            "text": "타카하시 씨가 어떤 느낌의 곡을 원하시는지 기존 곡을 예시로 전달하셨군요.",
+            "from": 156,
+            "speaker": "이와타"
+          },
+          {
+            "to": 161,
+            "kind": "answer",
+            "text": "네. 그래도 처음에는 미안하다고 느끼면서도 곡에 대해 꽤 많이 수정 의견을 냈어요.",
+            "from": 159,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 163,
+            "kind": "question",
+            "text": "왜 그랬나요?",
+            "from": 162,
+            "speaker": "이와타"
+          },
+          {
+            "to": 170,
+            "kind": "answer",
+            "text": "예시 곡에 너무 이끌려서 저마다의 개성이 드러나지 않았거든요. 그래서 “이건 아니에요” 하는 얘기를 반복하면서, 한 작품으로 같은 방향을 향하되 개성은 내 달라고 아주 긴밀하게 의견을 주고받았어요.",
+            "from": 164,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 172,
+            "kind": "question",
+            "text": "그 판단은 모두 타카하시 씨가 하셨나요?",
+            "from": 171,
+            "speaker": "이와타"
+          },
+          {
+            "to": 174,
+            "kind": "answer",
+            "text": "그렇습니다.",
+            "from": 173,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 177,
+            "kind": "answer",
+            "text": "미츠다 씨는 타카하시 씨와 여러 번 하셨으니 익숙하실 텐데요.",
+            "from": 175,
+            "speaker": "이와타"
+          },
+          {
+            "to": 179,
+            "kind": "answer",
+            "text": "그렇죠.",
+            "from": 178,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 183,
+            "kind": "answer",
+            "text": "하지만 키요타 씨 일행은 “이런 느낌으로”라는 말을 듣고 만든 곡을 조심스레 내면 “이게 아니에요”라는 말을 듣는 거잖아요.",
+            "from": 180,
+            "speaker": "이와타"
+          },
+          {
+            "to": 185,
+            "kind": "answer",
+            "text": "네.",
+            "from": 184,
+            "speaker": "키요타"
+          },
+          {
+            "to": 187,
+            "kind": "question",
+            "text": "그때 어떤 기분이었어요? 무섭지는 않았나요?",
+            "from": 186,
+            "speaker": "이와타"
+          },
+          {
+            "to": 193,
+            "kind": "answer",
+            "text": "정말 무서웠어요(웃음). 곡을 올리면 메일로 답이 오는데, 꼭 입시를 치르고 합격 발표를 기다리는 기분이었죠. 가끔 칭찬해 주실 때도 있어서, 그땐 “우와아아” 하고 기뻐했어요…….",
+            "from": 188,
+            "speaker": "키요타"
+          },
+          {
+            "to": 195,
+            "kind": "question",
+            "text": "칭찬받으면 하늘로 솟는 기분이고요?",
+            "from": 194,
+            "speaker": "이와타"
+          },
+          {
+            "to": 197,
+            "kind": "answer",
+            "text": "그래도 안 된다는 때가 더 많았어요…….",
+            "from": 196,
+            "speaker": "키요타"
+          },
+          {
+            "to": 199,
+            "kind": "question",
+            "text": "안 된다는 말을 듣고 슬럼프가 오지는 않았나요?",
+            "from": 198,
+            "speaker": "이와타"
+          },
+          {
+            "to": 203,
+            "kind": "answer",
+            "text": "그땐 어떻게든 마감 지키기에 필사적이라 집 안을 돌아다니며 스스로 암시를 걸었어요. “나는 이제부터 멋진 곡을 쓸 수 있게 된~다!”라고요.",
+            "from": 200,
+            "speaker": "키요타"
+          },
+          {
+            "to": 205,
+            "kind": "answer",
+            "text": "아하하하(웃음).",
+            "from": 204,
+            "speaker": "이와타"
+          },
+          {
+            "to": 210,
+            "kind": "answer",
+            "text": "그래도 수정 의견을 주실 때는 어떤 곡으로 고쳐야 할지 알기 쉽고 정확하게 알려 주셔서 무척 배웠어요.",
+            "from": 206,
+            "speaker": "키요타"
+          },
+          {
+            "to": 212,
+            "kind": "question",
+            "text": "자신의 강점이 살아난다고 느끼셨어요?",
+            "from": 211,
+            "speaker": "이와타"
+          },
+          {
+            "to": 216,
+            "kind": "answer",
+            "text": "강점이 살아난다기보다 ‘아, 나도 이런 곡을 만들 수 있었구나’ 하는 발견이 있었어요.",
+            "from": 213,
+            "speaker": "키요타"
+          },
+          {
+            "to": 219,
+            "kind": "answer",
+            "text": "아, 스스로 모르던 좋은 면을 타카하시 씨가 끌어내 주셨군요.",
+            "from": 217,
+            "speaker": "이와타"
+          },
+          {
+            "to": 225,
+            "kind": "answer",
+            "text": "네, 정말 그런 느낌이었어요. 저는 원래 ‘불안’을 주제로 작곡한 적이 없었는데, 타카하시 씨가 여러 가지를 끌어내 주시다 보니 여러 종류의 ‘불안’ 곡을 쓸 수 있게 됐어요. ‘불안 1’, ‘불안 2’, ‘불안 3’처럼요…….",
+            "from": 220,
+            "speaker": "키요타"
+          },
+          {
+            "to": 227,
+            "kind": "question",
+            "text": "‘불안’만으로 여러 종류의 곡을 만드셨다고요?(웃음)",
+            "from": 226,
+            "speaker": "이와타"
+          },
+          {
+            "to": 231,
+            "kind": "answer",
+            "text": "‘불안’이라 해도 여러 가지잖아요. ‘큰 불안’, ‘작은 불안’, ‘남자의 불안’ 같은 거죠. 그걸 잘게 나눠 욕심껏 주문하면 계속 늘어나요.",
+            "from": 228,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 238,
+            "kind": "answer",
+            "text": "다른 데도 ‘공포’나 ‘두려움’ 같은 곡을 만들었는데, 그런 곡을 만들면 아무래도 그 세계에 빠져들거든요. 그러니 ‘불안’ 곡을 쓸 때는 정신 상태가 점점 나빠지는 부분도 있어서 ‘이것까지 안 된다고 하면 난 이제 끝이야’ 싶었어요.",
+            "from": 232,
+            "speaker": "키요타"
+          },
+          {
+            "to": 240,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 239,
+            "speaker": "일동"
+          },
+          {
+            "to": 243,
+            "kind": "answer",
+            "text": "그래서 그저 온 힘을 다해 저 자신을 짜내고 또 짜내서 곡을 썼어요. 그러니 지금 저는 짜고 남은 찌꺼기예요(웃음).",
+            "from": 241,
+            "speaker": "키요타"
+          },
+          {
+            "to": 245,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 244,
+            "speaker": "일동"
+          }
+        ]
+      },
+      {
+        "id": "page-3",
+        "title": "첫 메일의 정체",
+        "sourceId": "iwata-xenoblade-sound-03-548ee430",
+        "sourceSha256": "548ee430a2171c3cedcdfeb658e9066099d4de9d703ed73c11788a43123abbc3",
+        "sourceLineCount": 183,
+        "page": 3,
+        "blocks": [
+          {
+            "to": 4,
+            "kind": "question",
+            "text": "키요타 씨를 짜고 남은 찌꺼기로 만들 만큼, 타카하시 씨의 메일이 작곡가의 개성을 끌어내는 데 아주 교묘하고 정확했다는 뜻일까요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 6,
+            "kind": "answer",
+            "text": "사실 저희 스태프를 사이에 두었어요.",
+            "from": 5,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 8,
+            "kind": "answer",
+            "text": "네?",
+            "from": 7,
+            "speaker": "일동"
+          },
+          {
+            "to": 10,
+            "kind": "question",
+            "text": "타카하시 씨가 직접 메일을 보내신 게 아니었나요?",
+            "from": 9,
+            "speaker": "이와타"
+          },
+          {
+            "to": 14,
+            "kind": "answer",
+            "text": "네. 제가 쓴 내용을 그대로 보내면 아마 다시 일어서기 힘들 것 같아서요.",
+            "from": 11,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 15,
+            "speaker": "이와타"
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "제가 공을 들이는 부분에서는 말이 꽤 거칠어지는 경향이 있어요. 그래서 제가 고쳐 달라고 쓴 내용을 꽤 부드럽게 다시 써 달라고 한 뒤 음악가분들께 보내도록 했죠.",
+            "from": 17,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 24,
+            "kind": "answer",
+            "text": "그랬군요…….",
+            "from": 23,
+            "speaker": "키요타·CHiCO"
+          },
+          {
+            "to": 26,
+            "kind": "question",
+            "text": "지금 처음 아신 거예요?",
+            "from": 25,
+            "speaker": "이와타"
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "네.",
+            "from": 27,
+            "speaker": "일동"
+          },
+          {
+            "to": 30,
+            "kind": "answer",
+            "text": "……그 첫 메일은 못 보여 드려요.",
+            "from": 29,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 32,
+            "kind": "question",
+            "text": "표현이 그렇게 매서워요?",
+            "from": 31,
+            "speaker": "이와타"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "……네.",
+            "from": 33,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "아이고(웃음).",
+            "from": 35,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 38,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 37,
+            "speaker": "일동"
+          },
+          {
+            "to": 41,
+            "kind": "answer",
+            "text": "그런데 다른 사람이 쓴다는 말을 들으니 저는 이제 알겠어요. 한 사람의 의견이 아닌 것 같은 인상이 있었거든요.",
+            "from": 39,
+            "speaker": "토모리"
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "게다가 꼭 이에 뭐가 낀 것처럼 시원하게 말을 못 하는 느낌이었죠(웃음).",
+            "from": 42,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 46,
+            "kind": "answer",
+            "text": "그래서 느낌표 하나만 봐도 ‘이 느낌표에는 무슨 뜻이 있을까?’ 하고요.",
+            "from": 44,
+            "speaker": "토모리"
+          },
+          {
+            "to": 50,
+            "kind": "answer",
+            "text": "맞아요! 말줄임표도 이쪽은 점이 네 개인데 저쪽은 세 개뿐이니까 깊은 뜻이 있는 거 아니냐고 했죠.",
+            "from": 47,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 51,
+            "speaker": "일동"
+          },
+          {
+            "to": 54,
+            "kind": "answer",
+            "text": "오늘 이 자리에서 수수께끼가 풀렸네요.",
+            "from": 53,
+            "speaker": "토모리"
+          },
+          {
+            "to": 62,
+            "kind": "answer",
+            "text": "역시 작품을 한데 모을 때는 여러 가지에 아주 엄격해야 하죠. 판단 기준을 느슨하게 하면 작품이 쉽게 나쁜 방향으로 무너져 가니까요. 그래서 여기에도 저기에도 여러 곳에 완벽함을 요구하고, 부족한 데는 아주 단호하게 아니라고 해야 겨우 바라는 모습에 가까워지죠.",
+            "from": 55,
+            "speaker": "이와타"
+          },
+          {
+            "to": 64,
+            "kind": "answer",
+            "text": "그렇죠.",
+            "from": 63,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 70,
+            "kind": "answer",
+            "text": "다만 느낀 것을 그대로 전하면 다시 일어서기 힘든 분도 있으니 중간에 다른 사람을 두고 말을 부드럽게 할 필요가 있었겠죠. 그렇게 누군가 말을 부드럽게 바꾸어도 키요타 씨 마음에는 한 번 한 번 꽤 아프게 꽂혔군요.",
+            "from": 65,
+            "speaker": "이와타"
+          },
+          {
+            "to": 72,
+            "kind": "answer",
+            "text": "(고개를 끄덕인다)",
+            "from": 71,
+            "speaker": "키요타"
+          },
+          {
+            "to": 74,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 73,
+            "speaker": "일동"
+          },
+          {
+            "to": 77,
+            "kind": "question",
+            "text": "그런 메일이 개발의 맨 마지막까지 오갔나요?",
+            "from": 75,
+            "speaker": "이와타"
+          },
+          {
+            "to": 82,
+            "kind": "answer",
+            "text": "개발 중반이 조금 지나면서 세게 쓰는 일도 줄어들었어요. 아마 서로의 곡과 분위기를 파악하고 각자 거기에 맞춰 주셨던 것 같아요.",
+            "from": 78,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 84,
+            "kind": "question",
+            "text": "CHiCO 씨, 실제로는 어땠나요?",
+            "from": 83,
+            "speaker": "이와타"
+          },
+          {
+            "to": 89,
+            "kind": "answer",
+            "text": "그랬어요. 개발 중반을 넘어서면서 어떻게든 작곡 방향이 보이기 시작했는데, 처음에는 역시 힘들었죠. 키요타 씨나 저나 매일 울기 직전이었어요.",
+            "from": 85,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 92,
+            "kind": "answer",
+            "text": "처음에는 격려를 받기도 하고 제가 격려하기도 하면서 서로 힘을 북돋웠죠(웃음).",
+            "from": 90,
+            "speaker": "키요타"
+          },
+          {
+            "to": 100,
+            "kind": "answer",
+            "text": "원래 내는 소리가 다른 팀들이었으니 타카하시 씨는 “따로 노는 세계가 되면 안 된다”, “통일감이 중요하다”고 반복하셨어요. 역시 곡의 분위기가 제각각이었기 때문이죠. 처음에는 어쩔 수 없이 ‘키요타 씨 스타일’, ‘ACE+ 스타일’이 되고 말았는데, 시간을 들여서 어떻게든 맞춰 나갔어요.",
+            "from": 93,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 102,
+            "kind": "question",
+            "text": "어떻게 맞추셨나요?",
+            "from": 101,
+            "speaker": "이와타"
+          },
+          {
+            "to": 104,
+            "kind": "answer",
+            "text": "실은 ACE 분들이 저희 집에 와 주셨어요.",
+            "from": 103,
+            "speaker": "키요타"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "키요타 씨도 저희 집에 와 주셨고요.",
+            "from": 105,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 108,
+            "kind": "question",
+            "text": "아, 서로 집을 오가신 거예요?",
+            "from": 107,
+            "speaker": "이와타"
+          },
+          {
+            "to": 114,
+            "kind": "answer",
+            "text": "맞아요. 서로 오가면서 우선 소리를 만드는 환경부터 다시 살피기로 했어요. 제가 쓰던 장비를 봐 달라고 하고 ‘여기에서 나오는 소리는 어떤가’ 하는 세세한 것까지 살폈죠.",
+            "from": 109,
+            "speaker": "키요타"
+          },
+          {
+            "to": 117,
+            "kind": "answer",
+            "text": "역시 곡의 분위기를 맞추려면 같은 환경을 쓰는 편이 좋겠다는 결론이 났거든요.",
+            "from": 115,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 120,
+            "kind": "answer",
+            "text": "그래서 소프트웨어도 새로 사기로 하고 익숙했던 프로그램과도 작별했어요(웃음).",
+            "from": 118,
+            "speaker": "키요타"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "그렇게 점차 한 팀이 되셨군요.",
+            "from": 121,
+            "speaker": "이와타"
+          },
+          {
+            "to": 124,
+            "kind": "answer",
+            "text": "네.",
+            "from": 123,
+            "speaker": "키요타"
+          },
+          {
+            "to": 126,
+            "kind": "answer",
+            "text": "마지막 무렵에는 단결했고요.",
+            "from": 125,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 128,
+            "kind": "answer",
+            "text": "아주 친해졌어요.",
+            "from": 127,
+            "speaker": "키요타"
+          },
+          {
+            "to": 134,
+            "kind": "question",
+            "text": "뭉치고 친해지면서 아까 타카하시 씨가 말씀하신 것처럼 개발 중반부터 곡의 분위기가 맞아 갔군요. 그런데 무엇이 키요타 씨와 ACE+를 그렇게까지 움직였나요?",
+            "from": 129,
+            "speaker": "이와타"
+          },
+          {
+            "to": 141,
+            "kind": "answer",
+            "text": "아까 키요타 씨가 ‘시모무라 씨와 미츠다 씨와 일할 수 있어 기쁘다’고 했는데, 저희도 마찬가지였어요. 특히 존경하는 미츠다 씨가 타카하시 씨와 줄곧 일해 오셨으니 그런 뜻에서도 타카하시 씨를 따라가면 틀림없다고 생각했죠.",
+            "from": 135,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 143,
+            "kind": "question",
+            "text": "미츠다 씨, 두 분이 그렇게 보고 계신 걸 아셨어요?",
+            "from": 142,
+            "speaker": "이와타"
+          },
+          {
+            "to": 145,
+            "kind": "answer",
+            "text": "……아뇨, 전혀 몰랐어요.",
+            "from": 144,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 147,
+            "kind": "answer",
+            "text": "충격적인 고백이군요(웃음).",
+            "from": 146,
+            "speaker": "이와타"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "충격이네요(웃음).",
+            "from": 148,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 160,
+            "kind": "answer",
+            "text": "그런 것도 있어서 끝까지 믿고 가면 된다고 생각했어요. 그리고 타카하시 씨는 음악을 여러 장면에 붙이는 편집을 직접 하시는데, 그걸 정말 잘하세요. 저도 연극을 계기로 음악을 시작했으니 어떤 장면에 어떻게 소리를 쓸지 공을 많이 들이거든요. 그런데 처음 생각하고 곡을 쓴 장면과 다른 곳에 붙이는 경우가 많았고, “어, 이 곡을 여기에?” 싶을 때도 있었어요. ……정말 멋졌습니다. 그래서 타카하시 씨를 따라가길 잘했다고 생각해요.",
+            "from": 150,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 162,
+            "kind": "answer",
+            "text": "타카하시 씨, CHiCO 씨가 이렇게 말씀하시는데요.",
+            "from": 161,
+            "speaker": "이와타"
+          },
+          {
+            "to": 164,
+            "kind": "answer",
+            "text": "……이 자리에서 도망가고 싶어요.",
+            "from": 163,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 165,
+            "speaker": "일동"
+          },
+          {
+            "to": 170,
+            "kind": "answer",
+            "text": "그래도 처음에 “음악 덕분에 살았다”는 얘기를 했는데요. 게임은 손으로 만지고 눈으로 보는 것 외에 소리에서 오는 감각이 정말 중요하다고 생각해요.",
+            "from": 167,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 173,
+            "kind": "question",
+            "text": "그 ‘음악 덕분에 살았다’는 생각은 이번 『제노블레이드 크로니클스』에서도 마찬가지인가요?",
+            "from": 171,
+            "speaker": "이와타"
+          },
+          {
+            "to": 183,
+            "kind": "answer",
+            "text": "네. 이번에는 특히 그래요. 그래서 음 하나도 헛되이 쓰고 싶지 않다는 생각이 강했죠. 당연히 저희가 “이런 곡을 만들어 주세요”라고 전하지만, 제가 강하게 말한 뒤 돌아온 곡을 들어 보면 새로운 발견이 있어요. 그러면 ‘이 곡은 이런 걸 표현하고 싶구나. 그렇다면 다른 이 장면에 붙이는 편이 좋겠네’ 하는 식으로 꽤 신중하게 편집했어요.",
+            "from": 174,
+            "speaker": "타카하시"
+          }
+        ]
+      },
+      {
+        "id": "page-4",
+        "title": "‘흔히 듣는 RPG 음악처럼 만들지 않는다’",
+        "sourceId": "iwata-xenoblade-sound-04-a0750cb5",
+        "sourceSha256": "a0750cb5c5ca42638af7ff017f072ade446118e210aef1a7c937f860edb736bf",
+        "sourceLineCount": 158,
+        "page": 4,
+        "blocks": [
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "이번 『제노블레이드 크로니클스』의 음악을 두고 타카하시 씨는 어떤 구상을 하고 계셨나요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "저는 장르나 악기를 하나로 좁히고 싶지 않았어요. 물론 어쿠스틱 계열 악기만으로 통일한다든가 방향은 여럿 있겠지만 그러면 아무래도 단조로운 인상을 줘요. 그래서 이번에는 악기를 여러 가지 쓰고 싶었고, 현악기 사이에 일렉트릭 악기가 들어와도 좋겠다고 생각했죠. 토모리 씨는 원래 기타리스트이기도 하고요.",
+            "from": 4,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 14,
+            "kind": "answer",
+            "text": "네(웃음).",
+            "from": 13,
+            "speaker": "토모리"
+          },
+          {
+            "to": 18,
+            "kind": "answer",
+            "text": "RPG니까 RPG다운 전투 장면은 꼭 있어야 해요. 하지만 오히려 그 틀을 조금 깨는 곡조나 악기 사용법을 시도하고 싶었어요.",
+            "from": 15,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 21,
+            "kind": "answer",
+            "text": "각자의 개성이 다르다는 걸 살려 다채롭게 만들려 하셨군요.",
+            "from": 19,
+            "speaker": "이와타"
+          },
+          {
+            "to": 23,
+            "kind": "answer",
+            "text": "네.",
+            "from": 22,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 26,
+            "kind": "answer",
+            "text": "처음에 타카하시 씨가 “흔히 듣는 RPG 음악 같은 느낌으로는 하지 말자”고 하셨어요.",
+            "from": 24,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "그렇군요. 그런데 그건 도전이네요.",
+            "from": 27,
+            "speaker": "이와타"
+          },
+          {
+            "to": 30,
+            "kind": "answer",
+            "text": "그러면서 “그래도 평범하게”라고도 하셨어요.",
+            "from": 29,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 33,
+            "kind": "question",
+            "text": "네? ……그 말을 듣고 굳지 않으셨어요?",
+            "from": 31,
+            "speaker": "이와타"
+          },
+          {
+            "to": 35,
+            "kind": "answer",
+            "text": "역시 “네?” 하는 기분이었죠(웃음).",
+            "from": 34,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "RPG 음악의 정석으로 통하는 소리를 깨고 싶다는 뜻이었어요. 조금 자화자찬이긴 하지만, 결과적으로 좋은 느낌으로 완성됐다고 생각합니다. 각자 맡은 곡에서 개성은 드러나는데, 전체를 들어 보면 누가 어느 곡을 맡았는지 모를 것 같거든요.",
+            "from": 36,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 45,
+            "kind": "answer",
+            "text": "아, 잘 어우러진 느낌이군요.",
+            "from": 44,
+            "speaker": "이와타"
+          },
+          {
+            "to": 48,
+            "kind": "answer",
+            "text": "네. 세계에 잘 어우러졌어요. 다양성도 아주 잘 드러냈고요.",
+            "from": 46,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "저도 키요타 씨와 ACE+가 맡은 곡들을 한꺼번에 듣고 정말 훌륭하다고 생각했어요. 앞서 메일이 오가는 걸 쭉 봐서 아주 세세한 부분을 고치고 추가 주문도 받느라 고생하신 걸 알고 있었거든요. 그래서 정말 감회가 깊었어요.",
+            "from": 49,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "그 고생을 넘어섰기에 이 곡이 나온 거군요.",
+            "from": 57,
+            "speaker": "이와타"
+          },
+          {
+            "to": 63,
+            "kind": "answer",
+            "text": "맞아요. 여섯 사람에게 저마다 있던 뜨거운 마음이 하나의 작품 안에서 음악으로 모여 승화됐다고 느꼈어요. 그래서 모든 곡을 즐겨 주셨으면 해요.",
+            "from": 59,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 65,
+            "kind": "question",
+            "text": "미츠다 씨는 하실 말씀이 있나요?",
+            "from": 64,
+            "speaker": "이와타"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "제가 맡은 건 마지막 에필로그에 나오는 곡이에요. 다른 분들의 곡이 장대한 이야기를 이끌고 에필로그까지 오잖아요. ‘마지막에 제대로 이어지도록 묶어야 해’라는 생각이 있어서 곡을 쓰며 정말 많이 고민했어요.",
+            "from": 66,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 73,
+            "kind": "answer",
+            "text": "모두가 쏟은 에너지가 얼마나 큰지 아셨기 때문이겠죠.",
+            "from": 72,
+            "speaker": "이와타"
+          },
+          {
+            "to": 78,
+            "kind": "answer",
+            "text": "다들 애쓰신 걸 잘 알았고, 그래서 엄청난 힘을 느꼈죠. 그 수고가 헛되지 않게 하자는 마음으로 에필로그 곡을 썼습니다.",
+            "from": 74,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 82,
+            "kind": "answer",
+            "text": "게다가 타카하시 씨는 “마지막 곡을 부탁할 사람은 밋짱밖에 없다”고 하셨고요(웃음).",
+            "from": 79,
+            "speaker": "이와타"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "그래서 엄청나게 부담이 큰 일이었어요(웃음). 타카 씨와 여기 있는 분들이 만든 곡 사이에 끼인 처지라 꽤 힘들었는데, 만들면서는 정말 즐거웠어요. 결과적으로 스스로는 장대한 이야기를 깔끔히 마무리하는 역할을 했다고 생각하니 찬찬히 들어 주시면 좋겠어요.",
+            "from": 83,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 94,
+            "kind": "question",
+            "text": "키요타 씨도 음악에 참여한 분으로서 추천할 대목이 있나요?",
+            "from": 92,
+            "speaker": "이와타"
+          },
+          {
+            "to": 101,
+            "kind": "answer",
+            "text": "이렇게 다채롭고 서로 다른 세계관의 음악을 한 작품 안에서 이렇게 잘 엮은 사례는 아마 세상에 없을 것 같아요. 그래서 음악만 들어도 여러 세계가 보여서 즐겁지 않을까 합니다.",
+            "from": 95,
+            "speaker": "키요타"
+          },
+          {
+            "to": 118,
+            "kind": "answer",
+            "text": "맞아요. 이렇게 많은 사람이 참여하고 이렇게 다채로운데도 정말 깔끔하게 모였다고 생각해요. 타카하시 씨의 조정과 편집 능력 덕분이겠지만요. 게임이 처음에는 시모무라 씨 곡으로 느긋하게 시작하는데 피아노가 아주 좋아요. 다른 곡에서는 보컬리스트이기도 한 키요타 씨가 하늘처럼 맑고 아름다운 목소리로 화음을 넣으셨고, 저도 노래하는 사람이니까 코러스를 넣었어요. 히라마츠 군은 키보드를, 토모리는 기타를 연주했고요. 그런 생연주도 담겨 있으니 이번에 즐기실 수 있을 거예요. 그리고 마지막은 미츠다 씨가 아주 멋진 노래로 마무리해 주셨으니, 저는 아마…… 게임을 사서 하면 울 것 같아요.",
+            "from": 102,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 120,
+            "kind": "answer",
+            "text": "CHiCO 씨의 ‘눈물 보증’이네요(웃음).",
+            "from": 119,
+            "speaker": "이와타"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 121,
+            "speaker": "일동"
+          },
+          {
+            "to": 124,
+            "kind": "question",
+            "text": "토모리 씨는요?",
+            "from": 123,
+            "speaker": "이와타"
+          },
+          {
+            "to": 128,
+            "kind": "answer",
+            "text": "제가 하고 싶은 말도 다른 분들과 거의 같아요. ‘흔히 듣는 RPG 음악처럼 만들지 않는다’는 과제가 주어져 처음에는 시행착오가 많았어요.",
+            "from": 125,
+            "speaker": "토모리"
+          },
+          {
+            "to": 130,
+            "kind": "answer",
+            "text": "본보기가 없다는 건 어렵죠.",
+            "from": 129,
+            "speaker": "이와타"
+          },
+          {
+            "to": 135,
+            "kind": "answer",
+            "text": "맞아요. 그래도 결국 아주 잘 어우러졌으니 ‘다른 RPG와 소리가 좀 다른데 정말 좋네’ 하고 느끼시면 기쁠 것 같아요.",
+            "from": 131,
+            "speaker": "토모리"
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "다른 RPG와 어떤 점이 다른지도 즐기셨으면 한다는 거군요. 그럼 마지막으로 히라마츠 씨요.",
+            "from": 136,
+            "speaker": "이와타"
+          },
+          {
+            "to": 147,
+            "kind": "answer",
+            "text": "곡을 처음 만들 때 느낌을 잡으려고 그때 상태의 게임을 해 봤어요. 아직 임시 음원이 들어 있었는데 화면에 깊이감이 정말 느껴졌죠. “저 멀리 보이는 절벽까지 실제로 걸어갈 수 있어요”라고 설명해 주셔서 세계가 넓게 펼쳐진 느낌과 그곳의 공기를 생생하게 느꼈어요. 정말 가슴이 두근거렸습니다.",
+            "from": 139,
+            "speaker": "히라마츠"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "아무리 들어도 작곡가가 하신 말이라고는 생각할 수 없는데요(웃음).",
+            "from": 148,
+            "speaker": "이와타"
+          },
+          {
+            "to": 154,
+            "kind": "answer",
+            "text": "죄송합니다(웃음). 그래서 게임이 완성되면 직접 컨트롤러를 잡고 그 넓은 세계를 플레이어로서 가슴 두근거리며 모험할 날을 기대하고 있어요.",
+            "from": 150,
+            "speaker": "히라마츠"
+          },
+          {
+            "to": 156,
+            "kind": "answer",
+            "text": "그야말로 게이머의 말이네요. 고맙습니다(웃음).",
+            "from": 155,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 158,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 157,
+            "speaker": "일동"
+          }
+        ]
+      },
+      {
+        "id": "page-5",
+        "title": "각자의 『제노블레이드 크로니클스』",
+        "sourceId": "iwata-xenoblade-sound-05-96d56281",
+        "sourceSha256": "96d56281882a3772b4e52478db5d415161750ba1455b595a83641a99e7bd0f72",
+        "sourceLineCount": 169,
+        "page": 5,
+        "blocks": [
+          {
+            "to": 5,
+            "kind": "question",
+            "text": "그럼 마지막으로 『제노블레이드 크로니클스』가 여러분에게 어떤 게임인지 한마디씩 부탁드릴게요. 순서를 바꿔서 게이머인 히라마츠 씨부터 들어 볼까요.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 9,
+            "kind": "answer",
+            "text": "네(웃음). 저에게 『제노블레이드 크로니클스』는 어릴 때 게임에서 모험하며 느꼈던 설렘을 어른이 된 지금도 느낄 수 있는 게임이라고 생각해요.",
+            "from": 6,
+            "speaker": "히라마츠"
+          },
+          {
+            "to": 15,
+            "kind": "answer",
+            "text": "처음 해 봤을 때 보기만 해도 마음이 편안해지는 경치가 있어서 정말 기분이 좋았어요. 어려운 생각은 많이 하지 마시고 그런 부분을 편하게 즐겨 주시면 합니다.",
+            "from": 10,
+            "speaker": "토모리"
+          },
+          {
+            "to": 17,
+            "kind": "answer",
+            "text": "저는 그냥 대본이 아주 재미있다고 생각했어요.",
+            "from": 16,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 19,
+            "kind": "answer",
+            "text": "연극 출신이시라 ‘대본’이군요(웃음).",
+            "from": 18,
+            "speaker": "이와타"
+          },
+          {
+            "to": 24,
+            "kind": "answer",
+            "text": "아, 시나리오요(웃음). 읽어 보니 대사 한 줄까지 정말 깊이 생각해서 썼구나 싶었어요. 그래서 혼자 있을 때는 소리 내어 읽었어요.",
+            "from": 20,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 26,
+            "kind": "answer",
+            "text": "꼭 배우 같으시네요.",
+            "from": 25,
+            "speaker": "이와타"
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "네. 덕분에 여러 역할의 대사를 할 수 있게 됐어요(웃음).",
+            "from": 27,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "그렇게까지 하신 건 곡을 만들기에도 중요했겠죠.",
+            "from": 29,
+            "speaker": "이와타"
+          },
+          {
+            "to": 41,
+            "kind": "answer",
+            "text": "그렇죠. 그 세계를 제 안에 받아들인 상태로 곡을 쓰는 편이 좋다고 봤어요. 그런데 대사 자체가 정말 재미있어요. 성우를 고르는 일도 깊이 고민하셨고, 녹음 현장도 잠깐 보여 주셨는데 거기서도 “이게 아니다”, “저게 아니다” 하며 이야기가 많이 오갔어요. 끝까지 공을 들여 만든 느낌이라 음악까지 포함해 아주 재미있는 게임이 된 것 같아요.",
+            "from": 32,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 43,
+            "kind": "question",
+            "text": "키요타 씨는요?",
+            "from": 42,
+            "speaker": "이와타"
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "저는 역시 게임을 좋아해서 게임의 세계 속으로 정말 들어가고 싶었어요. 『제노블레이드 크로니클스』를 해 보니 ‘내가 이 세계를 걷고 있어!’라는 느낌이 들더라고요. 게다가 일방적으로 보게 하는 게 아니라 제가 주인공과 같은 마음으로 볼 수 있으니 정말 그 세계에 들어갈 수 있는 것 같았어요. 또 저는 30대인데, 같은 세대는 어릴 때부터 게임을 좋아하며 자랐다고 생각해요. 그런 분들이 ‘한 번 더 RPG를 해 볼까’ 싶을 때 반드시 재미있을 거라고 보증할 수 있는 게임이라고 생각합니다.",
+            "from": 44,
+            "speaker": "키요타"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "그럼 미츠다 씨요.",
+            "from": 57,
+            "speaker": "이와타"
+          },
+          {
+            "to": 61,
+            "kind": "answer",
+            "text": "오랜만에 타카하시 감독의 작품이 세상에 나오니 아마 오래 기다리신 분도 많으리라 생각해요.",
+            "from": 59,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 65,
+            "kind": "answer",
+            "text": "이렇게 에너지와 시간을 넉넉히 들여 만드는 건 그리 쉬운 일이 아니니까요.",
+            "from": 62,
+            "speaker": "이와타"
+          },
+          {
+            "to": 69,
+            "kind": "answer",
+            "text": "네. 그래서 지금까지의 ‘제노’ 팬 여러분은 물론, 새로운 RPG라는 점에서도 여러 게임 팬이 좋아해 주시지 않을까 생각해요.",
+            "from": 66,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "그럼 시모무라 씨요.",
+            "from": 70,
+            "speaker": "이와타"
+          },
+          {
+            "to": 79,
+            "kind": "answer",
+            "text": "이번 『제노블레이드 크로니클스』를 처음 봤을 때 눈을 강하게 사로잡는다는 인상을 받았어요. 세계관도 대단한 발상이었죠. 아주 커다란 신이 서 있고, 그 규모에 압도됐어요. 대체 어떻게 이런 이야기를 떠올릴까 싶었고요. 사실 게임과는 전혀 관계없는 곳에서 이런저런 상상을 하기도 했어요.",
+            "from": 72,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 81,
+            "kind": "question",
+            "text": "이를테면 어떤 거였나요?",
+            "from": 80,
+            "speaker": "이와타"
+          },
+          {
+            "to": 85,
+            "kind": "answer",
+            "text": "인간 모양의 신이 무대니까 중력은 어떨지, 이 바다 너머는 어떻게 되어 있을지 생각하게 되더라고요.",
+            "from": 82,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 87,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 86,
+            "speaker": "이와타"
+          },
+          {
+            "to": 90,
+            "kind": "answer",
+            "text": "별것 아닌 문제인지도 모르지만, 그만큼 상상력을 자극하는 세계관이에요.",
+            "from": 88,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 92,
+            "kind": "answer",
+            "text": "생각하지 않고는 못 배기는군요.",
+            "from": 91,
+            "speaker": "이와타"
+          },
+          {
+            "to": 101,
+            "kind": "answer",
+            "text": "맞아요(웃음). 시나리오를 읽고도 마음에 크게 와닿는 것이 있어서, 거기서 받은 느낌과 거대한 규모에 뒤지지 않게 ‘이건 반드시 귀에도 와닿게 해야 해!’ 하고 힘을 냈어요. 그래서 여러 곳에서 저마다 다른 분에게 와닿는 게임이 되지 않았나 생각합니다.",
+            "from": 93,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 104,
+            "kind": "answer",
+            "text": "고맙습니다. 그러면 마지막으로 타카하시 씨, 부탁드려요.",
+            "from": 102,
+            "speaker": "이와타"
+          },
+          {
+            "to": 119,
+            "kind": "answer",
+            "text": "이번 음악에는 제게 하나의 목표랄까, 꼭 여기까지는 가고 싶다는 생각이 있었어요. 그걸 이루려고 죄송하면서도 “여기는 한 번 더 만들어 주세요” 하는 식으로 때로 꽤 세게 말했습니다. 그런데 여기 계신 여섯 분은 제 제멋대로인 생각에 응해 주고 목표를 향해 한마음으로 달려 주셨어요. 아까 곡을 편집했다고 말씀드렸는데, 그 자체가 정말 즐거웠어요. 이 곡은 회상 장면에, 저 곡은 배틀에 붙이자면서 한 곡씩 골라 넣는 일이 정말 재미있었어요.",
+            "from": 105,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "타카하시 씨가 그렇게 즐기며 곡을 편집하신 게 실제로 해 주시는 플레이어에게도 자연스레 전해지겠죠.",
+            "from": 120,
+            "speaker": "이와타"
+          },
+          {
+            "to": 130,
+            "kind": "answer",
+            "text": "그러길 바랍니다. 이번에 조기 구매 특전으로 ‘스페셜 사운드트랙 CD’가 붙는데, 게임은 물론 음악만도 즐겨 주시면 기쁘겠어요. 엄선한 12곡을 담은 CD이고, 여기 계신 분들이 각자 만든 곡이 들어 있으니까요.",
+            "from": 123,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 131,
+            "kind": "caption",
+            "text": "원문 페이지에서 수록곡 일부를 들어 보실 수 있습니다.",
+            "from": 131
+          },
+          {
+            "to": 132,
+            "kind": "caption",
+            "text": "시모무라 요코 작곡",
+            "from": 132
+          },
+          {
+            "to": 133,
+            "kind": "caption",
+            "text": "키요타 마나미 작곡",
+            "from": 133
+          },
+          {
+            "to": 134,
+            "kind": "caption",
+            "text": "ACE+ 작곡",
+            "from": 134
+          },
+          {
+            "to": 137,
+            "kind": "answer",
+            "text": "참고로 에필로그의 「Beyond the Sky」 가사를 쓴 사람은 타카하시 씨예요.",
+            "from": 135,
+            "speaker": "미츠다"
+          },
+          {
+            "to": 151,
+            "kind": "answer",
+            "text": "여기 계신 모두의 땀과 눈물, 뜨거운 마음이 그 CD에 듬뿍 담겼군요. 저도 게임 음악의 중요성에 관해 여러 이야기를 들어 왔는데, 오늘 여러분의 이야기를 듣고 보니 처음부터 같은 방향이 아니었던 만큼 하나의 팀으로 모이는 과정이 정말 재미있고 풍부하게 느껴졌어요. 그 과정에는 물론 힘든 일도 많았겠지만 여러분의 표정을 뵈니 ‘힘들었지만 보람 있는 일이었다’는 느낌이 강하게 듭니다. 오늘 정말 고맙습니다.",
+            "from": 138,
+            "speaker": "이와타"
+          },
+          {
+            "to": 153,
+            "kind": "answer",
+            "text": "저희가 더 고맙습니다.",
+            "from": 152,
+            "speaker": "일동"
+          },
+          {
+            "to": 155,
+            "kind": "question",
+            "text": "미처 못 하신 말씀은 없나요?",
+            "from": 154,
+            "speaker": "이와타"
+          },
+          {
+            "to": 158,
+            "kind": "answer",
+            "text": "저기…… 저는 타카하시 씨가 쓰신 첫 메일을 기회가 되면 보고 싶어요.",
+            "from": 156,
+            "speaker": "토모리"
+          },
+          {
+            "to": 160,
+            "kind": "answer",
+            "text": "그렇게 무서운 얘기를(웃음).",
+            "from": 159,
+            "speaker": "CHiCO"
+          },
+          {
+            "to": 162,
+            "kind": "answer",
+            "text": "저도 보고 싶어요…….",
+            "from": 161,
+            "speaker": "시모무라"
+          },
+          {
+            "to": 165,
+            "kind": "question",
+            "text": "다 끝난 지금이라면 마음 놓고 볼 수 있으니까요(웃음). 타카하시 씨, 어떠세요?",
+            "from": 163,
+            "speaker": "이와타"
+          },
+          {
+            "to": 167,
+            "kind": "answer",
+            "text": "아니…… 죄송한데, 가능하면 도망가고 싶어요.",
+            "from": 166,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 169,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 168,
+            "speaker": "일동"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iwata-xenoblade-story",
+    "lead": "社長が訊く『ゼノブレイド』シナリオ 篇",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/01-photo001.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html",
+        "sectionId": "page-1",
+        "afterLine": 11
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/01-photo002.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html",
+        "sectionId": "page-1",
+        "afterLine": 49
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/01-photo003.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html",
+        "sectionId": "page-1",
+        "afterLine": 71
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/01-photo004.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html",
+        "sectionId": "page-1",
+        "afterLine": 138
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/02-photo005.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 78
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/02-photo006.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 120
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/03-photo007.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 40
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/03-photo008.jpg",
+        "width": 300,
+        "height": 331,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 55
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/03-photo009.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 106
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/03-photo010.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 154
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/04-photo011.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 62
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/04-photo012.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 115
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/05-photo013.jpg",
+        "width": 300,
+        "height": 275,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 76
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/05-photo014.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 87
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/05-photo015.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 105
+      },
+      {
+        "src": "/images/interviews/iwata-xenoblade-story/05-photo016.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "제노블레이드 크로니클스 시나리오 제작진 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 129
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "서로 공을 주고받듯",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index.html"
+      },
+      {
+        "page": 2,
+        "title": "매주 열린 시나리오 회의",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index2.html"
+      },
+      {
+        "page": 3,
+        "title": "미움받지 않는 주인공",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index3.html"
+      },
+      {
+        "page": 4,
+        "title": "세계는 더 크게, 밀도는 더 높게",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index4.html"
+      },
+      {
+        "page": 5,
+        "title": "주제는 ‘여정을 떠나는 것’",
+        "url": "https://www.nintendo.co.jp/wii/interview/sx4j/vol2/index5.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "서로 공을 주고받듯",
+        "sourceId": "iwata-xenoblade-story-01-15d12cab",
+        "sourceSha256": "15d12cab0a54f8c750c7426e309833834a7ba6676a934c064ba8c4b0a3fa9c3a",
+        "sourceLineCount": 205,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 5,
+            "kind": "answer",
+            "text": "이번 「사장이 묻는다 『제노블레이드 크로니클스』」 시나리오 편에서는 시나리오를 맡은 각본가 타케다 씨를 모시고 이야기를 들어 보겠습니다. 잘 부탁드립니다.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 7,
+            "kind": "answer",
+            "text": "잘 부탁드립니다.",
+            "from": 6,
+            "speaker": "일동"
+          },
+          {
+            "to": 11,
+            "kind": "question",
+            "text": "바로 여쭤볼게요, 타카하시 씨. 이 탁자 위에 있는 큰 모형이 『제노블레이드 크로니클스』의 시작이었다고요?",
+            "from": 8,
+            "speaker": "이와타"
+          },
+          {
+            "to": 17,
+            "kind": "answer",
+            "text": "네. 회의를 마치고 돌아가다 전철에서 문득 ‘신처럼 아주 거대한 몸 위에서 사람들이 살아가면 재미있지 않을까’ 하고 생각한 게 계기였어요.",
+            "from": 12,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 20,
+            "kind": "question",
+            "text": "그 아이디어가 문득 머리에 들어온 느낌이었나요?",
+            "from": 18,
+            "speaker": "이와타"
+          },
+          {
+            "to": 33,
+            "kind": "answer",
+            "text": "네. 회사로 돌아오자마자 종이 한 장에 아이디어를 정리해 스기우라 히로히데(※1)와 동료들에게 보여 줬어요. 다들 재미있겠다고 했고, 혼네 야스유키(※2)가 “그럼 이왕 이렇게 된 거 입체로 만들죠”라고 해 줬어요. 그래서 서둘러 디오라마 재료를 잔뜩 사 와 만들어 달라고 했습니다. 이 모형에서 먼저 표현한 게 ‘거신’과 ‘기신’, 두 기둥의 신이에요. 또 모형과는 별개로 생각해 둔 이야기가 있었거든요. 그걸 잘 합치면 재미있는 RPG를 만들 수 있지 않을까 싶어서 『제노블레이드 크로니클스』의 기획에 들어갔습니다.",
+            "from": 21,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 35,
+            "kind": "note",
+            "text": "※1 스기우라 히로히데 — 모노리스 소프트 대표이사 사장. 스퀘어(현 스퀘어 에닉스)에서 프로듀서 등을 맡았다. 퇴사 뒤 1999년 타카하시 테츠야 씨 등과 함께 모노리스 소프트를 설립했다.",
+            "from": 34
+          },
+          {
+            "to": 37,
+            "kind": "note",
+            "text": "※2 혼네 야스유키 — 모노리스 소프트 이사. 스퀘어(현 스퀘어 에닉스) 시절 슈퍼 패미컴으로 발매된 『크로노 트리거』(1995년) 개발에 참여했다. 퇴사 뒤 모노리스 소프트로 옮겨 『바텐 카이토스』(게임큐브) 등을 개발했다.",
+            "from": 36
+          },
+          {
+            "to": 42,
+            "kind": "question",
+            "text": "그렇게 『제노블레이드 크로니클스』 개발이 시작됐는데, 타케다 씨와 함께 시나리오를 쓰게 된 경위는 무엇인가요?",
+            "from": 38,
+            "speaker": "이와타"
+          },
+          {
+            "to": 49,
+            "kind": "answer",
+            "text": "이번에는 제가 총감독이라 맡을 일이 상당히 많으리라는 걸 알았어요. 개발을 효율적으로 진행하려면 시나리오를 함께 생각해 줄 짝이 있으면 좋겠다고 생각했죠. 그래서 10년 전부터 알던 타케다 씨에게 연락했어요.",
+            "from": 43,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 52,
+            "kind": "question",
+            "text": "두 분이 이번처럼 깊이 함께 일하신 건 처음인가요?",
+            "from": 50,
+            "speaker": "이와타"
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "『제노사가』 에피소드 I(※3)이 끝난 뒤 드라마 CD와 애니메이션판 각본 등으로 함께 일했지만, 이만한 규모의 작품을 같이 만든 건 처음이었어요.",
+            "from": 53,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 58,
+            "kind": "note",
+            "text": "※3 『제노사가』 에피소드 I — 『제노사가 에피소드 I [힘에의 의지]』. 2002년 2월 남코(현 반다이 남코 게임스)가 발매한 RPG.",
+            "from": 57
+          },
+          {
+            "to": 62,
+            "kind": "question",
+            "text": "이번에는 타케다 씨에게 여쭙겠습니다. 각본가로 일하시면서 지금까지 어떤 작품을 맡아 오셨나요?",
+            "from": 59,
+            "speaker": "이와타"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "가장 많은 건 애니메이션 각본(※4)입니다. 게임도 몇 편 맡았지만 원작 애니메이션이 있었고, 그걸 게임으로 만들 때 시나리오의 밑바탕을 짜는 일이었어요. 이번처럼 게임 한 편을 처음부터 끝까지 통째로 맡은 건 『제노사가』 DS판(※5)이 처음이고, 이번이 두 번째예요.",
+            "from": 63,
+            "speaker": "타케다"
+          },
+          {
+            "to": 73,
+            "kind": "note",
+            "text": "※4 애니메이션 각본 — 타케다 씨의 대표작에는 『용자왕 가오가이가』, 『성계의 전기』, 『지팡구』, 『SD 건담 포스』 등이 있다.",
+            "from": 72
+          },
+          {
+            "to": 75,
+            "kind": "note",
+            "text": "※5 『제노사가』 DS판 — 『제노사가 I·II DS』. 2006년 3월 남코(현 반다이 남코 게임스)가 발매한 닌텐도 DS용 RPG.",
+            "from": 74
+          },
+          {
+            "to": 81,
+            "kind": "question",
+            "text": "그렇군요. 그런데 애니메이션과 게임의 시나리오를 쓰는 일은 어떤 점이 같고 어떤 점이 다른가요? 조금 초보자 같은 질문이라 민망합니다만.",
+            "from": 76,
+            "speaker": "이와타"
+          },
+          {
+            "to": 85,
+            "kind": "answer",
+            "text": "아닙니다. 애니메이션과 게임의 시나리오에서 공통되는 건 사람 마음에 호소하는 이야기와 대사를 쓴다는 점이에요.",
+            "from": 82,
+            "speaker": "타케다"
+          },
+          {
+            "to": 87,
+            "kind": "answer",
+            "text": "드라마를 만든다는 점은 같군요.",
+            "from": 86,
+            "speaker": "이와타"
+          },
+          {
+            "to": 92,
+            "kind": "answer",
+            "text": "네. 다만 기술적인 면은 많이 달라요. 애니메이션 같은 영상 작품에는 시간 제한이 있으니 정해진 시간에 드라마를 맞춰야 한다는 분량 제약이 가장 큽니다.",
+            "from": 88,
+            "speaker": "타케다"
+          },
+          {
+            "to": 99,
+            "kind": "answer",
+            "text": "그렇군요. 가령 30분짜리 애니메이션 프로그램에서 실제 방영 시간은 22분쯤 되겠죠. 그 22분 안에 이야기를 얼마나 잘 넣고, 중요한 대목마다 고조되는 장면을 확실히 만들지가 기술의 영역이군요.",
+            "from": 93,
+            "speaker": "이와타"
+          },
+          {
+            "to": 108,
+            "kind": "answer",
+            "text": "맞아요. 광고 직전에 분위기를 띄운다거나 다음 회를 기다리게 할 끝부분을 고조시키는 등 기술이 필요해요. 반면 게임은 이야기를 큰 분량으로 담을 수 있어 제약이 거의 없어요. 각본가로서는 쓰고 싶은 만큼 쓸 수 있으니 그런 점이 고마웠죠.",
+            "from": 100,
+            "speaker": "타케다"
+          },
+          {
+            "to": 111,
+            "kind": "question",
+            "text": "게임에서는 분량 제약이 사라지는 대신, 어떤 면에서는 표현력의 한계를 느끼는 부분도 있지 않나요?",
+            "from": 109,
+            "speaker": "이와타"
+          },
+          {
+            "to": 119,
+            "kind": "answer",
+            "text": "그렇죠. 다만 표현력으로 말하면 요즘 게임은 충분히 표현할 수 있어서 그런 한계를 별로 느끼지 않아요. 그래도 직접 조작한다는 점에서는 특수한 면이 있어요. 예를 들어 이번 『제노블레이드 크로니클스』의 시나리오를 쓰면서, 주인공 곁에 쭉 있던 동료 한 명이 마지막 적이 된다는 구상을 한 적이 있어요.",
+            "from": 112,
+            "speaker": "타케다"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "계속 동료인 줄 알았는데 맨 마지막에 적이 되어 버리는 거군요.",
+            "from": 120,
+            "speaker": "이와타"
+          },
+          {
+            "to": 127,
+            "kind": "answer",
+            "text": "네. 타카하시 씨에게 그 아이디어를 전했더니, 모험하며 계속 경험치를 쌓아 준 동료가 마지막에 파티에서 빠져 적이 되는 건 게임으로서는 괴롭다고 하셨어요.",
+            "from": 123,
+            "speaker": "타케다"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "플레이어 입장에서는 모처럼 애정을 들여 키웠는데 적이 되어 버리면 배신당한 것 같겠지요.",
+            "from": 128,
+            "speaker": "이와타"
+          },
+          {
+            "to": 136,
+            "kind": "answer",
+            "text": "맞습니다. 그런 전개는 영상 작품이라면 구현하기 쉽지만, 게임은 상호 작용을 통해 즐기는 매체라 여러 모로 어려웠어요.",
+            "from": 132,
+            "speaker": "타케다"
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "게임만의 제약이 있다는 거군요.",
+            "from": 137,
+            "speaker": "이와타"
+          },
+          {
+            "to": 143,
+            "kind": "answer",
+            "text": "그래도 어떤 매체에든 그 매체만의 제약은 있어요. 그걸 못 할 일이라기보다 주어진 규칙이라고 생각하고 즐기면서 이번 시나리오를 썼습니다.",
+            "from": 139,
+            "speaker": "타케다"
+          },
+          {
+            "to": 147,
+            "kind": "question",
+            "text": "그럼 시나리오를 쓴 과정 이야기인데요. 타카하시 씨는 타케다 씨에게 어느 정도 세세하게 지시하셨나요?",
+            "from": 144,
+            "speaker": "이와타"
+          },
+          {
+            "to": 153,
+            "kind": "answer",
+            "text": "세세한 지시라기보다는 처음에 바탕이 되는 줄거리를 보여 드리고 “이런 느낌으로 하시죠”라고 했어요. 그걸 바탕으로 서로 공을 던지고 받듯 의견을 주고받기 시작했습니다.",
+            "from": 148,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 157,
+            "kind": "answer",
+            "text": "두 사람이 공을 주고받는 사이에 시나리오가 차츰 구체적으로 변해 갔군요.",
+            "from": 154,
+            "speaker": "이와타"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "네. 다만 이 작업에는 저희 둘만이 아니라 프로듀서인 카와바타 신고(※6)와 디렉터인 코지마 코우(※7)도 함께했어요. 시나리오를 쓰는 입장뿐 아니라 개발 현장 입장에서 나오는 의견도 중요했거든요. 대략 타케다 씨가 쓴 원고를 모노리스가 확인하고 수정해 돌려드리면, 타케다 씨가 다시 써 주시는 식이었어요. 그렇게 한동안 공을 주고받았죠.",
+            "from": 158,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 168,
+            "kind": "note",
+            "text": "※6 카와바타 신고 — 모노리스 소프트 개발부 소속. 닌텐도 DS용 Soma Bringer(2008년 2월 발매)의 디렉터를 맡았으며, 이번 작품에서는 프로듀싱을 담당했다.",
+            "from": 167
+          },
+          {
+            "to": 170,
+            "kind": "note",
+            "text": "※7 코지마 코우 — 모노리스 소프트 개발부 소속. 게임큐브용 『바텐 카이토스 II』(2006년 2월 발매)에서 시나리오·퀘스트 기획 디렉터를 맡았다. 이번 작품에서는 디렉션을 담당했다.",
+            "from": 169
+          },
+          {
+            "to": 173,
+            "kind": "question",
+            "text": "타카하시 씨는 만들 때 그렇게 서로 공을 주고받는 경우가 많나요?",
+            "from": 171,
+            "speaker": "이와타"
+          },
+          {
+            "to": 177,
+            "kind": "answer",
+            "text": "아니요, 그리 많지는 않아요. 공을 주고받으려 해도 제가 던진 게 기대대로 돌아오지 않을 때가 있거든요.",
+            "from": 174,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 180,
+            "kind": "answer",
+            "text": "“그쪽이 아니잖아요” 하고 말하고 싶은 방향으로 공이 돌아온 일도 예전엔 있었겠네요(웃음).",
+            "from": 178,
+            "speaker": "이와타"
+          },
+          {
+            "to": 186,
+            "kind": "answer",
+            "text": "네. “어디로 던지신 거예요?” 싶은 식으로요(웃음). 그래서 상대가 저와 같거나 그 이상의 경험치를 가진 분이어야 공을 주고받는 일이 잘되더라고요.",
+            "from": 181,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 191,
+            "kind": "answer",
+            "text": "게다가 상대가 자기가 하고 싶은 일을 이해해 주면서 자신에게 없는 것도 가진 분이어야, 만드는 사람 입장에서 함께하는 일이 힘들어지지 않으니까요.",
+            "from": 187,
+            "speaker": "이와타"
+          },
+          {
+            "to": 195,
+            "kind": "answer",
+            "text": "맞아요. 뒤집어 말하면 저한테 없는 여러 가지를 가진 분과는 공을 주고받고 싶어지죠.",
+            "from": 192,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 197,
+            "kind": "answer",
+            "text": "그분이 타케다 씨였군요.",
+            "from": 196,
+            "speaker": "이와타"
+          },
+          {
+            "to": 205,
+            "kind": "answer",
+            "text": "네, 그랬습니다. 지금까지 그런 사람과는 좀처럼 마주치지 못했는데, 타케다 씨가 이번에 아주 좋은 공을 돌려주셔서 저도 많이 배웠어요. 게다가 애니메이션 업계에서 쭉 각본을 써 오셨으니, 게임과는 다른 업계의 사고방식을 받아들일 수 있다는 장점도 있었죠.",
+            "from": 198,
+            "speaker": "타카하시"
+          }
+        ]
+      },
+      {
+        "id": "page-2",
+        "title": "매주 열린 시나리오 회의",
+        "sourceId": "iwata-xenoblade-story-02-9b7aef59",
+        "sourceSha256": "9b7aef594e9d1e55f579fa44ba906518eb4702377c0b5d858b8e96ed2832013e",
+        "sourceLineCount": 188,
+        "page": 2,
+        "blocks": [
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "‘다른 업계의 사고방식을 받아들일 수 있다는 장점’은 구체적으로 어떤 거였나요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 9,
+            "kind": "answer",
+            "text": "예를 들어 애니메이션은 한 편이 22분이라면 각본 분량이 대략 1만 5천 자 정도 됩니다. 그래서 타케다 씨가 그만한 분량의 시나리오를 써 오시면 ‘이게 22분 분량의 영상이 되겠구나’ 하고 전체 구성과 일정을 예상하기가 아주 쉬웠어요.",
+            "from": 4,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 11,
+            "kind": "answer",
+            "text": "그렇군요.",
+            "from": 10,
+            "speaker": "이와타"
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "아까 타케다 씨가 애니메이션 각본을 쓸 때 광고 전이나 다음 주 이야기로 이어지는 대목에서 분위기를 띄운다고 하셨죠. 실제 원고를 보면 ‘고조되는 곳은 네 번째 장의 여기구나’ 하고 알아요. 예를 들어 게임에서 어떤 컷신을 살릴지 고를 때 원고 세 번째, 네 번째 장에서는 5분 정도에 걸쳐 점차 분위기가 올라가니, 이 5분을 비용을 들인 컷신에 배정하는 게 좋겠다고 할 수 있었죠. 원고 자체를 지침으로 쓸 수 있어서 큰 도움이 됐어요.",
+            "from": 12,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 26,
+            "kind": "answer",
+            "text": "그러니까 원고만 보고도 실제로 게임이 됐을 때 전개를 구체적으로 그릴 수 있었군요.",
+            "from": 23,
+            "speaker": "이와타"
+          },
+          {
+            "to": 33,
+            "kind": "answer",
+            "text": "네. 또 타케다 씨는 애니메이션 쪽 분이라, 대사를 표현하는 방식이 가장 설렜어요. 이를테면 어느 장면을 보고 ‘여기서는 이렇게 말하게 하고 싶다’고 스스로 생각할 때가 있잖아요.",
+            "from": 27,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 37,
+            "kind": "answer",
+            "text": "타카하시 씨가 대사를 대략 머릿속에 그려 두셨고, 그게 그 장면과 맞물려 있군요.",
+            "from": 34,
+            "speaker": "이와타"
+          },
+          {
+            "to": 42,
+            "kind": "answer",
+            "text": "네. 그런데 타케다 씨는 제가 생각한 것보다 훨씬 좋은 대사와 정경을 돌려주셨어요. ‘아, 그런 전개가 있었네. 내가 졌다’ 싶고요(웃음). 그리고 ‘좋아, 다음에는 안 질 거야’ 하고, 그런 일의 반복이었습니다.",
+            "from": 38,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 53,
+            "kind": "question",
+            "text": "그게 바로 공을 주고받는 일이군요. 생각했던 것보다 더 좋은 공이 돌아오면 받는 손은 조금 아파도(웃음) 역시 기쁘고, 그러니까 나도 더 좋은 공을 던지려 하죠. 그런데 그런 방식이 왜 잘 통했을까요? 두 사람 모두 능력이 있다고 꼭 좋은 관계가 되는 건 아니잖아요. 두 분이 잘 맞았던 걸까요, 아니면 ‘이런 게 좋다’는 가치관이 어느 정도 같았나요?",
+            "from": 43,
+            "speaker": "이와타"
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "좋아하는 장르가 꽤 비슷해요. 소설이나 영화 같은 데서요.",
+            "from": 54,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 59,
+            "kind": "answer",
+            "text": "그렇죠. 비슷해요. 받아들이는 사람으로서의 가치관은 저와 타카하시 씨가 아주 비슷하다고 생각해요.",
+            "from": 57,
+            "speaker": "타케다"
+          },
+          {
+            "to": 62,
+            "kind": "answer",
+            "text": "소설을 읽거나 영화를 보면서 ‘여기가 좋지’ 하고 느끼는, 감상하는 쪽의 감각은 같군요.",
+            "from": 60,
+            "speaker": "이와타"
+          },
+          {
+            "to": 64,
+            "kind": "answer",
+            "text": "네. 그런데 만드는 쪽에서 향하는 방향은 꽤 달라요.",
+            "from": 63,
+            "speaker": "타케다"
+          },
+          {
+            "to": 66,
+            "kind": "answer",
+            "text": "확실히 다르지요.",
+            "from": 65,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "아, 그렇군요. 받아들인 것에 대한 ‘좋다, 나쁘다’의 판단은 아주 비슷한데, 만들어 내는 것의 방향과 내용은 전혀 다르군요.",
+            "from": 67,
+            "speaker": "이와타"
+          },
+          {
+            "to": 78,
+            "kind": "answer",
+            "text": "바로 그래요. 그래서 제가 쓴 시나리오를 타카하시 씨가 고쳐 주시면 볼 때마다 ‘아, 이런 방법도 있었구나’ 하고 저도 무척 새롭게 느꼈어요. 전혀 다른 걸 만들어 내는 분과 이렇게 일할 수 있어서 운이 좋았다고 생각합니다.",
+            "from": 72,
+            "speaker": "타케다"
+          },
+          {
+            "to": 85,
+            "kind": "answer",
+            "text": "그런 식으로 저희끼리 할 만큼 하고, 그때까지 다듬은 시나리오는 닌텐도에 확인을 부탁드렸어요. 그런데 돌아온 걸 보면 생각도 못 한 곳을 지적받아 저절로 “와!” 하고요(웃음).",
+            "from": 79,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 88,
+            "kind": "answer",
+            "text": "아하하(웃음). 닌텐도는 뜻밖의 방향에서 완전히 다른 공을 던져 온 거군요.",
+            "from": 86,
+            "speaker": "이와타"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "맞아요. 닌텐도에서 지적해 주신 것도 아주 많았어요.",
+            "from": 89,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 96,
+            "kind": "question",
+            "text": "타카하시 씨 입장에서는 닌텐도의 지적이 다른 문화가 들어온 것처럼 느껴지기도 했을 것 같은데, 실제로는 어떠셨나요?",
+            "from": 92,
+            "speaker": "이와타"
+          },
+          {
+            "to": 102,
+            "kind": "answer",
+            "text": "이번 『제노블레이드 크로니클스』를 만들 때 시나리오뿐 아니라 음악까지 전부 마찬가지였어요. 목표를 향해 가면서 도움이 되는 것이면 무엇이든 적극적으로 받아들이겠다는 각오였죠.",
+            "from": 97,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 105,
+            "kind": "answer",
+            "text": "다채롭고 완성도도 높은 작품을 위해 욕심을 내서 받아들이셨군요.",
+            "from": 103,
+            "speaker": "이와타"
+          },
+          {
+            "to": 111,
+            "kind": "answer",
+            "text": "그렇죠. 시나리오도 마찬가지였어요. 저희끼리만 이야기를 정리하면 어떤 방향에는 강해도 다른 쪽에는 방어가 전혀 안 된 곳이 있거든요. 그 무방비한 데를…….",
+            "from": 106,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 113,
+            "kind": "answer",
+            "text": "그 부분을 닌텐도가 퍽 찌른 거군요.",
+            "from": 112,
+            "speaker": "이와타"
+          },
+          {
+            "to": 120,
+            "kind": "answer",
+            "text": "네(웃음). 저희는 대체로 취미나 봐 온 것이 비슷해서 서로 당연히 아는 대목인데도 “이 표현은 이해하기 어려워요”라는 말을 들었어요. 그러면 저희도 ‘아, 그렇게 볼 수도 있지’ 하고 깨닫는 일이 적지 않았죠.",
+            "from": 114,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 122,
+            "kind": "answer",
+            "text": "어쩐지 ‘작가와 편집자’의 관계와도 닮았네요.",
+            "from": 121,
+            "speaker": "이와타"
+          },
+          {
+            "to": 129,
+            "kind": "answer",
+            "text": "확실히 그래요. 일정한 수의 플레이어뿐만 아니라 여러 부류의 플레이어가 즐길 만한 것을 만들려면 편집자 같은 객관적인 시선이 정말 중요하다고 생각했어요. 그런 의미에서도 닌텐도의 지적이 정말 고마웠습니다.",
+            "from": 123,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 134,
+            "kind": "question",
+            "text": "한편 만드는 일이 극한에 이르면 당연히 팽팽해지고 늘 의견이 일치할 수는 없을 텐데요. 심하게 의견이 부딪히는 일은 전혀 없었나요?",
+            "from": 130,
+            "speaker": "이와타"
+          },
+          {
+            "to": 140,
+            "kind": "answer",
+            "text": "큰 의견 차이는 거의 없었어요. 원고가 쌓일 때까지 기다렸다가 한꺼번에 내놓으면 그사이 여러 생각이 원고에 겹겹이 쌓여 “그 얘기가 아니잖아요” 같은 일이 일어나기 쉬워요. 그래서 “이번에는 여기까지” 하는 방식으로 진행했죠.",
+            "from": 135,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 142,
+            "kind": "question",
+            "text": "어떤 방식이었나요?",
+            "from": 141,
+            "speaker": "이와타"
+          },
+          {
+            "to": 145,
+            "kind": "answer",
+            "text": "일주일에 한 번, 매주 목요일에 여기 모여 시나리오 회의를 했어요.",
+            "from": 143,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "그렇군요. 주기를 짧게 하고 작은 단위로 나누어 공을 주고받으니 문제가 생기면 바로 알 수 있고 차이를 일찍 메울 수 있었네요.",
+            "from": 146,
+            "speaker": "이와타"
+          },
+          {
+            "to": 154,
+            "kind": "answer",
+            "text": "네. 그래서 적어도 저는 그렇게 큰 차이는 없었다고 생각해요. 무엇보다 시나리오 회의 자체가 아주 재미있었어요. ‘타케다 씨는 이번 주에 어떤 공을 던지실까?’ 하고요.",
+            "from": 150,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 160,
+            "kind": "question",
+            "text": "일주일에 한 번 열리는 게 좋은 속도 조절 장치가 됐을 수도 있겠네요. 그런데 타케다 씨는 힘들지 않으셨어요? 매주 설레며 기다리는 타카하시 씨에게 좋은 공을 던져야 했으니까요.",
+            "from": 155,
+            "speaker": "이와타"
+          },
+          {
+            "to": 163,
+            "kind": "answer",
+            "text": "아니요. 제가 가장 많이 하는 일이 매주 한 편씩 방송되는 TV 시리즈라, 그런 의미에서는…….",
+            "from": 161,
+            "speaker": "타케다"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "아, 맞네요. 타케다 씨에게 주 단위 일정은 익숙한 일이군요(웃음).",
+            "from": 164,
+            "speaker": "이와타"
+          },
+          {
+            "to": 169,
+            "kind": "answer",
+            "text": "그렇죠. 그래서 제가 일하기 쉬운 속도에 맞춰 주셨다고 느꼈어요.",
+            "from": 167,
+            "speaker": "타케다"
+          },
+          {
+            "to": 172,
+            "kind": "question",
+            "text": "그렇게 공을 주고받은 게 얼마나 계속됐나요?",
+            "from": 170,
+            "speaker": "이와타"
+          },
+          {
+            "to": 174,
+            "kind": "answer",
+            "text": "게임 본편을 만드는 것과 병행해서 거의 1년 동안 했어요.",
+            "from": 173,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 181,
+            "kind": "answer",
+            "text": "그랬죠. 1년쯤 아주 긴밀하게 회의했고 여러 사람의 생각이 시나리오에 반영됐어요. 마지막에 완성된 시나리오를 봐도 어디까지가 제 아이디어였는지 이제는 모를 정도였어요.",
+            "from": 175,
+            "speaker": "타케다"
+          },
+          {
+            "to": 183,
+            "kind": "answer",
+            "text": "모두의 의견이 차츰 어우러져 하나가 됐군요.",
+            "from": 182,
+            "speaker": "이와타"
+          },
+          {
+            "to": 188,
+            "kind": "answer",
+            "text": "네. 다들 가져온 여러 아이디어가 맞물려 규모는 아주 크지만 균형이 잘 잡힌 시나리오가 됐다고 생각해요.",
+            "from": 184,
+            "speaker": "타케다"
+          }
+        ]
+      },
+      {
+        "id": "page-3",
+        "title": "미움받지 않는 주인공",
+        "sourceId": "iwata-xenoblade-story-03-f11e81ef",
+        "sourceSha256": "f11e81efe0d7352de5d2a0699a2ef499f03942888b6fa1e3b3e007ea13a6f13b",
+        "sourceLineCount": 193,
+        "page": 3,
+        "blocks": [
+          {
+            "to": 6,
+            "kind": "question",
+            "text": "1년 동안 깊이 의견을 주고받아 시나리오가 거의 완성됐군요. 평소 영상 작품의 각본을 쓰시는 타케다 씨가 게임 시나리오를 쓰면서 특히 신경 쓰신 것은 무엇인가요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 9,
+            "kind": "answer",
+            "text": "보통 영상 작품을 만들 때 시나리오의 가장 큰 무기는 ‘뜻밖이라는 느낌’이에요.",
+            "from": 7,
+            "speaker": "타케다"
+          },
+          {
+            "to": 13,
+            "kind": "answer",
+            "text": "확실히 뜻밖의 일이 벌어져야 보는 사람의 마음이 움직이죠. 예상한 대로 눈앞에서 일이 벌어지면 보통 감동하지 않으니까요.",
+            "from": 10,
+            "speaker": "이와타"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "맞아요. 그래서 어떤 의미에서 30분짜리 프로그램은 ‘예상을 뒤엎는 일’과 ‘뜻밖이라는 느낌’을 계속 쌓아 만드는 면도 있어요.",
+            "from": 14,
+            "speaker": "타케다"
+          },
+          {
+            "to": 18,
+            "kind": "answer",
+            "text": "‘예상을 뒤엎는 일’과 ‘뜻밖이라는 느낌’을 쌓아 간다는 게 재미있네요(웃음).",
+            "from": 17,
+            "speaker": "이와타"
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "네. 그런데 게임에서는 제가 직접 플레이하며 느낀 건데, 플레이어로서 하고 싶은 일이 있는데도 게임의 주인공이 거기 반하는 말을 하거나 저를 배신하는 듯한 행동을 하면 ‘난 그런 짓 하고 싶지 않은데’라는 생각이 들더라고요.",
+            "from": 19,
+            "speaker": "타케다"
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "방금까지 주인공이 나였는데 갑자기 내가 아니게 되는 순간이 있다는 거군요.",
+            "from": 26,
+            "speaker": "이와타"
+          },
+          {
+            "to": 40,
+            "kind": "answer",
+            "text": "맞아요. 지난 십수 년간 게이머로 플레이하며 그런 일을 많이 느꼈어요. 그래서 그런 방식으로 예상을 뒤엎지는 말자고 생각했죠. ‘예상을 뒤엎는 일’이나 ‘의외성’을 주인공의 행동과 대사처럼 그 안에서 나오는 데 쓰지 않고, 어디까지나 주인공 바깥에서 일어나는 상황의 변화로 표현하자고요. 특히 이번에는 한 작품에 이만큼 깊이 참여한 게 처음이어서 그 점에 신경 쓰며 이야기를 만들었습니다.",
+            "from": 29,
+            "speaker": "타케다"
+          },
+          {
+            "to": 42,
+            "kind": "question",
+            "text": "그런 얘기를 타카하시 씨와도 나누셨나요?",
+            "from": 41,
+            "speaker": "이와타"
+          },
+          {
+            "to": 46,
+            "kind": "answer",
+            "text": "아뇨, 이 얘기는 안 한 것 같아요. 처음 이렇게 깊이 참여하면서 스스로 정해 둔 규칙이었어요.",
+            "from": 43,
+            "speaker": "타케다"
+          },
+          {
+            "to": 49,
+            "kind": "question",
+            "text": "그런 규칙이 있었다는 걸 타카하시 씨는 눈치채셨어요?",
+            "from": 47,
+            "speaker": "이와타"
+          },
+          {
+            "to": 55,
+            "kind": "answer",
+            "text": "직접 그 얘기를 하진 않았지만, 비슷한 얘기는 처음에 했어요. 이번 작품에는 슈르크라는 주인공이 등장하죠. ‘미움받지 않는 주인공을 만들자’는 걸 주제 가운데 하나로 삼았어요.",
+            "from": 50,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 57,
+            "kind": "question",
+            "text": "구체적으로 어떤 뜻인가요?",
+            "from": 56,
+            "speaker": "이와타"
+          },
+          {
+            "to": 65,
+            "kind": "answer",
+            "text": "제가 만들어 온 게임은 물론이고 다른 분의 게임을 해 봐도 느끼는데, RPG에서는 주인공이나 히로인이 미움을 사는 일이 많아요. 물론 좋아해 주는 캐릭터도 있지만 대개 미움을 사요. 그만큼 플레이어가 주인공이나 히로인에게 마음을 많이 준다는 얘기 같아요.",
+            "from": 58,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 69,
+            "kind": "answer",
+            "text": "그건 애정의 이면이기도 하겠죠. 좋아하기 때문에 미움으로 변하기도 한다는 거죠. 이번에는 그렇게 되지 않도록 도전하셨군요.",
+            "from": 66,
+            "speaker": "이와타"
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "네. 거기에 아주 신경을 썼어요. 사실 이 인터뷰 전에 마리오 클럽(※8) 분들한테 주인공에 대한 인상을 물어봐 달라고 했어요. 그랬더니 아무도 싫어하지 않는다는 거예요. 동료 캐릭터까지 다들 애정을 갖고 플레이한다고 했고요. 듣고 정말 기뻤어요.",
+            "from": 70,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 79,
+            "kind": "note",
+            "text": "※8 마리오 클럽 — 마리오 클럽 주식회사. 닌텐도에서 개발 중인 게임의 디버깅과 테스트 플레이를 맡는다.",
+            "from": 78
+          },
+          {
+            "to": 90,
+            "kind": "answer",
+            "text": "아마 플레이어가 ‘공감’할 수 있는 주인공과 동료가 됐기 때문이겠죠. 이 자리에서 『마리오』 얘기를 하는 것도 이상하지만, 얼마 전 「사장이 묻는다 『슈퍼 마리오 갤럭시 2』」에서 미야모토 씨가 지금까지의 제작은 ‘공감하는 것을 만드는 일’이었다고 하셨어요. 그 ‘공감’과 타카하시 씨가 말씀하신 ‘미움받지 않는 주인공을 만들자’는 통하는 점이 있죠.",
+            "from": 80,
+            "speaker": "이와타"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "그렇죠. 플레이어 캐릭터는 결국 자기 분신이잖아요. 분신인 이상 내가 생각하지도 않은 것을 생각하거나 행동해서는 안 된다고 봐요. 다만 RPG에서 미움받지 않게 하는 방법이 하나 있는데, 주인공에게 아무 말도 시키지 않는 거예요.",
+            "from": 91,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 100,
+            "kind": "answer",
+            "text": "아무 말도 안 하면 위화감이 들기 어렵지요.",
+            "from": 99,
+            "speaker": "이와타"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "맞아요. 말을 안 시키는 건 쉬워요. 그런데 이번에는 일부러 말을 하게 한 다음 제대로 공감받을 방법을 찾아봤고, 어느 정도는 해냈다고 생각해요.",
+            "from": 101,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 109,
+            "kind": "answer",
+            "text": "그게 마리오 클럽 분들의 ‘다들 애정을 갖고 있다’는 평가로 이어진 거군요.",
+            "from": 107,
+            "speaker": "이와타"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "그래서 확실한 반응을 느끼고 있어요. 그렇게 말씀해 주신 게 처음이거든요.",
+            "from": 110,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 115,
+            "kind": "question",
+            "text": "타카하시 씨가 몇 년씩 게임을 만들어 오셨는데, 주인공과 동료가 미움을 사지 않은 게 처음이라고요?",
+            "from": 113,
+            "speaker": "이와타"
+          },
+          {
+            "to": 117,
+            "kind": "answer",
+            "text": "실은 그래요.",
+            "from": 116,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 120,
+            "kind": "question",
+            "text": "뜻밖이네요. 타케다 씨는 어떠세요?",
+            "from": 118,
+            "speaker": "이와타"
+          },
+          {
+            "to": 130,
+            "kind": "answer",
+            "text": "얘기가 조금 빗나갈지도 모르지만, 말을 안 한다는 흐름에서 보면 타카하시 씨가 지금까지 만든 게임의 파티에는 말 없는 캐릭터가 꼭 한두 명씩 있어요. 이번에 시나리오를 쓰고 처음 알았는데 파티 전원이 다 말하는 캐릭터면 대화 장면만 쓰는 것도 엄청나게 힘들어요. 시나리오를 쓰기 시작하고 나서야 그런 걸…….",
+            "from": 121,
+            "speaker": "타케다"
+          },
+          {
+            "to": 132,
+            "kind": "question",
+            "text": "쓰기 시작한 다음에 알게 되셨어요?",
+            "from": 131,
+            "speaker": "이와타"
+          },
+          {
+            "to": 137,
+            "kind": "answer",
+            "text": "네(웃음). 말 없는 캐릭터를 하나 만들어 두지 않으면 대화 장면이 걷잡을 수 없겠구나 싶었어요. 일을 시작하고 나서야 처음 깨달았죠.",
+            "from": 133,
+            "speaker": "타케다"
+          },
+          {
+            "to": 144,
+            "kind": "answer",
+            "text": "아까 게임과 애니메이션이 어떻게 다른지 얘기했는데, 사실 그게 가장 큰 문법 차이인 것 같아요. 가령 게임에 주인공이 한 명뿐이고 주변에서 그 주인공에게 접근하는 게임이라면 별 문제가 없어요. 그런데 RPG는…….",
+            "from": 138,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 146,
+            "kind": "answer",
+            "text": "파티가 있으니까요.",
+            "from": 145,
+            "speaker": "이와타"
+          },
+          {
+            "to": 151,
+            "kind": "answer",
+            "text": "그러면 플레이어가 어떤 캐릭터에게 감정을 이입할지 모르잖아요. 다섯 명짜리 파티라면 그 다섯을 기본적으로 같은 장면에 내보내야 합니다.",
+            "from": 147,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 154,
+            "kind": "answer",
+            "text": "한 명도 무시할 수 없지요. 없던 사람으로 취급할 수는 없으니까요.",
+            "from": 152,
+            "speaker": "이와타"
+          },
+          {
+            "to": 163,
+            "kind": "answer",
+            "text": "드라마 같은 영상 작품이라면 다섯 사람을 저마다 다른 곳에 배치하고 서로 다른 상황을 보여 줘서 전개를 복잡하게 만들거나 강약을 줄 수 있어요. 그런데 게임, 특히 RPG에서는 파티의 다섯 명이 기본적으로 같은 장소에 있어야 해요. 이건 조금 특수한 경우죠.",
+            "from": 155,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "그래서 어떤 사건을 마주치면 다섯 사람이 하나씩 반응해야 하죠.",
+            "from": 164,
+            "speaker": "타케다"
+          },
+          {
+            "to": 171,
+            "kind": "answer",
+            "text": "그리고 당연히 각자 성격이 있으니까 그걸 지키고 감정을 이입하게 하면서, 캐릭터를 구별해 그리고 이야기의 강약까지 조절해야 해요. 그게 애니메이션과 게임이 가장 다른 점이 아닐까 생각합니다.",
+            "from": 167,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 180,
+            "kind": "answer",
+            "text": "정말 일을 시작할 때까지 몰라서 ‘큰일 났네. 말 없는 캐릭터를 한두 명 만들어 뒀으면 편했을 텐데……’ 하고 조금 후회했어요. 돌아보면 타카하시 씨의 예전 작품에서는 그런 점을 제대로 생각하셔서 ‘아, 저 캐릭터와 저 캐릭터에게 그런 의미가 있었구나’ 하고 알아차리기도 했죠.",
+            "from": 172,
+            "speaker": "타케다"
+          },
+          {
+            "to": 183,
+            "kind": "question",
+            "text": "그래서 타케다 씨는 어떻게 해결하셨어요? 조금 궁금해서 여쭤봅니다(웃음).",
+            "from": 181,
+            "speaker": "이와타"
+          },
+          {
+            "to": 186,
+            "kind": "answer",
+            "text": "아니, 그냥 힘으로 밀어붙였어요(웃음). 어쨌든 대사를 많이 쓸 수밖에 없었습니다.",
+            "from": 184,
+            "speaker": "타케다"
+          },
+          {
+            "to": 190,
+            "kind": "answer",
+            "text": "그렇군요(웃음). 그러면 이번 『제노블레이드 크로니클스』에는 말 없는 캐릭터가 안 나오는 거네요.",
+            "from": 187,
+            "speaker": "이와타"
+          },
+          {
+            "to": 193,
+            "kind": "answer",
+            "text": "네. 그러니 마지막까지 대화도 마음껏 즐겨 주시면 좋겠습니다.",
+            "from": 191,
+            "speaker": "타케다"
+          }
+        ]
+      },
+      {
+        "id": "page-4",
+        "title": "세계는 더 크게, 밀도는 더 높게",
+        "sourceId": "iwata-xenoblade-story-04-e35f19a5",
+        "sourceSha256": "e35f19a58d97a38e5332afc2bb460bfb417d166fe6a347d0ffcaa848a1b12e9c",
+        "sourceLineCount": 173,
+        "page": 4,
+        "blocks": [
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "타케다 씨는 시나리오를 다 쓰고 나서 완성된 게임을 직접 해 보셨어요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 5,
+            "kind": "answer",
+            "text": "네. 사실 최근에야 해 봤어요.",
+            "from": 4,
+            "speaker": "타케다"
+          },
+          {
+            "to": 11,
+            "kind": "question",
+            "text": "시나리오를 쓰셨으니 게임의 구성과 설정을 다 알고 계시잖아요. 그런 분이 직접 해 보면 어떤 인상을 받으세요?",
+            "from": 6,
+            "speaker": "이와타"
+          },
+          {
+            "to": 20,
+            "kind": "answer",
+            "text": "당연한 얘기지만 시나리오를 쓸 때는 그 시나리오의 세계가 전부예요. 그런데 직접 게임을 해 보니 시나리오에 쓰지 않은 분위기, 마을 사람들의 모습 등 본 줄거리 바깥에도 엄청나게 많은 것이 있었어요. 꽤 많은 분량을 썼다고 생각했는데 이 거대한 세계에서는 한 부분에 지나지 않더라고요. 정말 압도됐습니다.",
+            "from": 12,
+            "speaker": "타케다"
+          },
+          {
+            "to": 22,
+            "kind": "question",
+            "text": "시나리오를 직접 쓴 사람도 압도되는군요?(웃음)",
+            "from": 21,
+            "speaker": "이와타"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "그렇습니다. 예를 들어 콜로니 9라는 장소의 규모가 엄청나요. 시나리오를 쓸 때는 기존 RPG에 나오는 마을을 그려 놓고 썼죠. 그런데 직접 해 보니 이 마을만으로 게임 하나를 만들 수 있겠다 싶을 만큼 즐길 만한 장치가 많이 들어 있어요. 그래서 개발 막바지에 ‘어쩜 이렇게 거대한 프로젝트였을까’ 하고 이제 와서 새삼 실감했죠.",
+            "from": 23,
+            "speaker": "타케다"
+          },
+          {
+            "to": 42,
+            "kind": "answer",
+            "text": "그렇군요. 보통 만드는 일에서는 세계를 키우면 키울수록 밀도는 옅어지는 일이 많잖아요. 그런데 타카하시 씨가 이번에 바라신 건 ‘세계를 크게 만들면서 밀도도 높이자’는 것이었죠.",
+            "from": 35,
+            "speaker": "이와타"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "그래요. 이를테면 맵 끝까지 갔는데 아무것도 없는 일은 없게 하자고 했어요. 간 곳에는 꼭 무언가 있고, 찾던 물건이나 퀘스트, 혹은 강한 몬스터가 있죠. 장소에 따라서는 ‘이 세계에 이렇게 아름다운 곳이 있구나’ 하고 느낄 만한 비경도 마련했어요.",
+            "from": 43,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 55,
+            "kind": "answer",
+            "text": "플레이어가 한 행동에는 반드시 돌아오는 게 있도록 하셨군요.",
+            "from": 53,
+            "speaker": "이와타"
+          },
+          {
+            "to": 62,
+            "kind": "answer",
+            "text": "네. 그래서 퀘스트에서 모으는 아이템 수도 엄청나게 많아졌죠. 퀘스트 담당 스태프가 “400개는 만들겠습니다”라고 해서 “그렇게 많은 걸 정말 할 수 있겠어?” 하고 다짐을 받아 둘 정도였으니까요.",
+            "from": 56,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 64,
+            "kind": "answer",
+            "text": "“누가 좀 말려 주세요” 하고 싶어지네요(웃음).",
+            "from": 63,
+            "speaker": "이와타"
+          },
+          {
+            "to": 69,
+            "kind": "answer",
+            "text": "네, 바로 그렇죠(웃음). 사실 제가 말려야 하는데, 너무 열심인 모습을 보고 “이거 정말 할 수 있겠어?” 하고 다시 확인하다가 “못 하면 가만 안 둘 거야”까지 말했어요.",
+            "from": 65,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 70,
+            "speaker": "이와타"
+          },
+          {
+            "to": 74,
+            "kind": "answer",
+            "text": "그런데 “괜찮습니다. 달리게 해 주세요” 하길래 “그럼 달려 보세요” 했죠.",
+            "from": 72,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "아, 정말 서로 한마디씩 지지 않고 받아친 상황이군요(웃음).",
+            "from": 75,
+            "speaker": "이와타"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "그래도 결국 끝까지 해내서 전부 넣을 수 있었어요. 그래서 “잘했어” 하고 칭찬했죠(웃음).",
+            "from": 78,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 84,
+            "kind": "answer",
+            "text": "처음에는 “누가 좀 말려 주세요”였다가 마지막에는 “잘했어”가 됐네요(웃음).",
+            "from": 82,
+            "speaker": "이와타"
+          },
+          {
+            "to": 90,
+            "kind": "answer",
+            "text": "네. 그런 ‘누가 좀 말려 주세요’ 싶은 일은 그것뿐 아니라 여러 대목에 있었어요. 가령 이번 전투에서는 파티 동료들이 서로 여러 말을 해서 아주 활기차요.",
+            "from": 85,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 93,
+            "kind": "answer",
+            "text": "혼자 플레이하는 게임인데도 외롭지 않고, 동료와 함께 싸우는 느낌이군요.",
+            "from": 91,
+            "speaker": "이와타"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "맞아요. 게다가 플레이어가 실수해도 동료들이 “뭐 하는 거야”라며 탓하는 일 없이 늘 칭찬해 줘요.",
+            "from": 94,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 100,
+            "kind": "question",
+            "text": "실수해도 칭찬해 줘요?(웃음)",
+            "from": 99,
+            "speaker": "이와타"
+          },
+          {
+            "to": 104,
+            "kind": "answer",
+            "text": "네. “낙담하지 마” 하고 위로해 주기도 해요. 그렇게 한 건 동료들이 자신을 제대로 봐 주고 있다고 플레이어가 느끼길 바랐기 때문입니다.",
+            "from": 101,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "그런데 대사가 많으면 녹음하기도 힘드셨겠어요.",
+            "from": 105,
+            "speaker": "이와타"
+          },
+          {
+            "to": 113,
+            "kind": "answer",
+            "text": "그건 정말 솔직히 질릴 정도였어요. 오래 녹음해도 ‘아, 대사가 아직 이렇게나 남았네’ 하고 느낄 만큼 많이 마련했거든요. 그래도 녹음한 걸 회사로 가져가 담당자에게 넘기면서 “모처럼 녹음했으니까 꼭 써”라고 했어요. “안 쓰면 가만 안 둘 거야”라고요.",
+            "from": 107,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 115,
+            "kind": "answer",
+            "text": "그것도 서로 져 주지 않는 말이잖아요(웃음).",
+            "from": 114,
+            "speaker": "이와타"
+          },
+          {
+            "to": 123,
+            "kind": "answer",
+            "text": "(웃음) 그런데 다 넣고 보니 “말이 너무 많아 조금 시끄럽다”는 의견도 있어서 맨 마지막에 조정을 부탁했어요. 그래도 게임에서 동료들이 떠들썩하게 그러면서 함께 열심히 싸우는 모습에 공감해 주실 플레이어가 많지 않을까 생각합니다.",
+            "from": 116,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 127,
+            "kind": "question",
+            "text": "그런데 ‘누가 좀 말려 주세요’ 하고 싶을 만큼 내용이 많고 밀도도 높아졌는데, 타카하시 씨는 이 결과를 어떻게 받아들이세요?",
+            "from": 124,
+            "speaker": "이와타"
+          },
+          {
+            "to": 132,
+            "kind": "answer",
+            "text": "제가 지금까지 직접 다룬 작품 가운데 단연 규모가 가장 크다고 생각해요. 그런데 조금 이상한 얘기지만, 만들면서 아주 수월했던 면도 있어요.",
+            "from": 128,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 134,
+            "kind": "question",
+            "text": "타카하시 씨 본인에게 수월했다는 건가요?",
+            "from": 133,
+            "speaker": "이와타"
+          },
+          {
+            "to": 140,
+            "kind": "answer",
+            "text": "네. 시나리오에서는 타케다 씨라는 파트너가 있어서 전적으로 믿고 함께할 수 있었어요. 모노리스 소프트도 설립된 지 딱 10년이 되면서 믿을 만한 팀원이 자라났고요.",
+            "from": 135,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 143,
+            "kind": "answer",
+            "text": "여러 일을 맡길 수 있는 스태프가 회사 안에서 성장했군요.",
+            "from": 141,
+            "speaker": "이와타"
+          },
+          {
+            "to": 150,
+            "kind": "answer",
+            "text": "맞아요. 웬만한 일은 각 스태프에게 맡겨도 괜찮았으니 제가 직접 살피지 않아도 되는 곳이 많아졌죠. 덕분에 저는 잘하는 분야에 집중할 수 있었고, 이번 프로젝트는 규모가 크고 어려웠지만 마음으로는 이렇게 편했던 게 처음이라고 할 정도였어요.",
+            "from": 144,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 155,
+            "kind": "answer",
+            "text": "예전에는 이만큼 거대한 프로젝트까지는 아니어도, 큰 프로젝트를 하나로 모으기 위해 혼자 에너지를 쏟던 시절도 있으셨죠.",
+            "from": 151,
+            "speaker": "이와타"
+          },
+          {
+            "to": 159,
+            "kind": "answer",
+            "text": "그렇죠. 회사를 세운 처음에는 ‘사람을 모아야 해’에서 출발했고, 스태프 대부분이 신입이던 때도 있었어요.",
+            "from": 156,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 164,
+            "kind": "answer",
+            "text": "이번에는 회사가 생긴 지 10년이 지나 사람들이 성장하면서 서로 속마음도 알게 됐고, 여러 사람이 저마다 잘하는 분야를 맡아 총감독인 타카하시 씨를 도왔군요.",
+            "from": 160,
+            "speaker": "이와타"
+          },
+          {
+            "to": 173,
+            "kind": "answer",
+            "text": "네. 여러 사람의 도움을 받은 프로젝트였다고 생각합니다. 예전에는 헛된 곳에도 에너지를 써야 했지만, 이번에는 그런 일이 전혀 없었어요. 스태프가 각자 맡은 자리에서 힘을 내면서 세계를 크게 만들고 밀도도 높일 수 있었으니, 모노리스 소프트 10주년에 어울리는 작품이 됐다고 생각해요.",
+            "from": 165,
+            "speaker": "타카하시"
+          }
+        ]
+      },
+      {
+        "id": "page-5",
+        "title": "주제는 ‘여정을 떠나는 것’",
+        "sourceId": "iwata-xenoblade-story-05-02ef4e15",
+        "sourceSha256": "02ef4e1583fd497314c5cce48d98ab3829c685364a8c19b2d6c274602df32131",
+        "sourceLineCount": 131,
+        "page": 5,
+        "blocks": [
+          {
+            "to": 4,
+            "kind": "question",
+            "text": "아직 『제노블레이드 크로니클스』를 잘 모르는 분에게 타케다 씨가 “이런 게임이다” 하고 알려 준다면 어떻게 표현하시겠어요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "글쎄요…… 이야기에서는 아주 작은 소년 한 명과 엄청나게 큰 신이 정면으로 마주 보면서 접점이 생기고, 거기서 어떤 이야기가 나올지 생각했어요. ‘거대한 것과 작은 것의 대비’ 같은 거죠. 직접 해 보시면 거대한 세계를 자유롭게 돌아다니고 시스템에서도 새로운 경험을 할 수 있어요. 그러니 넓은 세계를 모험하면서 그 대비를 느끼고 게임을 즐겨 주시면 합니다.",
+            "from": 5,
+            "speaker": "타케다"
+          },
+          {
+            "to": 18,
+            "kind": "question",
+            "text": "타카하시 씨는 어떠세요?",
+            "from": 17,
+            "speaker": "이와타"
+          },
+          {
+            "to": 29,
+            "kind": "answer",
+            "text": "먼저 이렇게 커다란 모형, 그러니까 이야기의 세계부터 만들었어요. 그 세계에서 제가 그리고 싶었던 건 작디작은 주인공들이 어떻게 성장하고 여정을 떠나게 되는가였어요. 그러니 이번 작품의 주제를 한마디로 하면 ‘여정을 떠나는 것’이라 해도 좋을 것 같아요. 게임 초반에 주인공들이 길을 떠나죠. 미래를 향해, 아직 본 적 없는 세계를 향해 나아가는 그 모습을 그리고 싶었습니다.",
+            "from": 19,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "처음에 ‘신처럼 아주 거대한 몸 위에서 사람이 살면 재미있지 않을까’ 하고 생각하셨을 때부터 그 주제가 흔들리지 않았고 끝까지 지키실 수 있었군요.",
+            "from": 30,
+            "speaker": "이와타"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "전혀 흔들리지 않았어요. 끝까지 그대로였죠.",
+            "from": 35,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 45,
+            "kind": "answer",
+            "text": "저는 처음 타카하시 씨에게 아이디어를 들었을 때 무척 굵은 나무줄기 같다고 느꼈어요. 든든하고 굵은 줄기라 뒤에 뭘 더해도 가지와 잎일 뿐, 줄기의 존재감을 해치지 않았다고 봐요. 완성된 작품의 인상이 처음 이야기 들었을 때와 전혀 다르지 않았으니, 처음 줄기가 정말 굵었구나 싶어요.",
+            "from": 37,
+            "speaker": "타케다"
+          },
+          {
+            "to": 48,
+            "kind": "answer",
+            "text": "처음 만든 이 모형이 바로 굵은 나무줄기처럼 든든했다는 거군요.",
+            "from": 46,
+            "speaker": "이와타"
+          },
+          {
+            "to": 50,
+            "kind": "answer",
+            "text": "정말 그렇게 생각해요.",
+            "from": 49,
+            "speaker": "타케다"
+          },
+          {
+            "to": 53,
+            "kind": "answer",
+            "text": "그럼 마지막으로 플레이어 여러분께 메시지를 부탁드려요, 타케다 씨.",
+            "from": 51,
+            "speaker": "이와타"
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "네. 그런데 제가 뭔가를 말하려다 보면 플레이어 여러분의 즐거움을 빼앗게 될 수도 있어서요(웃음).",
+            "from": 54,
+            "speaker": "타케다"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "아, 미리 내용을 알려 드리는 셈이니까요(웃음).",
+            "from": 57,
+            "speaker": "이와타"
+          },
+          {
+            "to": 64,
+            "kind": "answer",
+            "text": "맞아요. 발매 후라면 드리고 싶은 이야기가 산더미처럼 쌓여 있지만요…… 글쎄요. 적으로 등장하는 인물들은 개인적으로도 마음에 들게 쓸 수 있었으니, 악역들이 최후를 맞는 모습을 지켜봐 달라는 게 하나입니다.",
+            "from": 59,
+            "speaker": "타케다"
+          },
+          {
+            "to": 66,
+            "kind": "answer",
+            "text": "그 부분에 공을 들여 쓰셨군요.",
+            "from": 65,
+            "speaker": "이와타"
+          },
+          {
+            "to": 76,
+            "kind": "answer",
+            "text": "네. 그리고 리키라는 캐릭터가 꽤 마음에 들어서 주목해 주시면 좋겠어요. 정말 의외성이 있는 캐릭터예요. 시나리오에 적힌 글만 읽으면 무척 화가 나는 캐릭터를 목표로 썼어요(웃음). 하지만 입으로 얄미운 말을 해도 귀여운 외모와 귀여운 목소리가 합쳐지면 분명 뭔가 색다른 효과가 생길 거라고 생각했어요.",
+            "from": 67,
+            "speaker": "타케다"
+          },
+          {
+            "to": 79,
+            "kind": "question",
+            "text": "실제 게임에서는 어떤 느낌이 됐나요?",
+            "from": 77,
+            "speaker": "이와타"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "도저히 미워할 수 없는 캐릭터가 됐죠.",
+            "from": 80,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 83,
+            "kind": "answer",
+            "text": "타케다 씨의 의도대로군요(웃음).",
+            "from": 82,
+            "speaker": "이와타"
+          },
+          {
+            "to": 87,
+            "kind": "answer",
+            "text": "네. 그래서 시나리오에서 얄밉게 들리는 대사와 연기에 귀여운 외모와 목소리가 합쳐지면 어떤 효과가 나는지 꼭 즐겨 주시면 기쁘겠어요.",
+            "from": 84,
+            "speaker": "타케다"
+          },
+          {
+            "to": 89,
+            "kind": "answer",
+            "text": "그럼 타카하시 씨는요?",
+            "from": 88,
+            "speaker": "이와타"
+          },
+          {
+            "to": 105,
+            "kind": "answer",
+            "text": "네. 저희도 쭉 작품을 만들며 여러 일을 경험해 왔고, 이번에는 ‘여기까지 올라가 보자’고 처음부터 높은 목표를 잡았어요. 그 높은 목표를 향해 모든 부문과 파트가 하나가 되어 계속 달릴 수 있었던 게 정말 좋은 경험이었습니다. 아까 타케다 씨가 말씀해 주셨듯 시나리오의 줄기가 굵고, 실제 게임에 들어가면 그 바깥으로 뻗어 나가는 아주 풍부한 세계를 느끼실 수 있을 거예요. 그런 게임을 만들 수 있었던 건 스태프 한 사람 한 사람이 주변과 조율하면서 담당한 일에 집중한 결과라고 생각합니다. 그렇게 여러 사람이 참여해 만든 밀도 높은 부분을 꼭 직접 해 보고 느껴 주셨으면 합니다.",
+            "from": 90,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "여러 영상으로 『제노블레이드 크로니클스』의 세계를 이미 볼 수 있지만 그건 입구에 불과하고, 타카하시 씨 일행이 공들여 만든 세계의 매력은 직접 해 봐야 느낄 수 있다고 전하고 싶으신 거군요.",
+            "from": 106,
+            "speaker": "이와타"
+          },
+          {
+            "to": 114,
+            "kind": "answer",
+            "text": "네. 바로 그렇습니다.",
+            "from": 113,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 129,
+            "kind": "answer",
+            "text": "모노리스 소프트가 생긴 지 10년이 됐는데 닌텐도도 이렇게 가까운 거리에서 함께 일하게 됐죠. 이번 『제노블레이드 크로니클스』는 그런 관계에서 탄생한 혼신의 한 작품이라고 느낍니다. 앞서 만난 음악가 여러분과 오늘 모신 타케다 씨, 닌텐도 스태프와 물론 모노리스 소프트 여러분 가운데 한 분이라도 빠졌다면 『제노블레이드 크로니클스』가 이렇게 되지는 않았을 거예요. 많은 분이 함께 만든 이 작품의 매력을 느끼는 분이 한 분이라도 더 있기를 바랍니다. 오늘 고맙습니다.",
+            "from": 115,
+            "speaker": "이와타"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "고맙습니다.",
+            "from": 130,
+            "speaker": "일동"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "iwata-sakaguchi-takahashi",
+    "lead": "社長が訊く 坂口博信×高橋哲哉",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/01-photo1.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 51
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/01-photo2.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 118
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/01-photo3.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index.html",
+        "sectionId": "page-1",
+        "afterLine": 163
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/02-photo4.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 18
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/02-photo5.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 58
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/02-photo6.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index2.html",
+        "sectionId": "page-2",
+        "afterLine": 110
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/03-photo7.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 25
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/03-photo8.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 119
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/03-photo9.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index3.html",
+        "sectionId": "page-3",
+        "afterLine": 152
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/04-photo10.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 64
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/04-photo11.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 91
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/04-photo12.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index4.html",
+        "sectionId": "page-4",
+        "afterLine": 127
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/05-photo13.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 59
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/05-photo14.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 93
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/05-photo15.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index5.html",
+        "sectionId": "page-5",
+        "afterLine": 131
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/06-photo16.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 67
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/06-photo17.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 96
+      },
+      {
+        "src": "/images/interviews/iwata-sakaguchi-takahashi/06-photo18.jpg",
+        "width": 250,
+        "height": 150,
+        "alt": "사카구치 히로노부와 타카하시 테츠야의 닌텐도 대담 사진",
+        "sourceUrl": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index6.html",
+        "sectionId": "page-6",
+        "afterLine": 173
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "8년 만의 재회",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index.html"
+      },
+      {
+        "page": 2,
+        "title": "타카하시가 새 팀을 꾸리다",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index2.html"
+      },
+      {
+        "page": 3,
+        "title": "스태프와 나누는 ‘공감’",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index3.html"
+      },
+      {
+        "page": 4,
+        "title": "‘낭만’이라는 말",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index4.html"
+      },
+      {
+        "page": 5,
+        "title": "작품에 자기 냄새를 남기다",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index5.html"
+      },
+      {
+        "page": 6,
+        "title": "일본에서 만든 RPG가 세계에서 경쟁하려면",
+        "url": "https://www.nintendo.co.jp/wii/interview/slsjsx4j/vol1/index6.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "8년 만의 재회",
+        "sourceId": "iwata-sakaguchi-takahashi-01-8e3d1d04",
+        "sourceSha256": "8e3d1d04b7e6e6ec1730e44d1049581f0dee08e81b013bb1138f22aef4e9d413",
+        "sourceLineCount": 189,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 5,
+            "kind": "answer",
+            "text": "The Last Story 발표회(※1)의 흥분이 아직 가시지 않았는데, 오늘 밤에는 또 한 번 사카구치 씨와 타카하시 씨 두 분의 이야기를 들을 기회가 생겼습니다. 오늘 잘 부탁드립니다.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 7,
+            "kind": "answer",
+            "text": "잘 부탁드립니다.",
+            "from": 6,
+            "speaker": "사카구치·타카하시"
+          },
+          {
+            "to": 9,
+            "kind": "note",
+            "text": "※1 The Last Story 발표회 — 2010년 12월 27일 아키하바라 UDX의 AKIBA SQUARE에서 열렸다. 사카구치 히로노부 씨가 무대에 올랐다. 자세한 발표 내용은 원문의 발표회 링크 참조.",
+            "from": 8
+          },
+          {
+            "to": 14,
+            "kind": "answer",
+            "text": "사카구치 씨, 오늘 예정보다 일찍 교토에서 이쪽으로 올 수 있어서 그런 일을 하고 말았어요. 정말…… 실례했습니다(웃음).",
+            "from": 10,
+            "speaker": "이와타"
+          },
+          {
+            "to": 20,
+            "kind": "answer",
+            "text": "아니에요! 역시 생방송의 분위기를 따라올 게 없죠(웃음). 끝나고 바로 인터넷으로 다시 봤는데, 이와타 씨가 무대에 오르는 순간 저희 네 사람이 굳어 버린 게 정말 대단했어요(웃음).",
+            "from": 15,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "(웃음)",
+            "from": 21,
+            "speaker": "일동"
+          },
+          {
+            "to": 24,
+            "kind": "answer",
+            "text": "그러고 나서 이와타 씨가 사라지니까 다들 안도하는 것도 대단했고요(웃음).",
+            "from": 23,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 27,
+            "kind": "answer",
+            "text": "그것도 다 생방송이라 느껴지는 거죠……(웃음). 미리 짜 둔 거라면 영상으로 봤을 때 꼭 티가 나거든요.",
+            "from": 25,
+            "speaker": "이와타"
+          },
+          {
+            "to": 29,
+            "kind": "answer",
+            "text": "아, 그렇죠. 알 수 있죠.",
+            "from": 28,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "저는 연기를 잘하신다고 생각했어요. 오늘 이 인터뷰가 있다는 얘기를 들었으니 미리 맞춰 둔 줄 알았죠. 그런데 반응이 무척 실감 나서 정말 잘하신다고요(웃음).",
+            "from": 30,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "그게 아니었어요(웃음).",
+            "from": 35,
+            "speaker": "이와타"
+          },
+          {
+            "to": 38,
+            "kind": "answer",
+            "text": "맞아요. 그런 연기는 못 해요(웃음).",
+            "from": 37,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 45,
+            "kind": "question",
+            "text": "다들 연기 전문가가 아니시니까요(웃음). 그런데 인터뷰 시작 전에 서로 “오랜만이네” 하고 인사하셨지요. 예전에 스퀘어(※2)에서 함께 일하셨다고 들었는데, 오늘 몇 년 만에 다시 만나시는 건가요?",
+            "from": 39,
+            "speaker": "이와타"
+          },
+          {
+            "to": 47,
+            "kind": "note",
+            "text": "※2 스퀘어 — 현재의 스퀘어 에닉스. 사카구치 히로노부 씨는 스퀘어에 있을 때 『파이널 판타지』 시리즈 I부터 X-2까지 제작에 참여했다. 타카하시 테츠야 씨는 IV부터 VI까지 그래픽 디자인 등을 담당했다.",
+            "from": 46
+          },
+          {
+            "to": 49,
+            "kind": "question",
+            "text": "타카 짱이 스퀘어를 그만둔 게 몇 년이었지?",
+            "from": 48,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 51,
+            "kind": "answer",
+            "text": "1999년이에요. 그로부터 3년쯤 뒤에 한 번 뵀죠.",
+            "from": 50,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 53,
+            "kind": "answer",
+            "text": "그럼 한 8년 만이네요.",
+            "from": 52,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 55,
+            "kind": "question",
+            "text": "예전 회사에서는 두 분이 어떤 일을 함께하셨나요?",
+            "from": 54,
+            "speaker": "이와타"
+          },
+          {
+            "to": 59,
+            "kind": "answer",
+            "text": "그때 타카 짱이 『파이널 판타지』 팀에서 그래픽을 이끌었죠. 타카 짱이 『파이널 판타지』를 만든 건 IV(※3)부터였지?",
+            "from": 56,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 61,
+            "kind": "note",
+            "text": "※3 『파이널 판타지 IV』 — 1991년 7월 슈퍼 패미컴용으로 발매된 RPG. 시리즈 네 번째 작품.",
+            "from": 60
+          },
+          {
+            "to": 63,
+            "kind": "answer",
+            "text": "네. 제가 들어간 건 『파이널 판타지 IV』부터였어요.",
+            "from": 62,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 67,
+            "kind": "answer",
+            "text": "맞아요. 지금도 기억하는데 배경의 바위 벽 그림이 충격적이었어요. 굉장히 사실적이어서 “이런 그림도 만들 수 있구나!” 했어요.",
+            "from": 64,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 72,
+            "kind": "answer",
+            "text": "그 무렵부터 빼어난 그래픽이 『파이널 판타지』의 매력 중 하나로 주목받기 시작했죠. 하드웨어가 발전하면서 그림의 사실감이 급격히 높아지던 시기였던 것 같아요.",
+            "from": 68,
+            "speaker": "이와타"
+          },
+          {
+            "to": 75,
+            "kind": "answer",
+            "text": "네. 딱 그때 타카 짱이 들어왔어요. 이야, 그때는 신세 많이 졌습니다(고개 숙인다).",
+            "from": 73,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "아니에요(웃음). 저야말로요(고개 숙인다).",
+            "from": 76,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 79,
+            "kind": "question",
+            "text": "타카하시 씨가 보신 사카구치 씨의 첫인상은 어땠나요?",
+            "from": 78,
+            "speaker": "이와타"
+          },
+          {
+            "to": 86,
+            "kind": "answer",
+            "text": "글쎄요. 당시에는 아직 PC 게임 문화가 남아 있었고, 저는 사카구치 씨가 만드신 Cruise Chaser Blassty(※4) 같은 게임을 좋아했어요. 그래서 ‘내가 자주 하는 PC 게임을 만드는 분’이라는 이미지였죠.",
+            "from": 80,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 88,
+            "kind": "note",
+            "text": "※4 Cruise Chaser Blassty — 1986년 4월 PC용으로 발매된 RPG.",
+            "from": 87
+          },
+          {
+            "to": 92,
+            "kind": "question",
+            "text": "세상에 이름을 알린 창작자를 멀리서 볼 때와 가까이에서 볼 때는 인상이 달라질 것 같아요. 타카하시 씨는 사카구치 씨 가까이서 일해 보시니 어땠나요?",
+            "from": 89,
+            "speaker": "이와타"
+          },
+          {
+            "to": 96,
+            "kind": "answer",
+            "text": "늘 대단하다고 느꼈던 게, 누구보다 회사에 일찍 와서 누구보다 늦게까지 계셨다는 거예요. 어쨌든 남들보다 더, 늘 책상 앞에 앉아 계셨죠.",
+            "from": 93,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 102,
+            "kind": "answer",
+            "text": "남의 시선을 의식하신 건 아닐 텐데, 좋은 걸 만들고 싶고 할수록 좋아질 부분이 보이니까 어디서 멈춰야 할지 몰라 자연히 늦어졌겠죠.",
+            "from": 97,
+            "speaker": "이와타"
+          },
+          {
+            "to": 107,
+            "kind": "answer",
+            "text": "확실히 그때는 다들 늘 직접 손을 움직였어요. 그러는 타카 짱도 계속 이것저것 하고 있어서 그 뒷모습이 무척 인상에 남았어요. 다들 집중해서 분위기가 좋았죠.",
+            "from": 103,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 110,
+            "kind": "answer",
+            "text": "그때는 손을 움직인 만큼 자기 힘으로 꽤 많은 것을 구현할 수 있었으니 직접 만드는 보람이 있었죠.",
+            "from": 108,
+            "speaker": "이와타"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "책임이 큰 만큼 힘을 쏟을 보람도 있었고요.",
+            "from": 111,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 118,
+            "kind": "question",
+            "text": "그 무렵 스퀘어의 『파이널 판타지』 팀은 무척 빠르게 후속작을 만들면서 게임 내용을 더 깊고 크게 키워 갔죠. 그렇게 빠른 변화를 이루기 위해 팀을 어떻게 꾸리셨어요?",
+            "from": 113,
+            "speaker": "이와타"
+          },
+          {
+            "to": 125,
+            "kind": "answer",
+            "text": "우선 『파이널 판타지 IV』 때 타카 짱을 비롯해 뛰어난 인재가 모인 게 컸죠. 또 기기가 발전해 보여 줄 수 있는 것이 많아졌으니, 이를테면 그래픽에 할당하는 메모리 비율만 조금 바꿔도 장인 기질이 꿈틀거렸어요. 당시에는 ‘뭔가를 바꿔야 한다’는 분위기가 있었습니다.",
+            "from": 119,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 128,
+            "kind": "answer",
+            "text": "그때는 아케이드 쪽 사양이 더 높았으니, 그걸 뛰어넘자는 목표도 있었죠.",
+            "from": 126,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "기기 성능만 보면 뒤처지는 가정용 게임기로 플레이어를 놀라게 하겠다는 기개가 가득했군요.",
+            "from": 129,
+            "speaker": "이와타"
+          },
+          {
+            "to": 134,
+            "kind": "question",
+            "text": "그랬어요. 그림도 꽤 자유롭게 그렸죠. VI(※5) 오프닝에 나온 마도 아머 기억해?",
+            "from": 132,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 136,
+            "kind": "note",
+            "text": "※5 『파이널 판타지 VI』 — 1994년 4월 슈퍼 패미컴용으로 발매된 RPG. 시리즈 여섯 번째 작품.",
+            "from": 135
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "아, 기억합니다.",
+            "from": 137,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 143,
+            "kind": "answer",
+            "text": "사실 나는 본편에 나오는 것과 같은 마도 아머로 하고 싶었어요. 그런데 타카 짱이 제멋대로 그려 버려서……(웃음). 그랬더니 정말 좋은 게 올라왔죠.",
+            "from": 139,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 146,
+            "kind": "answer",
+            "text": "처음 생각하신 것보다 더 좋은 게 나와 인정할 수밖에 없는 관계가 된 거군요.",
+            "from": 144,
+            "speaker": "이와타"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "네. 조금 분하긴 하지만요(웃음). 당시에는 그런 일이 꽤 있었던 것 같아요.",
+            "from": 147,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 153,
+            "kind": "answer",
+            "text": "여러 사람이 다양한 아이디어를 내고 그걸 잘 받아들이는 흐름이 생기면 팀 전체의 분위기가 확 좋아지니까요.",
+            "from": 150,
+            "speaker": "이와타"
+          },
+          {
+            "to": 156,
+            "kind": "answer",
+            "text": "타카 짱은 다들 의욕을 내서 한데 뭉치게 만드는 걸 예전부터 잘했지요.",
+            "from": 154,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 160,
+            "kind": "answer",
+            "text": "그래도 당시엔 ‘스퀘어의 문화’ 같은 게 있었죠. 바꾸고 싶으면서도 바꾸면 안 될 것 같은 분위기가 있어서, 제가 어떤 방향으로 가야 할지 고민했어요.",
+            "from": 157,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 163,
+            "kind": "answer",
+            "text": "그랬구나…… 대단하네. 몇 년이 지나서야 듣는 그때 고민이라니(웃음).",
+            "from": 161,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "그래도 바꾸지 않으면 달라지지 않는다는 딜레마가 있었죠.",
+            "from": 164,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 168,
+            "kind": "question",
+            "text": "그렇게 만난 두 분은 얼마나 오래 함께 일하셨나요?",
+            "from": 167,
+            "speaker": "이와타"
+          },
+          {
+            "to": 172,
+            "kind": "answer",
+            "text": "제가 『파이널 판타지』 팀에 있었던 건 VI까지예요. VII(※6)는 도중에 빠졌고, 같은 회사 안이었지만 저는 다른 팀을 이끌게 됐어요.",
+            "from": 169,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 174,
+            "kind": "note",
+            "text": "※6 『파이널 판타지 VII』 — 1997년 1월에 발매된 RPG. 시리즈 일곱 번째 작품.",
+            "from": 173
+          },
+          {
+            "to": 180,
+            "kind": "answer",
+            "text": "그때는 그렇게 팀이 조금씩 나뉘었어요. 두각을 나타낸 사람이 자기 팀을 이끌고 따로 나가는 분위기가 있었거든요. 저도 “이 회사는 『파이널 판타지』밖에 못 만들게 하나요?”라는 말을 사람들에게 실컷 들어서 고민했죠…….",
+            "from": 175,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 185,
+            "kind": "answer",
+            "text": "같은 일이 반복되면 가치 있는 일이라도 그 가치를 실감하기 어려워지니 새바람을 일으켜야 하죠. 그런데 어떻게 그 바람을 일으켜야 하는지에서 갈등이 있었군요.",
+            "from": 181,
+            "speaker": "이와타"
+          },
+          {
+            "to": 189,
+            "kind": "answer",
+            "text": "네. 그래도 타카 짱 아래에는 좋은 스태프도 있었으니, 역시 회사 안에서 다른 팀을 이끄는 게 좋겠다는 흐름이었어요.",
+            "from": 186,
+            "speaker": "사카구치"
+          }
+        ]
+      },
+      {
+        "id": "page-2",
+        "title": "타카하시가 새 팀을 꾸리다",
+        "sourceId": "iwata-sakaguchi-takahashi-02-60c54fcd",
+        "sourceSha256": "60c54fcdab6d2935457a2b023ae6a5050b05b10baa24f48179760a355dc8f43b",
+        "sourceLineCount": 120,
+        "page": 2,
+        "blocks": [
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "타카하시 씨는 어떤 과정으로 독립된 팀을 이끌게 되셨나요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 7,
+            "kind": "answer",
+            "text": "사카구치 씨를 찾아가 “새로운 일을 해 보고 싶어요”라고 말씀드린 기억이 납니다. 그때는 아직 다 같이 『파이널 판타지 VII』를 만들던 때였어요…….",
+            "from": 4,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 11,
+            "kind": "question",
+            "text": "『파이널 판타지 VII』라면 마침 큰 변화의 갈림길이었죠. 거기서 의지하던 분이 독립한다고 하면, 사카구치 씨는 기쁘면서도 마음이 아프지 않으셨어요?",
+            "from": 8,
+            "speaker": "이와타"
+          },
+          {
+            "to": 18,
+            "kind": "answer",
+            "text": "네. 솔직히 조금 쓸쓸했어요. 또 아주 잘 기억하는 게 타카 짱이 다른 팀으로 가자마자 책상에 건담과 모델 건이 가득해졌다는 거예요. 분위기가 확 달라져서 ‘아, 이런 걸 하고 싶었구나’ 싶었어요.",
+            "from": 12,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 20,
+            "kind": "answer",
+            "text": "마치 졸업해 나간 것 같은 느낌이었겠네요.",
+            "from": 19,
+            "speaker": "이와타"
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "네, 제멋대로 느낀 거지만요…….",
+            "from": 21,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 24,
+            "kind": "answer",
+            "text": "……그런 생각을 하고 계셨을 줄이야(웃음).",
+            "from": 23,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 27,
+            "kind": "question",
+            "text": "타카하시 씨는 『파이널 판타지』 팀을 나와 어떤 일을 하려고 하셨나요?",
+            "from": 25,
+            "speaker": "이와타"
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "이벤트 장면까지 포함해서 게임의 재미를 전부 3D로 보여 줄 수 없을까 생각했어요. 그런 계통의 게임을 만들고 싶다는 게 처음 동기였죠.",
+            "from": 28,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "VII와는 일부러 다른 방식으로 3D를 쓰는 데 의미가 있다고 생각하셨군요.",
+            "from": 32,
+            "speaker": "이와타"
+          },
+          {
+            "to": 39,
+            "kind": "answer",
+            "text": "네. 회사로서도 VII와는 다른 방향의 3D 노하우를 쌓아 둘 필요가 있지 않을까 생각했어요. 그래서 맵 같은 걸 전부 3D로 만들고 자유롭게 각도를 바꾸며 할 수 있게 하고 싶었죠.",
+            "from": 35,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "그래픽만 맡을 때와 게임 자체를 생각하고 전체를 챙길 때는 일이 아주 달라지죠.",
+            "from": 40,
+            "speaker": "이와타"
+          },
+          {
+            "to": 45,
+            "kind": "answer",
+            "text": "네. 그때는 하나씩 더듬어 가며 진행해야 했어요.",
+            "from": 44,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 47,
+            "kind": "answer",
+            "text": "하지만 그 시대에는 다들 더듬어 가면서 만들었어요.",
+            "from": 46,
+            "speaker": "이와타"
+          },
+          {
+            "to": 49,
+            "kind": "answer",
+            "text": "VII도 완전히 더듬어 가면서 만들었죠.",
+            "from": 48,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "오히려 처음부터 목표의 모습을 떠올려 놓고 만든 사람은 거의 없었을 것 같아요.",
+            "from": 50,
+            "speaker": "이와타"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "사실 저희 팀의 90퍼센트가 3D를 모르는 신입이었어요. 사람 관계로 고민하는 분에게 길을 열어 주거나 상담을 해 주는 등 팀원들의 마음을 돌보는 일이 제일 힘들었죠. ‘사카구치 씨가 이런 일을 하고 계셨구나’ 하고 그때 처음 깨달았어요.",
+            "from": 53,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 60,
+            "kind": "answer",
+            "text": "독립해야 비로소 어버이 마음을 아는 거군요(웃음).",
+            "from": 59,
+            "speaker": "이와타"
+          },
+          {
+            "to": 62,
+            "kind": "answer",
+            "text": "그렇군요.",
+            "from": 61,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 68,
+            "kind": "question",
+            "text": "사카구치 씨는 언제부터 팀을 돌보는 일이 필요하다고 느끼셨나요? 초기 『파이널 판타지』는 제작 기간도 짧고 사람도 적어서 팀원들의 마음까지 생각할 겨를이 없지 않았나 싶어요…….",
+            "from": 63,
+            "speaker": "이와타"
+          },
+          {
+            "to": 73,
+            "kind": "answer",
+            "text": "그렇죠. 다만 III(※7)까지는 프로그래머가 외국인이었어요. 실력은 뛰어났지만 일본어를 못 하고 RPG 자체를 몰랐으니, 다른 식으로 돌볼 필요가 있었죠. 매일 그 사람과 스테이크를 먹으면서요……(웃음).",
+            "from": 69,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 75,
+            "kind": "note",
+            "text": "※7 『파이널 판타지 III』 — 1990년 4월 패미컴용으로 발매된 RPG. 시리즈 세 번째 작품.",
+            "from": 74
+          },
+          {
+            "to": 77,
+            "kind": "question",
+            "text": "매일 스테이크를요? 강렬하네요(웃음).",
+            "from": 76,
+            "speaker": "이와타"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "그 사람은 스테이크밖에 못 먹어요. 어쨌든 메인 프로그램을 어떻게든 해야 했으니, 팀 전체는 아니어도 그런 식으로 돌보긴 했어요.",
+            "from": 78,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 89,
+            "kind": "answer",
+            "text": "그림이 풍부해지고 롬 용량이 늘어나는 변화는 사카구치 씨가 슈퍼 패미컴 시절에 거친 일이었죠. 그런데 타카하시 씨가 팀을 꾸려 새로 시작할 때는 ‘3D’라는 더 강렬한 변화가 찾아왔군요. 3D와 CG가 들어오면서 분업이 급속히 진행된 반면, 처음엔 만드는 방법이 자리 잡지 않았으니까요.",
+            "from": 82,
+            "speaker": "이와타"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "그렇죠.",
+            "from": 90,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 94,
+            "kind": "answer",
+            "text": "슈퍼 패미컴에서 다져 놓은 제작 방식이 3D의 등장으로 무효가 되니 업계가 곤란해진 거군요.",
+            "from": 92,
+            "speaker": "이와타"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "대부분 CG 용어조차 몰랐으니까요. 그 와중에 팀까지 이끈다는 건 사람들을 여럿 데리고 폭풍 속으로 뛰어드는 것과 같아요.",
+            "from": 95,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 101,
+            "kind": "question",
+            "text": "팀을 이끄는 일이 그토록 힘들었는데도 타카하시 씨를 움직인 힘은 무엇이었나요?",
+            "from": 99,
+            "speaker": "이와타"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "글쎄요…… 제 안에 ‘반드시 해낼 수 있어. 괜찮아’라는 생각이 있었고, 그게 유일한 버팀목이었어요. 지금 생각하면 그 마음을 더 많이 나눴다면 스태프들도 만들기 수월하지 않았을까요.",
+            "from": 102,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 110,
+            "kind": "answer",
+            "text": "속에서 솟아나는 ‘꼭 이루고 싶다’는 마음만으로, 아직 길도 보이지 않는데 사람들을 끌어들여 끝까지 해내는 거죠. 젊기에 할 수 있는 일인지도 모르겠어요.",
+            "from": 107,
+            "speaker": "이와타"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "네. 좀 무모하다 싶은 일도 해내 버렸죠.",
+            "from": 111,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 116,
+            "kind": "answer",
+            "text": "나중에 대단하다는 말을 듣는 것일수록 처음에는 상식에 어긋난다는 반응이 나오잖아요. 상식과 분별이 있을수록 발이 떨어지지 않죠.",
+            "from": 113,
+            "speaker": "이와타"
+          },
+          {
+            "to": 118,
+            "kind": "answer",
+            "text": "맞아요. 그때는 그게 좋았어요.",
+            "from": 117,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 120,
+            "kind": "answer",
+            "text": "그래서 지금이 있다는 느낌이죠.",
+            "from": 119,
+            "speaker": "타카하시"
+          }
+        ]
+      },
+      {
+        "id": "page-3",
+        "title": "스태프와 나누는 ‘공감’",
+        "sourceId": "iwata-sakaguchi-takahashi-03-fa09110c",
+        "sourceSha256": "fa09110cf26e71341a4abea3e05ba09cb05a5fd0d84b713f135aaf02ad6efede",
+        "sourceLineCount": 163,
+        "page": 3,
+        "blocks": [
+          {
+            "to": 5,
+            "kind": "answer",
+            "text": "예전보다 작품 하나를 만드는 데 필요한 일이 어마어마하게 많아졌죠. 그래서 게임이 발전하고 여러 가지를 얻었지만, 동시에 옛날에 좋았던 무언가를 잃은 느낌도 들어요.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 7,
+            "kind": "answer",
+            "text": "그런 게 있죠. ‘장인 정신’이라고 할까요.",
+            "from": 6,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 10,
+            "kind": "answer",
+            "text": "지금은 장인 정신만으로는 경쟁하기 어려워요. 장인 정신에 더해 현대 산업의 제작 방식도 잘 받아들여야 합니다.",
+            "from": 8,
+            "speaker": "이와타"
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "실제로 그 정신 자체가 옅어지고 있는지도 모르겠네요.",
+            "from": 11,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "지금까지 게임 업계를 개척해 온 사람들의 ‘장인 정신’이 젊은 세대에 얼마나 전해졌을까요. 예전에는 직접 손으로 바꿀 수 있는 범위가 넓어서 만드는 사람에게 일종의 전능감이 있었어요. 그래서 자연히 집요하게 파고드는 태도와 끈기가 생겼죠. 그게 ‘장인 정신’의 정체라고 생각해요. 그런데 게임 만드는 방식이 바뀌어 혼자 할 수 있는 일이 줄어들면 젊은 세대와 생각에 벽이 생기죠. 오히려 오래 해 온 사람들이 맡을 역할에서는 젊은 세대가 자신을 얼마나 믿어 주느냐가 크다고 봅니다.",
+            "from": 13,
+            "speaker": "이와타"
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "그렇죠. 오래 했다고 개인 기술이 뛰어난 건 아니에요. 대신 끈기가 있죠. 그 끈기가 접착제처럼 팀을 묶고, 거기에 젊은 사람들의 기술이 붙어 오면 게임 자체가 달라집니다.",
+            "from": 26,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "이번에도 그 끈기 덕분에 The Last Story와 『제노블레이드 크로니클스』(※8)가 몰라보게 달라지는 걸 느꼈어요. 그래서 저희도 끝까지 함께하며 마무리할 수 있었던 것 같아요.",
+            "from": 32,
+            "speaker": "이와타"
+          },
+          {
+            "to": 38,
+            "kind": "note",
+            "text": "※8 『제노블레이드 크로니클스』 — 2010년 6월 Wii용으로 발매된 RPG. 타카하시 테츠야 씨가 총감독을 맡았다.",
+            "from": 37
+          },
+          {
+            "to": 40,
+            "kind": "answer",
+            "text": "그러고 보니 두 작품 다 발매일이 미뤄졌지요.",
+            "from": 39,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 42,
+            "kind": "answer",
+            "text": "어느 쪽이 먼저 나올까 하는 얘기를 자주 했어요(웃음).",
+            "from": 41,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 44,
+            "kind": "answer",
+            "text": "옛날에는 제가 더 빨랐는데, 이번엔 졌네요(웃음).",
+            "from": 43,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "요즘 드는 생각인데 저희 세대에는 이미 프로듀서가 된 사람이 많고, 현장에서 물러나는 게 너무 빠르지 않나 싶어요. 영화나 애니메이션에서는 50~60대도 한창 활약하잖아요. 현장을 떠나 버리면 저희가 어렵게 키워 온 ‘장인 정신’이 전해지지 않으니, 현장 일을 이어 가는 게 좋다고 생각해요.",
+            "from": 45,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 57,
+            "kind": "answer",
+            "text": "아, 이번에 현장으로 돌아가 보니 저도 그걸 느꼈어요. 역시 돌아가 보니 제 끈기 같은 게 현장에서 더 잘 쓰였고, 팀이 전과는 다른 식으로 뭉쳤는지도 모르겠어요.",
+            "from": 53,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 63,
+            "kind": "answer",
+            "text": "적어도 사카구치 씨가 디렉터가 아니었거나 타카하시 씨가 현장에서 좀 더 물러나 계셨다면, 두 작품 다 지금과 같은 모습은 아니었을 거예요. 두 분의 장인 정신과 끈기에 힘입어 젊은 분들이 얻은 것이 많았으리라 생각합니다.",
+            "from": 58,
+            "speaker": "이와타"
+          },
+          {
+            "to": 72,
+            "kind": "answer",
+            "text": "The Last Story 발표회에서 후지사카 씨(※9)가 말씀하신 일화가 있었죠. “한밤중에 일하는데 술에 취한 사카구치 씨가 돌아와 로고를 고칠 부분을 짚어 주고는 홀연히 돌아갔다.” 그 말을 듣고 그 장면이 눈에 훤히 그려졌어요. 사카구치 씨는 예전부터 그런 면이 있잖아요(웃음). 들은 쪽에서는 ‘해야 하는 건가……’ 싶고요. 그런데 그게 중요하다고 생각합니다.",
+            "from": 64,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 74,
+            "kind": "note",
+            "text": "※9 후지사카 씨 — 캐릭터 디자이너 후지사카 키미히코 씨. The Last Story의 캐릭터 디자인을 담당했다.",
+            "from": 73
+          },
+          {
+            "to": 80,
+            "kind": "answer",
+            "text": "밑바탕에 사카구치 씨를 향한 신뢰가 있으니 그럴 수 있죠. 상사 의견이라 어쩔 수 없어서 하는 거라면 진심을 다할 수는 없어요. 마음 한편에 ‘이 사람은 나보다 더 깊이 생각하고 있어’라는 믿음이 있으니, 생각이 달라도 결국 기꺼이 돕게 되는 것 같아요.",
+            "from": 75,
+            "speaker": "이와타"
+          },
+          {
+            "to": 82,
+            "kind": "answer",
+            "text": "어째 여러 사실이 하나씩 드러나네요(웃음).",
+            "from": 81,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 84,
+            "kind": "question",
+            "text": "그런 일은 무의식적으로 하시는 건가요?",
+            "from": 83,
+            "speaker": "이와타"
+          },
+          {
+            "to": 96,
+            "kind": "answer",
+            "text": "의식해서 하진 않아요. 이를테면 아까 말씀드린 마도 아머처럼 제게 없는 발상에서 나온 것에는 할 말이 없어요. 저와 같은 방향을 향할 때가 중요하죠. 직소 퍼즐 조각의 모양이 다르면 일찍 고쳐야지 완성된 뒤에는 힘들잖아요. 작품 전체의 흐름에서 벗어난 것은 제가 순간적으로 바로 알아차려요. 그럴 땐 좀 세게 말하고 휙 돌아오는 느낌일까요. ……저도 모르겠지만요(웃음).",
+            "from": 85,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "그래도 그래픽에는 꽤 너그러우셨죠.",
+            "from": 97,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 103,
+            "kind": "answer",
+            "text": "그렇죠. 제가 그림을 못 그리니 제 생각 안에서만 만들면 딱딱한 세계가 돼요. 생생하고 생명이 느껴지는 세계를 원했으니, 전문가들이 마음껏 그리는 게 제일 좋죠.",
+            "from": 99,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "결국 타카하시 씨를 거쳐 나오는 결과물을 믿으셨기 때문에 가능했겠죠.",
+            "from": 104,
+            "speaker": "이와타"
+          },
+          {
+            "to": 113,
+            "kind": "question",
+            "text": "그렇죠. 늘 신기하게 생각하는 건데, 그림을 그릴 수 있는 사람과 그렇지 않은 사람이 있잖아요. 실력의 좋고 나쁨과는 별개로, 그릴 줄 아는 사람은 방향을 조금 틀어도 생기 있는 걸 만들어요. 왜 그런지는…… 모르겠어요. 타카 짱, 그림을 그리는 사람으로서 그 차이는 어디서 생기는 것 같아?",
+            "from": 107,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 119,
+            "kind": "answer",
+            "text": "아마 상상력일 거예요. 적어도 제 경험에는 먼저 사카구치 씨가 만들고 계신 이야기가 있고, 그 이야기가 어디로 가려는지, 무엇을 목표로 하는지 상상해요. 그 상상의 틀 안에서 우리가 할 수 있는 것을 하나씩 제안하죠…….",
+            "from": 114,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 122,
+            "kind": "question",
+            "text": "사카구치 씨가 던진 단서를 토대로 그 세계에 있으면 매력적일 만한 것을 제안한다는 뜻인가요?",
+            "from": 120,
+            "speaker": "이와타"
+          },
+          {
+            "to": 128,
+            "kind": "answer",
+            "text": "네. 그게 안 되면 엉뚱한 것이 나와요. 저도 회사에서 하는 말인데, 어느 파트든 상대가 무슨 생각을 하고 어디로 가려는지 상상하는 게 중요합니다. ‘공감’이라고 바꿔 말해도 좋고요.",
+            "from": 123,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 130,
+            "kind": "answer",
+            "text": "아, 그렇군요. ‘공감’이라고 하면 이해가 쉽네요.",
+            "from": 129,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 135,
+            "kind": "answer",
+            "text": "사람들의 호응을 얻으려면 공감할 수 있도록 만들어야 몰입할 수 있죠. 플레이어와 제작자 사이에서만이 아니라, 제작의 중심에 있는 사람과 스태프 사이에서도 마찬가지군요.",
+            "from": 131,
+            "speaker": "이와타"
+          },
+          {
+            "to": 143,
+            "kind": "answer",
+            "text": "거꾸로 생각하면 처음부터 ‘공감을 얻고 싶다’는 마음이 있어야 하는 거겠네요. 그렇구나, 먼저 스태프와 공감이 생기는 거구나. 오, 타카 짱, 좋은 말 했네(웃음). 공감이 있으면 제가 원하는 세계관 안에서 제 상상을 뛰어넘는 것이 나오죠. 그래서 함께 더 높은 곳을 바라볼 수 있겠네요.",
+            "from": 136,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 148,
+            "kind": "answer",
+            "text": "……그런 것 같아요. 그때는 회사에서 디버깅을 했고, 마지막 날이면 꼭 다 같이 모여 처음부터 끝까지 플레이했잖아요. 그게 정말 즐거웠어요.",
+            "from": 144,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 152,
+            "kind": "answer",
+            "text": "아, 그거 좋았죠. 일을 끝내고 맥주를 마시면서 마지막에는 다 같이 울고요.",
+            "from": 149,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 154,
+            "kind": "answer",
+            "text": "우에마츠 씨(※10)가 제일 많이 울었죠(웃음).",
+            "from": 153,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 159,
+            "kind": "answer",
+            "text": "잘 우셨죠(웃음). 그런데 그런 상황에서 나온 작품은 대체로 빗나가지 않았어요. 그것도 공감이었을까요. 모두가 공감했으니 일체감이 생기고…….",
+            "from": 155,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 161,
+            "kind": "answer",
+            "text": "그 에너지가 작품 자체에 옮아간 거겠죠.",
+            "from": 160,
+            "speaker": "이와타"
+          },
+          {
+            "to": 163,
+            "kind": "note",
+            "text": "※10 우에마츠 씨 — 게임 음악가 우에마츠 노부오 씨. The Last Story에서 음악을 담당했다.",
+            "from": 162
+          }
+        ]
+      },
+      {
+        "id": "page-4",
+        "title": "‘낭만’이라는 말",
+        "sourceId": "iwata-sakaguchi-takahashi-04-9b6b7026",
+        "sourceSha256": "9b6b7026806ea0be06aeace119f08bca72cf5df96373a6272aad6c4a90659572",
+        "sourceLineCount": 131,
+        "page": 4,
+        "blocks": [
+          {
+            "to": 10,
+            "kind": "question",
+            "text": "두 분은 각각의 작품에서 어느 정도 할 만큼 다 했다고 느끼시나요? 또 The Last Story나 『제노블레이드 크로니클스』는 대체로 닌텐도의 노선, 이를테면 미야모토 시게루 씨 일행이 만드는 게임과는 뚜렷이 다르다고 여겨지죠. 그런 작품을 닌텐도와 마주해 만들면서 어떤 점을 느끼셨나요? 이 두 가지를 각각 여쭤 보고 싶습니다. 먼저 타카하시 씨부터 부탁드릴게요.",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "네. 먼저 닌텐도와 게임을 만드는 일인데요. 처음에 모노리스 소프트의 임원이기도 한 영업본부장 하타노 씨가 “모노리스 소프트만이 할 수 있는 것을 보여 주세요”, “낭만을 소중히 여겨 주세요”라고 하셨어요. 그런데 실은 그 낭만이 무슨 뜻인지 잘 모르겠더라고요.",
+            "from": 11,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 18,
+            "kind": "answer",
+            "text": "아, 저도 하타노 씨에게 그 말을 들었어요.",
+            "from": 17,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 32,
+            "kind": "answer",
+            "text": "두 분에게 새삼 말씀드릴 것도 없지만, 하타노 씨는 국내 영업 책임자인 동시에 게임 회사와의 창구인 라이선스 부문 책임자예요. 그래서 외부 제안을 받는 일이 많고, 저희가 사카구치 씨나 모노리스 소프트와 인연을 맺은 것도 처음에는 하타노 씨가 이끄는 영업본부와 접점이 생기면서부터였죠. 개발이 시작되면 닌텐도 개발팀이 주관하니 『제노블레이드 크로니클스』와 The Last Story는 기획개발부 야마가미 히토시 씨 일행이 창구를 맡지만, 이렇게 개발이 시작되기도 해요. 하타노 씨에게 들었는데 ‘낭만’이라는 화두를 양쪽에 다 던지셨다더군요.",
+            "from": 19,
+            "speaker": "이와타"
+          },
+          {
+            "to": 37,
+            "kind": "answer",
+            "text": "‘무엇이 낭만인가’를 끝까지 고민해서 만든 작품이 『제노블레이드 크로니클스』예요. 그런 의미에서는 “우리 뜻대로 해 주세요” 대신 “잘하는 걸 해 주세요”라는 말을 들었으니 마음이 편했어요.",
+            "from": 33,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 49,
+            "kind": "answer",
+            "text": "그건 처음부터 분명히 해 둔 일이에요. 하타노 씨와도 야마가미 씨와도 여러 차례 이야기했는데, 개발팀의 강점이 살아나게 하는 것이 아주 중요하거든요. “타카하시 씨나 사카구치 씨의 장점이 가장 잘 살아나게 만들어 주세요”라는 생각은 처음부터 변하지 않았어요. 다만 하타노 씨가 내놓은 ‘낭만’이라는 말이 무엇을 뜻하는지는 일종의 수수께끼죠. 아마 ‘많은 사람이 그 세계와 이야기에 공감하고 설렐 수 있는 것’이라는 뜻이었을 거예요. “그걸 여러분 팀이 잘하는 것으로 이루어 주세요”라는 게 닌텐도의 메시지였죠.",
+            "from": 38,
+            "speaker": "이와타"
+          },
+          {
+            "to": 55,
+            "kind": "answer",
+            "text": "그래도 닌텐도 게임이니 처음 사양을 잡을 때 닌텐도다운 면을 넣는 게 좋지 않겠느냐는 이야기도 오갔어요. 어디에서 타협점을 찾을지 처음에는 역시 당황했죠.",
+            "from": 50,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 64,
+            "kind": "answer",
+            "text": "역시 처음엔 고민하게 해 드렸군요. 닌텐도 쪽에서 그런 부분을 잘 다루지 못했을 수도 있어요. 처음 함께할 때는 개발팀이 닌텐도다움을 지나치게 배려하느라 자기 강점을 잘 살리지 못하는 경우가 있거든요. 모노리스 소프트와 여러 차례 이야기한 끝에 일을 함께하는 방식이 자리를 잡았다고 할까요. 사카구치 씨와도 마찬가지로 ASH: Archaic Sealed Heat(※11) 때와 이번은 서로 느끼는 거리가 전혀 달라요.",
+            "from": 56,
+            "speaker": "이와타"
+          },
+          {
+            "to": 66,
+            "kind": "answer",
+            "text": "그렇죠. 전혀 달라요.",
+            "from": 65,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 68,
+            "kind": "note",
+            "text": "※11 ASH: Archaic Sealed Heat — 2007년 10월 닌텐도 DS용으로 발매된 시뮬레이션 RPG. 사카구치 히로노부 씨가 총괄 프로듀서를 맡았다.",
+            "from": 67
+          },
+          {
+            "to": 73,
+            "kind": "answer",
+            "text": "그런 식으로 만들면서 닌텐도와 마리오 클럽 분들을 가상의 플레이어로 보고, 어떤 부분에 각각 반응하는지 살폈어요. 그렇게 해서 마침내 효율적으로 만드는 방법을 찾았습니다.",
+            "from": 69,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 83,
+            "kind": "answer",
+            "text": "아까 나온 ‘공감’이라는 말로 표현하면 다양한 사람이 공감할 수 있게 서서히 폭을 넓혀 가며 만드신 거군요. 폭을 넓히면 공감할 부분이 옅어진다는 단순한 오해가 있는 것 같은데, 저는 그렇게 생각하지 않아요. 그리고 타카하시 씨도 그렇지만 닌텐도 쪽도 완성도에 관해 상당히 끈질겼으니, 서로 끈기를 주고받는 것 같았죠.",
+            "from": 74,
+            "speaker": "이와타"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "네. 닌텐도가 바깥 해자를 하나씩 메워 오는 기분이었어요(웃음). 저희의 나쁜 버릇인데 가끔 만드는 쪽 사정으로 움직이다 보니 ‘이것밖에 안 되니까 어쩔 수 없다’는 분위기가 되기 쉬웠어요. 그런데 “플레이어 손에 들어갔을 때 어떤 경험을 하느냐가 중요하다”는 말을 자주 들어서, 마음 단단히 먹고 할 수밖에 없다고 생각했죠.",
+            "from": 84,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 95,
+            "kind": "question",
+            "text": "그런 의미에서는 물러설 길을 없애는 게 닌텐도의 일이었군요. 실제로 끝내고 보니 하길 잘했다고 생각하세요?",
+            "from": 92,
+            "speaker": "이와타"
+          },
+          {
+            "to": 105,
+            "kind": "answer",
+            "text": "그건 다들 그렇게 말해요. 힘들긴 했죠. 제일 실감하는 건 친척이나 친구에게 해 보게 했을 때 “좋았어”라는 반응이 돌아오는 거예요. 그 말에 큰 위안을 받았달까요. 하길 잘했다고 생각합니다. The Last Story 발표회에서 사카구치 씨가 “The Last Story의 디버깅이 최장 9개월 걸렸다”고 하셨는데, 사실 디버깅에 투입된 연인원은 『제노블레이드 크로니클스』 쪽이 더 많았다고 해요(웃음).",
+            "from": 96,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 107,
+            "kind": "answer",
+            "text": "오오.",
+            "from": 106,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "퀘스트 수와 아이템 관련 조합이 어마어마한 양이었죠. 그래도 들인 에너지만큼 플레이어에게도 전해졌으리라 생각합니다.",
+            "from": 108,
+            "speaker": "이와타"
+          },
+          {
+            "to": 115,
+            "kind": "question",
+            "text": "그만한 데이터를 넣기로 처음부터 정해 두셨어요?",
+            "from": 113,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 118,
+            "kind": "answer",
+            "text": "뭐, 처음부터 이렇게 되리라는 예상은 어느 정도 했지만요…….",
+            "from": 116,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 121,
+            "kind": "answer",
+            "text": "그렇군요. 그런 구성이었군요. 그래도 결국 전부 넣으셨잖아요.",
+            "from": 119,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 123,
+            "kind": "answer",
+            "text": "네. 막판에 큰 사양까지 넣었어요…….",
+            "from": 122,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 127,
+            "kind": "answer",
+            "text": "허어. 저는 지금 마스터 업을 끝낸 상태라 웃으면서 듣지만, 조금 전이었다면 아마 가슴이 두근두근하면서 들었을 거예요(웃음).",
+            "from": 124,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "덕분에 플레이해 주신 분들의 만족도가 전반적으로 아주 높아졌어요. 여러 가지 해 보길 잘했죠.",
+            "from": 128,
+            "speaker": "이와타"
+          }
+        ]
+      },
+      {
+        "id": "page-5",
+        "title": "작품에 자기 냄새를 남기다",
+        "sourceId": "iwata-sakaguchi-takahashi-05-2111eae8",
+        "sourceSha256": "2111eae85a20edd5385afac0df32e6fd246c99f730e2a2b651929e7496d37383",
+        "sourceLineCount": 142,
+        "page": 5,
+        "blocks": [
+          {
+            "to": 4,
+            "kind": "question",
+            "text": "그럼 사카구치 씨는 The Last Story의 완성도와 닌텐도와 함께 만드는 일에 대해 어떻게 느끼세요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "처음에는 타카 짱과 마찬가지로 “낭만을 부탁드립니다”라는 얘기를 들었어요. 그런데 세상에는 남자와 여자밖에 없으니 남자와 여자이기에 생기는 이야기를 꼭 넣고 싶었어요. 그래서 그 말 자체에는 아무 문제도 없었죠. 오히려 만들어 가면서 생각이 조금씩 바뀌었고, 지금은 ‘동료’라는 의식이 더 큰 게임이 됐어요.",
+            "from": 5,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 17,
+            "kind": "answer",
+            "text": "그렇지만 처음 생각하신 이야기와 주제는 그대로죠. 만드는 과정에서 생긴 분위기와 생생한 감각을 느끼면서 그런 것들을 욕심껏 받아들이신 것 같아요.",
+            "from": 13,
+            "speaker": "이와타"
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "그렇죠. 뜻밖의 곳에서 싹이 나서 물을 줬더니 숲이 된 셈이니 운이 좋았다고 느껴요. 그리고 닌텐도와 일한 이야기를 하자면, 『파이널 판타지 III』를 만들 때 당시 이름은 마리오 클럽이 아니었지만 닌텐도 내부에서 소프트웨어를 평가하는 제도가 있었죠?",
+            "from": 18,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 27,
+            "kind": "answer",
+            "text": "네, 있었어요.",
+            "from": 26,
+            "speaker": "이와타"
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "그때 “언젠가 저도 이런 일을 해 보고 싶어요”라는 말을 들은 적이 있어요. 사실 이 얘기는 아무에게도 한 적이 없는데요.",
+            "from": 28,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "그때는 마리오 클럽 같은 조직이 없어서 사내 사람들이 평가를 적던 시절이에요. 개발자도 섞여 있었으니 그런 표현이 나온 거겠죠.",
+            "from": 32,
+            "speaker": "이와타"
+          },
+          {
+            "to": 44,
+            "kind": "answer",
+            "text": "아, 개발자분들도 계셨군요. 사실 그때 마음에 남은 게 커서, ‘닌텐도 사람들은 결국 알아줄 거야’ 같은 이상한 자신감이 됐어요(웃음). 그만큼 기분 좋은 충격이었죠. 그래서 마리오 클럽에 나흘 동안 찾아간 것도 그런 마음에서였어요.",
+            "from": 37,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 49,
+            "kind": "answer",
+            "text": "사카구치 씨가 직접 마리오 클럽에 나흘이나 머무르면서 의견을 적극적으로 받아들이려 하신 건 닌텐도에게도 신선한 놀라움이었어요. 거기서 얻으신 게 많았겠죠.",
+            "from": 45,
+            "speaker": "이와타"
+          },
+          {
+            "to": 59,
+            "kind": "answer",
+            "text": "그때는 제가 의견을 듣는 게 첫 번째 목적이었지만, 두 번째 목적도 있었어요. 제가 표현하고 있는 무언가를 마리오 클럽에 남겨 놓고 싶었죠. 그러면 최종 조정 때 제 냄새가 남아 있을 테니까요…… 그 자리에 ‘공감’이 생겨 있으면 마지막까지 같은 목표를 향해 달릴 수 있을 것 같았어요. 그래서 제 냄새로 표시를 해 두었습니다(웃음). 덕분에 정말 끝까지 관계가 좋았어요.",
+            "from": 50,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 63,
+            "kind": "answer",
+            "text": "그래서 ‘9개월이나 디버깅을 계속한 마리오 클럽 분이 끝나고 눈물을 흘렸다’는 일화도 생겼군요. 분명 그분들도 개발 스태프의 일원이었던 거죠.",
+            "from": 60,
+            "speaker": "이와타"
+          },
+          {
+            "to": 67,
+            "kind": "answer",
+            "text": "맞아요. 거기까지 계획했던 건 아니에요. 좋든 나쁘든 그런 식으로 사람을 끌어들이는 게 제 버릇입니다(웃음).",
+            "from": 64,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "사카구치 씨는 정말 분위기를 만드는 데 능하세요. 제가 좀처럼 도달하지 못하는 부분이죠. 저도 언젠가 그렇게 되고 싶은데요…….",
+            "from": 68,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 74,
+            "kind": "answer",
+            "text": "글쎄요…… 이상한 자신감이죠. 혼자 그렇게 믿는다고 할까, 극단적인 낙관주의지만요.",
+            "from": 72,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 83,
+            "kind": "answer",
+            "text": "에너지를 많이 내는 사람은 어디선가 에너지를 얻잖아요. 저는 그걸 ‘보상’이라고 하는데, 사카구치 씨에게는 그게 에너지원 가운데 하나겠죠. 예를 들어 The Last Story 발표회는 압박이 엄청났을 텐데, 한편으로는 관객이 그렇게 반응해 주면 큰 힘을 얻잖아요.",
+            "from": 75,
+            "speaker": "이와타"
+          },
+          {
+            "to": 85,
+            "kind": "answer",
+            "text": "네, 힘을 얻었어요.",
+            "from": 84,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 89,
+            "kind": "question",
+            "text": "타카하시 씨도 『제노블레이드 크로니클스』가 나온 지 꽤 됐는데 아직 플레이한 분들이 이야기해 주시는 게 큰 힘이 되지 않나요?",
+            "from": 86,
+            "speaker": "이와타"
+          },
+          {
+            "to": 93,
+            "kind": "answer",
+            "text": "네, 물론이죠. ……그런데 실은 더 혹평해 줬으면 싶기도 해요. 저는 부정적인 에너지로 움직이는 편이라서요……(웃음).",
+            "from": 90,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 95,
+            "kind": "answer",
+            "text": "그렇군요(웃음).",
+            "from": 94,
+            "speaker": "이와타"
+          },
+          {
+            "to": 97,
+            "kind": "answer",
+            "text": "그렇구나!",
+            "from": 96,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 100,
+            "kind": "answer",
+            "text": "그럼 여러분, 어떻게든 고쳐 줬으면 하는 점은 얘기하시는 편이 좋겠네요(웃음).",
+            "from": 98,
+            "speaker": "이와타"
+          },
+          {
+            "to": 102,
+            "kind": "answer",
+            "text": "그러면 정말로 쏟아질 텐데요(웃음).",
+            "from": 101,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 104,
+            "kind": "answer",
+            "text": "미묘한 균형이 있긴 하죠…….",
+            "from": 103,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 108,
+            "kind": "answer",
+            "text": "그런데 아무리 할 만큼 했어도 꼭 못다 한 일이 남아요. 끝나고 나서야 다음으로 이어지는 거죠.",
+            "from": 105,
+            "speaker": "이와타"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "맞아요. 만드는 중에 좋은 생각이 떠오르기도 하는데, 대개 처음부터 시작하지 않으면 할 수 없는 일이죠.",
+            "from": 109,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 116,
+            "kind": "answer",
+            "text": "역시 바쁠 때 머릿속의 따로 놀던 것들을 이어 보기 때문에 좋은 아이디어가 떠오르기 쉬운 거겠죠.",
+            "from": 113,
+            "speaker": "이와타"
+          },
+          {
+            "to": 121,
+            "kind": "answer",
+            "text": "언뜻 관계없는 것을 조합하다 보면 뭔가가 나오겠죠. 또 있잖아요, 타카하시 씨하고도 꼭 같이 일해 보고 싶어요. 이렇게 갑자기 꺼내서 미안하지만요……(웃음).",
+            "from": 117,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 123,
+            "kind": "answer",
+            "text": "같이 안 한 지 10년쯤 됐죠.",
+            "from": 122,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 125,
+            "kind": "question",
+            "text": "두 분이 함께하면 서로 어떤 자극을 받을까요?",
+            "from": 124,
+            "speaker": "이와타"
+          },
+          {
+            "to": 127,
+            "kind": "answer",
+            "text": "둘 중 하나죠. 처음 두 달 만에 홱 돌아서서 갈라서거나.",
+            "from": 126,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 129,
+            "kind": "answer",
+            "text": "그 기간을 넘기면 끝까지 가거나, 둘 중 하나죠.",
+            "from": 128,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 131,
+            "kind": "answer",
+            "text": "두 분 다 같은 얘기를 하시네요(웃음). 아주 확신이 있으신 모양인데…….",
+            "from": 130,
+            "speaker": "이와타"
+          },
+          {
+            "to": 136,
+            "kind": "answer",
+            "text": "파장이 맞을 때는 딱 맞지요(웃음). 그런 의미에서는 스퀘어 때부터 서로 다른 파장의 작품을 만들고 싶어 한다는 걸 알고 있어요.",
+            "from": 132,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 138,
+            "kind": "answer",
+            "text": "완전히 다른 장르로 해 보면 의외로 좋을지도 모르겠네요.",
+            "from": 137,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 142,
+            "kind": "answer",
+            "text": "좋겠네요. 퍼즐 게임 같은 거요. 그래픽은 조금 기하학적인 쪽으로 간다거나, 물리 시뮬레이션 계열도 재미있겠네요(웃음).",
+            "from": 139,
+            "speaker": "사카구치"
+          }
+        ]
+      },
+      {
+        "id": "page-6",
+        "title": "일본에서 만든 RPG가 세계에서 경쟁하려면",
+        "sourceId": "iwata-sakaguchi-takahashi-06-23a4b2e7",
+        "sourceSha256": "23a4b2e75cd7ab2317cb42032c46521e65b00d61a7acc4d10ad4bdf1d45c3e7e",
+        "sourceLineCount": 175,
+        "page": 6,
+        "blocks": [
+          {
+            "to": 2,
+            "kind": "question",
+            "text": "두 분에게 RPG는 어떤 것인가요?",
+            "from": 1,
+            "speaker": "이와타"
+          },
+          {
+            "to": 11,
+            "kind": "answer",
+            "text": "글쎄요…… 세계관과 캐릭터, 이야기와 영상처럼 게임을 구성하는 기본 요소가 있잖아요. 그중 개성 있는 캐릭터와 세계관이 중요하고, 그 두 요소가 높은 봉우리를 이루고 긴밀하게 이어져 있는 게 제게 RPG일지도 모르겠어요. 스퀘어 때는 ‘조작할 수 있는 영화를 만들겠다’고 자주 말했지만, 솔직히 지금은 느낌이 좀 달라요. 두 봉우리를 품고도 아직 보지 못한 곳까지 갈 수 있을 것 같아요.",
+            "from": 3,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 18,
+            "kind": "answer",
+            "text": "그런데 지금 돌아보며 일부러 얘기해 보자면, 『파이널 판타지』 영화(※12)를 만들고 그 뒤에 온라인 게임도 만드셨잖아요. 그 일이 남긴 것은 정말 크다고 봐요. 거기서 쌓은 노하우가 지금 잘 뻗어 나가 문화로 남았다는 건 솔직히 대단하다고 생각합니다.",
+            "from": 12,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 20,
+            "kind": "note",
+            "text": "※12 『파이널 판타지』 영화 — 사카구치 히로노부 씨가 만든 『파이널 판타지』 CG 애니메이션 영화. 2001년 개봉.",
+            "from": 19
+          },
+          {
+            "to": 23,
+            "kind": "answer",
+            "text": "그런데 해 보고 든 생각은, 역시 게임은 게임이고 영화는 아니구나 하는 거였어요……(웃음).",
+            "from": 21,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "영화는 정해진 시간 안에 반드시 끝나죠. 그런데 게임은 자기가 하지 않으면 끝나지 않아요. 직접 땀을 흘려야 끝나는 이 오락은 어쩐지 경험이 압도적으로 깊고 공감할 수 있는 것 같아요.",
+            "from": 24,
+            "speaker": "이와타"
+          },
+          {
+            "to": 30,
+            "kind": "answer",
+            "text": "확실히 그렇죠.",
+            "from": 29,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 40,
+            "kind": "answer",
+            "text": "사람이 어떤 때 확 몰입할 수 있는지 새로운 자극을 계속 찾고 있는데요. 이야기 속 자신에게 스스로를 투영해서 즐기는 게 RPG의 방식이고, 자기 손끝에 경험치를 쌓는 게 마리오 같은 게임의 방식이라고 봐요. 서로 다르다고 여기기 쉽지만, 실은 거의 같아요. 거기에 맛을 더하는 방식이 사카구치 씨나 타카하시 씨가 잘하는 것과, 이를테면 미야모토 씨가 잘하는 것 사이에 달라서 각각의 작풍이 되는 게 아닐까요.",
+            "from": 31,
+            "speaker": "이와타"
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "저는 RPG라는 분야가 게임의 프로그램을 소홀히 한 건 아닌가 느껴요.",
+            "from": 41,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 48,
+            "kind": "answer",
+            "text": "어느 시기에는 그랬을 수 있어요. 아름다운 그림으로 사람을 끌어들이는 일이 더 자극적이던 때가 있었고, 그때는 프로그램을 가볍게 여겼을 수도 있겠죠.",
+            "from": 44,
+            "speaker": "이와타"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "뭐, 지금은 도리어 좋은 시대라고 생각해요. 이제부터 RPG를 만드는 사람은 문제가 뚜렷하니 만들기도 쉽고, 도전할 보람도 있다고 느낍니다.",
+            "from": 49,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 56,
+            "kind": "question",
+            "text": "그렇군요. 그럼 마지막으로 두 분이 앞으로의 비디오 게임에 관해 어떤 생각을 하시는지 여쭤 보고 싶습니다.",
+            "from": 53,
+            "speaker": "이와타"
+          },
+          {
+            "to": 67,
+            "kind": "answer",
+            "text": "네. 이번에는 여러 아이디어를 조합해 실험하면서 짜 낼 수 있었던 게 있어요. 게임을 만든다는 건 말하자면 물을 한 방울씩 떨어뜨려 연못을 채우는 것과 같아요. 그래도 걸레를 짜듯 계속 짜내면 그런 한 방울이 똑똑, 계속 나오지 않을까요. 사람이 처음부터 만드는 것이고, 더구나 오락에는 정답이 없잖아요. 인터넷을 비롯해서 쓸 수 있는 방법도 시대에 따라 늘어납니다. 혼자서 만드는 게 아니니까 여러 사람이 한데 모여 걸레를 끝까지 짜면 무언가가 일어나지 않을까 해요.",
+            "from": 57,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 75,
+            "kind": "answer",
+            "text": "큰 줄기에는 모두가 공감하고, 거기에 각자의 의견을 조금씩 더하니 전체가 더 탄탄하고 매력적으로 바뀌는군요. 그런 자리를 만드는 게 중요한 역할일지도 모르겠어요. 그래서 사카구치 씨다운 게임에는 많은 분이 이미 아는 것 말고도 그런 부분이 큰 기둥이지 않을까 느꼈어요.",
+            "from": 68,
+            "speaker": "이와타"
+          },
+          {
+            "to": 79,
+            "kind": "answer",
+            "text": "그렇죠. 이번에는 특히 힘들어도 다 같이 진심으로 즐겼기 때문에 팀 전체의 분위기가 살아났어요. 그게 정말 좋았습니다.",
+            "from": 76,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 81,
+            "kind": "question",
+            "text": "타카하시 씨는 어떠셨나요?",
+            "from": 80,
+            "speaker": "이와타"
+          },
+          {
+            "to": 85,
+            "kind": "answer",
+            "text": "사실 이번에는 RPG에 필요한 구성 요소를 전부 만들고, 회사가 스태프 각자의 작업량을 제대로 파악한 상태에서 만드는 데 얼마나 걸리는지 데이터를 얻고 싶었어요.",
+            "from": 82,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 87,
+            "kind": "answer",
+            "text": "그래요? 그랬군요.",
+            "from": 86,
+            "speaker": "이와타"
+          },
+          {
+            "to": 96,
+            "kind": "answer",
+            "text": "네. 앞으로 저희가 세계에서 경쟁할 때 어떻게 해야 효율적으로 해낼지 내다보고 세운 목표였어요. 이제는 그걸 바탕으로 당연히 새로운 걸 해야 하고, 저희가 잘하는 분야에서 어떻게 만들어 나갈지 더 분명하게 판단하는 것이 앞으로의 과제라고 생각합니다. 아직 제대로 된 답은 나오지 않았지만요.",
+            "from": 88,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 100,
+            "kind": "question",
+            "text": "그렇군요. 다만 세계에서 경쟁한다는 건 무슨 뜻일까요? 일본에서 나온 창작물이 세계적으로 받아들여진다는 말인가요?",
+            "from": 97,
+            "speaker": "이와타"
+          },
+          {
+            "to": 103,
+            "kind": "answer",
+            "text": "예를 들어 마리오나 젤다는 세계에서 받아들여지잖아요. 하지만 RPG는 어떠냐고 하면 꽤 어려운 상황이에요.",
+            "from": 101,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 105,
+            "kind": "answer",
+            "text": "맞아요. 어느 시점부터 어려워졌죠.",
+            "from": 104,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 108,
+            "kind": "question",
+            "text": "만드는 쪽에서 같은 유형의 공식을 너무 많이 쓴 것도 이유 중 하나라는 말씀이신가요?",
+            "from": 106,
+            "speaker": "이와타"
+          },
+          {
+            "to": 112,
+            "kind": "answer",
+            "text": "그렇게 생각했어요. 표현이 좀 그렇지만, 일본보다 조금 뒤처졌던 서구의 게임 제작이 새로운 것을 목표로 삼으면서 급격히 속도를 내 앞질러 갔죠.",
+            "from": 109,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 114,
+            "kind": "answer",
+            "text": "앞질러 가듯 게임을 즐기는 방식도 달라졌군요.",
+            "from": 113,
+            "speaker": "이와타"
+          },
+          {
+            "to": 118,
+            "kind": "answer",
+            "text": "네. 일본에서 나온 RPG가 뒤처지는 쪽에 들어선 느낌이에요. 그렇기 때문에 RPG에 변화가 필요합니다.",
+            "from": 115,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 121,
+            "kind": "answer",
+            "text": "그럼 무엇을 바꾸고 무엇을 지킬 것인지가 중요해지겠네요.",
+            "from": 119,
+            "speaker": "이와타"
+          },
+          {
+            "to": 126,
+            "kind": "answer",
+            "text": "그래도 세밀함과 감정을 드러내는 방식에서는 일본에서 만든 작품이 분명히 뛰어나다고 봐요. 그걸 소중히 하면 일본 RPG가 분명 세계 곳곳에서 받아들여질 거예요.",
+            "from": 122,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 135,
+            "kind": "answer",
+            "text": "그 문제는 저희 모두 고민하고 있죠. 한 가지 더 생각하는 게 있어요. 아까 ‘공감’이라는 말이 나왔는데, 저희는 외국 영화를 보고 공감할 때가 있잖아요. 물론 문화적으로 맞지 않는 것도 있지만, 서로 재미있다고 느끼는 공통점이 있으면 그걸 계기로 뭔가 할 수 있지 않을까 봐요. 그래서 꽤 낙관적으로 보는 부분도 있어요.",
+            "from": 127,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 139,
+            "kind": "answer",
+            "text": "세계 사람들이 공통으로 재미있어하는 것은 분명히 있어요. 다만 그런 성과를 꾸준히 내는 사람은 많지 않죠.",
+            "from": 136,
+            "speaker": "이와타"
+          },
+          {
+            "to": 142,
+            "kind": "answer",
+            "text": "답은 생각보다 가까운 데 있는 것 같아요. 그쪽으로 노력하면 RPG라는 분야에서는 아마…….",
+            "from": 140,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 144,
+            "kind": "answer",
+            "text": "해낼 수 있다고 생각해요.",
+            "from": 143,
+            "speaker": "사카구치·타카하시"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "그게 앞으로 일본 게임 제작자들이 넘어야 할 과제 중 하나겠죠. 게임은 오락인데도 확실히 바꾸지 않는 걸 전제로 삼을 때가 너무 많았나 봐요.",
+            "from": 145,
+            "speaker": "이와타"
+          },
+          {
+            "to": 152,
+            "kind": "answer",
+            "text": "가장 안 바뀌는 건 조직이죠. 딱히 불편한 점이 없으니 조직 형태를 바꿀 필요가 없는 거예요.",
+            "from": 150,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 157,
+            "kind": "answer",
+            "text": "운영 방식이 잘될수록 틀에 박히기 쉬우니까요. 사실은 조직을 허물고 게임 만드는 방식 자체를 새롭게 바꾸어 가야 하는 거죠.",
+            "from": 153,
+            "speaker": "이와타"
+          },
+          {
+            "to": 160,
+            "kind": "answer",
+            "text": "허물기가 쉽지는 않지만 아마 바꿔야 할 거예요. 한꺼번에 허무는 게 아니라 조금씩 허물면서 다시 짓는 거죠.",
+            "from": 158,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 162,
+            "kind": "answer",
+            "text": "저는 ‘비행기를 날아가는 도중에 수리한다’고 표현해요.",
+            "from": 161,
+            "speaker": "이와타"
+          },
+          {
+            "to": 166,
+            "kind": "answer",
+            "text": "아, 좋은 비유네요. 날아가는 비행기를 분해하는 건 몹시 섬세한 일이에요. 그런데 그런 섬세하면서도 대담한 일이 필요할지도 모르겠어요.",
+            "from": 163,
+            "speaker": "사카구치"
+          },
+          {
+            "to": 173,
+            "kind": "answer",
+            "text": "두 분과 이야기하다 보면 ‘일본 게임이 아직 할 수 있는 게 많구나’ 하고 느낍니다. ‘세계에서 경쟁한다’는 말의 의미를 가까운 미래에 이렇게 증명해 보일 수 있으면 좋겠어요. 오늘은 두 분이기에 할 수 있는 이야기를 들었습니다. 고맙습니다.",
+            "from": 167,
+            "speaker": "이와타"
+          },
+          {
+            "to": 175,
+            "kind": "answer",
+            "text": "고맙습니다.",
+            "from": 174,
+            "speaker": "일동"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monolith-sugiura-2017",
+    "lead": "代表取締役 杉浦博英 / モノリスソフトの目指す未来",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/monolith-sugiura-2017/01-img01.png",
+        "width": 493,
+        "height": 300,
+        "alt": "모노리스 소프트 스기우라 히로히데 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol01.html",
+        "sectionId": "page-1",
+        "afterLine": 9
+      },
+      {
+        "src": "/images/interviews/monolith-sugiura-2017/01-img02.png",
+        "width": 435,
+        "height": 240,
+        "alt": "모노리스 소프트 스기우라 히로히데 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol01.html",
+        "sectionId": "page-1",
+        "afterLine": 20
+      },
+      {
+        "src": "/images/interviews/monolith-sugiura-2017/01-img03.png",
+        "width": 435,
+        "height": 240,
+        "alt": "모노리스 소프트 스기우라 히로히데 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/vol01.html",
+        "sectionId": "page-1",
+        "afterLine": 33
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.monolithsoft.co.jp/interview/vol01.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "스기우라 히로히데가 말하는 모노리스 소프트의 설립과 미래",
+        "sourceId": "monolith-sugiura-2017-01-951ae810",
+        "sourceSha256": "951ae810d8b34c51ea27ab77bda4017ca5e810c9dd9f8a5b71041776b1a5c454",
+        "sourceLineCount": 43,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "heading",
+            "text": "모노리스 소프트가 설립되기까지",
+            "from": 1
+          },
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "회사 설립에 대해 여러 가지를 여쭙고 싶습니다. 우선 스기우라 씨 본인 이야기를 들려주시겠어요? 왜 게임 업계를 선택하셨나요?",
+            "from": 2
+          },
+          {
+            "to": 4,
+            "kind": "answer",
+            "text": "사실 저는 음악대학 출신입니다. 계속 콘트라베이스를 연주해 왔기 때문에 졸업하면 악단에 들어갈 생각이었어요. 그래서 취업 준비를 하려고 여러 가지를 알아봤는데 악단원의 초봉이 생각보다 낮더라고요. 당시가 마침 거품 경제의 절정이라 돈이 물처럼 쏟아지던 시대였거든요. 그 차이에 놀랐어요. 그래서 장래를 다시 생각해 보고 악단원이 되는 길은 접기로 했습니다. 일반 기업에 취직할 생각을 하기 시작했죠. 그런데 세상이 만만치 않아서 좀처럼 합격까지는 가지 못했습니다.",
+            "from": 4,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 5,
+            "kind": "answer",
+            "text": "그러던 중 컴퓨터 관련 잡지와 책을 만드는 아스키라는, 한창 기세 좋고 활기찬 회사가 있었습니다. 당시의 아스키로, 나중에 엔터브레인에 흡수 합병되어 해산한 회사입니다. 그곳에 들어갈 수 있게 돼 게임 사업부에서 영업을 맡았습니다.",
+            "from": 5,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 6,
+            "kind": "question",
+            "text": "음대생에서 게임 업계 영업직으로 가셨군요. 첫 일은 어떠셨나요?",
+            "from": 6
+          },
+          {
+            "to": 7,
+            "kind": "answer",
+            "text": "‘영업은 발로 뛴다’는 말이 있잖아요. 정말 여러 곳의 고객에게 직접 찾아갔습니다. 그러면서 게임 업계에서 상품이 고객에게 전달되기까지 어떤 과정을 거치는지 알게 됐어요. 고객과 연결되는 지점, 유통을 맡은 분들과 접촉하는 지점, 어떤 구조로 물건을 만들어 포장하고 어떻게 출하하는지까지, 일련의 흐름을 배웠죠.",
+            "from": 7,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 8,
+            "kind": "answer",
+            "text": "그 뒤 게임 잡지 『패미컴 통신』, 지금의 『패미통』 편집부로 옮겨 광고 영업을 맡았습니다. 1년이라는 짧은 기간이었지만, ‘출판과 미디어란 무엇인가’라는, 게임 업계와 또 다른 구조를 배운 곳입니다.",
+            "from": 8,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 9,
+            "kind": "answer",
+            "text": "그 후 아스키를 그만두고 다른 대기업의 홍보부에 들어갔습니다. 당시 게임 프로그램을 몇 개 맡고 있었는데, ‘타카하시 명인’ 대신 ‘스기우라 명인입니다’(웃음) 하면서 도쿄 12채널(테레비 도쿄)의 방송에 두 달 정도 출연한 적도 있습니다.",
+            "from": 9,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 10,
+            "kind": "question",
+            "text": "그렇군요. 거기서 기업의 이른바 ‘IR과 PR’을 배우셨네요.",
+            "from": 10
+          },
+          {
+            "to": 11,
+            "kind": "answer",
+            "text": "그렇죠. 그다음에는 고 이이노 켄지 씨가 설립한 게임 개발사 워프에 들어갔습니다. 워프에서는 개발팀에 바짝 붙어 영업과 홍보, 총무부터 자재 조달까지 맡았어요. 그러면서 직원들을 챙기기도 하고, 때로는 ‘스기우라 씨, 화장실이 막혔어요’ 하는 일까지 처리했습니다. 정말 별의별 일을 다 했어요. 회사라는 조직에서 구석구석 손이 안 간 데가 없었다는 느낌입니다.",
+            "from": 11,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "그때 스퀘어의 하시모토 씨, 현재 스퀘어 에닉스 집행임원으로 있는 하시모토 신지 씨를 만났어요. 마침 스퀘어가 업계 전반에서 인재를 구하던 시기라 저도 그 흐름을 타고 입사하게 됐습니다.",
+            "from": 12,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 13,
+            "kind": "question",
+            "text": "스퀘어에 입사하신 뒤에는 어떤 일을 하셨나요?",
+            "from": 13
+          },
+          {
+            "to": 14,
+            "kind": "answer",
+            "text": "당시 저처럼 새로 들어온 사람은 먼저 신생 외부 협력사나 사내의 신규 개발 라인을 담당하도록 되어 있었습니다. 그때 저희 회사의 노무라 타다시 이사는 이미 스퀘어의 고참으로 여러 작품을 프로듀싱하고 있었어요. 한편 저는 신입이고 제 예산도 없으니까 사내 개발 라인을 쓸 수가 없었습니다. 게임을 만들려면 개발할 수 있는 회사를 찾아야 했죠. 보통이라면 어디부터 손을 대야 하나 막막했겠지만, 전 직장에서 겪어 본 경험이 있어서 어떻게든 찾아냈습니다. 프로듀서로서 제 바탕은 워프와 스퀘어 시절에 완성됐다고 생각합니다.",
+            "from": 14,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 15,
+            "kind": "answer",
+            "text": "스퀘어에 있던 그때 타카하시 테츠야 이사를 만났습니다. 당시에는 여러 사정으로 우리 기획을 시작할 수 없게 된 때가 있었어요. 그런 상황에서 ‘그래도 오리지널 작품은 꼭 만들고 싶다’는 이야기가 나왔죠. 저는 서른한 살이었는데, 모험을, 그러니까 도전을 해 보자는 뜻에서 타카하시, 혼네 야스유키 이사와 셋이서 1999년에 모노리스 소프트를 설립했습니다.",
+            "from": 15,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "그 뒤로 여러 어려움이 기다리고 있었습니다. 2007년에 닌텐도 산하에 들어가 올해로 11년째인데요. 2010년에 나온 첫 작품 『제노블레이드 크로니클스』를 이용자분들께서 좋게 평가해 주셔서 이제야 ‘여기서부터 시작일까’ 하는 느낌입니다.",
+            "from": 16,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 17,
+            "kind": "heading",
+            "text": "설립 이후의 경영 체제 변화",
+            "from": 17
+          },
+          {
+            "to": 18,
+            "kind": "question",
+            "text": "남코(현 반다이 남코 게임스)의 출자로 설립했고, 2007년에 주식 양도를 통해 닌텐도 자회사가 됐습니다. 그 무렵 어떻게 된 일인지 들려주시겠어요?",
+            "from": 18
+          },
+          {
+            "to": 19,
+            "kind": "answer",
+            "text": "처음 모노리스 소프트를 세울 때 큰 도움을 받은 분이 남코를 창업한 고 나카무라 마사야 씨입니다. 나카무라 씨가 물건을 만드는 데 품고 있던 철학에 무척 공감했어요. 당시 정말 잘해 주셔서 여러 이야기를 나눴죠. 그분이 은퇴하시고 새로운 분위기가 들어왔습니다. 당연한 일이긴 하지만, 나카무라 씨의 위대한 철학이 달라졌다고 느꼈어요.",
+            "from": 19,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 20,
+            "kind": "question",
+            "text": "기업 합병이나 경영진 교체에서도 볼 수 있는 일이죠. 참 어려운 문제라고 생각합니다.",
+            "from": 20
+          },
+          {
+            "to": 21,
+            "kind": "answer",
+            "text": "그렇죠. 어느 한쪽으로 너무 치우쳐서도 안 됩니다. 그래도 선택해야 할 때가 오니, 회사를 세운 계기이기도 한 ‘오리지널 작품을 계속 만들고 싶다’는 강한 마음이 있었어요. 그럼 어떻게 해야 할까 고민하던 때 상담을 해 주신 분이 당시 닌텐도 전무였던 하타노 신지 씨였습니다. ‘더욱 독립적인 마음으로, 업계 어디를 둘러봐도 없는 독창적인 게임을 계속 만드세요’라고 말씀해 주셨죠. 그게 바로 모노리스 소프트가 지향하는 바였습니다. 그래서 닌텐도 산하로 들어가기로 했습니다.",
+            "from": 21,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 22,
+            "kind": "question",
+            "text": "모노리스 소프트라는 회사에 큰 분기점 중 하나였겠군요. 불안하지는 않으셨나요?",
+            "from": 22
+          },
+          {
+            "to": 23,
+            "kind": "answer",
+            "text": "불안이 없었다고 하면 거짓말이죠. 닌텐도 산하로 들어가면 닌텐도 플랫폼용 게임밖에 못 만든다는 걱정은 있었습니다. PC 게임조차 만들 수 없으니까요. 그런 제약이 있는 환경에 뛰어드는 건 하나의 도전이었습니다. 그런데 닌텐도가 그 불안을 아주 잘 이해해 줬어요. ‘이 한 기종만을 위해 이 정도 기간과 인력을 들여 만들어 봅시다’라고 도전하게 해 주더군요. 지금 업계에서 그런 말을 해 줄 곳은 닌텐도 정도 아닐까요? ‘갈 수 있는 데까지 만들어 보자’는 환경을 얻은 것은 닌텐도가 뒷받침해 준 덕분이라고 생각합니다.",
+            "from": 23,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 24,
+            "kind": "question",
+            "text": "닌텐도 산하에 들어간 뒤 달라졌다고 느끼신 부분이 있나요?",
+            "from": 24
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "의식이 달라진 것 같습니다. 내용이 좋지 않으면 닌텐도도 상품화를 허락하지 않으니까 저희 안에서도 자연히 기준이 높아졌죠. ‘이 품질이면 정말 괜찮은가?’ 하고 스스로 묻는 기준이 모노리스 소프트를 막 세웠을 때와는 많이 달라졌다고 봅니다. 그 변화도 닌텐도 산하에 들어가면서 얻은 환경이 있었기에 가능했지만, 경영 측면에서는 그 균형을 어떻게 잡느냐가 가장 중요합니다.",
+            "from": 25,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 26,
+            "kind": "heading",
+            "text": "기업의 비전",
+            "from": 26
+          },
+          {
+            "to": 27,
+            "kind": "question",
+            "text": "1999년 모노리스 소프트를 세운 뒤 지금까지 게임 업계 자체도 크게 변한 것 같습니다. 스기우라 씨가 처음 그렸던 비전에도 변화가 있었나요?",
+            "from": 27
+          },
+          {
+            "to": 28,
+            "kind": "answer",
+            "text": "저도 이제 쉰 살이 됐어요. 이 ‘쉰 살’의 감각 그대로 제 창작 능력이나 색깔을 작품에 드러내는 게 좋을까 싶어서 지금은 일선에서 물러났습니다. 앞으로는 지금 사내에서 활약하는 젊은 직원들처럼 가능성 있는 창작자를 발굴해서, ‘모노리스 소프트라는 환경’을 활용해 뒷받침하고 싶어요. 쉽게 말하면 데뷔시키고 싶은 거죠.",
+            "from": 28,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 29,
+            "kind": "answer",
+            "text": "지금 회사에서 활약하는 중견 직원들을 긴장시킬 만큼 대단한 젊은이가 나왔으면 합니다. 이런 인재는 저희 회사에만 필요한 게 아니라 게임 업계 전체에 필요하다고 봐요. ‘생기 넘치는 친구가 들어왔구나’라는 말이 계속 들릴 수 있도록 그런 인재가 모이면 좋겠습니다.",
+            "from": 29,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 30,
+            "kind": "question",
+            "text": "역시 게임 업계 경력자여야 하나요?",
+            "from": 30
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "게임 업계 경력자가 아니어도 폭넓게 여러 직종의 인재가 모이면 좋겠습니다. 이제는 게임이 무엇인지에 대한 정의도 꽤 달라졌잖아요. 게임을 만들어 본 적이 없더라도 재미있는 발상이 있다면 그걸 어떻게든 구체화하는 데 힘을 보태고 싶습니다.",
+            "from": 31,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 32,
+            "kind": "heading",
+            "text": "모노리스 소프트의 매력",
+            "from": 32
+          },
+          {
+            "to": 33,
+            "kind": "question",
+            "text": "지금의 모노리스 소프트를 보면서 ‘이 점은 다른 회사에 자랑할 만하다’, ‘앞으로는 이렇게 해 나가고 싶다’고 느끼시는 부분이 있다면 들려주세요.",
+            "from": 33
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "우선 근무 환경을 꼽을 수 있겠네요. 게임 업계에서 손꼽힌다고 해도 과언이 아닐 정도로 안심하고 일할 수 있는 환경이라고 생각합니다.",
+            "from": 34,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 35,
+            "kind": "answer",
+            "text": "모노리스 소프트에는 이른바 ‘고정 잔업제’, 즉 급여에 초과근무 수당을 미리 넣어 두는 제도가 없습니다. 유급 휴가도 신청하면 아주 특별한 일이 없는 한 받아 주기 때문에 사용률이 높습니다. 복리후생도 법적으로 빈틈없이 마련했다고 생각해서 불안할 요소는 없다고 봅니다.",
+            "from": 35,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 36,
+            "kind": "question",
+            "text": "‘재량근로제’라는 말이 정착한 지 오래인데, 특히 어떤 점이 문제일까요?",
+            "from": 36
+          },
+          {
+            "to": 37,
+            "kind": "answer",
+            "text": "특히 고정 잔업제가 가장 큰 문제라고 생각합니다. 면접을 보러 오신 분들 이야기를 들어 보면 깜짝 놀랄 만한 회사들이 있습니다. 그래서 이 문제는 평생 힘써 보려고 합니다.",
+            "from": 37,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 38,
+            "kind": "heading",
+            "text": "모노리스 소프트가 지향하는 미래",
+            "from": 38
+          },
+          {
+            "to": 39,
+            "kind": "question",
+            "text": "모노리스 소프트의 미래를 어떻게 만들어 가고 싶으신가요?",
+            "from": 39
+          },
+          {
+            "to": 40,
+            "kind": "answer",
+            "text": "조금 긴 안목에서 보면 당장 크게 성공하는 것보다 10년, 30년 뒤에도 직원들이 안심하고 일하는 회사를 유지하는 게 목표입니다. 일본에서 10년을 버티는 기업이 10% 정도라고 하는데, 그런 가운데 50년을 바라보고 있습니다. 모노리스 소프트는 마침 내후년인 2019년에 창립 20주년을 맞는데요. ‘50년을 이어 가는 회사’가 되는 건 가능성이 더 낮고 아주 높은 목표입니다.",
+            "from": 40,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 41,
+            "kind": "answer",
+            "text": "거기까지 가는 길이 순탄하지만은 않을 겁니다. 그래도 경영의 기반을 제대로 다지면 직원이 자신의 생활 수준이 불안정해질까 걱정하게 할 일은 없다고 봅니다. 저는 평소에도 직원들 가정의 평안을 바랍니다. 그걸 지키는 게 가장 중요하다고 생각합니다.",
+            "from": 41,
+            "speaker": "스기우라"
+          },
+          {
+            "to": 42,
+            "kind": "question",
+            "text": "마지막으로 모노리스 소프트의 작품을 사랑하는 팬분들께 한 말씀 부탁드립니다.",
+            "from": 42
+          },
+          {
+            "to": 43,
+            "kind": "answer",
+            "text": "앞으로 여러분이 아직 경험해 보지 못한 것을 만들고 싶습니다. 많이 기대해 주세요.",
+            "from": 43,
+            "speaker": "스기우라"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xenoblade2-mitsuda-soundtrack-note",
+    "lead": "「オリジナル・サウンドトラック」発売決定！",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img01.jpg",
+        "width": 750,
+        "height": 500,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 6
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img02.jpg",
+        "width": 340,
+        "height": 254,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 7
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img03.jpg",
+        "width": 340,
+        "height": 254,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 8
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img04.jpg",
+        "width": 340,
+        "height": 227,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 10
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img05.jpg",
+        "width": 340,
+        "height": 226,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 10
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img06.jpg",
+        "width": 340,
+        "height": 254,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 13
+      },
+      {
+        "src": "/images/interviews/xenoblade2-mitsuda-soundtrack-note/01-note15-img07.jpg",
+        "width": 340,
+        "height": 254,
+        "alt": "제노블레이드 크로니클스 2 사운드트랙 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html",
+        "sectionId": "page-1",
+        "afterLine": 14
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.nintendo.com/jp/switch/adena/production-notes/index-11.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "오리지널 사운드트랙 발매 결정",
+        "sourceId": "xenoblade2-mitsuda-soundtrack-note-01-56f8485d",
+        "sourceSha256": "56f8485dc849e4014943dbf03f78a199a855184c27787165ad29042872d075ca",
+        "sourceLineCount": 62,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "2018년 2월 26일",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "heading",
+            "text": "‘오리지널 사운드트랙’ 발매 결정!",
+            "from": 2
+          },
+          {
+            "to": 4,
+            "kind": "credits",
+            "text": "사운드 프로듀서 미츠다 야스노리(PROCYON STUDIO)",
+            "from": 3
+          },
+          {
+            "to": 5,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스 2』가 나온 지 3개월이 됐는데, 일본과 해외에서 많은 분이 즐겨 주시는 것 같아 정말 기쁩니다. 추가 콘텐츠도 속속 나오고 있으니 『제노블레이드 크로니클스 2』의 열기는 아직 식을 것 같지 않습니다. 오늘은 이 열기를 한층 더 끌어올릴 소식을 전해 드리려 합니다. 2018년 5월 23일 수요일에 『제노블레이드 크로니클스 2 오리지널 사운드트랙』이 발매됩니다.",
+            "from": 5
+          },
+          {
+            "to": 6,
+            "kind": "paragraph",
+            "text": "이번에는 ‘일련번호가 들어간 USB 음악 컴플리트 호화판, 완전 생산 한정 2,000개’(이하 USB 호화판), ‘CD 음악 컴플리트 호화판, 완전 생산 한정’(이하 CD 호화판), ‘일반판’의 세 가지로 나옵니다. 자세한 사양은 아래 상품 개요를 봐 주세요. 그중에서도 단연 눈에 띄는 USB 호화판의 코어 크리스털 모양 USB 메모리는 모노리스 소프트의 전면 감수를 받아 제작했습니다. 타카하시 테츠야 감독을 비롯한 모노리스 소프트 여러분과 몇 번이고 의견을 주고받으며 세부까지 공들인 결과, 일련번호도 들어간 고급스러운 물건을 만들 수 있었습니다. 외장은 장인이 금속을 하나씩 깎아 만들기 때문에 생산 수량에 한계가 있지만 꼭 손에 넣어 보셨으면 합니다.",
+            "from": 6
+          },
+          {
+            "to": 7,
+            "kind": "caption",
+            "text": "코어 크리스털을 본뜬 USB. 앞면에 어떤 중요한 문자가 새겨져 있습니다.",
+            "from": 7
+          },
+          {
+            "to": 8,
+            "kind": "caption",
+            "text": "타카하시 테츠야 감독을 비롯한 모노리스 소프트 여러분과 금속 종류를 고르는 모습.",
+            "from": 8
+          },
+          {
+            "to": 9,
+            "kind": "caption",
+            "text": "타카하시 감독이 생각한 이미지에 가장 가까운 재료를 골라 주셨습니다.",
+            "from": 9
+          },
+          {
+            "to": 10,
+            "kind": "paragraph",
+            "text": "왜 USB 형태를 만들었느냐 하면, 본편 음악만 105곡이고 전체 재생 시간이 약 5시간 30분이나 됩니다. 이렇게 많은 곡을 간결하게 담을 방법을 생각하다가 USB라는 기획이 나왔습니다. USB라면 형태부터 챙길 수 있다는 점도 힘을 보탰습니다. 한정판이지만 USB 발매라는 새 시도를 하게 됐습니다.",
+            "from": 10
+          },
+          {
+            "to": 11,
+            "kind": "paragraph",
+            "text": "CD를 원하시는 분도 계실 테니 USB 호화판 외에 CD 호화판과 일반판도 준비했습니다.",
+            "from": 11
+          },
+          {
+            "to": 12,
+            "kind": "paragraph",
+            "text": "일반판에는 본편 105곡이 실립니다. USB 호화판과 CD 호화판에는 여기에 징글 16곡 전부와 이반 린이 피아노로 편곡하고 연주한 다섯 곡을 더해 총 126곡이 실립니다. 두 호화판에는 『제노블레이드 크로니클스 2』의 음악이 만들어지기까지를 순서대로 소개하는 약 120쪽의 두툼한 책자도 들어갑니다. CD는 44.1kHz/16비트, USB는 음질이 조금 더 좋은 48kHz/24비트로 담았으니 조금이라도 더 좋은 음질로 듣고 싶은 분은 USB를 고르시면 좋을 것 같습니다.",
+            "from": 12
+          },
+          {
+            "to": 13,
+            "kind": "paragraph",
+            "text": "물론 iTunes, e-onkyo, victor 등 음원 사이트에서도 본편 105곡을 구입하실 수 있습니다. 96kHz/24비트 하이레졸루션 음원도 동시에 나오니 음질을 가장 중요하게 생각하시는 분은 꼭 이쪽도 들어 보셨으면 합니다.",
+            "from": 13
+          },
+          {
+            "to": 14,
+            "kind": "caption",
+            "text": "아일랜드 합창단 ANÚNA(아누나), 가나가와 필하모니 관현악단, 브라티슬라바 심포니 합창단 등 훌륭한 음악가들이 다수 참여했습니다.",
+            "from": 14
+          },
+          {
+            "to": 15,
+            "kind": "caption",
+            "text": "피아노 편곡과 연주를 맡은 이반 린과는 일본과 보스턴에서 원격으로 녹음했습니다.",
+            "from": 15
+          },
+          {
+            "to": 16,
+            "kind": "paragraph",
+            "text": "여러분의 취향과 환경에 맞게 고를 수 있도록 여러 형태를 준비했습니다.",
+            "from": 16
+          },
+          {
+            "to": 17,
+            "kind": "paragraph",
+            "text": "처음부터 끝까지 귀 기울여 들을 만한 작품이니, 잘 부탁드립니다.",
+            "from": 17
+          },
+          {
+            "to": 18,
+            "kind": "heading",
+            "text": "상품 개요",
+            "from": 18
+          },
+          {
+            "to": 19,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스 2 오리지널 사운드트랙』",
+            "from": 19
+          },
+          {
+            "to": 20,
+            "kind": "credits",
+            "text": "미츠다 야스노리 / ACE(쿠도 토모리, CHiCO) / 히라마츠 켄지 / 키요타 마나미",
+            "from": 20
+          },
+          {
+            "to": 22,
+            "kind": "paragraph",
+            "text": "발매일 — 2018년 5월 23일 수요일\n레이블 — SLEIGH BELLS",
+            "from": 21
+          },
+          {
+            "to": 25,
+            "kind": "paragraph",
+            "text": "A형 — Amazon.co.jp 한정. 일련번호가 들어간 USB 음악 컴플리트 호화판, 완전 생산 한정 2,000개.\nB형 — Amazon.co.jp 한정. CD 음악 컴플리트 호화판, 완전 생산 한정.\nC형 — 일반판.",
+            "from": 23
+          },
+          {
+            "to": 26,
+            "kind": "heading",
+            "text": "A형 — Amazon.co.jp 한정 USB 음악 컴플리트 호화판(일련번호, 완전 생산 한정 2,000개)",
+            "from": 26
+          },
+          {
+            "to": 30,
+            "kind": "paragraph",
+            "text": "품번 SBPS-0024\n가격 19,800엔(세금 포함)\n형식 USB\n수량 한정 2,000개",
+            "from": 27
+          },
+          {
+            "to": 31,
+            "kind": "paragraph",
+            "text": "수록곡은 총 126곡. 본편 105곡, 징글 16곡, 피아노 편곡 5곡. 모두 48kHz/24비트 WAV 데이터.",
+            "from": 31
+          },
+          {
+            "to": 32,
+            "kind": "paragraph",
+            "text": "구성품 — 일련번호를 넣은 코어 크리스털 모양 USB, 호화 상자, 호화 책자(120쪽 예정), 3단 접이식 피아노 악보 「지난날의 두 사람」, 메시지 카드.",
+            "from": 32
+          },
+          {
+            "to": 36,
+            "kind": "paragraph",
+            "text": "일련번호를 넣은 코어 크리스털 모양 USB\n모노리스 소프트의 전면 감수를 받은 USB에 WAV 데이터를 수록. 일련번호를 새김.\n본체 너비 48mm, 높이 92mm, 깊이 7mm. 뚜껑 너비 30mm, 높이 20mm, 깊이 7mm.",
+            "from": 33
+          },
+          {
+            "to": 38,
+            "kind": "paragraph",
+            "text": "호화 책자\n『제노블레이드 크로니클스 2』의 음악이 만들어진 과정을 따라가는 책자. 120쪽 예정.",
+            "from": 37
+          },
+          {
+            "to": 40,
+            "kind": "paragraph",
+            "text": "피아노 편곡\n이반 린이 편곡하고 연주한 피아노 곡 다섯 곡을 새로 녹음.",
+            "from": 39
+          },
+          {
+            "to": 41,
+            "kind": "heading",
+            "text": "B형 — Amazon.co.jp 한정 CD 음악 컴플리트 호화판(완전 생산 한정)",
+            "from": 41
+          },
+          {
+            "to": 44,
+            "kind": "paragraph",
+            "text": "품번 SBPS-0025~30\n가격 8,580엔(세금 포함)\n형식 CD",
+            "from": 42
+          },
+          {
+            "to": 45,
+            "kind": "paragraph",
+            "text": "수록곡은 총 126곡. 본편 105곡, 징글 16곡, 피아노 편곡 5곡. 모두 44.1kHz/16비트.",
+            "from": 45
+          },
+          {
+            "to": 46,
+            "kind": "paragraph",
+            "text": "구성품 — CD 6장, 호화 상자, 호화 책자(120쪽 예정), 3단 접이식 피아노 악보 「지난날의 두 사람」, 메시지 카드.",
+            "from": 46
+          },
+          {
+            "to": 47,
+            "kind": "note",
+            "text": "USB와 CD를 제외한 구성품은 일련번호가 들어간 USB 음악 컴플리트 호화판(완전 생산 한정 2,000개)과 같습니다.",
+            "from": 47
+          },
+          {
+            "to": 48,
+            "kind": "heading",
+            "text": "C형 — 일반판",
+            "from": 48
+          },
+          {
+            "to": 52,
+            "kind": "paragraph",
+            "text": "품번 SBPS-0031~35\n가격 4,950엔(세금 포함)\n발매원 주식회사 소니 뮤직 마케팅\n형식 CD",
+            "from": 49
+          },
+          {
+            "to": 54,
+            "kind": "paragraph",
+            "text": "수록곡은 본편 105곡(44.1kHz/16비트).\n구성품은 톨 케이스에 담긴 CD 5장과 책자(12쪽 예정).",
+            "from": 53
+          },
+          {
+            "to": 55,
+            "kind": "heading",
+            "text": "음원 발매",
+            "from": 55
+          },
+          {
+            "to": 57,
+            "kind": "paragraph",
+            "text": "곡당 200엔(세금 포함)\n앨범 4,500엔(세금 포함)",
+            "from": 56
+          },
+          {
+            "to": 59,
+            "kind": "paragraph",
+            "text": "주요 음원 사이트 — iTunes, mora, 레코초쿠, animelo mix, Amazon, Google Play Music.\n주요 하이레졸루션 음원 사이트 — mora, e-onkyo music, 레코초쿠, music.jp.",
+            "from": 58
+          },
+          {
+            "to": 61,
+            "kind": "paragraph",
+            "text": "일반 음원 44.1kHz/16비트\n하이레졸루션 음원 96kHz/24비트",
+            "from": 60
+          },
+          {
+            "to": 62,
+            "kind": "note",
+            "text": "※ 수록 내용과 사양 등은 변경될 수 있습니다.",
+            "from": 62
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xenoblade2-kosmos-design-note",
+    "lead": "創り出すものは受け取ってきたもののリフレイン",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img01.jpg",
+        "width": 750,
+        "height": 642,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 23
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img02.jpg",
+        "width": 750,
+        "height": 563,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 25
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img03.jpg",
+        "width": 750,
+        "height": 612,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 29
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img04.jpg",
+        "width": 750,
+        "height": 872,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 30
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img05.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 31
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img06.jpg",
+        "width": 750,
+        "height": 564,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 38
+      },
+      {
+        "src": "/images/interviews/xenoblade2-kosmos-design-note/01-note16-img07.jpg",
+        "width": 750,
+        "height": 504,
+        "alt": "KOS-MOS Re: 디자인 제작 자료",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html",
+        "sectionId": "page-1",
+        "afterLine": 40
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.nintendo.com/jp/switch/adena/production-notes/index-10.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "만들어 내는 것은 받아 온 것의 리프레인",
+        "sourceId": "xenoblade2-kosmos-design-note-01-6755837b",
+        "sourceSha256": "6755837b8e806b51e656d45004788971ebb556f1bf9146ca2c82b2b81651c1be",
+        "sourceLineCount": 46,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "2018년 3월 2일",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "heading",
+            "text": "만들어 내는 것은 받아 온 것의 리프레인",
+            "from": 2
+          },
+          {
+            "to": 4,
+            "kind": "credits",
+            "text": "블레이드 디자인 타나카 쿠니히코",
+            "from": 3
+          },
+          {
+            "to": 5,
+            "kind": "paragraph",
+            "text": "안녕하세요. 레어 블레이드 ‘이부키’와 ‘KOS-MOS Re:’의 디자인을 맡은 타나카 쿠니히코입니다.",
+            "from": 5
+          },
+          {
+            "to": 6,
+            "kind": "paragraph",
+            "text": "이렇게 다시 ‘제노’에 참여할 수 있다는 사실에 저 자신도 놀랐고, 정말 기뻤습니다.",
+            "from": 6
+          },
+          {
+            "to": 7,
+            "kind": "paragraph",
+            "text": "첫 회의 때는 총감독 타카하시 씨와 프로듀서 겸 디렉터 코지마 씨가 제가 사는 사이타마의 어느 곳까지 와 주셨습니다.",
+            "from": 7
+          },
+          {
+            "to": 8,
+            "kind": "paragraph",
+            "text": "“이번 작품에 KOS-MOS Ver.1이 나오게 됐어요. Ver.1이라면 역시 타나카 씨죠”라는 말로 시작하셨던 것 같습니다.",
+            "from": 8
+          },
+          {
+            "to": 10,
+            "kind": "paragraph",
+            "text": "그 말에 저는 “이건 기회입니다”라고 답했습니다.",
+            "from": 9
+          },
+          {
+            "to": 11,
+            "kind": "paragraph",
+            "text": "『제노사가 에피소드 I』 초기에는 제가 KOS-MOS의 디자인을 맡았습니다. 얼굴 생김새와 머리 모양, 뒤통수까지 덮는 바이저의 이미지는 정했지만 그 너머로 갈 길을 못 찾아 꽤 고민했습니다.",
+            "from": 11
+          },
+          {
+            "to": 12,
+            "kind": "paragraph",
+            "text": "그전까지 메카다운 메카의 디자인을 전혀 한 적이 없었기 때문입니다.",
+            "from": 12
+          },
+          {
+            "to": 13,
+            "kind": "paragraph",
+            "text": "그러던 중 타카하시 씨가 메카 디자인에 이런 분을 모셨다며 일러스트를 보여 주셨습니다.",
+            "from": 13
+          },
+          {
+            "to": 14,
+            "kind": "paragraph",
+            "text": "그게 CHOCO 씨와의 첫 만남이었습니다.",
+            "from": 14
+          },
+          {
+            "to": 15,
+            "kind": "paragraph",
+            "text": "이후 CHOCO 씨에게 KOS-MOS 디자인을 대신 맡아 달라고 부탁했습니다. 그렇게 KOS-MOS는 제게는 도저히 떠오르지 않을 발상으로 디자인됐고, 오랫동안 사랑받는 캐릭터가 됐습니다.",
+            "from": 15
+          },
+          {
+            "to": 16,
+            "kind": "paragraph",
+            "text": "KOS-MOS와 『제노사가』에게는 행복한 결과였다고 생각합니다.",
+            "from": 16
+          },
+          {
+            "to": 17,
+            "kind": "paragraph",
+            "text": "(‘○○은 내가 키웠다’ 같은 말투가 되어 죄송합니다…….)",
+            "from": 17
+          },
+          {
+            "to": 18,
+            "kind": "paragraph",
+            "text": "하지만 시간이 흐르면서 KOS-MOS Ver.1 디자인을 CHOCO 씨에게 부탁하길 잘했다는 마음과 제가 끝까지 해 보고 싶었다는 마음이 서로 부딪치게 됐습니다.",
+            "from": 18
+          },
+          {
+            "to": 19,
+            "kind": "paragraph",
+            "text": "그런 사정이 있었기에 이번 제안이 정말 기뻤습니다. 기회란 바로 이런 것이구나 하고 실감했고, 그 의미도 알게 됐습니다.",
+            "from": 19
+          },
+          {
+            "to": 20,
+            "kind": "paragraph",
+            "text": "모처럼이니 실루엣은 Ver.1 그대로 두고 제 나름의 디자인으로 그려 보고 싶다고 부탁드렸더니 흔쾌히 허락해 주셨습니다.",
+            "from": 20
+          },
+          {
+            "to": 21,
+            "kind": "paragraph",
+            "text": "처음에 상상한 설정은 ‘에피소드 I 이후 Ver.2의 몸체가 되기 전 간단히 복원한 수리판’이었습니다. 그런데 디자인을 다듬다 보니 블레이드는 ‘무기를 의인화한 것, 혹은 그 반대’여야 하지 않을까 싶었습니다. 그렇다면 이 KOS-MOS는 ‘제노사가의 상징’이어야 한다는 쪽으로 생각이 달라졌습니다.",
+            "from": 21
+          },
+          {
+            "to": 22,
+            "kind": "paragraph",
+            "text": "새로우면서도 지금까지의 모습을 느낄 수 있게 애쓰는 과정에서 CHOCO 씨의 솜씨가 얼마나 뛰어난지 다시 확인했습니다.",
+            "from": 22
+          },
+          {
+            "to": 23,
+            "kind": "caption",
+            "text": "X 버스터를 쓸 때 복부가 열리는 대신, 타카하시 씨의 아이디어로 바이저에서 발사하게 됐습니다.",
+            "from": 23
+          },
+          {
+            "to": 24,
+            "kind": "caption",
+            "text": "아이디어 스케치 중 하나. 신칸센 안에서 그려 둔 그림입니다.",
+            "from": 24
+          },
+          {
+            "to": 25,
+            "kind": "caption",
+            "text": "이때만 해도 ‘Re:’는 ‘수리(Repair)’라는 뜻이었습니다.",
+            "from": 25
+          },
+          {
+            "to": 26,
+            "kind": "caption",
+            "text": "‘응답’이라는 말을 의식하기 시작하면서 크게 바뀐 바이저 디자인. 고양이 귀처럼 난 부품은 방열판입니다. 『제노핏탄』의 고양이 귀 KOS-MOS와 Ver.4의 이미지에서 가져왔습니다.",
+            "from": 26
+          },
+          {
+            "to": 27,
+            "kind": "paragraph",
+            "text": "그때 조금 섬뜩한 요소가 있으면 더 KOS-MOS답겠다고 생각했습니다. 그래서 붉은 실드와 오리지널 조하르 같은 양각이 드러나도록 그렸습니다.",
+            "from": 27
+          },
+          {
+            "to": 28,
+            "kind": "paragraph",
+            "text": "몸체의 색도 금색 대신 빨간색을 넣어 엘리의 솔라리스 제복 이미지도 담고 싶었습니다.",
+            "from": 28
+          },
+          {
+            "to": 29,
+            "kind": "paragraph",
+            "text": "이름 속 ‘Re:’의 뜻은 디자인하는 동안 달라졌습니다. 결국 CHOCO 씨와 ‘제노’ 시리즈에 보내는 답장, 그리고 다시 새롭게 태어난다는 마음을 담아 ‘KOS-MOS Refrain’이라고 이름을 붙였습니다.",
+            "from": 29
+          },
+          {
+            "to": 30,
+            "kind": "paragraph",
+            "text": "새 요소로는 전투 중 KOS-MOS Re: 주위에 나타나는 날개 같은 장치인 ‘G(그래비티) 셸’이 있습니다.",
+            "from": 30
+          },
+          {
+            "to": 31,
+            "kind": "caption",
+            "text": "초기 아이디어 스케치. 코지마 씨가 “KOS-MOS한테 무슨 일이 있었나 싶을 수도 있어요”라고 하셔서 정신이 번쩍 들었고, 드레스 형태는 그만뒀습니다. 자세히 보면 바이저 모양도 다릅니다.",
+            "from": 31
+          },
+          {
+            "to": 32,
+            "kind": "caption",
+            "text": "G 셸의 텍스처는 제가 직접 그려 넣은 것을 개발 스태프가 다듬어 주셨습니다.",
+            "from": 32
+          },
+          {
+            "to": 33,
+            "kind": "paragraph",
+            "text": "이건 프리큐어처럼 KOS-MOS를 변신시켜 보고 싶어서 디자인했습니다(웃음).",
+            "from": 33
+          },
+          {
+            "to": 34,
+            "kind": "paragraph",
+            "text": "드레스 같은 모양을 상상했는데 지금 정도의 균형을 잡길 잘한 것 같습니다. 가슴의 리본 같은 모양은 그 흔적입니다.",
+            "from": 34
+          },
+          {
+            "to": 35,
+            "kind": "paragraph",
+            "text": "조하르 모양의 무기와 R 캐논, R 블레이드도 디자인해서 할 수 있는 일은 다 해 봤습니다.",
+            "from": 35
+          },
+          {
+            "to": 36,
+            "kind": "paragraph",
+            "text": "이부키는 한 체 더 디자인하고 싶고, 귀엽게 비율을 줄인 KOS-MOS를 내 보고 싶다는 제 제안에서 태어난 캐릭터입니다.",
+            "from": 36
+          },
+          {
+            "to": 37,
+            "kind": "paragraph",
+            "text": "제 만화 『일격살충!! 호이호이 씨』 같은 비율로 만들고, KOS-MOS Re:와 함께 종종걸음으로 따라오면 귀엽겠다고 생각했습니다.",
+            "from": 37
+          },
+          {
+            "to": 38,
+            "kind": "paragraph",
+            "text": "그 뒤에 “터킨과 엮일 수 있는 새 계열 캐릭터”라는 요청이 왔습니다. 솔직히 ‘네? 토끼가 아니고요?’라고 생각했지만, 옛날에 왕관앵무를 키운 게 떠올랐습니다. 그 왕관앵무를 바탕으로 고글과 깃털 색에는 역시 ‘제노’ 시리즈에서 가져온 요소를 써서 디자인했습니다.",
+            "from": 38
+          },
+          {
+            "to": 39,
+            "kind": "caption",
+            "text": "먼저 장비가 없는 상태를 그려 둬야겠다고 생각하고 그린 그림입니다.",
+            "from": 39
+          },
+          {
+            "to": 40,
+            "kind": "caption",
+            "text": "울음소리는 예전에 살던 아파트 베란다에서 집비둘기가 자주 울던 일을 떠올리며 생각했습니다.",
+            "from": 40
+          },
+          {
+            "to": 41,
+            "kind": "caption",
+            "text": "이부키 자체와 장비 양쪽에서 새다운 느낌을 강조했습니다. 요소들을 서로 어울리게 하며 조금씩 확정해 갔습니다.",
+            "from": 41
+          },
+          {
+            "to": 42,
+            "kind": "paragraph",
+            "text": "이번에 디자인해 보니 제 발상만으로는 결코 만들어 낼 수 없는 것이 있다는 걸 느꼈습니다.",
+            "from": 42
+          },
+          {
+            "to": 43,
+            "kind": "paragraph",
+            "text": "그리고 처음 그 발상을 내놓은 이들을 존중하는 일이 중요하다는 걸 깨달았고, 제 자신을 돌아보게 됐습니다.",
+            "from": 43
+          },
+          {
+            "to": 44,
+            "kind": "paragraph",
+            "text": "여러 가지가 그렇게 새롭게 태어나는 것이라고 생각합니다.",
+            "from": 44
+          },
+          {
+            "to": 45,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스 2』에서도 다시 새로운 무언가로 이어지길 간절히 바랍니다.",
+            "from": 45
+          },
+          {
+            "to": 46,
+            "kind": "paragraph",
+            "text": "마지막으로, 제 Nintendo Switch에도 이부키와 KOS-MOS Re:가 어서 와 주기를……(웃음).",
+            "from": 46
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xenoblade2-telos-note",
+    "lead": "更新データ（Ver. 1.4.0）、4/27に配信！",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/xenoblade2-telos-note/01-note18-img01.jpg",
+        "width": 750,
+        "height": 900,
+        "alt": "하나버스터와 T-elos Re:를 소개하는 제작 노트 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html",
+        "sectionId": "page-1",
+        "afterLine": 8
+      },
+      {
+        "src": "/images/interviews/xenoblade2-telos-note/01-note18-img02.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "하나버스터와 T-elos Re:를 소개하는 제작 노트 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html",
+        "sectionId": "page-1",
+        "afterLine": 11
+      },
+      {
+        "src": "/images/interviews/xenoblade2-telos-note/01-note18-img03.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "하나버스터와 T-elos Re:를 소개하는 제작 노트 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html",
+        "sectionId": "page-1",
+        "afterLine": 11
+      },
+      {
+        "src": "/images/interviews/xenoblade2-telos-note/01-note18-img04.jpg",
+        "width": 750,
+        "height": 770,
+        "alt": "하나버스터와 T-elos Re:를 소개하는 제작 노트 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html",
+        "sectionId": "page-1",
+        "afterLine": 16
+      },
+      {
+        "src": "/images/interviews/xenoblade2-telos-note/01-note18-img05.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "하나버스터와 T-elos Re:를 소개하는 제작 노트 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html",
+        "sectionId": "page-1",
+        "afterLine": 22
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.nintendo.com/jp/switch/adena/production-notes/index-07.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "4월 27일 업데이트, 새로운 레어 블레이드가 등장합니다",
+        "sourceId": "xenoblade2-telos-note-01-1c480325",
+        "sourceSha256": "1c4803253da43f63ba5efaa1ab0a9d17a38025d100f9ec9c505ab23296f61c97",
+        "sourceLineCount": 29,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "2018년 4월 24일",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "heading",
+            "text": "업데이트 데이터(Ver. 1.4.0), 4월 27일 배포!",
+            "from": 2
+          },
+          {
+            "to": 3,
+            "kind": "credits",
+            "text": "총감독 타카하시 테츠야(모노리스 소프트)",
+            "from": 3
+          },
+          {
+            "to": 5,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스 2』를 플레이하고 계신 여러분, 안녕하세요! 모노리스 소프트의 타카하시입니다.",
+            "from": 4
+          },
+          {
+            "to": 6,
+            "kind": "paragraph",
+            "text": "오늘은 일본 시간으로 4월 27일 금요일 오후부터 전 세계에 동시에 배포되는 업데이트 데이터(Ver. 1.4.0)의 내용을 알려 드립니다.",
+            "from": 6
+          },
+          {
+            "to": 7,
+            "kind": "paragraph",
+            "text": "Ver. 1.4.0에서는 드디어 새로운 레어 블레이드가 추가됩니다.",
+            "from": 7
+          },
+          {
+            "to": 8,
+            "kind": "heading",
+            "text": "먼저 ‘하나버스터’입니다.",
+            "from": 8
+          },
+          {
+            "to": 9,
+            "kind": "paragraph",
+            "text": "하나버스터는 ‘익스팬션 패스’를 구입하신 분만 얻을 수 있는 레어 블레이드입니다.",
+            "from": 9
+          },
+          {
+            "to": 10,
+            "kind": "paragraph",
+            "text": "디자인은 사이토 마사츠구 씨가 맡았습니다.",
+            "from": 10
+          },
+          {
+            "to": 11,
+            "kind": "paragraph",
+            "text": "하나는 토라 전용 인공 블레이드지만, 하나버스터는 토라 외의 캐릭터가 사용할 수 있도록 설계한 인공 블레이드입니다.",
+            "from": 11
+          },
+          {
+            "to": 12,
+            "kind": "paragraph",
+            "text": "하나버스터는 동조가 아닌 퀘스트로 얻을 수 있습니다.",
+            "from": 12
+          },
+          {
+            "to": 14,
+            "kind": "paragraph",
+            "text": "‘손바닥 위에 올라탄 노란 하나는 뭐지?’ ‘머리 위에 붙은 안테나 같은 건 뭘까?’ 궁금한 점이 많으실 텐데요, 하나버스터 전용 퀘스트에서 꼭 확인해 보세요.",
+            "from": 13
+          },
+          {
+            "to": 15,
+            "kind": "heading",
+            "text": "다음은 반다이 남코 엔터테인먼트의 배려로 실현된 ‘T-elos Re:’입니다.",
+            "from": 15
+          },
+          {
+            "to": 16,
+            "kind": "paragraph",
+            "text": "이전에 이 제작 노트에서 잠깐 말씀드렸던 ‘첫 회차를 클리어하신 분들’께 드리는 선물 캐릭터입니다.",
+            "from": 16
+          },
+          {
+            "to": 17,
+            "kind": "paragraph",
+            "text": "T-elos Re:는 『제노사가』 시리즈에서 KOS-MOS의 라이벌로 등장한 캐릭터입니다.",
+            "from": 17
+          },
+          {
+            "to": 18,
+            "kind": "paragraph",
+            "text": "블레이드 디자인은 CHOCO 씨가 맡았습니다.",
+            "from": 18
+          },
+          {
+            "to": 19,
+            "kind": "paragraph",
+            "text": "사실 다나카 쿠니히코 씨가 ‘KOS-MOS Re:’를 디자인할 때 ‘늘 CHOCO 씨에 대한 존경을 염두에 두고 있었다’고 합니다. 그 이야기를 들은 CHOCO 씨가 ‘그렇다면 저도 다나카 씨에게…’ 하며 존경의 뜻을 담은 답례로 디자인한 것이 바로 T-elos Re:입니다.",
+            "from": 19
+          },
+          {
+            "to": 20,
+            "kind": "paragraph",
+            "text": "『제노사가』 본편에 나왔을 때보다 조금 더 귀여워진 T-elos Re:입니다만, CHOCO 씨에 따르면 특별히 공을 들인 부분은 바이저 안쪽이라고 합니다.",
+            "from": 20
+          },
+          {
+            "to": 21,
+            "kind": "paragraph",
+            "text": "담당 모델러도 CHOCO 씨의 마음과 세심한 의도를 이어받아 온 힘을 다해 모델링했습니다.",
+            "from": 21
+          },
+          {
+            "to": 22,
+            "kind": "paragraph",
+            "text": "T-elos Re:는 게임을 클리어하신 분이라면 누구나 얻을 수 있는 블레이드입니다. 클리어 후 저장 데이터에서는 메뉴 화면의 소지금 옆에 별 표시가 붙는데요. 이 표시가 있으면 동조를 통해 T-elos Re:를 만날 수 있습니다.",
+            "from": 22
+          },
+          {
+            "to": 23,
+            "kind": "paragraph",
+            "text": "코어 크리스털에서 무작위로 나오지만 동조 확률을 꽤 높게 설정해 두었기 때문에, 누구나 금방 동조할 수 있을 거라고 생각합니다.",
+            "from": 23
+          },
+          {
+            "to": 24,
+            "kind": "heading",
+            "text": "그 밖의 Ver. 1.4.0 주요 업데이트 내용은 다음과 같습니다.",
+            "from": 24
+          },
+          {
+            "to": 25,
+            "kind": "paragraph",
+            "text": "2회차부터는 음유시인이 EXP를 하나의 파츠로 교환해 줍니다.",
+            "from": 25
+          },
+          {
+            "to": 26,
+            "kind": "paragraph",
+            "text": "메뉴에 새로운 정렬 항목이 추가됩니다.",
+            "from": 26
+          },
+          {
+            "to": 27,
+            "kind": "paragraph",
+            "text": "Ver. 1.4.0 안내는 여기까지입니다.",
+            "from": 27
+          },
+          {
+            "to": 28,
+            "kind": "paragraph",
+            "text": "5월 이후에는 익스팬션 패스를 구입하신 분들께 새로운 퀘스트와 레어 블레이드, 챌린지 배틀, 난이도 ‘극’ 모드 등을 차례로 추가할 예정입니다.",
+            "from": 28
+          },
+          {
+            "to": 29,
+            "kind": "paragraph",
+            "text": "특히 새 레어 블레이드는 새로운 일러스트레이터가 그리고 새로운 성우가 연기하는 익스팬션 패스 전용 오리지널입니다. 실은 오늘 막 성우 녹음을 마치고 왔답니다. 많이 기대해 주세요!",
+            "from": 29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xenoblade2-torna-conception-note",
+    "lead": "「ゼノブレイド２ 黄金の国イーラ」について",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/xenoblade2-torna-conception-note/01-note19-img01.jpg",
+        "width": 750,
+        "height": 422,
+        "alt": "황금의 나라 이라 발표 당시 공개한 이미지",
+        "sourceUrl": "https://www.nintendo.com/jp/switch/adena/production-notes/index-06.html",
+        "sectionId": "page-1",
+        "afterLine": 13
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.nintendo.com/jp/switch/adena/production-notes/index-06.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "황금의 나라 이라에 대하여",
+        "sourceId": "xenoblade2-torna-conception-note-01-b349fa50",
+        "sourceSha256": "b349fa507305c550d8740b93872293c21ba32c46c4f97d7a3bc423c3c4c77b94",
+        "sourceLineCount": 35,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "2018년 6월 13일",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "heading",
+            "text": "『제노블레이드 크로니클스 2 황금의 나라 이라』에 대하여",
+            "from": 2
+          },
+          {
+            "to": 3,
+            "kind": "credits",
+            "text": "총감독 타카하시 테츠야(모노리스 소프트)",
+            "from": 3
+          },
+          {
+            "to": 4,
+            "kind": "paragraph",
+            "text": "오래 기다리셨습니다.",
+            "from": 4
+          },
+          {
+            "to": 5,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스 2』의 추가 시나리오 ‘황금의 나라 이라’를 정식으로 발표합니다.",
+            "from": 5
+          },
+          {
+            "to": 6,
+            "kind": "paragraph",
+            "text": "지금으로부터 3년 전 이야기입니다.",
+            "from": 6
+          },
+          {
+            "to": 7,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’는 본편의 초기 줄거리 구상에 들어 있었습니다.",
+            "from": 7
+          },
+          {
+            "to": 8,
+            "kind": "paragraph",
+            "text": "정확히는 초기 구상에 넣을 이야기 후보 중 하나였다고 하는 편이 맞을지도 모르겠네요.",
+            "from": 8
+          },
+          {
+            "to": 9,
+            "kind": "paragraph",
+            "text": "『제노블레이드 크로니클스』가 발매된 지 5년이 지난 때였습니다.",
+            "from": 9
+          },
+          {
+            "to": 10,
+            "kind": "paragraph",
+            "text": "제작 노하우가 쌓이고 공정 관리 방식도 개선되면서, 일정한 분량의 텍스트를 바탕으로 어느 정도 품질과 규모의 게임을 만들 수 있는지 꽤 정확히 가늠할 수 있게 된 시기였죠.",
+            "from": 10
+          },
+          {
+            "to": 11,
+            "kind": "paragraph",
+            "text": "여러 사양을 함께 검토해 보니 ‘황금의 나라 이라’를 본편에 넣으면 『제노블레이드 크로니클스 2』에 정해진 예산과 개발 기간을 크게 초과한다는 것을 알 수 있었습니다.",
+            "from": 11
+          },
+          {
+            "to": 12,
+            "kind": "paragraph",
+            "text": "그래서 그 단계에서는 누구에게도 보여 주지 않고 일찌감치 줄거리에 넣기를 포기했습니다. 그중 본편에 필요한 요소만 뽑아 완성한 것이 『제노블레이드 크로니클스 2』 본편입니다.",
+            "from": 12
+          },
+          {
+            "to": 13,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’는 그 뒤 한동안 제 컴퓨터 하드 디스크 안에서 잠들어 있었습니다. 그러다 익스팬션 패스에 추가 시나리오를 넣기로 확정됐고, ‘그렇다면 그 이야기는 이것밖에 없지 않나’ 해서 되살아난 것이 바로 ‘황금의 나라 이라’입니다.",
+            "from": 13
+          },
+          {
+            "to": 14,
+            "kind": "heading",
+            "text": "『제노블레이드 크로니클스 2』 본편의 500년 전을 그린 이야기",
+            "from": 14
+          },
+          {
+            "to": 15,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’에서는 신, 히카리, 메츠, 마르베니 등 본편 주요 인물들의 과거뿐 아니라 라우라와 아델처럼 『제노블레이드 크로니클스 2』의 이야기에서 중요한 역할을 하는 인물들도 조명합니다.",
+            "from": 15
+          },
+          {
+            "to": 16,
+            "kind": "paragraph",
+            "text": "그렇습니다. 『제노블레이드 크로니클스 2』 본편이 렉스와 호무라(히카리)의 이야기였다면, ‘황금의 나라 이라’는 또 한 명의 주인공이라고 할 수 있는 신과 라우라의 이야기입니다.",
+            "from": 16
+          },
+          {
+            "to": 17,
+            "kind": "paragraph",
+            "text": "신의 과거에는 무슨 일이 있었을까요? 라우라는 어떤 사람이었을까요? 그리고 아델과 히카리의 관계는 어땠을까요?",
+            "from": 17
+          },
+          {
+            "to": 18,
+            "kind": "paragraph",
+            "text": "본편에서 단편적으로만 그려졌던 그들의 이야기가 드디어 여러분 앞에 모습을 드러냅니다.",
+            "from": 18
+          },
+          {
+            "to": 19,
+            "kind": "note",
+            "text": "본편의 회상 장면에 등장한 다른 조연들도 공용 모델에서 각 인물의 전용 모델로 바뀌었습니다.",
+            "from": 19
+          },
+          {
+            "to": 20,
+            "kind": "heading",
+            "text": "새로운 맵에서 펼쳐지는 모험",
+            "from": 20
+          },
+          {
+            "to": 21,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’에서는 거신수 ‘이라’가 새로운 필드 맵으로 추가됩니다.",
+            "from": 21
+          },
+          {
+            "to": 22,
+            "kind": "paragraph",
+            "text": "보통 RPG의 추가 스토리에서는 기존 맵을 활용하는 경우가 많지만, ‘황금의 나라 이라’의 맵은 완전히 새로 만들었습니다.",
+            "from": 22
+          },
+          {
+            "to": 23,
+            "kind": "paragraph",
+            "text": "필드뿐 아니라 이라 왕국의 수도도 새로운 도시 맵으로 추가됩니다.",
+            "from": 23
+          },
+          {
+            "to": 24,
+            "kind": "paragraph",
+            "text": "500년 전 이야기인 만큼, 모험할 수 있는 범위는 이라와 그 주변으로 한정됩니다. 그래도 충분히 즐길 만한 내용이 담겨 있습니다.",
+            "from": 24
+          },
+          {
+            "to": 25,
+            "kind": "heading",
+            "text": "새롭게 바뀐 배틀 시스템",
+            "from": 25
+          },
+          {
+            "to": 26,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’는 드라이버와 블레이드가 연계하는 전투 방식이 확립되기 전의 시대를 그립니다. 그래서 그 시대에 맞게 배틀 시스템을 새로 만들었습니다. 본편의 시스템을 바탕으로 하면서도 색다른 맛이 있는 배틀을 즐겨 주세요.",
+            "from": 26
+          },
+          {
+            "to": 27,
+            "kind": "heading",
+            "text": "새롭게 추가된 음악",
+            "from": 27
+          },
+          {
+            "to": 28,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’에는 새로운 곡도 추가됩니다.",
+            "from": 28
+          },
+          {
+            "to": 29,
+            "kind": "paragraph",
+            "text": "작곡은 미츠다 씨를 비롯해 본편에 참여한 분들이 맡았습니다.",
+            "from": 29
+          },
+          {
+            "to": 30,
+            "kind": "paragraph",
+            "text": "‘황금의 나라 이라’의 전반적인 분위기가 본편보다 조금 더 성숙해진 데 맞춰, 추가곡에도 그 느낌을 담았습니다.",
+            "from": 30
+          },
+          {
+            "to": 31,
+            "kind": "paragraph",
+            "text": "어쿠스틱 악기를 중심으로 리듬감을 살린 신곡들을 꼭 기대해 주세요.",
+            "from": 31
+          },
+          {
+            "to": 32,
+            "kind": "paragraph",
+            "text": "추가 시나리오 ‘황금의 나라 이라’는 『제노블레이드 크로니클스 2』 본편과 익스팬션 패스를 가지고 계신 분들께 9월 14일 배포할 예정입니다. 그리고 이번에는 특별히 본편을 플레이하지 않으신 분을 위해 ‘황금의 나라 이라’ 단독 패키지판도 9월 21일 발매하기로 했습니다.",
+            "from": 32
+          },
+          {
+            "to": 33,
+            "kind": "paragraph",
+            "text": "앞서 말씀드렸듯 ‘황금의 나라 이라’는 본편의 500년 전 이야기입니다. ‘황금의 나라 이라’를 먼저 플레이하면 본편의 다른 면이 보일지도 모릅니다. 패키지판에는 『제노블레이드 크로니클스 2』 본편에서 ‘황금의 나라 이라’ 외의 익스팬션 패스 콘텐츠를 받을 수 있는 코드도 들어 있습니다. 처음 접하시는 분은 본편과 ‘황금의 나라 이라’ 중 마음에 드는 쪽에서 시작해 보세요.",
+            "from": 33
+          },
+          {
+            "to": 34,
+            "kind": "paragraph",
+            "text": "발매까지 조금 더 남았습니다. 새로운 인물들이 펼치는 이야기와 새로운 맵, 새로운 배틀을 마음껏 즐겨 주시기 바랍니다.",
+            "from": 34
+          },
+          {
+            "to": 35,
+            "kind": "note",
+            "text": "‘황금의 나라 이라’ 공식 사이트",
+            "from": 35
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monolith-scenario-planners-2023",
+    "lead": "スタッフインタビュー / シナリオプランナー編",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-01.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 시나리오 플래너 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2307.html",
+        "sectionId": "page-1",
+        "afterLine": 3
+      },
+      {
+        "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-02.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 시나리오 플래너 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2307.html",
+        "sectionId": "page-1",
+        "afterLine": 80
+      },
+      {
+        "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-03.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 시나리오 플래너 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2307.html",
+        "sectionId": "page-1",
+        "afterLine": 118
+      },
+      {
+        "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-04.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 시나리오 플래너 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2307.html",
+        "sectionId": "page-1",
+        "afterLine": 222
+      },
+      {
+        "src": "/images/interviews/monolith-scenario-planners-2023/01-img-scenario-planner2307-05.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 시나리오 플래너 인터뷰 사진",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2307.html",
+        "sectionId": "page-1",
+        "afterLine": 261
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.monolithsoft.co.jp/interview/2307.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "시나리오 플래너가 게임 세계를 넓혀 가는 법",
+        "sourceId": "monolith-scenario-planners-2023-01-5eb92231",
+        "sourceSha256": "5eb92231ba89e49ba191a9e75c46cb559c39e243c4162f94ee03caa17f648c45",
+        "sourceLineCount": 291,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "heading",
+            "text": "세계의 넓이를 그려 내는 일",
+            "from": 1
+          },
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "오늘은 시나리오 플래너 세 분을 모셨습니다. 자기소개를 부탁드립니다.",
+            "from": 2
+          },
+          {
+            "to": 10,
+            "kind": "answer",
+            "text": "퀘스트 등 게임 내 텍스트 전반을 맡고 있습니다. 저는 학생 때 『제노기어스』를 플레이하고 웅장한 시나리오와 깊이 있는 세계관에 정말 감동했습니다. 그게 계기가 돼 게임 업계를 목표로 삼았죠. 디버거로 시작해서 소셜 게임 제작사에서 경력을 쌓은 뒤, 5년 전에 모노리스 소프트의 일원이 될 수 있었습니다.",
+            "from": 4,
+            "speaker": "코노"
+          },
+          {
+            "to": 17,
+            "kind": "answer",
+            "text": "퀘스트 텍스트와 이벤트 장면 제작을 담당하고 있습니다. 제 마음에 남은 게임은 『제노블레이드 크로니클스』였어요. 대학에서는 시각 디자인을 공부했지만 퀘스트 같은 시나리오를 쓰는 데 관심이 있어서, 한번 도전해 보자는 마음으로 모노리스 소프트에 지원했습니다. 신입으로 입사해 지금 6년째입니다.",
+            "from": 11,
+            "speaker": "사토"
+          },
+          {
+            "to": 23,
+            "kind": "answer",
+            "text": "모노리스 소프트에 플래너로 입사한 지 올해로 18년째입니다. 마을의 세계관 설정과 퀘스트 시나리오 제작 등을 거쳐 프로젝트를 총괄하게 됐습니다. 지금은 시나리오 플래너의 범위를 넘어 게임의 골격을 정하는 역할도 맡고 있습니다.",
+            "from": 18,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 25,
+            "kind": "question",
+            "text": "시나리오 플래너는 어떤 일을 하나요?",
+            "from": 24
+          },
+          {
+            "to": 35,
+            "kind": "answer",
+            "text": "제가 속한 프로젝트에서는 메인 시나리오를 바탕으로 게임의 세계관을 넓혀 가는 일입니다. 그래서 제일 먼저 메인 시나리오를 꼼꼼히 읽고 세계관의 틀을 잡습니다. 아직 줄거리 구상 단계라 시나리오가 전부 쓰여 있지는 않아요. 대략적으로 그려진 캐릭터나 필드, 마을 정보를 단서로 게임 안의 세부 설정을 생각하고, 메인 시나리오를 보완하고 확장해 나갑니다. 크게 나누면 다음 일곱 가지예요.",
+            "from": 26,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 36,
+            "kind": "heading",
+            "text": "시나리오 플래너의 주요 업무",
+            "from": 36
+          },
+          {
+            "to": 37,
+            "kind": "paragraph",
+            "text": "1. 세계관 구체화",
+            "from": 37
+          },
+          {
+            "to": 38,
+            "kind": "paragraph",
+            "text": "2. 캐릭터 구체화",
+            "from": 38
+          },
+          {
+            "to": 39,
+            "kind": "paragraph",
+            "text": "3. 메인 시나리오 보완·확장",
+            "from": 39
+          },
+          {
+            "to": 40,
+            "kind": "paragraph",
+            "text": "4. 마을 구상",
+            "from": 40
+          },
+          {
+            "to": 41,
+            "kind": "paragraph",
+            "text": "5. 퀘스트 구상",
+            "from": 41
+          },
+          {
+            "to": 42,
+            "kind": "paragraph",
+            "text": "6. 텍스트 집필",
+            "from": 42
+          },
+          {
+            "to": 43,
+            "kind": "paragraph",
+            "text": "7. 이벤트 장면 감수·제작",
+            "from": 43
+          },
+          {
+            "to": 44,
+            "kind": "note",
+            "text": "프로젝트에 따라 담당 범위가 달라질 수 있습니다.",
+            "from": 44
+          },
+          {
+            "to": 50,
+            "kind": "answer",
+            "text": "예를 들어 그 세계에 나라가 몇 개 있다면 A국에서는 어떤 문화가 자랐는지, 그 안의 마을은 어떻게 구성되어 있고 건축 양식은 어떤지 생각합니다. 가게의 종류와 수, 그곳에 사는 사람들의 수와 구성은 어떤지, 그럼 B국은 어떻고 C국은 어떤지 하는 식으로요.",
+            "from": 45,
+            "speaker": "코노"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "캐릭터도 어떤 개성을 지닌 인물인지 깊이 파고들어요. ‘이런 성격이니 이렇게 움직이고 이런 말을 하겠지’ 하면서 인물상과 행동을 구체화합니다. 주요 인물뿐 아니라 NPC도 이름은 물론 어떤 사람인지 설정을 검토합니다. 그런 전제가 되는 세부 사항이 정해져야 비로소 퀘스트를 구상하거나 이벤트 시나리오와 녹음용 대사를 씁니다.",
+            "from": 51,
+            "speaker": "사토"
+          },
+          {
+            "to": 59,
+            "kind": "question",
+            "text": "구체적으로 어떤 부분의 텍스트를 쓰나요?",
+            "from": 59
+          },
+          {
+            "to": 65,
+            "kind": "answer",
+            "text": "메인 시나리오 외의 온갖 텍스트를 담당합니다. 주요 캐릭터끼리의 대화, NPC와의 대화와 NPC 이름, 퀘스트 시나리오와 설명, 튜토리얼 설명, 필드 탐색이나 배틀 음성 대본까지요. 모두 합치면 한 작품에 수십만 자, 때로는 그보다 많습니다.",
+            "from": 60,
+            "speaker": "코노"
+          },
+          {
+            "to": 71,
+            "kind": "answer",
+            "text": "다만 ‘시나리오 플래너’라는 이름대로 집필 외에도 플래너 일을 합니다. 캐릭터의 움직임을 구상해 모션과 효과를 의뢰하거나, 퀘스트를 만들 때 시나리오와 함께 플레이 내용도 생각하죠. 텍스트 작성에 그치지 않고 게임 개발에도 직접 관여할 수 있는 직종입니다.",
+            "from": 66,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 79,
+            "kind": "answer",
+            "text": "시나리오 플래너가 이벤트 장면의 연출을 검토하고 데이터 제작까지 맡기도 합니다. 스토리나 퀘스트에서 말풍선 등의 대화창으로 진행되는 이벤트는 프로젝트에 따라 애니메이터 대신 플래너가 담당해요. 카메라 움직임, 페이셜이라고 부르는 캐릭터 표정, 말할 때의 몸짓 같은 모션, 배경 음악이 시작되는 시점 등을 정해서 전용 도구로 데이터를 만듭니다.",
+            "from": 72,
+            "speaker": "사토"
+          },
+          {
+            "to": 80,
+            "kind": "heading",
+            "text": "NPC를 사람답게 만드는 것",
+            "from": 80
+          },
+          {
+            "to": 81,
+            "kind": "question",
+            "text": "일상 업무에서는 무엇이 요구되나요?",
+            "from": 81
+          },
+          {
+            "to": 86,
+            "kind": "answer",
+            "text": "저희 작업과 동시에 메인 시나리오도 계속 다듬어지기 때문에, 그쪽에 변화가 생기면 유연하게 대응해야 해요. 방대한 텍스트에서 변경의 영향을 받는 부분을 전부 찾아내고, 메인 시나리오와 어긋나는 일이 없도록 조정합니다.",
+            "from": 82,
+            "speaker": "코노"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "다른 이유로 텍스트를 조정하는 일도 생깁니다. 특히 필드는 매일 더 세밀하게 만들어 가는 중이라, 바뀐 지형에 특징적인 곳이 있으면 그걸 살리는 방향으로 시나리오에 반영합니다.",
+            "from": 87,
+            "speaker": "사토"
+          },
+          {
+            "to": 99,
+            "kind": "answer",
+            "text": "마감일을 지키는 것도 중요한 임무입니다. 녹음일이 정해져 있다면 그날부터 거꾸로 일정을 잡아 녹음하고 싶은 대사를 모두 생각하는 식이죠. 음성이 없으면 그다음 차례인 이벤트 애니메이터도 작업할 수 없으니 책임이 큽니다. 해외판이 있다면 텍스트를 번역하는 현지화 일정에도 맞춰야 하고요.",
+            "from": 92,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 100,
+            "kind": "question",
+            "text": "작업량도 어마어마하고 일의 범위도 넓다는 게 느껴지네요.",
+            "from": 100
+          },
+          {
+            "to": 103,
+            "kind": "answer",
+            "text": "네. 그래서 혹시 나중에 조정이 필요하거나 일정에 맞추지 못할 가능성이 생기면, 일찍 상의하는 게 중요합니다.",
+            "from": 101,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 114,
+            "kind": "answer",
+            "text": "저도 개인적으로 상의하는 건 정말 중요하다고 생각해요. 시나리오 집필은 혼자 하는 일이 되기 쉬워서, 자신도 모르게 시야가 좁아질 때가 있거든요. 그러면 대개 집필이 막힙니다. 하지만 게임은 팀으로 개발하니 그럴 땐 혼자 끌어안지 말고 팀원과 상의해야 한다고 생각합니다. 시나리오 제작이 늦어지면 필요한 에셋의 발주도 밀리고 앞에서 말씀드린 녹음과 해외판 번역 일정에도 영향을 줘요. 그래서 더더욱 일찍 상의하려고 합니다. 이와모토 씨와는 얼마나 많이 상의했는지….",
+            "from": 104,
+            "speaker": "코노"
+          },
+          {
+            "to": 116,
+            "kind": "answer",
+            "text": "그랬지요(웃음).",
+            "from": 115,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 118,
+            "kind": "answer",
+            "text": "그때마다 정말 감사했습니다(웃음).",
+            "from": 117,
+            "speaker": "코노"
+          },
+          {
+            "to": 120,
+            "kind": "question",
+            "text": "다양한 텍스트를 맡고 계신데, 글을 쓸 때 어떤 점이 중요한가요?",
+            "from": 119
+          },
+          {
+            "to": 128,
+            "kind": "answer",
+            "text": "텍스트와 음성 각각에 어울리는 표현을 찾는 걸 중요하게 여깁니다. 글자를 눈으로 읽는 것과 목소리로 듣는 것은 같은 말이라도 인상이 다르거든요. 음성인 경우에는 직접 소리 내어 읽어 보고 어색하지 않은지 꼼꼼히 확인합니다. 특히 메인 캐릭터의 대사를 저희가 쓸 때는 인물 성격을 충분히 파악한 뒤 말투와 어미를 통일해요. ‘나’와 ‘저’처럼 캐릭터마다 사용하는 인칭대명사도 문서로 관리해서 표현이 흔들리지 않도록 합니다.",
+            "from": 121,
+            "speaker": "코노"
+          },
+          {
+            "to": 137,
+            "kind": "answer",
+            "text": "시나리오를 쓸 때는 3D로 어떻게 표현할지 내다봐야 합니다. 예를 들어 그 자리에서 일어나는 일을 모두 대사로 설명해 버리면 3D의 장점을 살리지 못하잖아요. 또 모델과 모션, 오브젝트, 효과 등 각 요소에 어떤 작업과 비용이 들어가는지도 어느 정도 알아야 해요. 모르고 시나리오에 쓰면 나중에 ‘이건 구현할 수 없겠네요’ 하는 일이 생깁니다. 구상한 시나리오를 게임에 구현하려면 다른 직종과도 조율해야 하니, 작가로서만이 아니라 플래너로서 보는 눈과 행동도 요구됩니다.",
+            "from": 129,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 139,
+            "kind": "question",
+            "text": "사토 씨는 이벤트 장면도 만드시는데, 어떤 점을 의식하시나요?",
+            "from": 138
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "NPC가 많이 등장하는 장면에서는 한 사람 한 사람의 개성을 어떻게 드러낼지 생각해요. 저희가 만드는 이벤트는 공용 모션을 사용해서, 그저 동작을 배정하기만 하면 모두 비슷한 사람으로 보이거든요. 그래서 미리 각 인물의 성격을 그리고, 과장된 몸짓으로 반응하는 사람, 전혀 움직이지 않는 사람, 항상 굳은 표정인 사람처럼 공용 모션도 다르게 씁니다. 대사 외의 부분에서도 NPC의 개성을 느끼실 수 있게요.",
+            "from": 140,
+            "speaker": "사토"
+          },
+          {
+            "to": 155,
+            "kind": "answer",
+            "text": "얼마나 자연스럽게 보이게 할지도 궁리하죠. 예를 들어 그곳에 있는 NPC가 모두 고개를 돌리는 장면에서도 동시에 돌아보지 않게 타이밍을 프레임 단위로 조금씩 어긋나게 해요. 이런 부분도 시나리오 플래너가 실력을 보여 줄 기회라고 생각합니다.",
+            "from": 150,
+            "speaker": "코노"
+          },
+          {
+            "to": 156,
+            "kind": "question",
+            "text": "일을 하며 특히 공을 들이는 부분을 알려 주세요.",
+            "from": 156
+          },
+          {
+            "to": 164,
+            "kind": "answer",
+            "text": "퀘스트를 만들 때 플레이어에게 억지로 시키는 듯한 느낌을 주지 않도록 퀘스트의 목적과 의도를 분명히 합니다. 클리어했을 때 ‘아, 그래서 그랬구나’ 하며 세계나 캐릭터에 대해 뭔가 새롭게 알게 되도록 설계하고 있어요.",
+            "from": 157,
+            "speaker": "코노"
+          },
+          {
+            "to": 168,
+            "kind": "answer",
+            "text": "이런 부분은 시나리오 플래너가 게임 시스템을 잘 이해한 상태에서 퀘스트의 시나리오와 플레이를 함께 구상하니 품질이 흔들리기 어렵다고 생각합니다.",
+            "from": 165,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 175,
+            "kind": "answer",
+            "text": "저는 제 의견이나 생각을 솔직하게 전하려고 합니다. 시나리오를 꼼꼼히 읽고 NPC를 더 깊이 이해하다 보면 ‘여기서는 이런 대사를 하지 않을 것 같은데’ 싶을 때가 있어요. 그게 맞는지 틀린지 자신이 없고 마음도 답답하지만, 아무 말 없이 넘어가기도 싫어서 용기를 내 상의합니다. 코노 씨와도 신경 쓰이는 부분이 있으면 자주 이야기하죠.",
+            "from": 169,
+            "speaker": "사토"
+          },
+          {
+            "to": 180,
+            "kind": "answer",
+            "text": "네. 의견을 서로 내는 걸 중요하게 생각합니다. 제 생각과 달라도 잘 듣고, 그 피드백을 반영할지 말지는 이야기해 본 뒤 서로 납득한 상태에서 결정해요.",
+            "from": 176,
+            "speaker": "코노"
+          },
+          {
+            "to": 188,
+            "kind": "answer",
+            "text": "저는 RPG에서 세계가 옆으로도 넓게 펼쳐지는 게 중요하다고 봐요. 퀘스트나 NPC의 대화처럼 메인 시나리오 밖에 있는 요소는 이용자분이 어떻게 플레이하느냐에 따라 알아차리지 못할 수도 있습니다. 그래도 그런 요소를 많이 마련해 두어야 탄탄한 세계관이 완성된다고 생각합니다. 일거리를 스스로 늘려서 고생하는 셈이지만(웃음), 타협할 수는 없으니까요.",
+            "from": 181,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 189,
+            "kind": "question",
+            "text": "어떤 때 특히 보람을 느끼시나요?",
+            "from": 189
+          },
+          {
+            "to": 194,
+            "kind": "answer",
+            "text": "맡은 텍스트를 모두 다 썼을 때요(웃음). 워낙 분량이 많으니 해냈다는 기분이 대단하거든요(웃음). 또 제가 쓴 시나리오의 이벤트 장면을 처음 봤는데 머릿속으로 그렸던 대로 움직임과 연출이 나왔을 때요.",
+            "from": 190,
+            "speaker": "코노"
+          },
+          {
+            "to": 202,
+            "kind": "answer",
+            "text": "내가 구상한 시나리오가 ‘이렇게 됐구나!’ 하고 감동하죠. 글자뿐이던 표현에 모션과 음성, 음악이 붙어 영상으로 눈앞에 나타나는 거예요. 저도 음성 대사를 쓸 때 소리 내어 말투를 확인하지만, 성우분들이 연기하시면 생명이 불어넣어진다고 할까요. 당연히 제가 상상한 것보다 훨씬 훌륭해요. 한 편의 게임이 여러 사람의 손을 거쳐 완성된다는 걸 실감합니다.",
+            "from": 195,
+            "speaker": "사토"
+          },
+          {
+            "to": 211,
+            "kind": "answer",
+            "text": "또 역시 이용자분들의 반응을 볼 때입니다. 작가마다 생각이 다르니 무조건 옳다고는 할 수 없지만, 저는 제가 쓴 시나리오가 읽어 주신 분들께 어떻게 평가받느냐를 작가의 기량을 가늠하는 한 가지 지표로 생각해요. 그래서 시험 성적 발표를 확인하는 기분으로 플레이어 여러분의 반응을 받아들입니다. 혹평이 있더라도 돌아보고 성장의 밑거름으로 삼으면 다음 시나리오에 살릴 수 있잖아요.",
+            "from": 203,
+            "speaker": "코노"
+          },
+          {
+            "to": 214,
+            "kind": "answer",
+            "text": "저도 ‘이 퀘스트 재밌다!’거나 ‘이 NPC 좋아!’ 하는 반응을 보면 보람을 느낍니다.",
+            "from": 212,
+            "speaker": "사토"
+          },
+          {
+            "to": 221,
+            "kind": "answer",
+            "text": "저는 ‘이건 재미있어지겠는데!’라는 확신을 얻었을 때입니다. 시나리오 플래너를 비롯해서 저희가 마을, 퀘스트, 배틀, 필드를 모두 설계하니, 그게 잘 맞물리면 당연히 재미있을 거예요. 실제로 시험판을 구석구석 플레이해서 모든 요소가 잘 돌아간다고 확신했을 때 보람을 느낍니다.",
+            "from": 215,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 222,
+            "kind": "heading",
+            "text": "시나리오 플래너가 지향하는 것",
+            "from": 222
+          },
+          {
+            "to": 223,
+            "kind": "question",
+            "text": "모노리스 소프트에서 일하며 어떤 부분에서 성장하셨나요?",
+            "from": 223
+          },
+          {
+            "to": 232,
+            "kind": "answer",
+            "text": "저는 게임 개발에 관한 지식이 전혀 없는 상태로 들어왔기 때문에 모든 면에서 성장했다고 생각해요. 시나리오 제작만 해도 초기에 쓴 글을 돌아보면 그 장면에서 하고 싶은 이야기가 분명하지 않을 때가 있었어요. 주변 선배들에게 제대로 이해할 때까지 질문하고 조언을 받다 보니, 이야기해야 할 중심을 놓치지 않게 됐고 시나리오와 이벤트를 만드는 법도 몸에 익은 것 같습니다.",
+            "from": 224,
+            "speaker": "사토"
+          },
+          {
+            "to": 238,
+            "kind": "answer",
+            "text": "모노리스 소프트에 들어와 개발 규모가 큰 콘솔 게임에 참여하면서 경력에서 가장 많은 텍스트를 썼습니다. 덕분에 ‘콘솔 게임의 시나리오와 텍스트는 이렇게 쓰는구나’라는 지식을 확실히 얻었고 자신감도 붙었습니다.",
+            "from": 233,
+            "speaker": "코노"
+          },
+          {
+            "to": 239,
+            "kind": "question",
+            "text": "앞으로의 목표를 알려 주세요.",
+            "from": 239
+          },
+          {
+            "to": 247,
+            "kind": "answer",
+            "text": "입사할 때부터 언젠가 메인 시나리오 한 편을 완성한다는 목표가 있었어요. 그래서 평소 다양한 흐름을 조사하면서 그걸 제 시나리오에 어떻게 활용할지 늘 생각합니다. 시나리오나 캐릭터가 화제가 된 작품은 바로 살펴보고, 왜 인기인지, 어느 부분이 재미있는지, 왜 화제가 됐는지 스스로 정리하고 생각해 봅니다. 제 감각이 낡아지지 않도록 꽤 신경을 써요.",
+            "from": 240,
+            "speaker": "코노"
+          },
+          {
+            "to": 255,
+            "kind": "answer",
+            "text": "저는 더 매력적인 캐릭터를 만드는 게 목표입니다. ‘그 NPC를 만나러 가고 싶어!’라고 생각할 만큼 플레이어의 마음에 남는 캐릭터와 이야기를 만들고 싶어요. 그래서 사람들을 관찰하거나 드라마, 영화, 만화를 보며 ‘어떤 말을 할 때 어떤 표정을 짓는지’를 상황과 장면까지 포함해 제 안에 쌓아 둡니다.",
+            "from": 248,
+            "speaker": "사토"
+          },
+          {
+            "to": 260,
+            "kind": "answer",
+            "text": "제 목표는 필드와 배틀, 퀘스트가 더 잘 어우러지게 만드는 것입니다. 지금까지도 노력했지만 아직 할 수 있는 일이 많다고 봐요. 게임의 흐름 전체가 유기적으로 이어지도록 시나리오와 게임성을 함께 생각해서, 더 재미있는 것을 만들고 싶습니다.",
+            "from": 256,
+            "speaker": "이와모토"
+          },
+          {
+            "to": 261,
+            "kind": "question",
+            "text": "이 회사에 들어와서 좋았던 점은 무엇인가요?",
+            "from": 261
+          },
+          {
+            "to": 269,
+            "kind": "answer",
+            "text": "역시 즐겁게 게임을 만들고 있다는 점이에요. 물론 작업량이 많아 힘든 시기도 있지만요(웃음). 프로젝트가 바쁠 때면 ‘함께 힘내자’고 말을 건네 줘요. ‘다 같이 이겨 내자!’는 마음이 들어 힘이 됩니다. 팀 전원이 좋은 걸 만들려는 분위기 속에서 마스터판 완성을 향해 나아가니 제작에 전념할 수 있고, 성장의 기회도 얻고 있다고 느껴요.",
+            "from": 262,
+            "speaker": "사토"
+          },
+          {
+            "to": 277,
+            "kind": "answer",
+            "text": "팀에 그런 배려와 분위기가 있으니 의견을 내기 편하죠. 저희 제안을 받아들여 제대로 검토해 주는 환경이라고 할까요. 물론 비용과 일정이 허용하는 범위에서지만요. 모노리스 소프트에 들어와 좋았던 건 3D 모델이나 음성처럼 폭넓은 표현 수단을 마음껏 활용해 일할 수 있다는 점입니다. 전 직장의 소셜 게임에서 콘솔 게임 개발까지 경험하면서 제가 쓰는 시나리오의 폭도 꽤 넓어졌다고 느껴요.",
+            "from": 270,
+            "speaker": "코노"
+          },
+          {
+            "to": 278,
+            "kind": "question",
+            "text": "마지막으로 입사를 생각하고 계신 분들께 한 말씀 부탁드립니다.",
+            "from": 278
+          },
+          {
+            "to": 284,
+            "kind": "answer",
+            "text": "무엇보다 모노리스 소프트의 게임을 정말 좋아하고, ‘모노리스 소프트에서 이런 시나리오를 쓰고 싶다!’며 강한 열망과 야심을 가진 분이라면 대환영입니다(웃음). 물론 글 쓰는 기량도 꼭 필요하지만, 저는 역시 무엇보다 의욕이 중요하다고 생각합니다.",
+            "from": 279,
+            "speaker": "코노"
+          },
+          {
+            "to": 290,
+            "kind": "answer",
+            "text": "이야기를 비롯해 여러 가지를 생각하는 걸 좋아하고, 주위 사람들과 협력해서 게임에 깊이를 더하고 싶은 분은 꼭 지원해 보셨으면 좋겠습니다. 서로 다른 각도에서 바라본 의견을 내고 이야기를 많이 주고받으면서, 함께 마음에 남는 것을 만들 수 있다면 기쁘겠어요.",
+            "from": 285,
+            "speaker": "사토"
+          },
+          {
+            "to": 291,
+            "kind": "question",
+            "text": "오늘 정말 감사합니다.",
+            "from": 291
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monolith-programmers-2024",
+    "lead": "スタッフインタビュー / プログラマー編",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/monolith-programmers-2024/01-img-kv.jpg",
+        "width": 1248,
+        "height": 720,
+        "alt": "모노리스 소프트 프로그래머 인터뷰에 참여한 세 사람",
+        "sourceUrl": "https://www.monolithsoft.co.jp/interview/2404.html",
+        "sectionId": "page-1",
+        "afterLine": 1
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://www.monolithsoft.co.jp/interview/2404.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "창작자의 상상을 실제 게임에 구현하는 일",
+        "sourceId": "monolith-programmers-2024-01-cf73c4e6",
+        "sourceSha256": "cf73c4e63c0d767cc031b31d93dc8a08f82c18e2f346cd04540f9e20e66381cb",
+        "sourceLineCount": 342,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "heading",
+            "text": "창작자의 상상을 형태로",
+            "from": 1
+          },
+          {
+            "to": 3,
+            "kind": "question",
+            "text": "오늘은 프로그래머 세 분을 모셨습니다. 자기소개를 부탁드려요.",
+            "from": 2
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "애플리케이션 프로그래머 쿠보키입니다. 팀장으로서 업무를 관리하고 다른 부서와 조율하는 일도 합니다. 전에는 콘솔 게임 개발사에서 주로 애플리케이션 프로그래머로 일했습니다. 이직의 계기는 『제노블레이드 크로니클스 크로스』였어요. 당시 일본에서는 드물었던 오픈 월드를 도입하는 도전적인 태도에 끌려 모노리스 소프트의 문을 두드렸습니다. 입사한 지 7년째입니다.",
+            "from": 4,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 20,
+            "kind": "answer",
+            "text": "저도 애플리케이션 프로그래머인 쿠노입니다. 전 직장도 콘솔 게임 개발사였고, 프로그래밍 외에 디렉션에도 관여했습니다. 규모가 큰 작품을 맡아 게임을 깊이 있게 만들어 보는 경험을 하고 싶었어요. 『제노블레이드』 시리즈를 비롯해 모노리스 소프트가 개발한 게임을 좋아해서 즐겨 플레이하기도 했고요. 입사한 지 6년째이며 작년부터는 팀장 역할도 맡고 있습니다.",
+            "from": 13,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 27,
+            "kind": "answer",
+            "text": "UI 프로그래머 카네다입니다. 저도 전에는 콘솔 게임 개발을 주로 하는 회사에 있었습니다. 거기서도 UI를 맡았지만 다른 업무를 겸하는 일이 많았어요. ‘UI에 좀 더 전념해서 세밀하게 만들고 싶다’는 마음에 모노리스 소프트에 왔습니다. 지금 5년째입니다.",
+            "from": 21,
+            "speaker": "카네다"
+          },
+          {
+            "to": 28,
+            "kind": "question",
+            "text": "프로그래머는 어떤 일을 하나요?",
+            "from": 28
+          },
+          {
+            "to": 42,
+            "kind": "answer",
+            "text": "프로그래머가 맡는 분야는 애플리케이션, 이펙트, 애니메이션, UI 등 다양하고, 프로젝트에 따라서도 다릅니다. 오늘은 여기 모인 사람들이 맡은 애플리케이션 프로그래머와 UI 프로그래머의 일을 말씀드리려고 합니다. 저는 애플리케이션 담당으로 주로 캐릭터 동작 제어 전반을 만듭니다. 예를 들어 ‘적에게 다가가 공격한다’는 동작에는 우선 적을 발견하는 구조가 필요해요. 적을 찾으면 그 방향으로 이동하고, 이어서 공격하는 동작도 있어야 합니다. 이 일련의 흐름이 제대로 동작하도록 구조를 만들고, 기획자가 정한 사양과 디자이너가 그린 모습에 가까워지도록 조정해서 게임이 지향하는 재미를 구현하는 게 제 일입니다.",
+            "from": 29,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 51,
+            "kind": "answer",
+            "text": "제가 맡은 UI에서는 아이콘, 수치, 메뉴 등 화면에 표시되는 거의 모든 정보를 세밀하게 만듭니다. 먼저 뭘 어떤 UI로 표시할지 기획자와 디자이너와 함께 검토하고, 거기서 정한 사양을 UI 프로그래머가 구현하는 게 큰 흐름입니다. 프로젝트 중반쯤 기본 디자인이 잡히기 때문에, 사양 변경이나 추가 요청에 대응하면서 막바지까지 계속 완성도를 높입니다.",
+            "from": 43,
+            "speaker": "카네다"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "저는 애플리케이션 중에서 이벤트 장면을 재생하는 구조를 만듭니다. 플레이하다가 이벤트가 시작되면 몇 번째 프레임에서 어느 캐릭터가 어떤 모션을 취하는지 같은 일련의 동작을 실시간으로 읽어 장면을 생성합니다. 그 구조와 동작을 지정하는 편집 도구를 이벤트 팀의 요청에 맞춰 구현하고 있습니다.",
+            "from": 52,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 61,
+            "kind": "question",
+            "text": "도구 제작도 하신다면 테크니컬 아티스트(이하 TA)와 업무가 겹치는 부분도 있나요?",
+            "from": 59
+          },
+          {
+            "to": 70,
+            "kind": "answer",
+            "text": "TA는 디자이너의 제작 작업을 어떻게 효율화할지를 중심으로 작업을 자동화하거나 수고를 덜어 주는 도구를 만들고 개선합니다. 제가 맡은 도구는 ‘게임 안에 그대로 들어가는 데이터’의 생성과 조정에 더 가깝고요. 예를 들어 마을 사람들 같은 NPC의 모델은 여러 형태로 마련된 머리카락이나 얼굴 파츠를 조합해 만드는데요. 그 조합을 편집하는 도구도 만들고 있습니다.",
+            "from": 62,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 71,
+            "kind": "question",
+            "text": "일상 업무에서는 어떤 역량이 필요한가요?",
+            "from": 71
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "게임을 재미있게 만들기 위해 ‘프로그래머라서 할 수 있는 일은 뭘까’를 생각하고 행동하는 것이 중요합니다. 예를 들어 제가 만든 도구를 더 쓰기 쉽게 만들면 데이터 제작 시간이 줄고, 그만큼 아이디어를 다듬는 데 시간을 쓸 수 있어요. 이것도 프로그래머 나름의 방식으로 게임을 재미있게 만드는 접근 중 하나입니다.",
+            "from": 72,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 84,
+            "kind": "answer",
+            "text": "제 경우에는 생각을 말로 풀어내는 등의 의사소통 능력입니다. UI 팀에서는 프로그래머도 적극적으로 UI 디자인을 제안해요. 함께 작업하는 기획자와 디자이너에게 구현한 화면을 보여 줬을 때, 왜 그렇게 만들었는지 제대로 설명해야 합니다. 요청이 들어오면 모호한 부분을 확인해서 상대가 생각하는 것을 말로 구체화하는 힘도 필요하다고 봐요.",
+            "from": 78,
+            "speaker": "카네다"
+          },
+          {
+            "to": 91,
+            "kind": "answer",
+            "text": "사양을 제대로 이해하고 기획자가 생각하는 것을 충실히 완성하는 게 중요하다고 느낍니다. 저희가 구현하면서 그 사양을 처음 접하는 입장이니, 코드를 짜다가 빠진 사양이나 개선할 부분을 찾아내는 경우도 많아요. 그때 게임을 더 좋게 만들겠다는 생각으로 기획자와 소통하는 자세가 중요합니다.",
+            "from": 85,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 93,
+            "kind": "question",
+            "text": "UI 프로그래머도 디자인을 제안한다면 디자인 지식이 필수인가요?",
+            "from": 92
+          },
+          {
+            "to": 101,
+            "kind": "answer",
+            "text": "UI는 조금 특수합니다. 게임 화면에 표시하는 아이콘과 텍스트 등 다루는 양이 원래 많아서 디자이너만으로 챙기기 어려운 세부 사양이나 빠지는 정보가 생길 수밖에 없어요. 프로그래머와 기획자가 그런 부분을 보완합니다. 화면에 아이콘을 가장 잘 배치하는 법 같은 UI 디자인 지식은 있는 편이 확실히 좋죠.",
+            "from": 94,
+            "speaker": "카네다"
+          },
+          {
+            "to": 109,
+            "kind": "answer",
+            "text": "애플리케이션 프로그래머도 함께 일하는 디자이너가 다루는 데이터 구조를 알아 두면 유용합니다. 다만 디자인과 그림을 만드는 지식보다, 디자이너가 역량을 마음껏 발휘할 환경을 만들고 영감을 줄 만한 기술적 시제품을 제작하는 일이 더 요구되지 않나 싶어요.",
+            "from": 102,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 110,
+            "kind": "heading",
+            "text": "기술이나 지식보다 더 중요하게 여기는 것",
+            "from": 110
+          },
+          {
+            "to": 111,
+            "kind": "question",
+            "text": "언어나 기술에 관한 지식은 어느 정도 필요할까요?",
+            "from": 111
+          },
+          {
+            "to": 116,
+            "kind": "answer",
+            "text": "콘솔 게임 개발에서는 기본적으로 C++를 쓰는 경우가 많아서 익힌 분은 팀에 수월하게 합류하실 수 있을 겁니다. 다만 C++에 한정하지 않고 C#이나 Python 등 어떤 프로그래밍 언어든 능숙하다고 할 수 있을 정도로 익히는 게 가장 중요하다고 생각해요.",
+            "from": 112,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 124,
+            "kind": "answer",
+            "text": "그렇죠. 저도 주로 C++를 쓰지만, 요즘은 Python으로 도구를 만드는 일도 많아 언어는 꽤 다양한 편입니다. 애플리케이션 프로그래머로서 중요한 건 프로젝트에 맞는 코드를 쓰는 역량이라고 생각합니다. 저도 입사 초기에는 코드를 쓴 동료에게 어떤 생각으로 그렇게 짰는지 여러 가지를 물어보며 이해하려고 했어요.",
+            "from": 117,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 129,
+            "kind": "answer",
+            "text": "UI 프로그래머라면 유독 잘 다루는 언어가 하나 없더라도, 화면 배치나 움직임 등 UI 자체에 관한 지식이 풍부하다면 충분히 활약할 수 있다고 생각합니다.",
+            "from": 125,
+            "speaker": "카네다"
+          },
+          {
+            "to": 130,
+            "kind": "question",
+            "text": "일할 때 유독 공을 들이거나 의식하는 점을 알려 주세요.",
+            "from": 130
+          },
+          {
+            "to": 136,
+            "kind": "answer",
+            "text": "앞에서 말씀드린 것과 이어지는데, 게임을 더 재미있게 만들 수 있다면 아무리 번거로운 작업이라도 수고를 마다하지 않는 것입니다. 프로젝트 전체의 움직임과 앞으로 일어날 일까지 내다보면서 지금 뭘 해야 할지 차분하게 판단하려고 합니다.",
+            "from": 131,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 149,
+            "kind": "answer",
+            "text": "저는 이용자분들의 시선을 잊지 않으려고 합니다. 개발하는 쪽에서 최선을 다했다고 생각해도 이용자에게는 불만스러운 점이 생길 수밖에 없다고 봐요. 플레이어와 같은 마음으로 UI를 여러 차례 조작해 보면서 불편한 부분을 개선하는 게 중요합니다. 예를 들어 메뉴를 열 때 로딩이 끝날 때까지 아무 조작도 못 하고 기다리는 게 저는 무척 답답해요. UI를 조작할 때 그런 대기 시간이 생기지 않게 로딩 방식을 개선해, 캐릭터 모델을 불러오는 중에도 다음 화면으로 넘어가거나 커서가 부드럽게 움직이도록 제안하고 있습니다.",
+            "from": 137,
+            "speaker": "카네다"
+          },
+          {
+            "to": 164,
+            "kind": "answer",
+            "text": "구현하면서 마음에 걸리는 부분을 남겨 두지 않고, 현재 할 수 있는 최선이 무엇인지 생각합니다. 전에 꽤 긴 튜토리얼인데 중간에 저장할 수 없는 사양이 있었어요. 그런데 사람들이 게임에 쓸 수 있는 시간은 각자 다르니까, 그만하고 싶을 때 저장을 못 하면 아예 게임을 놓을 수도 있잖아요. 그래서 관련 담당자에게 튜토리얼을 나눌 수 없겠느냐고 제안해 중간에 저장할 수 있도록 한 적이 있습니다. 작은 일일지 모르지만 마음에 걸리는 상태 그대로 상품이 돼 이용자분을 실망시키고 싶지는 않아요. 저도 플레이어의 관점에서 신경 쓰이는 점을 제안하고 기획자와 사양의 의미를 맞춰 봅니다. 스스로 맡은 일에 납득한 상태에서 구현하는 부분을 중요하게 생각합니다.",
+            "from": 150,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 165,
+            "kind": "question",
+            "text": "어떤 때 특히 보람을 느끼시나요?",
+            "from": 165
+          },
+          {
+            "to": 172,
+            "kind": "answer",
+            "text": "제가 구현한 것이 게임 화면에 표시돼 실제 움직이는 걸 봤을 때죠. 제가 만든 도구로 기획자가 작업한 데이터가 게임 화면에 제대로 반영됐을 때도 보람을 느낍니다. 뭔가 만들었을 때 ‘이거 좋았어요’, ‘이걸로 작업이 빨라졌어요’ 하는 반응을 받으면 정말 기쁩니다.",
+            "from": 166,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 179,
+            "kind": "answer",
+            "text": "저도 쿠노 씨처럼 기획자와 디자이너가 상상한 것을 구현해 화면에 띄웠을 때가 제일 기쁩니다. UI는 아무것도 없는 화면에 하나씩 표시하고 로직을 짜서 화면 전환을 만드는 과정이 꼭 퍼즐을 맞추는 것 같거든요. 그래서 ‘드디어 여기까지 왔구나’ 하는 느낌이 들어 정말 기쁩니다.",
+            "from": 173,
+            "speaker": "카네다"
+          },
+          {
+            "to": 185,
+            "kind": "answer",
+            "text": "저는 발매 후에 이용자분들 반응을 접할 때 가장 보람을 느낍니다. 여러분이 즐겁게 플레이한다는 걸 알면 그동안의 고생을 모두 보상받은 기분입니다. 나름대로 ‘여기 동작은 마음에 아주 들게 나왔다’는 부분도 있지만, 게임 전체에 대한 평가가 곧 저에 대한 평가로 이어지는 느낌입니다.",
+            "from": 180,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 186,
+            "kind": "question",
+            "text": "모노리스 소프트에서 일하며 어떤 부분에서 성장하셨나요?",
+            "from": 186
+          },
+          {
+            "to": 192,
+            "kind": "answer",
+            "text": "신입 프로그래머 육성에 관여하고 최근에는 프로그래머 인력 관리도 하면서 매니지먼트에 쓰는 시간이 늘었습니다. 기술적인 면과 함께 개발 프로그래머에게 필요한 더 장기적이고 폭넓은 시각을 키우고 있다는 느낌이 들어요.",
+            "from": 187,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 197,
+            "kind": "answer",
+            "text": "모노리스 소프트에 들어와 UI를 더 깊이 파고들 수 있게 됐고, 지식도 깊어졌다고 생각합니다. 주목해야 할 대상을 어떻게 눈에 띄게 할지, 시선을 어떻게 유도할지 같은 전문적인 지식이 한층 늘었어요.",
+            "from": 193,
+            "speaker": "카네다"
+          },
+          {
+            "to": 205,
+            "kind": "answer",
+            "text": "개발 규모가 크다 보니 유지보수성을 더 중요하게 생각하게 됐습니다. 제가 만든 도구를 쓰는 직원도 많아 설명 없이 어느 정도 사용법을 알 수 있도록 이해하기 쉽게 만드는 걸 의식해요. 예를 들어 클릭할 곳을 쉽게 알 수 있도록 GUI를 조정하거나, 데이터 입력 오류를 막으려고 오타를 자동 감지하는 구조를 넣습니다. 버그가 생길 때를 대비해 읽기 쉬운 소스 코드를 쓰려는 의식도 강해졌죠.",
+            "from": 198,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 206,
+            "kind": "heading",
+            "text": "지금보다 더 재미있는 게임을 만들기 위해",
+            "from": 206
+          },
+          {
+            "to": 207,
+            "kind": "question",
+            "text": "실력을 키우기 위해 평소 하시는 일이 있나요?",
+            "from": 207
+          },
+          {
+            "to": 213,
+            "kind": "answer",
+            "text": "개인적으로는 UI에 관한 책을 자주 읽습니다. UI 책이 아주 많다고는 할 수 없지만 적극적으로 찾아 읽어요. 역시 게임도 해 보는 게 중요하죠. ‘이 게임에서 이 UI는 어떤 의미로 구현됐을까’ 하는 생각을 하면서 플레이합니다.",
+            "from": 208,
+            "speaker": "카네다"
+          },
+          {
+            "to": 226,
+            "kind": "answer",
+            "text": "저도 가능한 한 최신 게임을 해 보려고 합니다. 새로운 플레이 방식을 직접 경험하는 건 물론이고 그때의 감각을 말로 정리해요. 예를 들어 필드 탐색이 재미있었다면 아이템을 주웠을 때인지, 적을 발견했을 때인지, 멀리 다음 목적지가 보였을 때인지 재미를 느낀 순간을 나눠 생각합니다. 비슷한 시스템의 게임이 있으면 비교해 어디서 차이를 느꼈는지도 적어 두죠. 또 주변 프로그래머의 일에도 관심을 가지려고 합니다. 작업 보고를 보고 듣다가 궁금한 구현이나 새로운 기술이 나오면 담당자에게 자세히 알려 달라고 합니다.",
+            "from": 214,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 231,
+            "kind": "answer",
+            "text": "저도 기술 서적을 읽습니다. 직접 사기도 하고, 게임 개발에 필요하다고 판단되면 회사에서 구입해 주기도 해서 고맙죠.",
+            "from": 227,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 236,
+            "kind": "answer",
+            "text": "사내 스터디도 비정기적으로 여럿 열리잖아요. CEDEC이나 GDC 같은 게임 개발 행사가 있으면 프로젝트를 넘어 프로그래머끼리 모여 발표 내용을 공유하고 최신 기술에 관한 감상을 나눕니다.",
+            "from": 232,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 250,
+            "kind": "answer",
+            "text": "사내 스터디를 말씀하셨는데, 저는 여는 쪽입니다. 기술 교류뿐 아니라 프로그래머끼리, 또 부서끼리 교류하는 의미도 있어서 가능한 많은 사람이 참여하도록 시기도 조정합니다. CEDEC 스터디에는 다른 직종에도 연락해서 폭넓게 의견을 교환해요. GDC는 발표가 영어로 이뤄지니 잘하는 직원에게 설명을 부탁해 이해를 깊게 하는 자리로 삼고요. 그때에 맞춰 운영 방식도 바꿉니다. 렌더링, 멀티스레딩, C++ 언어 기능 등 여러 기술의 전문가가 회사에 있으니, 그런 분들과 교류하며 사고방식과 지식을 접하는 것만으로도 공부가 많이 됩니다. 스터디에서 안면을 트면 평소 기술적으로 궁금했던 것을 ‘여기는 어떻게 된 건가요?’ 하고 편히 물어볼 수도 있어요. 앞으로도 계속 열 생각입니다.",
+            "from": 237,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 251,
+            "kind": "question",
+            "text": "앞으로 어떤 일에 도전하고 싶으신가요?",
+            "from": 251
+          },
+          {
+            "to": 257,
+            "kind": "answer",
+            "text": "회사의 도구 환경이나 작업 흐름을 더 쓰기 쉽게 만들 수 없을까 생각하고 있어요. 지금 담당하는 이벤트 관련 도구를 직접 개선하고 싶습니다. 장래에는 개발 환경 전반을 혼자서도 구현할 수 있는 수준의 실력과 감각을 길러서, 어떤 일에서든 요구받는 것 이상을 해낼 수 있게 되고 싶습니다.",
+            "from": 252,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 262,
+            "kind": "answer",
+            "text": "앞으로도 UI 프로그래머의 길을 쭉 걸어가려 합니다. 이용자분이 ‘이 게임의 UI는 훌륭했어요’라고 해 주시거나 프로젝트에서 ‘이 사람이 있으면 UI는 안심하고 맡길 수 있다’는 말을 들을 만한 사람이 되면 좋겠습니다.",
+            "from": 258,
+            "speaker": "카네다"
+          },
+          {
+            "to": 268,
+            "kind": "answer",
+            "text": "프로그래머 팀장으로서 다양한 재미를 구현할 수 있는 팀을 만들고 싶습니다. 그러려면 지금 구성원들의 역량도 높여야 하고, 팀에 부족한 기술이나 발상을 가진 분들도 모셔서 규모를 키우고 싶어요.",
+            "from": 263,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 271,
+            "kind": "answer",
+            "text": "인원이 늘면 품질을 더 높일 수도 있고 새로운 도전으로도 이어지죠.",
+            "from": 269,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 273,
+            "kind": "answer",
+            "text": "그렇죠. 많이 지원해 주시면 좋겠습니다(웃음).",
+            "from": 272,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 274,
+            "kind": "question",
+            "text": "모노리스 소프트에서는 어떤 사람이 활약하나요?",
+            "from": 274
+          },
+          {
+            "to": 280,
+            "kind": "answer",
+            "text": "제가 떠올리는 한 선배 프로그래머는 재미있는 게임을 만들기 위해서라면 무서울 만큼 힘을 발휘하는 유형입니다. 기술적으로 어려운 일이 여럿 있어도 혼자 맡아 구현해 버리고, 그러면서 팀 관리에 더해 기획에도 깊이 관여해요. 저도 그렇게 되고 싶지만 워낙 대단한 분입니다.",
+            "from": 275,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 286,
+            "kind": "answer",
+            "text": "자기 의견을 분명히 말할 수 있는 분이 활약한다는 인상입니다. 말의 내용 자체가 설득력 있고, 적절한 때에 자기 의견을 알맞게 전달할 수 있으면 주변 사람을 끌어들여 일을 진행할 수 있거든요. ‘이 사람을 따라가 보자’는 마음도 들게 하고요.",
+            "from": 281,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 288,
+            "kind": "question",
+            "text": "신입으로 게임 업계 프로그래머를 희망하는 분들은 어떻게 준비하고 자신을 알리면 좋을까요?",
+            "from": 287
+          },
+          {
+            "to": 295,
+            "kind": "answer",
+            "text": "저는 게임 전문학교가 아니라 대학을 나와 업계에 들어왔기 때문에 수업에서 작품을 만든 경험이 거의 없었습니다. 그래서 지원하려는 회사가 원하는 인재상을 확인했어요. 거기에 제 경력과 능력, 하고 싶은 일을 잘 연결해 ‘구체적으로 무엇을 할 수 있는지’, ‘왜 입사하고 싶은지’ 제대로 설명하려고 했어요.",
+            "from": 289,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 300,
+            "kind": "answer",
+            "text": "‘게임을 만들고 싶어요’라고 말하는 데서 더 나아가, 무엇을 중심으로 프로그래밍을 공부했고 어디에 힘을 쏟았는지 구체적으로 설명할 수 있다면 마음이 더 잘 전해지지 않을까요?",
+            "from": 296,
+            "speaker": "카네다"
+          },
+          {
+            "to": 309,
+            "kind": "answer",
+            "text": "열의가 강하면 지원 동기를 쓰는 방식에도 자연스럽게 드러납니다. 또 어떤 게임을 개발하는 회사인지 조사하고 발매한 게임도 플레이해 보면 그 회사를 목표로 어떤 능력을 길러야 할지 보이지 않을까요? 모노리스 소프트에서는 이 인터뷰 시리즈 외에도 직원들이 기술을 설명하는 『TECH BLOG』를 매달 갱신하고 있습니다. 신입으로 입사한 프로그래머가 쓴 글도 있으니 꼭 참고해 보세요.",
+            "from": 301,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 311,
+            "kind": "note",
+            "text": "TECH BLOG — 신입 게임 프로그래머가 1년 동안 배운 것",
+            "from": 310
+          },
+          {
+            "to": 313,
+            "kind": "note",
+            "text": "TECH BLOG — 신입 지원자를 위한 프로그래머 지원 서류 작성 시 주의 사항",
+            "from": 312
+          },
+          {
+            "to": 314,
+            "kind": "question",
+            "text": "이 회사에 입사해서 좋았던 점은 무엇인가요?",
+            "from": 314
+          },
+          {
+            "to": 320,
+            "kind": "answer",
+            "text": "‘좋은 게임을 만들자’며 이상을 추구하는 의식이 개발 현장 전체에 자리 잡고 있어요. 그런 환경에 있을 수 있다는 점이 감사합니다. 저 역시 항상 그런 마음으로 게임을 만들어 왔지만 주변에 더 열정적인 분들이 많아서 제 열의도 더 커집니다. 그 덕분에 발전하고 성장한다는 것도 느낄 수 있어요.",
+            "from": 315,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 323,
+            "kind": "answer",
+            "text": "근무 환경이 안정적이라는 점이 무엇보다 좋습니다. 안심하고 게임 개발에 전념하고 있습니다.",
+            "from": 321,
+            "speaker": "카네다"
+          },
+          {
+            "to": 328,
+            "kind": "answer",
+            "text": "근무 시간 내내 게임 개발에 집중할 수 있는 건 정말 감사한 환경이죠. 회사의 환경을 정비해 주는 관리 부서 직원들의 뒷받침이 있기에 가능하다고 생각합니다.",
+            "from": 324,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 329,
+            "kind": "question",
+            "text": "마지막으로 입사를 생각하는 분들께 한 말씀 부탁드립니다.",
+            "from": 329
+          },
+          {
+            "to": 333,
+            "kind": "answer",
+            "text": "‘무조건 좋은 게임을 만들고 싶다!’, ‘여러 기술을 활용해 실제 동작을 자꾸 시험해 보고 싶다!’처럼 게임 개발에 강한 열의를 가진 분을 기다리고 있습니다.",
+            "from": 330,
+            "speaker": "쿠노"
+          },
+          {
+            "to": 336,
+            "kind": "answer",
+            "text": "여러 의미에서 자극을 받을 수 있는 회사라고 생각합니다. UI 프로그래머에 한정하지 않고, 고민 중이라면 우선 지원해 보셨으면 좋겠어요.",
+            "from": 334,
+            "speaker": "카네다"
+          },
+          {
+            "to": 341,
+            "kind": "answer",
+            "text": "재미를 추구하고 싶은 분에게는 아주 좋은 환경입니다. 팀도 프로그래머에게 기술력과 함께 ‘재미있는 게임을 만드는 것’을 기대합니다. 이 일을 함께 즐길 수 있는 분들의 지원을 기다리고 있습니다!",
+            "from": 337,
+            "speaker": "쿠보키"
+          },
+          {
+            "to": 342,
+            "kind": "question",
+            "text": "오늘 정말 감사합니다.",
+            "from": 342
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monolith-rnd-cgworld-2024",
+    "lead": "大規模開発に堪えうるしくみを整え、より独自性の高い表現を追求する〜R&D専門部門を新設したモノリスソフトのねらいと求める人材とは",
+    "notes": [],
+    "figures": [
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-monolithsoft-banner-v2-thumb-1000x563-59362.jpg",
+        "width": 1000,
+        "height": 563,
+        "alt": "모노리스 소프트 R&D 팀 CGWORLD 인터뷰 자료",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 7
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-takahashi01-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 타카하시 테츠야",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 12
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-inaba01-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 이나바 미치히코",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 16
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-inaba02-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 이나바 미치히코",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 37
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-takahashi02-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 타카하시 테츠야",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 50
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-03.jpg",
+        "width": 1000,
+        "height": 750,
+        "alt": "노드와 속성 편집기를 함께 표시한 이펙트 엔진 화면",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 54
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-04.jpg",
+        "width": 1000,
+        "height": 547,
+        "alt": "Houdini에서 배경 에셋과 도로를 배치한 와이어프레임",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 63
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-takahashi03-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 타카하시 테츠야",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 77
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-ca184d17a6deb87309d20f2d43968502ba1814ea.jpg",
+        "width": 1000,
+        "height": 493,
+        "alt": "모노리스 소프트 기술 블로그 자료 화면",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 84
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-9b14e8e63a17708525bc73a97c1e8f8945dec36e.jpg",
+        "width": 1000,
+        "height": 653,
+        "alt": "모노리스 소프트 기술 블로그 자료 화면",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 84
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-takahashi04-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 타카하시 테츠야",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 88
+      },
+      {
+        "src": "/images/interviews/monolith-rnd-cgworld-2024/01-inaba03-.jpg",
+        "width": 1000,
+        "height": 667,
+        "alt": "CGWORLD 인터뷰에 응한 이나바 미치히코",
+        "sourceUrl": "https://cgworld.jp/special-feature/202410-monolithsoft.html",
+        "sectionId": "page-1",
+        "afterLine": 95
+      }
+    ],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://cgworld.jp/special-feature/202410-monolithsoft.html"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "대규모 개발을 뒷받침하고 독자적인 표현을 모색하다",
+        "sourceId": "monolith-rnd-cgworld-2024-01-cc918c2f",
+        "sourceSha256": "cc918c2f52c0b4cc22db486e63746bcf4d12e94fd0e561f6512e0deaea176188",
+        "sourceLineCount": 111,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "2024년 10월 7일",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "credits",
+            "text": "광고 기사",
+            "from": 2
+          },
+          {
+            "to": 3,
+            "kind": "heading",
+            "text": "대규모 개발을 뒷받침할 체계를 갖추고 한층 독자적인 표현을 추구하다. 모노리스 소프트는 왜 R&D 전담 부서를 신설했고, 어떤 인재를 찾고 있나",
+            "from": 3
+          },
+          {
+            "to": 7,
+            "kind": "credits",
+            "text": "크리에이터 인터뷰 · 게임 · 채용 · 채용 인터뷰",
+            "from": 4
+          },
+          {
+            "to": 8,
+            "kind": "paragraph",
+            "text": "1999년 창업 이래 여러 유명 게임을 만들어 온 모노리스 소프트가 사내에 R&D 전담 부서를 꾸렸다. 개발 규모가 더 커질 것을 내다보고 기술 개발에 본격적으로 나선 것이다. 그 경위와 현재 진행 중인 연구, 앞으로의 전략을 핵심 구성원들에게 물었다.",
+            "from": 8
+          },
+          {
+            "to": 9,
+            "kind": "heading",
+            "text": "기사 목차",
+            "from": 9
+          },
+          {
+            "to": 10,
+            "kind": "heading",
+            "text": "1. 대규모 개발을 가능하게 할 조직을 만드는 첫걸음",
+            "from": 10
+          },
+          {
+            "to": 11,
+            "kind": "question",
+            "text": "오늘은 모노리스 소프트에서 새로 꾸린 R&D 팀에 관해 여러 이야기를 듣고 싶습니다. 우선 팀에서 타카하시 씨와 이나바 씨가 각자 맡은 역할을 간단히 소개해 주세요.",
+            "from": 11,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 12,
+            "kind": "answer",
+            "text": "모노리스 소프트의 이사로서 회사 운영과 함께 개발 현장을 총괄합니다. 1년쯤 전부터는 R&D 팀도 총괄하고 있습니다.",
+            "from": 12,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 15,
+            "kind": "caption",
+            "text": "타카하시 테츠야 · 모노리스 소프트 이사 겸 CCO",
+            "from": 13
+          },
+          {
+            "to": 16,
+            "kind": "answer",
+            "text": "저는 원래 프로그래머였고, 모노리스 소프트에서는 『제노블레이드』 시리즈의 렌더링 엔진 프로그래밍을 담당했습니다. 『제노블레이드 크로니클스 3』(2022년)까지는 프로그래머로만 일했지만, 그 뒤로는 R&D 팀의 프로듀서와 디렉터를 겸하고 있습니다.",
+            "from": 16,
+            "speaker": "이나바"
+          },
+          {
+            "to": 19,
+            "kind": "caption",
+            "text": "이나바 미치히코 · 모노리스 소프트 프로듀서 겸 디렉터",
+            "from": 17
+          },
+          {
+            "to": 20,
+            "kind": "question",
+            "text": "다음으로 R&D 팀을 어떤 계기로 만들었는지, 목적은 무엇인지 들려주세요.",
+            "from": 20,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 21,
+            "kind": "answer",
+            "text": "R&D 팀이 생기기 전에도 연구개발은 해 왔습니다. 다만 모노리스 소프트는 개발사라 퍼블리셔에 비해 인력에 여유가 없다는 사정이 있습니다.",
+            "from": 21,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 22,
+            "kind": "answer",
+            "text": "퍼블리셔라면 전담 인력을 채용해 회사의 자산을 쌓는 차원에서 연구개발에 도전하기 쉽습니다. 저희는 작품 개발이 주된 일이어서 미래를 위한 투자에 인력을 배정할 여유가 많지 않았어요. 『제노블레이드 크로니클스 2』(2017년)를 개발할 때는 사내 프로그래머가 몇십 명 정도여서 개발만으로도 손이 꽉 찼습니다. R&D 팀을 꾸릴 수 있는 상황이 아니었죠.",
+            "from": 22,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 23,
+            "kind": "question",
+            "text": "당시에는 그런 상황이었군요.",
+            "from": 23,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 24,
+            "kind": "answer",
+            "text": "한동안은 그런 상황이 이어졌는데, 닌텐도와 함께 전 세계 수천만 명의 이용자가 즐길 수 있는 작품을 개발하게 됐습니다. 개발 규모가 커질수록 요구 수준도 높아졌습니다.",
+            "from": 24,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 25,
+            "kind": "answer",
+            "text": "그러자 적은 인원으로 어떻게든 해낼 수 있는 시대가 아니게 됐어요. 그렇다고 언제까지고 인력을 많이 투입하는 방식에만 기대기는 어렵다고 봤습니다. 기술적으로 접근해 개발 공수를 줄이고 효율을 높일 조직이 필요하다고 느꼈죠. 그렇게 R&D 팀을 꾸리게 됐습니다.",
+            "from": 25,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 26,
+            "kind": "question",
+            "text": "처음에는 어떤 분들을 팀에 모으셨나요?",
+            "from": 26,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 27,
+            "kind": "answer",
+            "text": "스크립트를 쓸 수 있는 사람, 리깅에 능숙한 사람, Houdini를 다룰 수 있는 사람 같은 기술에 강한 테크니컬 아티스트(TA) 소양을 가진 직원들을 모으고 있습니다. 개발 환경 구축이나 렌더링 구현에 밝은 프로그래머도 있고요.",
+            "from": 27,
+            "speaker": "이나바"
+          },
+          {
+            "to": 28,
+            "kind": "question",
+            "text": "그분들은 사내 개발팀에서 R&D 팀으로 옮긴 건가요?",
+            "from": 28,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 29,
+            "kind": "answer",
+            "text": "원래 TA 업무를 맡은 부서가 있었고, 그걸 확대하는 형태였습니다. 먼저 프로그래머를 이끄는 이나바에게 합류해 달라고 했고, 도쿄 사업소(나카메구로·오사키)에서 작품 개발에 참여하던 TA와 프로그래머들이 옮겨 와 조금씩 인원을 늘려 왔습니다.",
+            "from": 29,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 30,
+            "kind": "question",
+            "text": "장기적으로는 몇 명 규모의 팀을 목표로 하시나요?",
+            "from": 30,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 31,
+            "kind": "answer",
+            "text": "구체적인 수치를 말씀드리긴 어렵지만, 많을수록 도움이 됩니다. 저희 개발 규모와 최근 게임 기술과 정보가 빠르게 바뀌는 상황을 고려해서, 유연하고 신속하게 대응할 수 있는 조직을 만들고 싶습니다.",
+            "from": 31,
+            "speaker": "이나바"
+          },
+          {
+            "to": 32,
+            "kind": "heading",
+            "text": "2. R&D 팀이 맡는 세 가지 역할",
+            "from": 32
+          },
+          {
+            "to": 33,
+            "kind": "question",
+            "text": "R&D 팀이 맡는 역할을 자세히 들려주세요.",
+            "from": 33,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 34,
+            "kind": "answer",
+            "text": "R&D 팀은 회사 전체의 개발 환경 효율화, 각 부서의 도구 개발 지원, 새로운 기술의 연구개발이라는 세 가지 역할을 맡고 있습니다.",
+            "from": 34,
+            "speaker": "이나바"
+          },
+          {
+            "to": 35,
+            "kind": "answer",
+            "text": "지금까지는 작품별 팀이 저마다 도구를 마련했기 때문에 Jenkins 환경이나 DCC 도구, 데이터 변환기 등의 사내 도구가 중복됐습니다. 이를 R&D 팀으로 모아 관리하는 것이 첫 번째 역할인 개발 환경 효율화입니다.",
+            "from": 35,
+            "speaker": "이나바"
+          },
+          {
+            "to": 36,
+            "kind": "answer",
+            "text": "그렇게 사내 도구를 한곳으로 모아 통합 관리한 뒤 R&D 팀에서 새 도구를 개발하고 각 부서를 지원하는 것이 두 번째 역할입니다. 지금 팀 규모로는 쉽지 않지만, 그래도 도구 개발을 저희가 맡는 게 중요하다고 봅니다.",
+            "from": 36,
+            "speaker": "이나바"
+          },
+          {
+            "to": 37,
+            "kind": "answer",
+            "text": "세 번째인 새로운 기술의 연구개발에는 요소 기술을 개별적으로 연구개발하는 일과 그 기술을 실제로 구현하는 일도 포함됩니다. 특히 렌더링, 라이팅, 애니메이션 연구개발에 힘을 쏟고 싶습니다. 다른 회사의 좋은 개발 사례를 살펴보고 R&D 팀에서 자료로 정리해 사내에 공유하기도 합니다.",
+            "from": 37,
+            "speaker": "이나바"
+          },
+          {
+            "to": 38,
+            "kind": "question",
+            "text": "애니메이션 과제나 디자이너용 도구 개발 등 과제마다 담당자를 정할 텐데요. 과제별로 팀을 어떻게 운영하시나요?",
+            "from": 38,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 39,
+            "kind": "answer",
+            "text": "각 과제에는 전담 팀장이 있어서 기본적으로 그분들이 관리를 맡습니다. 다만 팀장이 실무에 집중할 수 있도록 일정 조율과 문서 작성 같은 지원은 R&D 팀의 프로젝트 매니저가 맡고 있습니다.",
+            "from": 39,
+            "speaker": "이나바"
+          },
+          {
+            "to": 40,
+            "kind": "heading",
+            "text": "3. 현재 진행하고 있는 연구개발",
+            "from": 40
+          },
+          {
+            "to": 41,
+            "kind": "question",
+            "text": "R&D 팀이 진행 중인 연구개발은 크게 세 가지라고 들었습니다.",
+            "from": 41,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 42,
+            "kind": "paragraph",
+            "text": "1. 자체 렌더링 엔진의 개발 지원과 이펙트 엔진 개발",
+            "from": 42
+          },
+          {
+            "to": 43,
+            "kind": "paragraph",
+            "text": "2. 애니메이션의 개발과 연구",
+            "from": 43
+          },
+          {
+            "to": 44,
+            "kind": "paragraph",
+            "text": "3. 디자이너용 도구 개발",
+            "from": 44
+          },
+          {
+            "to": 45,
+            "kind": "question",
+            "text": "우선 첫 번째인 자체 엔진 개발에 대해 자세히 알려 주세요.",
+            "from": 45,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 46,
+            "kind": "answer",
+            "text": "지금 개발 중인 자체 엔진은 원래 『제노블레이드 크로니클스』(2010년)를 위해 만든 것으로, 지금도 계속 확장하고 있습니다.",
+            "from": 46,
+            "speaker": "이나바"
+          },
+          {
+            "to": 47,
+            "kind": "answer",
+            "text": "장차 R&D 팀만으로 자체 엔진을 온전히 관리하고 싶습니다. 지금은 작품 개발 부서 쪽의 인원이 많아서, 지원하거나 공동 개발하는 형태로 필요한 렌더링과 이펙트 표현들을 구현하고 있습니다.",
+            "from": 47,
+            "speaker": "이나바"
+          },
+          {
+            "to": 48,
+            "kind": "answer",
+            "text": "앞으로는 개발한 기술을 자체 엔진에 통합해 다른 작품에서도 활용할 수 있게 할 겁니다. R&D 팀이 생긴 지 아직 1년 정도라, 앞으로 3년쯤에 걸쳐 서서히 체계를 전환할 예정입니다.",
+            "from": 48,
+            "speaker": "이나바"
+          },
+          {
+            "to": 49,
+            "kind": "question",
+            "text": "대형 퍼블리셔도 자체 엔진 개발과 유지보수에 애를 먹는다고 들었습니다. 개발사로서 직접 엔진을 만든다는 점이 인상적인데요. 다른 회사의 엔진을 쓸 생각은 하지 않으셨나요?",
+            "from": 49,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 50,
+            "kind": "answer",
+            "text": "자체 엔진을 유지하는 데 어려움이 있는 건 사실입니다. 그렇지만 현재 저희가 맡은 작품에는 다른 회사의 엔진을 쓴다는 선택지가 없어요. 자체 엔진이 저희의 필요에 맞게 바꾸기 쉽고 다루기도 편하기 때문입니다.",
+            "from": 50,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 51,
+            "kind": "question",
+            "text": "자체 게임 엔진에서는 주로 모델 렌더링 엔진과 이펙트 엔진을 개발한다고 들었습니다. 각각 어떤 일을 하는지 자세히 알려 주세요.",
+            "from": 51,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 52,
+            "kind": "answer",
+            "text": "모델 렌더링 쪽에서는 DCC 도구에서 모델을 내보내는 모듈과 머티리얼, 라이팅, 포스트 이펙트, 심리스 맵 구현까지 다섯 가지를 다룹니다.",
+            "from": 52,
+            "speaker": "이나바"
+          },
+          {
+            "to": 53,
+            "kind": "answer",
+            "text": "이펙트 쪽에서는 런타임 이펙트 엔진과 이펙트 제작 도구를 개발하고 있습니다.",
+            "from": 53,
+            "speaker": "이나바"
+          },
+          {
+            "to": 54,
+            "kind": "answer",
+            "text": "예를 들어 이 화면이 저희가 자체 개발 중인 이펙트 엔진입니다. 노드 편집기에서 이펙트 시스템을 만들 수 있어요. 디자이너 중에는 노드가 익숙하지 않아 속성 편집 방식으로 만들고 싶어 하는 분도 있으니, 어느 쪽에서든 이펙트를 만들 수 있는 구조로 구현했습니다.",
+            "from": 54,
+            "speaker": "이나바"
+          },
+          {
+            "to": 55,
+            "kind": "caption",
+            "text": "노드 편집과 속성 편집을 모두 지원하는 이펙트 엔진 화면",
+            "from": 55
+          },
+          {
+            "to": 56,
+            "kind": "answer",
+            "text": "모델을 내보내는 모듈의 개발은 기본적으로 완료했습니다. 지금은 라이팅과 머티리얼에서 각 작품의 캐릭터나 배경에 어울리는 영상 표현을 개발 중입니다.",
+            "from": 56,
+            "speaker": "이나바"
+          },
+          {
+            "to": 57,
+            "kind": "question",
+            "text": "두 번째인 애니메이션 연구개발도 조금 더 자세히 알려 주시겠어요?",
+            "from": 57,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 58,
+            "kind": "answer",
+            "text": "현재 애니메이션 쪽에서는 모듈러 리그를 개발하고 있습니다. 각 개발 부서에서 이걸 활용해 작품에 맞는 리그를 마련하고, 그 리그로 애니메이션을 만들고 있어요.",
+            "from": 58,
+            "speaker": "이나바"
+          },
+          {
+            "to": 59,
+            "kind": "answer",
+            "text": "시뮬레이션 쪽에서는 예를 들어 머리카락 흔들림을 Houdini 같은 DCC 도구에서 시뮬레이션하고 베이크한 뒤 런타임에 반영하는, 보조 애니메이션용 모듈을 개발하고 있습니다.",
+            "from": 59,
+            "speaker": "이나바"
+          },
+          {
+            "to": 60,
+            "kind": "question",
+            "text": "세 번째인 디자이너용 도구 개발에서는 Houdini나 Substance 3D Designer, Maya용 도구도 개발하고 계시죠?",
+            "from": 60,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 61,
+            "kind": "answer",
+            "text": "Houdini를 예로 들면 시뮬레이션과 절차적 배치 도구를 개발하고 있습니다. 최근 작품 개발에서는 Houdini로 배경 요소를 절차적으로 배치하는 구조를 만들었습니다.",
+            "from": 61,
+            "speaker": "이나바"
+          },
+          {
+            "to": 62,
+            "kind": "answer",
+            "text": "덕분에 손으로는 도저히 해낼 수 없는 분량의 배경을 효율적으로 처리할 수 있었습니다. 20일쯤 걸리던 작업이 단 30분에 끝나게 됐으니 큰 성과였죠. 앞으로도 이 분야를 강화할 생각입니다.",
+            "from": 62,
+            "speaker": "이나바"
+          },
+          {
+            "to": 63,
+            "kind": "answer",
+            "text": "여기 보이는 예에서는 길을 포함한 배경 에셋을 전부 절차적으로 배치하고, 길 주변에서는 흙에서 풀로 맵이 자연스럽게 이어지도록 했습니다. 여기서는 와이어프레임만 보여 드릴 수 있지만, 전환이 아주 자연스럽습니다. 디자이너는 길의 경로를 곡선으로 지정하기만 하면 복잡한 배경을 빠르게 구성할 수 있습니다.",
+            "from": 63,
+            "speaker": "이나바"
+          },
+          {
+            "to": 64,
+            "kind": "caption",
+            "text": "Houdini를 이용한 배경 에셋의 절차적 배치 도구",
+            "from": 64
+          },
+          {
+            "to": 65,
+            "kind": "answer",
+            "text": "또 절차적 모델링을 활용해 파괴 가능한 오브젝트를 자동 생성하거나, 정해진 규칙에 따라 여러 변형을 만드는 작업도 진행 중입니다.",
+            "from": 65,
+            "speaker": "이나바"
+          },
+          {
+            "to": 66,
+            "kind": "heading",
+            "text": "4. 작품 개발 부서와의 협업",
+            "from": 66
+          },
+          {
+            "to": 67,
+            "kind": "question",
+            "text": "작품 개발 부서와 R&D 팀이 긴밀하게 협업해야 할 것 같습니다. 양쪽은 어떻게 소통하나요?",
+            "from": 67,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 68,
+            "kind": "answer",
+            "text": "정기적으로 회의를 열어 소통하고 있습니다. 저도 작품 개발에 관여해서 회의에 자주 참석하며 양쪽을 잇는 역할을 맡습니다. 작품 개발 부서에 까다로운 일이 생기면 R&D 팀으로 가져와 연구 과제로 다룹니다.",
+            "from": 68,
+            "speaker": "이나바"
+          },
+          {
+            "to": 69,
+            "kind": "question",
+            "text": "연구 과제의 우선순위는 어떻게 정합니까?",
+            "from": 69,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 70,
+            "kind": "answer",
+            "text": "기본적으로는 업무의 우선순위에 따라 진행합니다. 다만 나중에 생긴 과제라도 시급하고 품질 향상이나 작업량 절감으로 직결된다고 판단하면 우선순위를 높여 유연하게 대응합니다.",
+            "from": 70,
+            "speaker": "이나바"
+          },
+          {
+            "to": 71,
+            "kind": "question",
+            "text": "그렇군요. 기본적으로 작품 개발의 필요에 맞춰 R&D 팀이 움직이는 거네요. 그 외에 R&D 팀에서 먼저 제안해 추진하는 과제도 있습니까?",
+            "from": 71,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 72,
+            "kind": "answer",
+            "text": "네, 그런 경우도 있습니다. 예를 들어 머리카락을 보기 좋게 표현하는 시뮬레이션을 R&D 팀에서 연구해 그 기술을 작품에 채택한 적이 있습니다. 앞으로는 팀을 강화해 자체적으로 연구 과제를 제안할 수 있는 구조를 정착시키고 싶습니다.",
+            "from": 72,
+            "speaker": "이나바"
+          },
+          {
+            "to": 73,
+            "kind": "question",
+            "text": "사내 스터디 운영도 R&D 팀의 일이라고 들었습니다.",
+            "from": 73,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 74,
+            "kind": "answer",
+            "text": "맞습니다. 전에는 작품별 개발 부서와 공동으로 운영했는데, 지금은 R&D 팀이 맡고 있습니다.",
+            "from": 74,
+            "speaker": "이나바"
+          },
+          {
+            "to": 75,
+            "kind": "answer",
+            "text": "예를 들어 CEDEC이 끝나면 사내 설문을 해서 특히 좋았던 발표를 골라 설명회나 좌담회를 기획합니다. GDC의 발표는 영어로 진행되기 때문에 기술 담당자가 발표를 추려 알기 쉽게 설명한 자료를 만듭니다.",
+            "from": 75,
+            "speaker": "이나바"
+          },
+          {
+            "to": 76,
+            "kind": "question",
+            "text": "그런 활동을 직원의 근무 외 활동에 맡기는 대신 정식 업무로 편성한 점이 인상적입니다.",
+            "from": 76,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 77,
+            "kind": "answer",
+            "text": "감사합니다. 경영 측면에서는 직원의 의욕을 착취하지 않도록 정식 업무로 정해 두고 있습니다. 현장에서는 유용한 정보를 문서로 만들어 공유하면서 기술 수준을 높이고, 기술을 좋아하는 직원들의 흥미에 자극을 주는 것도 중요하게 생각합니다.",
+            "from": 77,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 78,
+            "kind": "question",
+            "text": "스터디는 얼마나 자주 열리나요?",
+            "from": 78,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 79,
+            "kind": "answer",
+            "text": "CEDEC이나 GDC 같은 큰 행사는 연 1회씩 진행합니다. 나머지 스터디는 지금은 비정기적으로 열고 있어요. 예를 들어 작품 개발에서 얻은 지식을 공유하고 싶은 때에 각 팀에서 제안해 진행하는 일이 있습니다.",
+            "from": 79,
+            "speaker": "이나바"
+          },
+          {
+            "to": 80,
+            "kind": "question",
+            "text": "스터디 내용과 사내 노하우를 문서로 열람할 수도 있나요?",
+            "from": 80,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 81,
+            "kind": "answer",
+            "text": "네. 예전에는 작품 개발 부서별 노하우가 각 부서 안에 머물러 있어서 서로 정보를 모르는 채 회사 내에서 같은 일을 반복하기도 했습니다. R&D 팀을 꾸린 뒤로는 정보를 드러내고 공유하는 데 특히 신경 씁니다. 지금은 이런 자료를 사내 사이트에 올려 다른 부서 직원도 볼 수 있게 해 두었습니다.",
+            "from": 81,
+            "speaker": "이나바"
+          },
+          {
+            "to": 82,
+            "kind": "question",
+            "text": "외부에도 테크 블로그를 공개하고 계신데요. 어떻게 운영하고 계신가요?",
+            "from": 82,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 83,
+            "kind": "answer",
+            "text": "사내에서는 한 달에 한 번쯤 각 부서에서 블로그 글을 쓰도록 합니다. 그중 일부를 골라 외부 공개용 테크 블로그에 올립니다.",
+            "from": 83,
+            "speaker": "이나바"
+          },
+          {
+            "to": 84,
+            "kind": "answer",
+            "text": "R&D 팀과 함께 작품 개발 부서의 직원들도 글을 씁니다. 집필은 업무 시간에 이뤄져요. 앞으로도 업계에 보탬이 되도록 공개할 수 있는 정보는 적극적으로 전할 생각입니다.",
+            "from": 84,
+            "speaker": "이나바"
+          },
+          {
+            "to": 85,
+            "kind": "caption",
+            "text": "모노리스 소프트의 테크 블로그",
+            "from": 85
+          },
+          {
+            "to": 86,
+            "kind": "heading",
+            "text": "5. ‘모노리스 소프트다운 표현’을 함께 추구할 분을 기다리며",
+            "from": 86
+          },
+          {
+            "to": 87,
+            "kind": "question",
+            "text": "R&D 팀이 맡은 일이 많아 무척 바쁠 것 같은데, 현재 개발에서 어떤 과제에 직면해 있나요?",
+            "from": 87,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 88,
+            "kind": "answer",
+            "text": "가장 큰 과제는 역시 인력 부족입니다.",
+            "from": 88,
+            "speaker": "타카하시"
+          },
+          {
+            "to": 89,
+            "kind": "answer",
+            "text": "지금도 어떻게든 팀이 돌아가고 있습니다만, 한 단계 높은 품질을 목표로 하려면 역시 사람이 필요합니다. 앞으로 렌더링 관련 개발을 좋아하는 분이 꼭 새로 합류해 주셨으면 합니다.",
+            "from": 89,
+            "speaker": "이나바"
+          },
+          {
+            "to": 90,
+            "kind": "answer",
+            "text": "당장 맡은 작품 개발에서 해결해야 할 문제도 있고, 중장기적으로 마련하려는 표현을 여러 곳에서 쓸 수 있게 일반화하는 일도 있습니다. 다양한 과제에 대응할 수 있도록 팀 인원을 늘리고 싶습니다.",
+            "from": 90,
+            "speaker": "이나바"
+          },
+          {
+            "to": 91,
+            "kind": "question",
+            "text": "R&D 팀은 작품 개발 베테랑이나 엔진 개발 경력자를 원하나요? 아니면 GDC나 SIGGRAPH 논문을 읽고 응용할 수 있는 학문적 배경의 인력이 필요한가요?",
+            "from": 91,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 92,
+            "kind": "answer",
+            "text": "양쪽 모두 필요합니다. 지금 사내에는 학문적 배경을 가진 직원이 몇 분 있어서 현재는 주로 개발 경험이 많은 분을 찾고 있습니다. 다만 경력 연수보다 렌더링 엔진을 탐구하고 연구개발하는 데 품은 열정이 중요하다고 생각합니다.",
+            "from": 92,
+            "speaker": "이나바"
+          },
+          {
+            "to": 93,
+            "kind": "question",
+            "text": "각 과제를 맡아 추진할 인재로 어떤 분을 찾고 있는지 알려 주세요.",
+            "from": 93,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 94,
+            "kind": "answer",
+            "text": "먼저 절차적 표현을 강화하기 위해 Houdini와 Substance 3D Designer를 활용해 디자이너용 도구를 개발해 왔는데, 작품 개발에서 이미 효과가 입증됐습니다. 그래서 Houdini 전문가가 꼭 합류해 주셨으면 합니다.",
+            "from": 94,
+            "speaker": "이나바"
+          },
+          {
+            "to": 95,
+            "kind": "answer",
+            "text": "구체적으로는 절차적 모델링, 배경의 절차적 배치, 머리카락 모델링과 시뮬레이션 등 여러 과제에 도전하고 싶어요. 사용하시는 도구가 Houdini 외에 Blender 같은 것이어도 괜찮습니다.",
+            "from": 95,
+            "speaker": "이나바"
+          },
+          {
+            "to": 96,
+            "kind": "answer",
+            "text": "다음으로 자체 엔진 개발에 관심이 있는 분도 꼭 와 주셨으면 합니다. 범용 엔진으로는 구현할 수 없는 독자적인 기술을 파고들기 좋아하는 경력자라면 아주 귀한 경험을 쌓을 수 있는 팀이라고 생각합니다.",
+            "from": 96,
+            "speaker": "이나바"
+          },
+          {
+            "to": 97,
+            "kind": "answer",
+            "text": "감각적인 이야기이긴 하지만 자체 엔진으로 그린 화면에는 그 엔진만의 특색이 드러난다고 느낍니다. 모노리스 소프트의 게임을 보고 ‘이게 모노리스 소프트의 비주얼이지’라고 말해 주시는 이용자분도 계십니다. 그런 독자성에 공감하며 함께 세부를 다듬어 갈 분과 일한다면 기쁠 것 같습니다. 기본적으로는 경력자를 생각하고 있지만, 대학에서 세계 최고 수준의 기술 표현을 탐구하는 분도 환영합니다.",
+            "from": 97,
+            "speaker": "이나바"
+          },
+          {
+            "to": 98,
+            "kind": "answer",
+            "text": "애니메이션 표현을 강화하기 위해서는 앞에서 말씀드린 리그와, 시뮬레이션을 통한 보조 애니메이션 구현에 더해 IK나 리타기팅 등 런타임 애니메이션 표현도 더 깊이 탐구하려 합니다. 애니메이터 경험이 있고 런타임 표현을 포함해 게임에 구현해 본 분이 합류해 주시면 기쁘겠습니다. Houdini의 KineFX도 함께 활용해 보고 싶습니다.",
+            "from": 98,
+            "speaker": "이나바"
+          },
+          {
+            "to": 99,
+            "kind": "question",
+            "text": "애니메이션 관련 개발도 역시 인력이 부족한 상황인가요?",
+            "from": 99,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 100,
+            "kind": "answer",
+            "text": "그렇습니다. 시뮬레이션을 할 수 있는 TA가 드물어서 인력을 구하는 데 어려움을 겪습니다. 이 분야를 좋아하고 관심 있으신 분이 있다면 꼭 팀에 합류해 주셨으면 합니다. 게임 업계 출신과 함께 애니메이션 스튜디오에서 일해 오신 분도 대환영입니다.",
+            "from": 100,
+            "speaker": "이나바"
+          },
+          {
+            "to": 101,
+            "kind": "question",
+            "text": "개발 환경을 강화하는 쪽은 어떻습니까?",
+            "from": 101,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 102,
+            "kind": "answer",
+            "text": "개발 환경을 개선하기 위해 에셋 데이터 변환 자동화와 Jenkins를 활용한 빌드 환경 효율화, 자동 테스트, 버그 자동 검출, 부하 측정 등 여러 과제를 다루고 있습니다. 이런 분야에 관심을 두고 깊이 파고들어 주실 분도 모집합니다.",
+            "from": 102,
+            "speaker": "이나바"
+          },
+          {
+            "to": 103,
+            "kind": "answer",
+            "text": "예를 들어 『제노블레이드 크로니클스 3』에서는 여러 맵에 캐릭터를 배치해 부하를 측정하고 CPU와 GPU 부하를 히트맵으로 시각화했습니다. 자동 플레이로 밤사이 테스트도 돌렸고요. 이런 구조를 더 발전시키고 싶습니다.",
+            "from": 103,
+            "speaker": "이나바"
+          },
+          {
+            "to": 104,
+            "kind": "heading",
+            "text": "6. R&D 팀이 지향하는 것",
+            "from": 104
+          },
+          {
+            "to": 105,
+            "kind": "question",
+            "text": "마지막으로 R&D 팀의 앞으로의 전망을 들려주세요.",
+            "from": 105,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 106,
+            "kind": "answer",
+            "text": "먼저 팀을 강화하면서 오늘 말씀드린 여러 과제에 도전해 나가려 합니다. 연구개발 부서인 만큼 개별 게임을 직접 개발하는 일과는 거리가 있어서 망설이는 분도 계실지 모르지만, 저희는 게임 개발에 필요한 기술을 탐구하는 일 자체를 진심으로 즐기고 있습니다.",
+            "from": 106,
+            "speaker": "이나바"
+          },
+          {
+            "to": 107,
+            "kind": "answer",
+            "text": "저희는 기술을 파고드는 일이 멋지다고 믿습니다. R&D 팀에는 같은 생각을 가진 구성원들이 모여 있어요. 그런 열정을 가진 팀을 만들어 팀 전체의 기술을 높이고, 궁극적으로 회사 전체와 업계 전체에 기여하고 싶습니다.",
+            "from": 107,
+            "speaker": "이나바"
+          },
+          {
+            "to": 108,
+            "kind": "question",
+            "text": "감사합니다.",
+            "from": 108,
+            "speaker": "CGWORLD"
+          },
+          {
+            "to": 109,
+            "kind": "credits",
+            "text": "글 · 카와시마 모토노리(모모모 웍스)",
+            "from": 109
+          },
+          {
+            "to": 110,
+            "kind": "credits",
+            "text": "편집 · 코무라 히토미(CGWORLD)",
+            "from": 110
+          },
+          {
+            "to": 111,
+            "kind": "credits",
+            "text": "사진 · 히로타 미츠루",
+            "from": 111
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pied-piper-hagiwara-gmode-message",
+    "lead": "G-MODEアーカイブスにいただいたコメント 萩原智洋",
+    "notes": [],
+    "figures": [],
+    "sources": [
+      {
+        "page": 1,
+        "title": "",
+        "url": "https://info.gmodecorp.com/gmodearchives/comment/"
+      }
+    ],
+    "recordedAt": "",
+    "complete": true,
+    "translatedPages": [
+      1
+    ],
+    "language": "ja",
+    "sections": [
+      {
+        "id": "page-1",
+        "title": "파이드 파이퍼 복각에 부친 프로듀서의 메시지",
+        "sourceId": "pied-piper-hagiwara-gmode-message-01-6fa20622",
+        "sourceSha256": "6fa2062269a79adbf1baedc1972f0527fa2ff6f44706d5db2c3f083530c1be57",
+        "sourceLineCount": 13,
+        "page": 1,
+        "blocks": [
+          {
+            "to": 1,
+            "kind": "credits",
+            "text": "하기와라 토모히로",
+            "from": 1
+          },
+          {
+            "to": 2,
+            "kind": "credits",
+            "text": "주식회사 모노리스 소프트 『제노사가』 프로듀서",
+            "from": 2
+          },
+          {
+            "to": 3,
+            "kind": "heading",
+            "text": "G-MODE 아카이브스 발매작",
+            "from": 3
+          },
+          {
+            "to": 4,
+            "kind": "paragraph",
+            "text": "『제노사가 파이드 파이퍼』",
+            "from": 4
+          },
+          {
+            "to": 5,
+            "kind": "paragraph",
+            "text": "『제노사가』의 프로듀서 하기와라입니다.",
+            "from": 5,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 6,
+            "kind": "paragraph",
+            "text": "피처폰용으로 서비스했던 『제노사가 파이드 파이퍼』가 이번에 G-MODE 아카이브스에 등장합니다!",
+            "from": 6,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 8,
+            "kind": "paragraph",
+            "text": "이 작품은 모노리스 소프트가 원작과 시나리오를 맡아 『제노사가』의 세계, 나아가 ‘제노’ 세계의 한 부분을 그려 낸 의욕작입니다. 당시에는 피처폰 앱으로 서비스했기 때문에 플레이 환경이 맞지 않아 접하지 못하신 분도 많으셨으리라 생각합니다.",
+            "from": 7,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 9,
+            "kind": "paragraph",
+            "text": "이번 복각으로 더 많은 분께 이 이야기를 전할 수 있어 정말 기쁩니다.",
+            "from": 9,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 10,
+            "kind": "paragraph",
+            "text": "이야기의 중심에 있는 사람은 『제노사가』 본편에도 나온 지기, 곧 얀 자우어입니다.",
+            "from": 10,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 11,
+            "kind": "paragraph",
+            "text": "그의 과거와 갈등에는 『제노사가』와 ‘제노’ 세계 전체를 관통하는 주제가 짙게 드러납니다.",
+            "from": 11,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 12,
+            "kind": "paragraph",
+            "text": "시리즈를 쭉 따라오신 분께는 세계의 깊이를 다시 발견하는 작품으로, 이제 ‘제노’를 접하시는 분께는 그 세계로 들어가는 입구로 즐겨 주시면 기쁘겠습니다.",
+            "from": 12,
+            "speaker": "하기와라"
+          },
+          {
+            "to": 13,
+            "kind": "paragraph",
+            "text": "이 기회에 다시 한번 ‘제노’의 세계를 즐겨 주세요!",
+            "from": 13,
+            "speaker": "하기와라"
+          }
+        ]
+      }
+    ]
   }
 ];

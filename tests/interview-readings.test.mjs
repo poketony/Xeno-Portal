@@ -5,10 +5,10 @@ import { interviews } from '../src/data/interviews.mjs';
 import { interviewReadings } from '../src/data/interview-readings.mjs';
 
 test('전문 번역은 원문 줄과 역주 생략 범위를 중복·누락 없이 대응한다', () => {
-  assert.equal(interviewReadings.length,29);
-  assert.equal(new Set(interviewReadings.map(item=>item.id)).size,29);
-  assert.equal(interviewReadings.reduce((total,item)=>total+item.sources.length,0),67);
-  assert.equal(interviewReadings.reduce((total,item)=>total+item.sections.length,0),67);
+  const expectedIds=interviews.filter(item=>!item.koreanUrl).map(item=>item.id).sort();
+  assert.deepEqual(interviewReadings.map(item=>item.id).sort(),expectedIds);
+  assert.equal(interviewReadings.reduce((total,item)=>total+item.sources.length,0),92);
+  assert.equal(interviewReadings.reduce((total,item)=>total+item.sections.length,0),92);
   for(const reading of interviewReadings) {
     assert.ok(interviews.some(item=>item.id===reading.id),reading.id);
     assert.ok(reading.sources.length,reading.id);
