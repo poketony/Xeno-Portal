@@ -27,10 +27,21 @@
   font-display: swap;
 }
 
-.site-header nav a[data-series="xenosaga"]:hover,
 .site-header nav a[data-series="xenosaga"]:focus-visible,
 .site-header nav a[data-series="xenosaga"][aria-current] { color: #818cf8; }
 .site-header nav a[data-series="xenosaga"]:focus-visible { outline-color: #818cf8; }
+
+.site-header nav a[data-series="xenogears"],
+.series-banner.xenogears { --series-hover-color: #e69496; }
+.site-header nav a[data-series="xenosaga"],
+.series-banner.xenosaga { --series-hover-color: #a8b2ff; }
+.site-header nav a[data-series="xenoblade"],
+.series-banner.xenoblade { --series-hover-color: #9ad2b6; }
+
+.site-header nav a[data-series]:hover,
+.series-banner:hover .banner-ko,
+.series-banner:hover .banner-arrow { color: var(--series-hover-color); }
+
 .site-header .wordmark img { width: 100px; height: auto; }
 
 .immersive-page { --portal-header-height: 86px; }
